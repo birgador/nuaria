@@ -700,7 +700,7 @@
 								"name": "Master of treason",
 								"entries": [
 									"You are an expert at foul playing and keeping the trust from your enemies at the same time.",
-									"At 17th level, y	ou have advantage on attack rolls against creatures who are charmed by you. Additionally, when a creature is charmed by you, the charmed effect does not end as a result of that creature taking damage."
+									"At 17th level, you have advantage on attack rolls against creatures who are {@condition charmed} by you. Additionally, when a creature is {@condition charmed} by you, the charmed effect does not end as a result of that creature taking damage."
 								]
 							}
 						]
