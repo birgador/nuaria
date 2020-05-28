@@ -1,0 +1,143 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nuaria",
+				"abbreviation": "Nuaria",
+				"full": "Nuaria",
+				"url": "",
+				"authors": [
+					"Birgador"
+				],
+				"convertedBy": [
+					"Birgador"
+				]
+			}
+		],
+		"dateAdded": 1589597518,
+		"dateLastModified": 1589597518
+	},
+	"spell": [
+		{
+			"name": "Daasis' roll of madness",
+			"source": "Nuaria",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose a creature within range. The creature gets imbued with psychic energy attacking it through the nervous system. The creature must succed a Wisdom saving throw or take {@damage 1d8} psychic damage. On a roll of 8, the target is also {@condition stunned} until the end of its next turn. This cantrip does not affect constructs or undead.",
+				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"opposedCheck": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "",
+						"source": "Nuaria"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "Nuaria"
+						},
+						"subclass": {
+							"name": "Broken Mind Domain",
+							"source": "Nuaria"
+						}
+					}
+				]
+			},
+			"uniqueId": "da20255d3c3638241a3d9ef7302c7f00"
+		},
+		{
+			"name": "Coin Toss",
+			"source": "Nuaria",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "A coin"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Whenever you see a creature within range attempting an attack or a saving throw, you can let fate decide. Toss a coin (or roll a {@dice 1d2}). On heads (or a 1) it adds +2 to the roll and on tails (or a 2) it adds -2.",
+				"A creature is not a valid target of this spell if it's already being targettend by this spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "",
+						"source": "Nuaria"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "Nuaria"
+						},
+						"subclass": {
+							"name": "Randomness Domain",
+							"source": "Nuaria"
+						}
+					}
+				]
+			},
+			"uniqueId": "7f8f9f86570bb4919cb431adfc1085c9"
+		}
+	]
+}

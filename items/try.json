@@ -1,0 +1,61 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nuaria2",
+				"abbreviation": "Nuaria2",
+				"full": "Nuaria2",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": [
+					"birgador"
+				],
+				"version": "1.0",
+				"url": ""
+			}
+		],
+		"dateAdded": 1566011005,
+		"dateLastModified": 1566011005
+	},
+	
+	"item": [
+		{
+			"name": "The Banhammeruh",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"reqAttune": true,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "B",
+			"property": [
+				"V"
+			],
+			"baseItem": "warhammer|phb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/db/ab/76/dbab766c4e458f8d49a367bf1b08912b.jpg"
+						}
+					}
+				]
+			},
+			"tier": "major",
+			"rarity": "legendary",
+			"source": "Nuaria2",
+			"value": 50000000,
+			"entries": [
+				"This massive golden warhammer was crafted by an almighty god of a long-forgotten time.",
+				"You gain a +3 bonus to attack and damage rolls using this magic weapon.",
+				"Whenever you hit an enemy with the Banhammer it is automatically Banished to an unknown plane yet to be discovered.",
+				"Nothing can bring the creature back to its original plane, not even a {@spell wish} spell."
+			],
+			"bonusWeapon": "+3"
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nuaria",
+				"abbreviation": "Nuaria",
+				"full": "Nuaria",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": [
+					"birgador"
+				],
+				"version": "1.0",
+				"url": ""
+			}
+		],
+		"dateAdded": 1566011005,
+		"dateLastModified": 1566011005
+	},
+	"cult": [
+		{
+			"name": "The White Church",
+			"source": "Nuaria",
+			"type": "Church",
+			"entries": [
+				"The White Church is probably the most widespread religious group in Nuaria. It taches and promotes the teachings written in the White Book.",
+				"Typical clerics are those from the light domain and the life domain."
+			]
+		},
+		{
+			"name": "The Knights of the White Flame",
+			"source": "Nuaria",
+			"type": "Religious order",
+			"entries": [
+				"The Knights of the White Flame.",
+				"Typical paladins are those of the Oath of Redemption."
+			]
+		},
+		{
+			"name": "Brotherhood of the Fading Light",
+			"source": "Nuaria",
+			"type": "Church",
+			"entries": [
+				"Followers of Alasia whose sacred text are the Glooming Letters. They follow the Duty of Dark equality.",
+				"Typical clerics are those of the Treachery Domain/Fading light domain."
+			]
+		},
+		{
+			"name": "Order of the Final Rest",
+			"source": "Nuaria",
+			"type": "Church",
+			"entries": [
+				"Followers of Alasia that make sure that the dead rest. Little is known from them. Very secretive.",
+				"Typical clerics are those from the grave domain."
+			]
+		},
+		{
+			"name": "Children of the Wilds",
+			"source": "Nuaria",
+			"type": "Church",
+			"entries": [
+				"Followers of {@deity Bestus}.",
+				"Typical clerics are those of the Treachery Domain/Fading light domain."
+			]
+		}
+	]
+}

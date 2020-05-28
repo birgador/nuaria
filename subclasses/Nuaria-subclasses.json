@@ -1,0 +1,764 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nuaria",
+				"abbreviation": "Nuaria",
+				"full": "Nuaria",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": [
+					"birgador"
+				],
+				"version": "1.0",
+				"url": ""
+			}
+		],
+		"dateAdded": 1566011005,
+		"dateLastModified": 1566011005
+	},
+	"subclass": [
+		{
+			"class": "Cleric",
+			"name": "Broken Mind Domain",
+			"shortName": "Broken Mind",
+			"source": "Nuaria",
+			"page": 15,
+			"subclassSpells": [
+				"dissonant whispers",
+				"Tasha's Hideous Laughter",
+				"crown of madness",
+				"suggestion",
+				"fear",
+				"fireball",
+				"confusion",
+				"compulsion",
+				"legend lore",
+				"mislead"
+			],
+			"subclassFeatures": [
+				[
+					{
+						"name": "Broken Mind Domain",
+						"entries": [
+							"Life. It doesn’t have an intrinsic meaning. Randomness, luck, destiny, free will are all expressions of the same concept. Will you try to control that which is uncontrollable or tame the beast that rides its master and fail constantly? Or will you leave it all to chance and leave to the fullest? Daasis knows, and Daasis will provide.",
+							"At each indicated cleric level, you add the listed spells to your spells prepared.",
+							{
+								"type": "table",
+								"caption": "Broken Mind Domain Spells",
+								"colLabels": [
+									"Cleric Level",
+									"Spells"
+								],
+								"colStyles": [
+									"col-3 text-center",
+									"col-9"
+								],
+								"rows": [
+									[
+										"1st",
+										"{@spell dissonant whispers}, {@spell Tasha's Hideous Laughter}"
+									],
+									[
+										"3rd",
+										"{@spell crown of madness}, {@spell suggestion}"
+									],
+									[
+										"5th",
+										"{@spell fear}, {@spell fireball}"
+									],
+									[
+										"7th",
+										"{@spell confusion}, {@spell compulsion}"
+									],
+									[
+										"9th",
+										"{@spell legend lore}, {@spell mislead}"
+									]
+								]
+							},
+							{
+								"name": "A Broken Mind",
+								"entries": [
+									"Your mind is broken and impossible to understand.",
+									"At 1st level, Your mind can’t be read or detected, creatures can’t telepathically communicate with you unless you allow it, and you have advantage on saving throws against any effect that would determine whether you are telling the truth.",
+									"At 8th level you also become immune to the charmed condition."
+								]
+							},
+							{
+								"name": "The Toll of Knowledge",
+								"entries": [
+									"Deep and incomprensible knowledge roams inside your head. To the outsider, you seem crazy and full of madness. In reality, you’re constantly trying to understand the meaning of everything and nothing while trying not to lose your mind in the process.",
+									"Roll or choose a madness from the {@table indefinite madness} table. It cannot be cured less of a {@spell wish} spell. Additionally, choose between the {@skill Arcana}, {@skill History} or {@skill Religion} skills. You can roll with advantage the chosen skill. You must finish a short rest to benefit from this feature again."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Channel Divinity: Realm of Madness",
+								"entries": [
+									"At 2nd level, you can use your channel divinity to create a space to treat creatures according to their mental well-being.",
+									"As an action, you present your holy symbol, and a sphere of a purple colour emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim purple light. The sphere moves with you, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature (including you) is in the sphere, they get one of these effects:",
+									{
+										"type": "list",
+										"items": [
+											"If you see the creature as friendly, they get advantage on Wisdom saving throws or saving throws that would make them charmed or frightened, as long they are inside the sphere.",
+											"If you see the creature as an enemy, they get disadvantage on Wisdom saving throws that would make them {@condition charmed} or {@condition frightened}. In addition to that, you can try to damage your enemies’ minds. At the start of your turn, you can use your action to deal psychic damage to hostile creatures inside your sphere’s aura. They must succeed on a Wisdom saving throw or take 1d6 + your Cleric level psychic damage. Constructs and undeads automatically succeed this saving throw. "
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "A Mightier Mind",
+								"entries": [
+									"At 6th level, if you get hit by an attack you can spend your reaction to try to force your attacker to target another creature instead of you. It must succeed on  a Wisdom saving throw or attack another creature within the reach of the attack. If two or more creatures are equally closer, the target is chosen at random. If there are no other possible targets, the attacker doesn’t attack and loses its action.",
+									"You cannot use this feature again until you finish a short rest."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Potent Spellcasting",
+								"entries": [
+									"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Mind Shatter",
+								"entries": [
+									"You can share a glimpse of your perception of reality with a creature, which probably will break its mind",
+									"At 17th level, you can touch a creature. It must succeed on a Wisdom saving throw against your spellcasting DC or be {@condition incapacitated} for one minute or until you stop touching the creature. Additionally, it takes {@dice 2d8} psychic damage at the start of each of its turns. The creature repeats the saving throw at the end of each of its turns.",
+									"You must finish a short rest before using this feature again."
+								]
+							}
+						]
+					}
+				]
+			],
+			"spells": [
+				{
+					"prepared": {
+						"1": [
+							"dissonant whispers",
+							"Tasha's Hideous Laughter"
+						],
+						"3": [
+							"crown of madness",
+							"suggestion"
+						],
+						"5": [
+							"fear",
+							"fireball"
+						],
+						"7": [
+							"confusion",
+							"compulsion"
+						],
+						"9": [
+							"legend lore",
+							"mislead"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"dissonant whispers",
+							"Tasha's Hideous Laughter"
+						],
+						"3": [
+							"crown of madness",
+							"suggestion"
+						],
+						"5": [
+							"fear",
+							"fireball"
+						],
+						"7": [
+							"confusion",
+							"compulsion"
+						],
+						"9": [
+							"legend lore",
+							"mislead"
+						]
+					}
+				}
+			]
+		},
+		{
+			"class": "Cleric",
+			"name": "Randomness Domain",
+			"shortName": "Randomness",
+			"source": "Nuaria",
+			"page": 15,
+			"subclassSpells": [
+				"burning hands",
+				"cure wounds",
+				"flaming sphere",
+				"lesser restoration",
+				"beacon of hope",
+				"fireball",
+				"death ward",
+				"wall of fire",
+				"flame strike",
+				"mass cure wounds"
+			],
+			"subclassFeatures": [
+				[
+					{
+						"name": "Randomness Domain",
+						"entries": [
+							"Placeholder.",
+							"At each indicated cleric level, you add the listed spells to your spells prepared.",
+							{
+								"type": "table",
+								"caption": "Randomness Domain Spells",
+								"colLabels": [
+									"Cleric Level",
+									"Spells"
+								],
+								"colStyles": [
+									"col-3 text-center",
+									"col-9"
+								],
+								"rows": [
+									[
+										"1st",
+										"{@spell burning hands}, {@spell cure wounds}"
+									],
+									[
+										"3rd",
+										"{@spell flaming sphere}, {@spell lesser restoration}"
+									],
+									[
+										"5th",
+										"{@spell beacon of hope}, {@spell fireball}"
+									],
+									[
+										"7th",
+										"{@spell death ward}, {@spell wall of fire}"
+									],
+									[
+										"9th",
+										"{@spell flame strike}, {@spell mass cure wounds}"
+									]
+								]
+							},
+							{
+								"name": "Template feature 1st level",
+								"entries": [
+									"Placeholder 1st level."
+								]
+							},
+							{
+								"name": "Template feature",
+								"entries": [
+									"Also at 1st level, Placeholder."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Channel Divinity: Template",
+								"entries": [
+									"At 2nd level, Placeholder"
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Template feature 6th level",
+								"entries": [
+									"Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Template feature 8th level",
+								"entries": [
+									"At 8th level, Placeholder."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Template feature 17th level",
+								"entries": [
+									"Starting at 17th level, Placeholder"
+								]
+							}
+						]
+					}
+				]
+			],
+			"spells": [
+				{
+					"prepared": {
+						"1": [
+							"burning hands",
+							"cure wounds"
+						],
+						"3": [
+							"flaming sphere",
+							"lesser restoration"
+						],
+						"5": [
+							"beacon of hope",
+							"fireball"
+						],
+						"7": [
+							"death ward",
+							"wall of fire"
+						],
+						"9": [
+							"flame strike",
+							"mass cure wounds"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"burning hands",
+							"cure wounds"
+						],
+						"3": [
+							"flaming sphere",
+							"lesser restoration"
+						],
+						"5": [
+							"beacon of hope",
+							"fireball"
+						],
+						"7": [
+							"death ward",
+							"wall of fire"
+						],
+						"9": [
+							"flame strike",
+							"mass cure wounds"
+						]
+					}
+				}
+			]
+		},
+		{
+			"class": "Cleric",
+			"name": "White Church Domain",
+			"shortName": "White Church",
+			"source": "Nuaria",
+			"page": 15,
+			"subclassSpells": [
+				"burning hands",
+				"cure wounds",
+				"zone of truth",
+				"lesser restoration",
+				"beacon of hope",
+				"fireball",
+				"death ward",
+				"fire shield",
+				"flame strike",
+				"mass cure wounds"
+			],
+			"subclassFeatures": [
+				[
+					{
+						"name": "White Church Domain",
+						"entries": [
+							"Placeholder.",
+							"At each indicated cleric level, you add the listed spells to your spells prepared.",
+							{
+								"type": "table",
+								"caption": "White Church Domain Spells",
+								"colLabels": [
+									"Cleric Level",
+									"Spells"
+								],
+								"colStyles": [
+									"col-3 text-center",
+									"col-9"
+								],
+								"rows": [
+									[
+										"1st",
+										"{@spell burning hands}, {@spell cure wounds}"
+									],
+									[
+										"3rd",
+										"{@spell zone of truth}, {@spell lesser restoration}"
+									],
+									[
+										"5th",
+										"{@spell beacon of hope}, {@spell fireball}"
+									],
+									[
+										"7th",
+										"{@spell death ward}, {@spell fire shield}"
+									],
+									[
+										"9th",
+										"{@spell flame strike}, {@spell mass cure wounds}"
+									]
+								]
+							},
+							{
+								"name": "Bonus Proficiencies",
+								"entries": [
+									"When you choose this domain at 1st level, you gain proficiency with heavy armor."
+								]
+							},
+							{
+								"name": "Warding flare",
+								"entries": [
+									"Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.",
+									"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Channel Divinity: The power of the White Flame",
+								"entries": [
+									"At 2nd level, you can use your Channel Divinity to call on Alasia's light, dealing radiant damage to your foes or healing the badly injured.",
+									"As an action, you present your holy symbol and divine light emanates from it. Each hostile creature within 30 feet of you must make a Constitution saving throw. A hostile creature takes radiant damage equal to {@dice 2d10} + half your cleric level, rounded up, on a failed saving throw, and half as much damage on a successful one. A friendly creature within 30 feet of you regains hit points equal to {@dice 2d10} + half your cleric level, rounded up. A creature that has total cover from you is not affected."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Blessed Healer",
+								"entries": [
+									"Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Divine Strike",
+								"entries": [
+									"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Supreme Healing",
+								"entries": [
+									"Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12."
+								]
+							}
+						]
+					}
+				]
+			],
+			"spells": [
+				{
+					"prepared": {
+						"1": [
+							"burning hands",
+							"cure wounds"
+						],
+						"3": [
+							"zone of truth",
+							"lesser restoration"
+						],
+						"5": [
+							"beacon of hope",
+							"fireball"
+						],
+						"7": [
+							"death ward",
+							"fire shield"
+						],
+						"9": [
+							"flame strike",
+							"mass cure wounds"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"burning hands",
+							"cure wounds"
+						],
+						"3": [
+							"zone of truth",
+							"lesser restoration"
+						],
+						"5": [
+							"beacon of hope",
+							"fireball"
+						],
+						"7": [
+							"death ward",
+							"fire shield"
+						],
+						"9": [
+							"flame strike",
+							"mass cure wounds"
+						]
+					}
+				}
+			]
+		},
+		{
+			"class": "Cleric",
+			"name": "The Fading Light Domain",
+			"shortName": "Fading Light",
+			"source": "Nuaria",
+			"page": 15,
+			"subclassSpells": [
+				"charm person",
+				"disguise self",
+				"calm emotions",
+				"invisibility",
+				"enemies abound",
+				"major image",
+				"compulsion",
+				"greater invisibility",
+				"mislead",
+				"seeming"
+			],
+			"subclassFeatures": [
+				[
+					{
+						"name": "The Fading Light Domain",
+						"entries": [
+							"As stated in the Glooming Letters, sometimes darkness must be fought with darkness and lies with lies.",
+							"At each indicated cleric level, you add the listed spells to your spells prepared.",
+							{
+								"type": "table",
+								"caption": "The Fading Light Spells",
+								"colLabels": [
+									"Cleric Level",
+									"Spells"
+								],
+								"colStyles": [
+									"col-3 text-center",
+									"col-9"
+								],
+								"rows": [
+									[
+										"1st",
+										"{@spell charm person}, {@spell disguise self}"
+									],
+									[
+										"3rd",
+										"{@spell calm emotions}, {@spell invisibility}"
+									],
+									[
+										"5th",
+										"{@spell enemies abound}, {@spell major image}"
+									],
+									[
+										"7th",
+										"{@spell compulsion}, {@spell greater invisibility}"
+									],
+									[
+										"9th",
+										"{@spell mislead}, {@spell seeming}"
+									]
+								]
+							},
+							{
+								"name": "Charming words",
+								"entries": [
+									"You can use words to convince enemies that you are more of an ally than an enemy.", 
+									"At 1st level, when a creature within 30 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Charisma saving throw. On a failure, the creature is {@condition charmed} by you until the end of its next turn or until it takes damage. Creatures  are immune to this effect if they don't share a language with you or if they have already been charmed by you in this way within the last 24 hours.",
+									"You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest."
+								]
+							},
+							{
+								"name": "White Lies",
+								"entries": [
+									"Also at 1st level, you are proficient with the {@skill deception} skill and the {@skill performance}."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Channel Divinity: Betrayal",
+								"entries": [
+									"Starting at 2nd level, you can use your Channel Divinity to backstab those who were foolish enough to trust you.",
+									"When you roll damage against a creature that is {@condition charmed} by you, you can use your Channel Divinity to deal maximum damage, instead of rolling."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Foul play",
+								"entries": [
+									"You know how to strike an enemy by using nasty tricks.",
+									"At 6th level, when you have advantage on attack rolls against a creature and take the Attack action, you can use you bonus action to make an additional attack."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Divine strike",
+								"entries": [
+									"At 8th level, the cleric gains the ability to infuse his or her weapon strikes with divine poison. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra 1d8 poison damage to the target. When the cleric reaches 14th level, the extra damage increases to 2d8."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Master of treason",
+								"entries": [
+									"You are an expert at foul playing and keeping the trust from your enemies at the same time.",
+									"At 17th level, y	ou have advantage on attack rolls against creatures who are charmed by you. Additionally, when a creature is charmed by you, the charmed effect does not end as a result of that creature taking damage."
+								]
+							}
+						]
+					}
+				]
+			],
+			"spells": [
+				{
+					"prepared": {
+						"1": [
+							"charm person",
+							"disguise self"
+						],
+						"3": [
+							"calm emotions",
+							"invisibility"
+						],
+						"5": [
+							"enemies abound",
+							"major image"
+						],
+						"7": [
+							"compulsion",
+							"greater invisibility"
+						],
+						"9": [
+							"mislead",
+							"seeming"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"charm person",
+							"disguise self"
+						],
+						"3": [
+							"calm emotions",
+							"invisibility"
+						],
+						"5": [
+							"enemies abound",
+							"major image"
+						],
+						"7": [
+							"compulsion",
+							"greater invisibility"
+						],
+						"9": [
+							"mislead",
+							"seeming"
+						]
+					}
+				}
+			]
+		}
+	]
+}	

@@ -1,0 +1,415 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nuaria",
+				"abbreviation": "Nuaria",
+				"full": "Nuaria",
+				"url": "",
+				"authors": [
+					"Birgador"
+				],
+				"convertedBy": [
+					"Birgador"
+				]
+			}
+		],
+		"dateAdded": 1589597475,
+		"dateLastModified": 1589597475
+	},
+	"itemProperty": [
+		{
+			"abbreviation": "Cust",
+			"source": "Nuaria",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Entangle",
+					"entries": [
+						"When hit by a weapon with the entangle property the target gains the Grappled condition until the weapon is removed."
+					]
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Template",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"Cust"
+			],
+			"range": "40/40",
+			"tier": "major",
+			"rarity": "very rare",
+			"source": "Nuaria",
+			"value": 2000,
+			"currencyConversion": "GiddyCurrency",
+			"entries": [
+				"An enchanted butcher's hook forged from adamantine, you gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"As part of a ranged attack made with the hook, you may choose to grab a chain which begins to magically extend from the hilt. If you choose to grab the chain, it continues to extend behind the thrown weapon, to a maximum length of 40 ft. When the chain has fully extended or if the attack hits, the chain becomes taught. While taught, the chain will not extend further, and magically shortens to remove any slack. If you let go of the chain, it retracts into the hook.",
+				"The chain can be broken with a successful DC 30 Strength check. It has 23 AC, and each 5-foot section has 5HP. It is immune to damage, except from adamantine weapons.",
+				"As a bonus action while the chain is extended and the hook is not magically attached to a creature, you can reel the hook in along the path of the chain, returning it to the hand you threw it with.",
+				"Whenever you hit a creature with a ranged attack using the hook, the hook magically attaches itself to the target. As an action, a creature may attempt to detach the hook by succeeding on a DC 20 Strength (Athletics) check. On a success, the creature take {@dice 2d6} Necrotic damage as the hook is torn free.",
+				"While you are holding the chain and the hook is magically attached to a creature, you may attempt to reel the creature in. Make a Strength (Athletics) check contest by the creature's Strength (Athletics) check. On a success, the target is knocked prone and pulled up to 40 ft. directly towards you, stopping if they come within 5 ft. of you. The hook then detaches from the creature and returns to your hand."
+			],
+			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Phantom Dancer",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"reqAttune": true,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"property": [
+				"F"
+			],
+			"baseItem": "rapier|phb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://gamepedia.cursecdn.com/lolesports_gamepedia_en/2/2c/Phantom_Dancer.png"
+						}
+					}
+				]
+			},
+			"tier": "major",
+			"rarity": "very rare",
+			"source": "Nuaria",
+			"value": 7500000,
+			"currencyConversion": "GiddyCurrency",
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made using this magic weapon.",
+				"While wielding this magic weapon, your base movement speed increases by 10 feet.",
+				"While attuned to the Phantom Dancer, you can move through other creatures and objects as if they were difficult terrain. Your body and equipment briefly turns incorporeal as you phase into the border ethereal. If you end your turn inside a creature or object, you take 1d10 force damage.",
+				"Additionally, you may choose to remain incorporeal for a number of rounds equal to your proficiency bonus, per day. While in this form, you have resistance to non-magical bludgeoning, piercing, and slashing damage. Ending your turn inside of a creature or object automatically expends one round of this feature."
+			],
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "Sanguine Blade",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "simple",
+			"reqAttune": true,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"baseItem": "dagger|phb",
+			"range": "20/60",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://gamepedia.cursecdn.com/lolesports_gamepedia_en/9/9d/Sanguine_Blade.png"
+						}
+					}
+				]
+			},
+			"tier": "major",
+			"rarity": "very rare",
+			"source": "Nuaria",
+			"value": 1500000,
+			"currencyConversion": "GiddyCurrency",
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made using this magic weapon.",
+				"Each additional attack that hits using this weapon in a single round does a cumulative 1d4 necrotic damage (1d4 on the second successful attack, 2d4 on the third).",
+				"You heal an amount equal to half the total necrotic damage dealt."
+			],
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "The Bloodthirster",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"reqAttune": true,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"property": [
+				"V"
+			],
+			"baseItem": "longsword|phb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d6f28b3a-bebd-4f2c-b8a0-e82fb14ab404/d7wg6wn-e02ec68c-7bbf-407f-8c0c-11b522269fd7.jpg/v1/fill/w_1192,h_670,q_75,strp/the_bloodthirster___league_of_legends_by_toadjd-d7wg6wn.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9kNmYyOGIzYS1iZWJkLTRmMmMtYjhhMC1lODJmYjE0YWI0MDQvZDd3ZzZ3bi1lMDJlYzY4Yy03YmJmLTQwN2YtOGMwYy0xMWI1MjIyNjlmZDcuanBnIiwid2lkdGgiOiI8PTExOTIiLCJoZWlnaHQiOiI8PTY3MCJ9XV19.xrtl6BHcac7D2wqut_K4mdcJQsjzXE9uDdP4A_aP49I"
+						}
+					}
+				]
+			},
+			"tier": "major",
+			"rarity": "very rare",
+			"source": "Nuaria",
+			"value": 1500000,
+			"currencyConversion": "GiddyCurrency",
+			"entries": [
+				"This massive longsword cleaves through flesh like butter. It always shines bright and clean, as the blood that would wet its surface is instead drawn inside of the blade and used to channel lifeforce into its wielder.",
+				"You gain a +3 bonus to attack and damage rolls made using this magic weapon, which deals an extra 2d6 necrotic damage.",
+				"Each round, the first attack that hits using this weapon heals you for half the total amount of damage dealt (rounded down). If this would heal you past your hit point maximum, you gain temporary hit points equal to the excess."
+			],
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "The Banhammer",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"reqAttune": true,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "B",
+			"property": [
+				"V"
+			],
+			"baseItem": "warhammer|phb",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/db/ab/76/dbab766c4e458f8d49a367bf1b08912b.jpg"
+						}
+					}
+				]
+			},
+			"tier": "major",
+			"rarity": "legendary",
+			"source": "Nuaria",
+			"value": 50000000,
+			"entries": [
+				"This massive golden warhammer was crafted by an almighty god of a long-forgotten time.",
+				"You gain a +3 bonus to attack and damage rolls using this magic weapon.",
+				"Whenever you hit an enemy with the Banhammer it is automatically Banished to an unknown plane yet to be discovered.",
+				"Nothing can bring the creature back to its original plane, not even a {@spell wish} spell."
+			],
+			"bonusWeapon": "+3"
+		},
+		{
+			"name": "Duskblade of Draktharr",
+			"source": "Nuaria",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 2,
+			"value": 10000000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"baseItem": "shortsword|phb",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"The Duskblade of Draktharr is a myth. None have ever seen it, and none know the truth of its origins. Perhaps that is because all who meet the blade perish before they know their assailant's face or have the opportunity to ask questions.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
+				"During the first round of combat, your base movement speed is doubled.",
+				"If you use this weapon to attack a creature that you are considered hidden from, the weapon deals an additional 4d6 necrotic damage.",
+				"If you are invisible while wielding this blade, you cannot be seen by creatures with truesight."
+			]
+		},
+		{
+		"name": "Glacial Shroud",
+		"source": "Nuaria",
+		"type": "S",
+		"tier": "major",
+		"rarity": "rare",
+		"value": 1500000,
+		"reqAttune": true,
+		"weight": 6,
+		"ac": 2,
+		"entries": [
+				"While holding this shield, you can use an action to speak its command word and regain one expended spell slot of 2nd level or lower. Once you have used this feature, the shield can't be used again in this way until the next dawn.",
+				"Additionally, you can use a bonus action to release a glacial shroud around you covering an area inside a circle of 10 feet of radius centered on you. This area counts as heavily obscured for any creature inside. A creature with darkvision can't see inside this area."
+			],
+		"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/QJHHK1R.png"
+						}
+					}
+				]
+			}
+		},
+		{
+		"name": "Knight's Vow",
+		"source": "Nuaria",
+		"wondrous": true,
+		"tier": "major",
+		"rarity": "very rare",
+		"value": 1500000,
+		"reqAttune": "by a {@class paladin}",
+		"weight": 2,
+		"bonusAc": "+1",
+		"entries": [
+				"When you attune to this plate helm, you can designate an ally as a partner. While you are within 15 feet of your partner, you gain a +1 bonus to your AC.",
+				"Additionally, moving toward your partner uses only half movement on regular terrain, and normal movement on difficult terrain.",
+				"When you are adjacent to your partner,and it deals damage with a melee weapon, you can spend your reaction to regain hit points equal to half the damage dealt, rounded down. Additionally, you can spend your reac"
+			],
+		"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/HqrFqrr.png"
+						}
+					}
+				]
+			}
+		},
+		{
+		"name": "The Dark Seal",
+		"source": "Nuaria",
+		"type": "RG",
+		"tier": "major",
+		"rarity": "very rare",
+		"value": 1500000,
+		"reqAttune": "by a paladin",
+		"weight": 2,
+		"bonusAc": "+1",
+		"entries": [
+				"While wearing this ring, you gain additional hit points equal to your Constitution modifier (minimum 1) whenever you drink a Potion of Healing.",
+				"After killing a creature of challenge rating between 1 and 4, this ring grants a an extra damage die on weapon or cantrip damage rolls. This ring gives one additional die for creatures of a challenge rating between 5 and 10, 11 and 16 and 17 and 20. This feature resets when you complete a short or long rest."
+			],
+		"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/45/Dark_Seal_item.png/revision/latest?cb=20171221235812"
+						}
+					}
+				]
+			}
+		}
+	],	
+	"variant": [
+		{
+			"name": "Bow of Power",
+			"source": "Nuaria",
+			"requires": [
+				{
+					"name": "Shortbow"
+				},
+				{
+					"name": "Longbow"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Powerful ",
+				"rarity": "very rare",
+				"source": "Nuaria",
+				"entries": [
+					"An extremely powerful bow."
+				]
+			}
+		},
+		{
+			"name": "Kurdurite Weapon",
+			"source": "Nuaria",
+			"requires": [
+				{
+					"name": "Shortsword"
+				},
+				{
+					"name": "Longsword"
+				},
+				{
+					"name": "Rapier"
+				},
+				{
+					"name": "Battleaxe"
+				},
+				{
+					"name": "Dagger"
+				},
+				{
+					"name": "Flail"
+				},
+				{
+					"name": "Glaive"
+				},
+				{
+					"name": "Greataxe"
+				},
+				{
+					"name": "Handaxe"
+				},
+				{
+					"name": "Javelin"
+				},
+				{
+					"name": "Mace"
+				},
+				{
+					"name": "Maul"
+				},
+				{
+					"name": "Morningstar"
+				},
+				{
+					"name": "Pike"
+				},
+				{
+					"name": "Scimitar"
+				},
+				{
+					"name": "Sickle"
+				},
+				{
+					"name": "Warpick"
+				},
+				{
+					"name": "Warhammer"
+				},
+				{
+					"name": "Greatsword"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Kurdurite ",
+				"rarity": "very rare",
+				"source": "Nuaria",
+				"bonusWeapon": "+2",
+				"value": 1500000,
+				"bonusWeaponDamage": "+10",
+				"entries": [
+					"Kurdurite adds a +2 bonus to attack rolls and +10 to weapon damage rolls."
+				]
+			}
+		}
+	]
+}
