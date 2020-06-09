@@ -1,0 +1,265 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Discord",
+				"abbreviation": "Discord",
+				"full": "Discord",
+				"url": "",
+				"authors": [
+					"Discord of many things"
+				],
+				"convertedBy": [
+					"Birgador"
+				]
+			}
+		],
+		"dateAdded": 1591314628,
+		"dateLastModified": 1591314628
+	},
+	"spell": [
+		{
+			"name": "Acidic Glob (by Izzy)",
+			"source": "Discord",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of acid"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You release a ball of acid at a target within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} acid damage. This acid does not damage objects, but instead removes nonmagical inks, blood, and similar staining liquids in an area no bigger than 3-foot on a side. The acidic ball then evaporates.",
+				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Twin Viper Strike (by Izzy)",
+			"source": "Discord",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Two green ethereal fangs appear about your hands as you strike out. Make a melee spell attack against a creature within range with advantage. On a hit, the target takes {@damage 1d4} poison damage. If no effect removed the advantage, and both rolls would hit the creature, it instead takes {@damage 1d10} poison damage and it has disadvantage on the next attack roll or ability check it makes until the start of your next turn.",
+				"The spell's damage increases by one die when you reach 5th level ({@dice 2d4} or {@dice 2d10}), 11th level ({@dice 3d4} or {@dice 3d10}), and 17th level ({@dice 4d4} or {@dice 4d10})."
+			],
+			"damageInflict": [
+				"poison"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Claws of Acamar (By SgtBriar)",
+			"source": "Discord",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You unleash black, crackling energies from the corpse-star Acamar that streak toward a creature in range, intent on drawing others into the star's soul devouring depths. The creature must make a Charisma saving throw. On a failed save, it takes {@damage 3d10} necrotic damage and is phased out for 1 minute, partially plunged into Acamar's realm. On a successful save, the target takes half as much damage, but suffers no other effect.",
+				"While phased out, the target deals half damage, has resistance to all damage except necrotic damage, and creatures have advantage on saving throws the target forces them to make. At the end of each of its turns, the target can repeat the saving throw, taking {@damage 2d10} necrotic damage on a failed save, and ending the effect on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by {@dice 1d10} for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Doom of Delban (by SgtBriar)",
+			"source": "Discord",
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 500
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a frozen telescope lens"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call on Delban to destroy a creature in range, its inexorable hatred manifesting as a single shaft of utterly cold and eldritch starlight that clings to your foes. The target must make a Constitution saving throw, taking {@damage 8d8} cold damage on a failed save, or half as much damage on a successful one. A creature killed by this spell is turned into a statue of brittle white ice.",
+				"On subsequent turns until the spell ends, you can use your action to shift and intensify the starlight, forcing a creature in range to make another Constitution saving throw. When you do so, the cold damage dealt increases by {@dice 2d8}, plus another {@dice 2d8} for each time you've used your action this way during the spell's duration to a maximum of {@dice 12d8}, and you take {@damage 2d8} necrotic damage, plus another {@dice 1d8} for each time you've used your action this way during the spell's duration to a maximum of {@dice 4d8}, as direct contact with Delban saps your life essence. This necrotic damage ignores resistance and immunity, but doesn't force you to make Constitution saving throws to maintain concentration."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Maw of Acamar (by SgtBriar)",
+			"source": "Discord",
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a pure black onyx, worth at least 1,000gp",
+					"consumed": true,
+					"cost": 100000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You manifest a sliver of Acamar's all-consuming hunger into the world, taking the form of a 3-inch black sphere of nothingness that leaps from the onyx to a space in range. When a creature starts its turn or moves within 15 feet of the sphere, it must make a Constitution saving throw, taking {@damage 7d8} necrotic damage on a failed save or half as much on a successful one. A creature killed by this spell is sucked into Acamar's realm through the sphere and devoured, body and soul, and can only be brought back to life by divine intervention or the use of a wish spell.",
+				"As a bonus action on subsequent turns, you can move the sphere up to 20 feet. Once per turn, when the sphere moves directly into a creature, it must succeed on a Charisma saving throw or take {@damage 7d8} necrotic damage, be {@condition frightened} of the sphere until the end of its next turn, and move at least 15 feet away from it on its next turn if possible, as Acamar's depths reach for its soul.",
+				"A momentary lapse in concentration while channeling this spell has dire consequences. If your concentration is broken as the result of a failed Constitution saving throw, the sphere doesn't disappear. Instead, it persists for the duration, you can no longer move it, and it automatically moves 20 feet towards the closest living creature on each of your turns."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}

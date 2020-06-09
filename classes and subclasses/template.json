@@ -1,0 +1,203 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nuaria",
+				"abbreviation": "Nuaria",
+				"full": "Nuaria",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": [
+					"birgador"
+				],
+				"version": "1.0",
+				"url": ""
+			}
+		],
+		"dateAdded": 1566011005,
+		"dateLastModified": 1566011005
+	},
+	"subclass": [
+		{
+			"class": "Cleric",
+			"name": "Template Domain",
+			"shortName": "Template",
+			"source": "Nuaria",
+			"page": 15,
+			"subclassSpells": [
+				"burning hands",
+				"cure wounds",
+				"flaming sphere",
+				"lesser restoration",
+				"beacon of hope",
+				"fireball",
+				"death ward",
+				"wall of fire",
+				"flame strike",
+				"mass cure wounds"
+			],
+			"subclassFeatures": [
+				[
+					{
+						"name": "Template Domain",
+						"entries": [
+							"Placeholder.",
+							"At each indicated cleric level, you add the listed spells to your spells prepared.",
+							{
+								"type": "table",
+								"caption": "Template Domain Spells",
+								"colLabels": [
+									"Cleric Level",
+									"Spells"
+								],
+								"colStyles": [
+									"col-3 text-center",
+									"col-9"
+								],
+								"rows": [
+									[
+										"1st",
+										"{@spell burning hands}, {@spell cure wounds}"
+									],
+									[
+										"3rd",
+										"{@spell flaming sphere}, {@spell lesser restoration}"
+									],
+									[
+										"5th",
+										"{@spell beacon of hope}, {@spell fireball}"
+									],
+									[
+										"7th",
+										"{@spell death ward}, {@spell wall of fire}"
+									],
+									[
+										"9th",
+										"{@spell flame strike}, {@spell mass cure wounds}"
+									]
+								]
+							},
+							{
+								"name": "Template feature 1st level",
+								"entries": [
+									"Placeholder 1st level."
+								]
+							},
+							{
+								"name": "Template feature",
+								"entries": [
+									"Also at 1st level, Placeholder."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Channel Divinity: Template",
+								"entries": [
+									"At 2nd level, Placeholder"
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Template feature 6th level",
+								"entries": [
+									"Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Template feature 8th level",
+								"entries": [
+									"At 8th level, Placeholder."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Template feature 17th level",
+								"entries": [
+									"Starting at 17th level, Placeholder"
+								]
+							}
+						]
+					}
+				]
+			],
+			"spells": [
+				{
+					"prepared": {
+						"1": [
+							"burning hands",
+							"cure wounds"
+						],
+						"3": [
+							"flaming sphere",
+							"lesser restoration"
+						],
+						"5": [
+							"beacon of hope",
+							"fireball"
+						],
+						"7": [
+							"death ward",
+							"wall of fire"
+						],
+						"9": [
+							"flame strike",
+							"mass cure wounds"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"burning hands",
+							"cure wounds"
+						],
+						"3": [
+							"flaming sphere",
+							"lesser restoration"
+						],
+						"5": [
+							"beacon of hope",
+							"fireball"
+						],
+						"7": [
+							"death ward",
+							"wall of fire"
+						],
+						"9": [
+							"flame strike",
+							"mass cure wounds"
+						]
+					}
+				}
+			]
+		}
+	]
+}	

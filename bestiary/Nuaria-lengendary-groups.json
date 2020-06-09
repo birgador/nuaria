@@ -1,0 +1,48 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nuaria",
+				"abbreviation": "Nuaria",
+				"full": "Nuaria",
+				"url": "",
+				"authors": [
+					"Birgador"
+				],
+				"convertedBy": [
+					"Birgador"
+				]
+			}
+		],
+		"dateAdded": 1591669842,
+		"dateLastModified": 1591669842
+	},
+	"legendaryGroup": [
+		{
+			"name": "Face Collector",
+			"source": "Nuaria",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the face collector takes a lair action to cause one of the following effects; The face collector can't use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"{@spell Pyrotechnics|xge} is casted on a point of choice within the lair that the collector can see.",
+						"All creatures within the lair are illuminated by a spotlight. Invisible creatures lose the {@condition invisible} until the next initiative count 20.",
+						"Smoke covers the face collector and a hooked creature that is within 5 feet of it and quickly vanishes. Creatures without truesight within the lair can't distinguish the face collector from the hooked creature."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing the collector's lair is tainted by the collector's acts and his desire of performance, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Within 5 miles of the lair, corpses of humanoids without face can be found lying around.",
+						"Within 51 mile of the lair, creatures that share a language with the face collector will hear a voice inside their heads and must make a DC 15 Wisdom saving throw. On a failed save, a a creature must spend their reaction by dropping what they are holding and applaud with admiration for the collector's act, whenever they see the face collector hook a creature with his face hook."
+					]
+				}
+				
+			]
+		}
+	]
+}
