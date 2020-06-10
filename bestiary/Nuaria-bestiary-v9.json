@@ -1,0 +1,4165 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nuaria",
+				"abbreviation": "Nuaria",
+				"full": "Nuaria",
+				"url": "",
+				"authors": [
+					"Birgador"
+				],
+				"convertedBy": [
+					"Birgador"
+				]
+			}
+		],
+		"dateAdded": 1591773527,
+		"dateLastModified": 1591773527
+	},
+	"monster": [
+		{
+			"name": "Snow elf",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 13,
+			"int": 14,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"wis": "+5",
+				"dex": "+4"
+			},
+			"skill": {
+				"survival": "+5",
+				"nature": "+4",
+				"perception": "+7",
+				"animal handling": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"cold"
+			],
+			"languages": [
+				"Common",
+				"Snow Elvish"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell frostbite|XGE}"
+							]
+						}
+					},
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"daily": {
+						"3": [
+							"{@spell animal friendship|PHB}",
+							"{@spell hunter's mark|PHB}",
+							"{@spell silence|PHB}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fighting Style: Archery",
+					"entries": [
+						"The snow elf has a +2 bonus to attack rolls it makes with ranged weapons."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The snow elf has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Horde Breaker",
+					"entries": [
+						"Once on each of the snow elf's turns when it makes a weapon attack, it can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of its weapon."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The snow elf can do 2 shortsword attacks or 2 longbow attacks."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"entries": [
+					"They"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://comicvine1.cbsistatic.com/uploads/original/11119/111191624/4113074-skyrim_last_of_the_snow_elves_by_1rich1-d4lt53r.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/BrdFJS7.png",
+			"traitTags": [
+				"Ambusher"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Historian's League Initiate (WIP)",
+			"shortName": "initiate",
+			"group": "Historian's League",
+			"source": "Nuaria",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "race",
+						"prefix": "any"
+					}
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 12,
+			"save": {
+				"str": "+4",
+				"dex": "+3"
+			},
+			"skill": {
+				"athletics": "+4",
+				"survival": "+3",
+				"perception": "+3",
+				"history": "+4"
+			},
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The historian's league initiate has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The initiate ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The historian's league initiate makes two longsword attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 2}) slashing damage, or 6 ({@damage 1d10 + 2}) damage if used with both hands."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 80/300 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2Fdf%2Fa1%2F5e%2Fdfa15eb0130cc762c3fb02b18e9425fe.jpg&f=1&nofb=1"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/JGIYtkU.png",
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Historian's League Initiate2 (WIP)",
+			"shortName": "barbarian",
+			"source": "Nuaria",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"formula": "6d12 + 18",
+				"average": 57
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"save": {
+				"str": "+5",
+				"con": "+5"
+			},
+			"skill": {
+				"athletics": "+5",
+				"intimidation": "+2"
+			},
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "if raging"
+				}
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the barbarian hits with it."
+					]
+				},
+				{
+					"name": "Rage (3/day)",
+					"entries": [
+						"The barbarian can enter a rage as a bonus action.",
+						"While raging, it gains the following benefits:",
+						"- Advantage on Strength checks and Strength saving throws.",
+						"- A bonus of 3 to the damage roll",
+						"-  Resistance to bludgeoning, piercing, and slashing damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The barbarian makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d12 + 3}) slashing damage. or 11 ({@damage 2d12 + 5}) slashing damage if raging."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage in melee, or 6 ({@damage 1d6 + 3}) piercing damage at range."
+					]
+				}
+			],
+			"traitTags": [
+				"Brute"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Face Collector(Beta)",
+			"shortName": true,
+			"isNamedCreature": true,
+			"source": "Nuaria",
+			"size": "M",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"formula": "14d8 + 42",
+				"average": 105
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 17,
+			"int": 12,
+			"wis": 18,
+			"cha": 14,
+			"save": {
+				"wis": "+9",
+				"dex": "+8"
+			},
+			"skill": {
+				"perception": "+9",
+				"performance": "+7",
+				"deception": "+7",
+				"religion": "+11"
+			},
+			"passive": 19,
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mind sliver|UASorcererAndWarlock}",
+								"{@spell minor illusion|PHB}",
+								"{@spell prestidigitation|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Cure Wounds}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Crown of Madness}",
+								"{@spell Gentle Repose}",
+								"{@spell Misty Step}",
+								"{@spell Pyrotechnics|XGE}",
+								"{@spell Silence}",
+								"{@spell Spiritual Weapon}"
+							],
+							"slots": 4
+						},
+						"3": {
+							"spells": [
+								"{@spell Enemies Abound|XGE}",
+								"{@spell Fear}"
+							],
+							"slots": 3
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shapeshifting",
+					"entries": [
+						"The collector can shapeshift into hooked creatures or the creatures it has the face of. Once it shapeshifts, it can choose to mimic all the movements of the creature it has transformed into, to confuse others, or act independently. An enemy targetting the face collector  when it is transformed into a hooked creature with an attack must succeed on a {@dc 17} Wisdom saving throw to distinguish between the hooked creature or the face collector or attack one at random."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The collector has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Face Dagger",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) damage.plus 4 ({@damage 1d8}) psychic damage. On a hit, the target must succeed on a {@dc 17} Wisdom saving throw or it starts smiling. The target can't talk until the end of its next turn."
+					]
+				},
+				{
+					"name": "Maddening Presence",
+					"entries": [
+						"The face collector targets one creature it can see within 30 feet of it. If the target can see or hear the collector, the target must make a {@dc 18} Wisdom saving throw. On a failed saving throw, the target becomes {@condition paralyzed} until the end of its next turn. If a creature's saving throw is successful, the creature is immune to the collector's Maddening Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Face Hook {@recharge 5}",
+					"entries": [
+						"The face collector targets chooses one creature within 15 feet of it that has a clear straight path towards it. The target must make a {@dc 18} Strength saving throw. On a failure, the target is pulled towards the Face Collector until being within 5 feet of it and takes 20 ({@damage 8d4}) psychic damage. It thens becomes paralysed until the end of its next turn or receives damage. It then regains hit points equal to half the damage dealt. Any excess are temporary hit points."
+					]
+				},
+				{
+					"name": "Mask transformation.",
+					"entries": [
+						"The Face Collector puts on one of its masks and gains features from the following classes, which are treated as level 7, for 30 seconds.",
+						"- Light Domain Cleric, channel divinity with a healing pool of 35 hit points and one use.",
+						"- Path of the WIld Totem(Bear) Barbarian. Starts raging and has extra attack.",
+						"- Druid, wilshape lion?",
+						"- Fighter, action surge and second wind",
+						"- Long Death Monk, with flurry of blows and Touch of Death.",
+						"- Inquisitive Rogue, sneak attack {@dice 1d6}, hide bonus action",
+						"- Wild Magic Sorcerer, metamagic.",
+						"- Wizard, Arcane Recovery and can cast Fireball one time without material components or spending spell slots."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Don't interrupt my act!",
+					"entries": [
+						"Whenever a spellcaster that he can see starts to cast a spell with verbal components, the Face Collector can cast silence centered on it."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack.",
+					"entries": [
+						"The collector makes one attack with its Face Dagger."
+					]
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"The collector casts one cantrip of choice."
+					]
+				},
+				{
+					"name": "Face Hook",
+					"entries": [
+						"The collector uses its Face Hook."
+					]
+				},
+				{
+					"name": "Mask",
+					"entries": [
+						"The Face Collector uses its Mask transformation."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Face Collector",
+				"source": "Nuaria"
+			},
+			"fluff": {
+				"entries": [
+					"He was ugly.",
+					"He was friends with coutroot, ocahs and pavo claustra.",
+					"They were trying to find pavo claustra after magic experiment gone wrong",
+					"Eventually and as byproduct of the experiment, Daasis caught on them and drove them mad."
+				]
+			},
+			"tokenUrl": "https://gamepedia.cursecdn.com/hearthstone_gamepedia/6/68/Face_Collector_full.jpg?version=8b22c7333f8a5c5637661d2702d099a7",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Tuskodon",
+			"source": "Nuaria",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d10 + 72",
+				"average": 138
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 26,
+			"dex": 12,
+			"con": 22,
+			"int": 4,
+			"wis": 8,
+			"cha": 6,
+			"save": {
+				"str": "+12",
+				"con": "+10"
+			},
+			"skill": {
+				"athletics": "+16",
+				"intimidation": "+2"
+			},
+			"passive": 9,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the tuskodon can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the tuskodon moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 13 ({@damage 2d12}) slashing damage. If the target is a creature, it must succeed on a {@dc 19} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the tuskodon can make a stomp attack against it as a bonus action"
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The tuskodon deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The tuskodon makes a tusk and a bite attack or two stomp attacks."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}26 ({@damage 4d8 + 8}) piercing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d8 + 8}) piercing damage."
+					]
+				},
+				{
+					"name": "Stomp",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}21 ({@damage 2d12 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Log throw {@recharge}",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/200 ft., one target. {@h}37 ({@damage 8d8 + 1}) bludgeoning damage. On a hit the target must succeed on a {@dc 13} Strength saving throw or it is {@condition restrained} and knocked {@condition prone}. At the end of its turns, the target can attempt the saving throw to remove the conditions. If the log is removed by other means, the target loses the {@condition prone} condition and can get up again."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"hill"
+			],
+			"tokenUrl": "https://i.imgur.com/wbnR7dL.png",
+			"traitTags": [
+				"Aggressive",
+				"Charge",
+				"Siege Monster"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone",
+				"restrained"
+			]
+		},
+		{
+			"name": "Gorund",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 10",
+				"average": 55
+			},
+			"speed": {
+				"walk": 40,
+				"climb": {
+					"number": 20,
+					"condition": "on trees"
+				}
+			},
+			"str": 17,
+			"dex": 18,
+			"con": 13,
+			"int": 4,
+			"wis": 12,
+			"cha": 5,
+			"save": {
+				"dex": "+6"
+			},
+			"skill": {
+				"perception": "+5",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 15,
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The gorund has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The gorund has advantage on an attack roll against a creature if at least one of the gorund's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gorund makes a bite and a paw attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. It must then make a {@dc 14} Constitution saving throw or take 10 ({@damage 3d4 + 3}) poison damage."
+					]
+				},
+				{
+					"name": "Paw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Swipes Storm {@recharge}",
+					"entries": [
+						"A target of choice within 5 ft. of  the gorund must make a {@dc 14} Dexterity saving throw. On a failure it takes 27 ({@damage 6d8}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hunting Instincts",
+					"entries": [
+						"When an enemy within 5 ft of the gorund takes the disengage action and stops moving, the gorund can move up to its speed towards the enemy."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/bos8oyz.png",
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Shaco",
+			"group": "Daasis' Priest",
+			"source": "Nuaria",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 40",
+				"average": 130
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 24,
+			"con": 14,
+			"int": 13,
+			"wis": 18,
+			"cha": 9,
+			"save": {
+				"wis": "+9",
+				"con": "+7",
+				"dex": "+12"
+			},
+			"skill": {
+				"performance": "+9",
+				"religion": "+6",
+				"stealth": "+17",
+				"perception": "+9",
+				"acrobatics": "+12"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"Common"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Lethal shivs",
+					"entries": [
+						"When shaco throws his shivs against a target that has less than half of its maximum hp, the attack deals extra {@damage 2d6} piercing damage."
+					]
+				},
+				{
+					"name": "Deceiving action",
+					"entries": [
+						"Shaco can take the hide action as a bonus action whenever he is {@condition invisible}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Shaco makes two shiv attacks."
+					]
+				},
+				{
+					"name": "Shiv",
+					"entries": [
+						"{@atk mw,rw} {@hit 12} to hit, reach 5 ft. or range 30/80 ft., one target. {@h}14 ({@damage 2d6 + 7}) piercing damage in melee, or 14 ({@damage 2d6 + 7}) piercing damage at range. The target must then succeed on a {@dc 18} Constitution saving throw or it takes 8 ({@damage 1d8 + 4}) poison damage, has its speed halved and is {@condition poisoned} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Jack in the box (3/day) {@recharge 2}",
+					"entries": [
+						"Shaco creates a hidden animated Jack-in-the-Box within 30 feet of him. When an enemy moves within 5 feet of the Jack-in-the-Box, the Jack-in-the-Box is triggered and attacks."
+					]
+				},
+				{
+					"name": "Deceive {@recharge 4}",
+					"entries": [
+						"Shaco becomes {@condition Invisible} and teleports to an unoccupied square of choice within 30 feet. His first attack while being {@condition invisible} in this way deals an extra {@damage 1d6} piercing damage and is a critical hit on a 19-20."
+					]
+				},
+				{
+					"name": "Hallucinate {@recharge 10}",
+					"entries": [
+						"Shaco creates an illusion of himself near him with hit points equal to half of his maximum hit points, which can attack nearby enemies and deals half damage. Upon death, it explodes and creatures within 15 feet of him must make a {@dc 18} Dexterity saving throw. On a failed save, each creature takes {@damage 6d6} fire damage and half as much on a succesful one. Additionally, three mini Jack in the Boxes spawn on empty spaces within 15 feet of him. The illusion dies after three rounds of combat or when it drops to 0 hit points."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"Shaco can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The shaco regains spent legendary actions at the start of its turn."
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Shaco makes two shiv attacks."
+					]
+				},
+				{
+					"name": "Deceive",
+					"entries": [
+						"Shaco uses deceive and makes one shiv attack"
+					]
+				},
+				{
+					"name": "Finishing blow (Costs 2 Actions).",
+					"entries": [
+						"Shaco throws makes two thrown attacks with his shivs against a target below its maximum hit points."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Shaco moves up to his speed."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/qbYHFWl.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/0N5L938.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Jack-in-the-Box",
+			"source": "Nuaria",
+			"size": "T",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "12d4 + 0",
+				"average": 30
+			},
+			"speed": {
+				"walk": 0
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Surprise surprise",
+					"entries": [
+						"The Jack-in-the-Box is hidden and {@condition invisible} until it attacks for the first time. or is triggered"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The jack-in-the-box makes three force dart attacks or three bite attacks"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) force damage."
+					]
+				},
+				{
+					"name": "Force dart",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) force damage. Each consecutive hit on the same target on the same turn deals an extra {@damage 1d6} of damage."
+					]
+				},
+				{
+					"name": "Fear of Clowns",
+					"entries": [
+						"Each creature of the Jack-in-the-Box's choice that is within 30 feet of the Jack-in-the-Box and aware of it must succeed on a {@dc 14} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this Jack-in-the-Box's Fear of Clowns for the next 24 hours."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/FVqqAah.png",
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Substitute",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d10 + 40",
+				"average": 150
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 24,
+			"dex": 24,
+			"con": 14,
+			"int": 14,
+			"wis": 14,
+			"cha": 20,
+			"save": {
+				"dex": "+11",
+				"con": "+6",
+				"wis": "+6"
+			},
+			"passive": 12,
+			"resist": [
+				"piercing"
+			],
+			"vulnerable": [
+				"thunder"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"stunned"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Improved construct",
+					"entries": [
+						"The substitute automatically succeeds on Constitution saving throws."
+					]
+				},
+				{
+					"name": "Facsimile",
+					"entries": [
+						"Every substitute is made to imitate a living creature, and have a Deception check associated with that attempt. This check is determined by the skill of the substitute’s creator during the creation process. The default value for this is a {@dc 22} Deception check.  A creature purposefully inspecting a substitute can make an opposed Investigation check to notice discrepancies in the crafting of the substitute."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The substitute has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The substitute makes two attacks; two slam attacks or one face shot and one slam attack."
+					]
+				},
+				{
+					"name": "Face shot",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 45/90 ft., one target. {@h}10 ({@damage 1d6 + 7}) damage. Red liquid is shot from the palm of the substitute, aiming at the face of the target. On a hit, the target must succeed on a {@dc 16} Dexterity saving throw or be {@condition blinded} until the end of the target's turn."
+					]
+				},
+				{
+					"name": "Precise strike {@recharge 4}",
+					"entries": [
+						"A substitute makes a slam attack. It ignores the armor and shield bonus provided by worn equipment. This attack does not ignore enhancement bonuses applied to worn armor or shields, nor any magic bonus to AC such as those coming from the {@spell mage armor} or {@spell shield} spells. Additionally, the target must make a Constitution saving throw or take additional 20 ({@damage 8d4}) bludgeoning damage on a hit. "
+					]
+				},
+				{
+					"name": "Reconstruction {@recharge}",
+					"entries": [
+						"The substitute regains 30 ({@dice 6d10}) hit points."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}21 ({@damage 4d6 + 7}) bludgeoining damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Liquid grasp",
+					"entries": [
+						"Whenever a creature within 5 feet of the substitute hits it with a melee attack, the substitute can spend its reaction to morph its body around the weapon and restrain the attacker. The attacker must then make a {@dc 16} Strength saving throw or be {@condition restrained} until it frees itself. Additionally, the creature cannot attack again with that weapon until it is freed. If a {@condition restrained} creature with two arms attacks again with another weapon and fails this saving throw for the second time, it is {@condition incapacitated} instead. A creature {@condition restrained} this way can attempt to free itself at the end of each of its turns. The substitute can have up to two {@condition restrained} creatures at the same time."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Substitutes are constructs made to be better than the humanoids they imitate. They look and act exactly as the species they copy, and in most cases, are exemplary at all tasks they perform. Their true form is a texture of rich red blood that when struck, reacts like hardened clay. Luckily for these disguised constructs, only severe damage is enough to reveal their true nature— an impressive feat unto itself, considering their many defenses. ",
+					"The substitute were the concept of a powerful spellcaster from a long-lost bygone era. Texts on their creation are thought to be lost, but several contemporary wizards claim to have unlocked the secret to creating these immensely powerful constructs. Most believe, the secret in their construction lies within further researching simulacrum and similar magic. Whether or not any spellcasters remain alive to create these being is unknown. What is known, is that the substitute live among the settlements of humanity. Perhaps 1 in 200,000 could be one of these hidden constructs, but even that small fear is enough to motivate dedicated hunters and researchers to rooting them out.",
+					"Most surviving substitutes are solitary beings, content with being left alone in their mundane existences. They prefer to maintain simple jobs in rural communities. Before their immortality can be called into question, they move to another community, citing reasons like “my brother in the big city is sick, and I’ve got to tend to him.”. Some substitutes even return to towns they’ve previously lived in, often centuries later. When they arrive, they still bear a striking resemblance to the faces on old portraits kept in the dusty and forgotten attics of townsfolk. Regardless of their wandering nature, most substitutes wish no ill upon humanoid races, and instead seek to enrich themselves with repeated lifetimes of experience. ",
+					"Eventually, the mundane isn’t enough for a substitute. Some take on the role of adventurers, finding their lifetimes of unexciting jobs give them ample experience for such tasks. Unlike the life of a craftsman, it’s hard for adventuring substitutes to maintain the illusion about their true nature. Substitutes spend long periods of time determining which adventurers would be suitable to learn their true nature. Many times, substitutes abandon their mundane lives to adventure alongside the grown descendant of a friend from a former life, seeking to protect the offspring of those who once showed them kindness.",
+					"The oddest actions of substitutes are the inexplicable need to create their own settlements. Settlements founded and run by substitutes are often referred to as false settlements. In these rare situations, several substitutes come together and share their lifetimes of experience, deciding as a group that it would be best if they were entrusted to lead. They use their power and lifetimes of gathered resources to found new settlements, where they take on all the major roles of leadership. In some cases, these false settlements are utopian societies, guided by powerful overseers who refuse to reveal their true nature. In other instances, the substitutes leaders grow tired of living yet another ‘mundane life’ and instead perform twisted social experiments on the people of their settlements. As effectively immortal constructs, many substitutes have run both sides of the spectrum—creating utopias in one millennia, only to create maddening torture towns in another."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/KaI9mcd.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/XRs1kf9.png",
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"blinded"
+			]
+		},
+		{
+			"name": "Faithslain",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "21d8 + 105",
+				"average": 199
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 27,
+			"dex": 22,
+			"con": 21,
+			"int": 17,
+			"wis": 21,
+			"cha": 17,
+			"passive": 15,
+			"resist": [
+				"necrotic",
+				"radiant"
+			],
+			"immune": [],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"footerEntries": [
+						"*All cantrips are rolled with 3 dice for the damage"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Sacred Flame}*",
+								"{@spell Word of Radiance|XGE}*"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Inflict Wounds}",
+								"{@spell Shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Spiritual Weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell Spirit Guardians}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Sickening Radiance|XGE}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Dawn|XGE}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell Harm}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell Symbol}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Faith claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) slashing damage, plus 12 ({@damage 1d8 + 8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Powerful Channel Divinity (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Depends on Domain."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"The faithslain casts a cantrip."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Alasian faithslain",
+					"entries": [
+						"This Variant has the following Powerful Channel Divinity:",
+						{
+							"type": "entries",
+							"name": "Life Preservation",
+							"entries": [
+								"As an action, the alasian faithslain presents its holy symbol and evokes healing energy that can restore up to 75 of its hit points."
+							]
+						}
+					],
+					"type": "variant"
+				},
+				{
+					"name": "Bestus faithslain",
+					"entries": [
+						"Powerful Channel Divinity: ",
+						"This Variant has the following Powerful Channel Divinity:",
+						{
+							"type": "entries",
+							"name": "Bestus Calling",
+							"entries": [
+								"Bestus Calling. As an action, the bestus faithslain presents its holy symbol and {@dice 1d4} beasts of CR 5 that suit the current environment come to its aid. Each beast or plant creature that can see the faithslain within 30 feet of the faithslain must make a {@dc 18} Wisdom saving throw. If the creature fails its saving throw, it is {@condition charmed} by the faithslain for 1 minute and will act as its ally."
+							]
+						}
+					],
+					"type": "variant"
+				},
+				{
+					"name": "Hetesis faithslain",
+					"entries": [
+						"This Variant has the following Powerful Channel Divinity:",
+						{
+							"type": "entries",
+							"name": "Strength of the Forge",
+							"entries": [
+								"Powerful Channel Divinity: Strength of the Forge. As an action, the hetesis faithslain presents its holy symbol and chooses a point within 90 feet it can see. Molten iron erupts from that point in all directions. Any creature inside a 20 foot radius circle centered on that point must make a {@dc 18} Dexterity saving throw. On a failed save, they take {@damage 10d8} fire damage and become {@condition restrained} until the end of their next turn due to the hardening of the iron. On a succesful save the take half as much damage and are not {@condition restrained}."
+							]
+						}
+					],
+					"type": "variant"
+				},
+				{
+					"name": "Tudros Faithslain",
+					"entries": [
+						"This Variant has the following Powerful Channel Divinity:",
+						{
+							"type": "entries",
+							"name": "place",
+							"entries": [
+								"As an action, the alasian faithslain presents its holy symbol and evokes healing energy that can restore up to 75 of its hit points."
+							]
+						}
+					],
+					"type": "variant"
+				},
+				{
+					"name": "Viesis Faithslain",
+					"entries": [
+						"This Variant has the following Powerful Channel Divinity:",
+						{
+							"type": "entries",
+							"name": "Placeholder",
+							"entries": [
+								"As an action, the alasian faithslain presents its holy symbol and evokes healing energy that can restore up to 75 of its hit points."
+							]
+						}
+					],
+					"type": "variant"
+				}
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Arcanaslain(WIP)",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "21d8 + 105",
+				"average": 199
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 27,
+			"dex": 22,
+			"con": 21,
+			"int": 17,
+			"wis": 21,
+			"cha": 17,
+			"passive": 15,
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"footerEntries": [
+						"*All cantrips are rolled with 3 dice for the damage"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Sacred Flame}*",
+								"{@spell Word of Radiance|XGE}*"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Inflict Wounds}",
+								"{@spell Shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Spiritual Weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell Spirit Guardians}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Sickening Radiance|XGE}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Dawn|XGE}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell Harm}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell Symbol}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Faith claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) slashing damage, plus 12 ({@damage 1d8 + 8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Devastating spellcasting (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Depends on Domain/ Healing and damaging effect."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"The faithslain casts a cantrip."
+					]
+				}
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Nuarian Orc warrior",
+			"shortName": "orc",
+			"source": "Nuaria",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 64",
+				"average": 136
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 24,
+			"dex": 12,
+			"con": 18,
+			"int": 9,
+			"wis": 16,
+			"cha": 7,
+			"save": {
+				"str": "+10",
+				"con": "+7"
+			},
+			"skill": {
+				"acrobatics": "+4",
+				"athletics": "+13",
+				"perception": "+9"
+			},
+			"passive": 19,
+			"languages": [
+				"Orc"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the orc  hits with it (already included in its damage rolls)."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the orc  can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Aversion ot Music",
+					"entries": [
+						"If the orc hears music at the start of each of its turns, it ignores other hostile creatures near it and attacks the source of the music. Additionally, it must make a {@dc 15} Intelligence saving throw or take {@damage 1d12} psychic damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The orc makes two greatsword attacks or two javelin attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d6 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 10} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}17 ({@damage 3d6 + 7}) slashing damage in melee, or 14 ({@damage 2d6 + 7}) piercing damage at range."
+					]
+				},
+				{
+					"name": "Orcish brutality {@recharge 4}",
+					"entries": [
+						"The orc makes 4 greatsword attacks against the same target."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Orcish Reinforcement",
+					"entries": [
+						"Whenever the orc drops below half its maximum hit points, rounded up, it blows its horn. Roll a {@dice 1d4}. On a even number, another orc comes. On an odd number, nothing happens."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/WELGjB5.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/rNDWd2B.png",
+			"traitTags": [
+				"Aggressive",
+				"Brute"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"O"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Jen'sakari (Melee 44)",
+			"shortName": "jen'sakari",
+			"source": "Nuaria",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d10 + 154",
+				"average": 275
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 28,
+			"dex": 17,
+			"con": 24,
+			"int": 10,
+			"wis": 25,
+			"cha": 10,
+			"save": {
+				"str": "+15",
+				"con": "+13",
+				"dex": "+9"
+			},
+			"skill": {
+				"religion": "+12",
+				"perception": "+13",
+				"arcana": "+6",
+				"history": "+12",
+				"intimidation": "+12"
+			},
+			"senses": [
+				"truesight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 23,
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The jen'sakari's innate spellcasting ability is Wisdom (spell save {@dc 21}). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell Misty Step}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Powerful Spellcasting",
+					"headerEntries": [
+						"The jen'sakari doesn't require to mantain concentration to cast the following spells. They last the whole duration or until he casts one of these spells again."
+					],
+					"will": [
+						"{@spell Searing Smite}",
+						"{@spell Thunderous Smite}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The jen'sakari has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the jen'sakari fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Divine Essence",
+					"entries": [
+						"If the jen'sakari hits its third attack, it deals extra {@dice 1d12} of radiant damage."
+					]
+				},
+				{
+					"name": "Divine constitution",
+					"entries": [
+						"At the end of its turns, the jen'sakari recovers {@dice 2d12 + 7} hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The jen'sakari makes three battleaxe attacks or three divine blast attacks."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}25 ({@damage 3d10 + 9}) damage."
+					]
+				},
+				{
+					"name": "Divine Blast",
+					"entries": [
+						"{@atk mw,rw} {@hit 13} to hit, reach 5 ft. or range 30/60, one target. {@h}19 ({@damage 3d6 + 9}) radiant damage in melee, or 17 ({@damage 3d6 + 7}) radiant damage at range."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The jen'sakari makes a battleaxe attack."
+					]
+				},
+				{
+					"name": "Divine dash (Costs 3 Actions)",
+					"entries": [
+						"The Jen'sakari moves up to his speed without provoking opportunity attacks, then makes one attack with his battleaxe. He can make melee divine blast attack against each creature he moves past."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The jen'sakari moves up to its speed."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/b8/2e/98/b82e98841b54dec5b7f744d6bf10e542.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/b0zBbnM.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"R"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Badlands Hawk",
+			"shortName": "hawk",
+			"source": "Nuaria",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "7d10 + 14",
+				"average": 52
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 80,
+				"canHover": false
+			},
+			"str": 16,
+			"dex": 18,
+			"con": 14,
+			"int": 2,
+			"wis": 16,
+			"cha": 6,
+			"skill": {
+				"perception": "+6"
+			},
+			"passive": 16,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The hawk has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "High speed",
+					"entries": [
+						"If the hawk moves using its flying speed, it doesn't provoke oppotunity attacks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hawk makes two attacks; one with its beak and one with its talons."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Skydive {@recharge 4}",
+					"entries": [
+						"If the hawk is at least 80 feet higher than its target, it plunges into it delivering a powerful strike with its talons. The target must make a {@dc 15} Dexterity saving throw or take 22 ({@damage 4d8 + 4})."
+					]
+				}
+			],
+			"environment": [
+				"badlands",
+				"forest",
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b8b81ead-bfba-4b72-b318-def7d9620a7b/d84kufq-0da45c63-b140-4d5d-a60f-e6c7158fa92a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9iOGI4MWVhZC1iZmJhLTRiNzItYjMxOC1kZWY3ZDk2MjBhN2IvZDg0a3VmcS0wZGE0NWM2My1iMTQwLTRkNWQtYTYwZi1lNmM3MTU4ZmE5MmEuanBnIn1dXX0.rDuZ3uyN7wU8OKx3gvi7McDu_yew0oLum0r9qyxwe3k"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://i.imgur.com/wPshRL6.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/hawk.mp3?v=1.105.2"
+			},
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Desert Salamander",
+			"source": "Nuaria",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d10 + 44",
+				"average": 104
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 18,
+			"int": 2,
+			"wis": 14,
+			"cha": 5,
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 12,
+			"immune": [],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Fire Absorption",
+					"entries": [
+						"Whenever the desert salamander is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+					]
+				},
+				{
+					"name": "Water adversion",
+					"entries": [
+						"The salamander is vulnerable to cold damage from water sources."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The salamander makes two attacks; a bite and claws attack or two lava spits."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, plus 5 ({@damage 1d10}) fire damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Lava Spit",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}11 ({@damage 2d10}) fire damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Giant Lizard Traits",
+					"entries": [
+						"Some giant lizards have one or both of the following traits:",
+						{
+							"type": "entries",
+							"name": "Hold Breath",
+							"entries": [
+								"The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spider Climb",
+							"entries": [
+								"The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"mountain",
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Desert salamanders roam around eating sand and rock, which they then melt in their inside to absorb the minerals they have.",
+									"Variant: Giant Lizard Traits",
+									"Some giant lizards have one or both of the following traits. Hold Breath. The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)",
+									{
+										"name": "Spider Climb",
+										"type": "entries",
+										"entries": [
+											"The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/w65KBJq.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/giant-lizard.mp3?v=1.105.2"
+			},
+			"traitTags": [
+				"Damage Absorption"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"F",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Northern Bear",
+			"source": "Nuaria",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d10 + 56",
+				"average": 133
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 30
+			},
+			"str": 24,
+			"dex": 13,
+			"con": 18,
+			"int": 2,
+			"wis": 17,
+			"cha": 7,
+			"skill": {
+				"perception": "+6"
+			},
+			"passive": 16,
+			"immune": [
+				"cold"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Snow Camouflage",
+					"entries": [
+						"The northern bear has advantage on Dexterity ({@skill Stealth}) checks made to hide in snowy terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bear makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"underdark"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Polar Bear.png?v=1.105.2",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/polar-bear.mp3?v=1.105.2"
+			},
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Killer Crab",
+			"shortName": "crab",
+			"source": "Nuaria",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d10 + 20",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30,
+				"swim": {
+					"number": 50,
+					"condition": "near the coast"
+				}
+			},
+			"str": 19,
+			"dex": 17,
+			"con": 15,
+			"int": 1,
+			"wis": 13,
+			"cha": 3,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 11,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons."
+				}
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The crab can breathe air and water."
+					]
+				},
+				{
+					"name": "Snapping claws",
+					"entries": [
+						"Whenever the crab uses its snap attack against a {@condition grappled} creature, it attacks with advantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The crab makes four attacks; two with its claws and two snap attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 15}). The crab has two claws, each of which can grapple only one target."
+					]
+				},
+				{
+					"name": "Snap",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://4funz.files.wordpress.com/2009/01/io4f026_thegiantcrab.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/HQzwKI4.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/giant-crab.mp3?v=1.105.2"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			]
+		},
+		{
+			"name": "Biloko(WIP)",
+			"source": "Nuaria",
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d6 + 10",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 19,
+			"con": 12,
+			"int": 3,
+			"wis": 13,
+			"cha": 5,
+			"skill": {
+				"stealth": "+6",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The biloko has advantage on an attack roll against a creature if at least one of the biloko's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Forest Camouflage",
+					"entries": [
+						"The biloko has advantage on Dexterity ({@skill Stealth}) checks made to hide in forest terrain."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The biloko has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The biloko has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Pack Hunter",
+					"entries": [
+						"The biloko rolls an extra die on damage rolls from its attacks against a creature if one of the biloko's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The biloko makes two attacks; one with its bite and one with its paws or two with its horns."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Horns",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Paws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher",
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Bestus Fanatic",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				},
+				{
+					"ac": 16,
+					"condition": "when using barkskin",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 27",
+				"average": 67
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 17,
+			"int": 9,
+			"wis": 14,
+			"cha": 7,
+			"save": {
+				"wis": "+4",
+				"con": "+5"
+			},
+			"passive": 12,
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The bestus fanatic is a 4th level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, +4 to hit with spell attacks). It has the following spells prepared."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell infestation|XGE}",
+								"{@spell thaumaturgy}",
+								"{@spell thorn whip}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell entangle}",
+								"{@spell longstrider}",
+								"{@spell snare|XGE}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell barkskin}",
+								"{@spell moonbeam}",
+								"{@spell spike growth}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Nature's wrath",
+					"entries": [
+						"As a bonus action, the bestus fanatic can spend one spell slot of 1st level to cause its melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage against civilised creatures until the end of his next turn. The damage increases by {@dice 1d6} for every spell level above 1st."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Hardened kuthar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) slashing damage. Any nonmagical armor  that is hit by the kuthar is damaged. After taking damage, the target's armor takes a permanent and cumulative −1 penalty to its AC bonus. If the armor bonus drops to 0, the armor can't be used until it is repaired."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Bestial Roar",
+					"entries": [
+						"When the fanatic takes damage from melee weapon attack from a weapon made of metal it can use its reaction and unleash a thunderous roar dealing {@damage 2d6} thunder damage. The target must then succeed and a {@dc 13} Constitution saving throw or be {@condition deafened} until its next turn."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/fVMajjZ.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/cEO84XV.png",
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"deafened"
+			]
+		},
+		{
+			"name": "Bestus predator(Beta)",
+			"shortName": "predator",
+			"group": "Lycanthropes",
+			"source": "Nuaria",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					],
+					"condition": "in wolf or hybrid form"
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 51",
+				"average": 127
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": " (40 ft. in wolf form)"
+				}
+			},
+			"str": 19,
+			"dex": 15,
+			"con": 16,
+			"int": 9,
+			"wis": 19,
+			"cha": 5,
+			"save": {
+				"con": "+6",
+				"str": "+7"
+			},
+			"skill": {
+				"perception": "+10"
+			},
+			"passive": 20,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that are metallic"
+				}
+			],
+			"languages": [
+				"Common (can't speak in wolf form)"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The predator can use its action to polymorph into a wolf-humanoid hybrid, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The predator has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The predator has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Nature's Protection",
+					"entries": [
+						"The predator has resistance against bludgeoning, piercing and slashing from attacks from weapons made of metal."
+					]
+				},
+				{
+					"name": "Running Leap Attack (Hybrid Form Only)",
+					"entries": [
+						"With a 10-foot running start, the predator can long jump up to 25 feet and then make a Hardened Kuthar + 1 attack as a bonus action. On a hit, the target takes extra 11 ({@damage 1d12 + 5}) slashing damage and is knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The predator makes three attacks: one with its bite and two with its kuthar (humanoid form) or one with its bite, one with its kuthar and one with its claws (hybrid form)."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage or 8 {@damage 1d8 + 4} piercing damage in hybrid form."
+					]
+				},
+				{
+					"name": "Claws (Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Hardened Kuthar + 1",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d12 + 5}) slashing damage. Any nonmagical armor that is hit by the kuthar is damaged. After taking damage, the target's armor takes a permanent and cumulative −1 penalty to its AC bonus. If the armor bonus drops to 0, the armor can't be used until it is repaired."
+					]
+				},
+				{
+					"name": "Sweeping Kuthar {@recharge 4}",
+					"entries": [
+						"The predator makes a sweep with its kuthar, and each creature within 5 feet of it must make a {@dc 16} Dexterity saving throw. A creature takes 18 ({@damage 2d12 + 5}) slashing damage on a failed save and if the target is wearing non-magical armor, its armor takes a permanent and cumulative −1 penalty to its AC bonus. If the armor bonus drops to 0, the armor can't be used until it is repaired. On a succesful save, it takes half as much damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Nonhuman Bestus predators",
+					"entries": [
+						"The statistics presented in this section assume a base creature of human. However, you can also use the statistics to represent nonhuman predators of bestus, adding verisimilitude by allowing a nonhuman to retain one or more of its humanoid racial traits. For example, an elf that is a bestus predator might have the Fey Ancestry trait."
+					],
+					"type": "variant"
+				}
+			],
+			"environment": [
+				"forest",
+				"hill"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.",
+									"Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves."
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"name": "Lycanthropes",
+						"entries": [
+							"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
+							"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Curse of Lycanthropy",
+										"entries": [
+											"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
+											"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
+											"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
+										]
+									}
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Player Characters as Lycanthropes",
+								"entries": [
+									"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
+									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
+									"The following information applies to specific lycanthropes.",
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "{@creature Werebear}",
+												"entries": [
+													"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Wereboar}",
+												"entries": [
+													"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Wererat}",
+												"entries": [
+													"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Weretiger}",
+												"entries": [
+													"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Werewolf}",
+												"entries": [
+													"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://4.bp.blogspot.com/_L-c5JixfV9w/TTFvBBgY3jI/AAAAAAAAAIQ/PTPEcGLIT1c/s1600/c8085ff7520ff33a.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/Kwjn7V8.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/werewolf.mp3?v=1.105.3"
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Shapechanger"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Wolf Beast Spirit (Beta)",
+			"shortName": "beast",
+			"source": "Nuaria",
+			"page": 4,
+			"size": "H",
+			"type": "celestial",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"formula": "22d12 + 154",
+				"average": 297
+			},
+			"speed": {
+				"walk": 60,
+				"fly": {
+					"number": 10,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 27,
+			"dex": 24,
+			"con": 25,
+			"int": 14,
+			"wis": 29,
+			"cha": 5,
+			"save": {
+				"wis": "+15",
+				"dex": "+13",
+				"str": "+14",
+				"con": "+13"
+			},
+			"skill": {
+				"perception": "+15",
+				"stealth": "+13",
+				"survival": "+15"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 30 ft."
+			],
+			"passive": 25,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons."
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"grappled",
+				"incapacitated",
+				"petrified",
+				"stunned"
+			],
+			"languages": [
+				"all"
+			],
+			"cr": "18",
+			"trait": [
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The wolf beast spirit has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing or smell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The wolf beast spirit has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Apex Predator",
+					"entries": [
+						"The spirit has advantage on attack rolls against creatures of size Large or smaller."
+					]
+				},
+				{
+					"name": "Favoured prey",
+					"entries": [
+						"As a bonus action, the spirit can choose a creature it can see and set it as a favoured prey. A favoured prey gets the following penalties.",
+						"- The prey cannot hide from the spirit.",
+						"- It has disadvantage on saving throws against effects that would make it {@condition frightened} of the spirit."
+					]
+				},
+				{
+					"name": "Fear Aura",
+					"entries": [
+						"Any creature hostile to the beast that starts its turn within 20 feet of the beast must make a {@dc 23} Wisdom saving throw, unless the beast is {@condition incapacitated}. On a failed save, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the beast's Fear Aura for the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The beast makes two attacks; one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}24 ({@damage 3d10 + 8}) piercing damage, plus 18 ({@damage 2d8 + 9}) force damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) piercing damage, plus 18 ({@damage 2d8 + 9}) force damage."
+					]
+				},
+				{
+					"name": "Howl {@recharge}",
+					"entries": [
+						"The wolf howls with the strength of a thousand wolves. Each creature on a 60-foot cone must make a {@dc 22} Dexterity saving throw. A creature takes 39 ({@damage 6d12}) thunder damage and is {@condition deafened} for 1 minute on a failed save, or half as much and isn't {@condition deafened} on a succesful one. If the spirit howls under a fullmoon, the saving throw is made with disadvantage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The spirit makes one bite attack or claws attack."
+					]
+				},
+				{
+					"name": "Howl (Costs 2 Actions)",
+					"entries": [
+						"The spirit uses its howl."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The spirit moves up to half its speed."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdnb.artstation.com/p/assets/images/images/000/379/655/large/aaron-nakahara-direwolfflats.jpg?1443928339"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/TVk0r0l.png",
+			"traitTags": [
+				"Keen Senses",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"deafened",
+				"frightened",
+				"incapacitated"
+			]
+		},
+		{
+			"name": "Alasia's angel (WIP)",
+			"shortName": "angel",
+			"group": "Angels",
+			"source": "Nuaria",
+			"size": "L",
+			"type": "celestial",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 200,
+				"formula": "16d10 + 112"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 120
+			},
+			"str": 24,
+			"dex": 20,
+			"con": 24,
+			"int": 19,
+			"wis": 22,
+			"cha": 25,
+			"save": {
+				"con": "+12",
+				"wis": "+11",
+				"cha": "+12"
+			},
+			"skill": {
+				"perception": "+11"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 21,
+			"resist": [
+				"radiant",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The angel's spellcasting ability is Charisma (spell save {@dc 20}). The planetar can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect evil and good}",
+						"{@spell invisibility} (self only)"
+					],
+					"daily": {
+						"3e": [
+							"{@spell blade barrier}",
+							"{@spell dispel evil and good}",
+							"{@spell flame strike}",
+							"{@spell raise dead}"
+						],
+						"1e": [
+							"{@spell commune}",
+							"{@spell control weather}",
+							"{@spell insect plague}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Angelic Weapons",
+					"entries": [
+						"The angel's weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra {@damage 5d8} radiant damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"The angel knows if it hears a lie."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The angel has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "The power of life",
+					"entries": [
+						"Whenever the angel deals damage to a creature, that creature takes no damage but instead regains hit points equal to the damage it would have taken. ",
+						"If that creature would regain hit points above its maximum hit points, it will add any carried over hit points as temporary hit points. Temporary hit points gained this way can be added together. ",
+						"Once a creature has a number of temporary hit points equal to its temporary hit points or more, it falls {@condition unconscious} and starts making death saving throws, in the same way as if it had dropped to 0 hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The angel makes two melee attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}21 ({@damage 4d6 + 7}) slashing damage plus 22 ({@damage 5d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Healing Touch (4/Day)",
+					"entries": [
+						"The angel touches another creature. The target magically regains 30 ({@dice 6d8 + 3}) hit points and is freed from any curse, disease, poison, blindness, or deafness."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Planetar",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"An angel is a celestial agent sent forth into the planes to further its god's agenda for weal or woe. Its sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and their appearance portends doom as often as it signals hope.",
+									{
+										"name": "Shards of the Divine",
+										"type": "entries",
+										"entries": [
+											"Angels are formed from the astral essence of benevolent gods and are thus divine beings of great power and foresight.",
+											"Angels act out the will of their gods with tireless devotion. Even chaotic good deities command lawful good angels, knowing that the angels' dedication to order best allows them to fulfill divine commands. An angel follows a single driving purpose, as decreed by its deity. However, an angel is incapable of following commands that stray from the path of law and good.",
+											"An angel slays evil creatures without remorse. As the embodiment of law and good, an angel is almost never mistaken in its judgments. This quality can create a sense of superiority in an angel, a sense that comes to the fore when an angel's task conflicts with the goals of another creature. The angel never acquiesces or gives way. When an angel is sent to aid mortals, it is sent not to serve but to command. The gods of good therefore send their angels among mortals only in response to the most dire circumstances."
+										]
+									},
+									{
+										"name": "Fallen Angels",
+										"type": "entries",
+										"entries": [
+											"An angel's moral compass grants it a sense of infallibility that can sometimes spell its undoing. Angels are usually too wise to fall for a simple deception, but sometimes pride can lead one to commit an evil act. Whether intentional or accidental, such an act is a permanent stain that marks the angel as an outcast. Fallen angels retain their power but lose their connection to the deities from which they were made. Most fallen angels take their banishment personally, rebelling against the powers they served by seeking rulership over a section of the Abyss or a place among other fallen in the hierarchy of the Nine Hells. Zariel, the ruler of the first layer of the Nine Hells, is such a creature. Rather than rebel, some fallen angels resign themselves to an isolated existence on the Material Plane, living in disguise as simple hermits. If they are redeemed, they can become powerful allies dedicated to justice and compassionate service."
+										]
+									},
+									{
+										"name": "Immortal Nature",
+										"type": "entries",
+										"entries": [
+											"An angel doesn't require food, drink, or sleep."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Planetar",
+										"entries": [
+											"Planetars act as the weapons of the gods they serve, presenting a tangible representation of their deities' might. A planetar can call down rain to relieve a drought, or can loose an insect plague to devour crops. A planetar's celestial ears detect every falsehood, and its radiant eyes see through every deception.",
+											"Planetars are muscular and hairless and have opalescent green skin and white-feathered wings. They tower over most humanoids, brandishing immense swords with grace. Sometimes sent to aid powerful mortals on important tasks for good, planetars are especially fond of missions that involve battling fiends."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Planetar.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Planetar.png?v=1.105.3",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/planetar.mp3?v=1.105.3"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Baklur (Beta)",
+			"shortName": "baklur",
+			"source": "Nuaria",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d10 + 20"
+			},
+			"speed": {
+				"walk": 100
+			},
+			"str": 18,
+			"dex": 27,
+			"con": 14,
+			"int": 7,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"dex": "+11"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+11"
+			},
+			"passive": 17,
+			"immune": [
+				"lightning"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The baklur ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The baklur has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "High Speed",
+					"entries": [
+						"The baklur doesn't provoke opportunity attacks when it moves out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Quick reflexes",
+					"entries": [
+						"The baklur has advantage on Dexterity saving throws."
+					]
+				},
+				{
+					"name": "Lightning Absorption",
+					"entries": [
+						"Whenever the baklur is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt and recharges its supersonic charge."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The baklur makes three attacks; one with its shocking bite and two with its claws. "
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Shocking Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage, plus 4 ({@damage 1d8}) lightning damage. It has advantage on the attack roll it the target is wearing armor made of metal. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Supersonic charge {@recharge}",
+					"entries": [
+						"The baklur moves up to its speed straight towards a creature it can see and makes a shocking bite attack. Additionally, any creature within 15 feet of it at the start of its movement or within 5 feet of it while it is moving as a part of this attack must make a {@dc 16} Constitution saving throw or take 27 ({@damage 6d8}) thunder damage and be {@condition deafened} until the end of the baklur's next turn."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"hill",
+				"mountain",
+				"underwater"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Some crystals glow in the presence of monsters, forming a convenient warning system. Some monsters have learnt to outrun the light"
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "http://www.artofmtg.com/wp-content/uploads/2020/04/Heightened-Reflexes-Ikoria-MtG-Art.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/n53aFqT.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/winter-wolf.mp3?v=1.105.3"
+			},
+			"traitTags": [
+				"Damage Absorption",
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"S",
+				"T"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"deafened",
+				"prone"
+			]
+		},
+		{
+			"name": "Wingfold Pteron (Beta)",
+			"shortName": "pteron",
+			"group": "Dinosaurs",
+			"source": "Nuaria",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d10 + 22",
+				"average": 82
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 20,
+			"dex": 15,
+			"con": 15,
+			"int": 2,
+			"wis": 16,
+			"cha": 5,
+			"save": {
+				"con": "+5",
+				"str": "+8"
+			},
+			"skill": {
+				"perception": "+6"
+			},
+			"passive": 16,
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The pteron doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Belly armor",
+					"entries": [
+						"The pteron is immune to bludgeoning, piercing and slashing damage from attacks made by creatures that are on a lower altitude than the pteron."
+					]
+				},
+				{
+					"name": "Weak spot",
+					"entries": [
+						"When the pteron uses its terrorizing dive or flies down, any creatures that can see it can spend their reaction to take the search action and do a {@dc 13} Wisdom (Perception) check and realize that it has a soft protuberance on its forehead that is vulnerable to bludgeoning, piercing and slashing damage.",
+						"Creatures that have spotted this weak spot can spend their reaction when the pteron uses its terrorizing dive to make a ranged attack targetting the skull with a -5 penalty."
+					]
+				},
+				{
+					"name": "Release",
+					"entries": [
+						"The pteron can use its bonus action to release any creature it has {@condition grappled}. The creature then falls to the ground from the height it was released."
+					]
+				},
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The pteron has advantage on Wisdom (perception) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The pteron makes two attacks; one with its bite and one with its talons."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage, the target is {@condition grappled} (escape {@dc 16}) and can be lifted by the pteron if it weighs 300 pounds or less."
+					]
+				},
+				{
+					"name": "Terrorizing dive",
+					"entries": [
+						"If the pteron is at least 150 feet above the ground, it drops down towards a point it can see. Creatures within 20 feet of that point must succeed on a Dexterity saving throw or take 27 ({@damage 6d8}) bludgeoning damage and be knocked {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"grassland",
+				"mountain"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"These flying reptiles have wingspans of 15 to 20 feet and typically dive for small marine prey, though they are opportunists and will attack any creature that appears edible. A pteranodon has no teeth, instead using its sharp beak to stab prey too large to swallow with one gulp.",
+									{
+										"type": "entries",
+										"name": "Dinosaurs",
+										"entries": [
+											"Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.",
+											"Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/62Ppk8r.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/PSFLtB6.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/pteranodon.mp3?v=1.105.3"
+			},
+			"traitTags": [
+				"Flyby",
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone"
+			]
+		},
+		{
+			"name": "Nuarian Orc Great Warrior",
+			"shortName": "orc",
+			"source": "Nuaria",
+			"page": 220,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 229,
+				"formula": "27d8 + 108"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 28,
+			"dex": 16,
+			"con": 18,
+			"int": 12,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"str": "+14",
+				"dex": "+8",
+				"con": "+9"
+			},
+			"skill": {
+				"athletics": "+14",
+				"intimidation": "+9",
+				"perception": "+6",
+				"persuasion": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Orc"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Indomitable (3/Day)",
+					"entries": [
+						"The orc can reroll a saving throw it fails. It must use the new roll."
+					]
+				},
+				{
+					"name": "Survivor",
+					"entries": [
+						"The orc regains 10 hit points at the start of its turn if it has at least 1 hit point but fewer hit points than half its hit point maximum."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Rampage",
+					"entries": [
+						"When the orc reduces a creature to 0 hit points with a melee attack on its turn, the orc can take a bonus action to move up to half its speed and make another attack."
+					]
+				},
+				{
+					"name": "Aversion to music.",
+					"entries": [
+						"If the orc hears music at the start of each of its turns, it ignores other hostile creatures near it and attacks the source of the music. Additionally, it must make a {@dc 15} Intelligence saving throw or take {@damage 1d12} psychic damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The orc makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d6 + 9}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}16 ({@damage 2d6 + 9}) damage in melee, or 16 ({@damage 2d6 + 9}) damage at range."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Dislocating blow {@recharge}",
+					"entries": [
+						"When the orc takes damage it makes a greatsword attack filled with rage aiming to dislocate the target's arm. On a hit, the target must succeed on a {@dc 21} Constitution saving throw or or have disadvantage on attacks and ability checks involving Strength, Dexterity and Constitution for 1 minute. If the target or any of its allies are proficient in medicine, they can use its action on each of its turns to make a {@dc 15} medicine check and end this condition early on a success."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Weapon Attack",
+					"entries": [
+						"The orc makes a weapon attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The orc moves up to half its speed."
+					]
+				},
+				{
+					"name": "Frighten Foe (Costs 2 Actions)",
+					"entries": [
+						"The orc targets one enemy it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a {@dc 16} Wisdom saving throw or be {@condition frightened} until the end of warlord's next turn."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"hill",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Warlords are legendary battlefield commanders whose names are spoken with awe. After a string of decisive victories, a warlord could easily take on the role of monarch or general and attract followers willing to die for his or her banner."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/94yppYi.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/NxBAITP.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/warlord.mp3?v=1.105.3"
+			},
+			"traitTags": [
+				"Aggressive",
+				"Rampage"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"O"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Bullseye Celtadon (WIP)",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 10,
+			"cr": "0",
+			"fluff": {
+				"entries": [
+					"The Celtadon's shrill calls are as distinct as its patterning. Its disruptive camouflage is an instrumental component to their survival. ",
+					"Generally hunting in packs, the Celtadon is capable of taking down prey and predators much larger then them via guerrilla warfare. ",
+					"Even blind, this species of lesser dragon can communicate almost synonymously through the use of echolocation. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/FHrJhqJ.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/OU03g9d.png",
+			"senseTags": [
+				"B"
+			]
+		},
+		{
+			"name": "Tashtari(WIP)",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "1d8 + 1",
+				"average": 5
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 15,
+			"dex": 18,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"fire"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The tashtari has advantage on an attack roll against a creature if at least one of the tashtari's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Muzzle Beam",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 80/160 ft., one target. {@h}8 ({@damage 1d8 + 4}) fire damage. If it rolls a 20 on the attack roll, the target is set on fire and takes {@damage 1d4} fire damage for 1 minute. A creature can end this damage by using its action to make a {@dc 10} Dexterity check to extinguish the flames."
+					]
+				},
+				{
+					"name": "Bristle Flash (1/Day)",
+					"entries": [
+						"The tashtari can cause its filaments to glow with intense light. ",
+						"Each creature within 60 feet must succeed a {@dc 12} Constitution saving throw or be {@condition blinded} until the start of the tashtari's next turn. This ability has no effect on sightless creatures. Tashtaris and tashtari alphas are immune to the effects of this ability."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest"
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"blinded"
+			]
+		},
+		{
+			"name": "Wave assault beast (Small) (WIP)",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0",
+			"fluff": {
+				"entries": [
+					"The little guys are first, swarming by the thousands and taking out the lower, while the big guys complete the second wave over the top. Their simplicity lies only in their purpose for war."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://www.deviantart.com/davesrightmind/art/Wave-Assault-Beasts-775545941"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Face Stealer",
+			"source": "Nuaria",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"Innate {@spell mage armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "26d8 + 78",
+				"average": 195
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 15,
+			"con": 17,
+			"int": 19,
+			"wis": 17,
+			"cha": 24,
+			"skill": {
+				"perception": "+8",
+				"arcana": "+14",
+				"religion": "+9"
+			},
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons"
+				}
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Dwarvish"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell charm person}",
+						"{@spell daasis's roll of madness|Nuaria}",
+						"{@spell detect thoughts}",
+						"{@spell madness spike|Nuaria}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Vitality Syphon",
+					"entries": [
+						"The face stealer can activate or deactivate this feature as a bonus action. While active, the aura deals {@damage 1d10} necrotic damage to any creature that ends its turn within 30 feet of the face stealer and creatures cannot regain hit points while inside the aura. The face stealer regains hit points equal to the amount of damage dealt. Undead and constructs ignore this effect."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The face stealer has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Daasis Roll of Madness",
+					"entries": [
+						"The face stealer chooses a creature it can see within 60 feet. The creature gets imbued with psychic energy attacking it through the nervous system. The creature must succed on a Wisdom saving throw or take {@damage 3d8} psychic damage. On any roll of 8, the target is also {@condition stunned} until the end of its next turn. This cantrip does not affect constructs or undead."
+					]
+				},
+				{
+					"name": "Face spawn (Recharges after a Long Rest)",
+					"entries": [
+						"The face stealer throws five faces into the air which quickly materialize into copies from their previous owners. On five unoccupied spaces that the face stealer can see within 60 feet of him appear a bone knight, an enchanter, a gladiator, a master thief and a warcaster."
+					]
+				},
+				{
+					"name": "Face steal {@recharge}",
+					"entries": [
+						"The face stealer teleports to a point it can see within 30 feet and makes a touch of pain attack. On a hit, the face stealer steals the target's face and the target is {@condition blinded}, {@condition deafened} and starts suffocating. A creature without a face makes a Charisma saving throw at the start of each of its turns to get back its face."
+					]
+				},
+				{
+					"name": "Sight Steal",
+					"entries": [
+						"Each creature on a 20-foot cone must succeed on a {@dc 20} Charisma saving throw or take 14 ({@damage 4d6}) necrotic damage and is {@condition blinded}. An affected creature can repeat the saving throw at the start of each of its turns to end this effect. ",
+						"The collector can use a bonus action to see from the eyes of a creature it has stolen the sight from."
+					]
+				},
+				{
+					"name": "Touch of Pain",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}23 ({@damage 3d10 + 7}) necrotic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Remove Identity",
+					"entries": [
+						"On a hit from a creature within 30 feet of it, the face stealer can spend his reaction to make a spell ranged or melee attack. On a hit the target takes 25 ({@damage 10d4}) psychic damage and must succeed on a {@dc 20} Charisma saving throw or lose 2 points from its highest ability score. If two or more abilities have the same score, the affected ability is chosen at random.",
+						"An affected creature regains all lost points if the collector dies."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The face stealer uses his daasis roll of madness or touch of pain."
+					]
+				},
+				{
+					"name": "Face steal (Costs 3 Actions)",
+					"entries": [
+						"The face stealer uses his face steal, if available."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The face stealer moves up to its speed."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/6CZ9CVN.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/ghrgJDX.png",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E"
+			],
+			"damageTags": [
+				"N",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"deafened",
+				"stunned"
+			]
+		}
+	]
+}
