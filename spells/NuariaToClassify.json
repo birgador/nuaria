@@ -1,0 +1,559 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "NuariaToClassify",
+				"abbreviation": "NTC",
+				"full": "NuariaToClassify",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1593522818,
+		"dateLastModified": 1593522818
+	},
+	"spell": [
+		{
+			"name": "Lightning Arc",
+			"source": "NuariaToClassify",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose two points that are at most 15 feet apart from each other within range. Each creature in a 5-foot wide line that connects them must make a Dexterity saving throw as an arc of electricity jumps between them. A creature takes {@damage 1d10} lightning damage on a failed save and has disadvantage on its next attack roll, or half as much damage and doesn't have disadvantage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 1d10|1-9|1d10} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"L"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Tempest",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Electric Field (WIP)",
+			"source": "NuariaToClassify",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of amber"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You charge natural terrain in a 30-foot cube in range with electric particles and sparks of electricity can be seen jumping all around. ",
+				"Creatures put to sleep or that are sleeping inside the cube automatically wake up.",
+				"Each creature inside the cube gets a bonus to its speed of 10 feet and any effect that causes lightning damage is rolled with an additional damage die of the same type."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of Xth level or higher, the speed bonus increases by 5 feet and the addional damage die by 1 for each slot level above Yth."
+					]
+				}
+			],
+			"opposedCheck": [
+				"intelligence"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Desert"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Mark of Shadow)",
+					"source": "ERLW",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Fast Strike",
+			"source": "NuariaToClassify",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You empower your fist with electricity to strike an enemy with a quick blow. Make a melee spell attack. On a hit, the target takes {@damage 4d8} lightning damage.",
+				"If your Dexterity score is higher than your target's, you make the attack with advantage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 4d8|2-9|1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Electric Charge (WIP)",
+			"source": "NuariaToClassify",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You empower your muscles with electricity as sparks come out from your body and charge towards an enemy. ",
+				"You get 10 feet of additional movement. If you move before attacking an enemy, you deal an additional {@damage 1d10} lightning damage for every 20 feet you move on a straight line on your next attack. ",
+				"Your next attack You move X feet and make a melee spell attack. On a hit deal XdX lightning damage but you take half the damage dealt."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcana Block(WIP)",
+			"source": "NuariaToClassify",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You block arcane knowledge on the mind of a creature you see. Choose a creature you can see which makes a Charisma saving throw. On a failed save, it is unable to cast any spells that you know or you have prepared.",
+				"With similar mechanics, such as the {@dice 1d20} roll for spells higher than the slot level of this spell (which should be 1st to be at least interesting), but capped to the spells you know",
+				"At the end of each of its turns repeats this saving throw, ending the effect on a success.",
+				"Ideas: perhaps capping the number of spells you can block, capping the level or whichever you block is also blocked for you",
+				"My problem with this is that it's kinda polarizing, it's only good if A) You're facing a spellcaster B) That spellcaster shares spells with you C) It would've used those spells and D) It doesn't have backups that are just as good"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Armor Swap (WIP)",
+			"source": "NuariaToClassify",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when an attack hits you"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to magically swap the armor you are wearing (if any) with that of a hostile humanoid.",
+				"The creature must be of the same size as you.",
+				"When a creature hits you with a weapon attack, it must succeed on a Charisma saving throw or you swap your armor with theirs until the start of your next turn. ",
+				"When you swap armors this way, you also gain proficiency in the armor if the creature was proficient in it. Similarly, the creature is proficient with your armor if you are proficient in it.",
+				"When the spell ends you and the affected creature lose any armor proficiency you got.",
+				"A creature that has already had its armor swapped or succeeded the saving throw can't be targetted by this spell again for 24 hours."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Magic Stopping Room (WIP)",
+			"source": "NuariaToClassify",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cube",
+				"distance": {
+					"type": "feet",
+					"amount": 50
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a 50-foot cube on a point you can see. Any magic item carried or worn inside the cube loses its magic properties and becomes a mundane item."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Flow Alteration (WIP)",
+			"source": "NuariaToClassify",
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an hourglass"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You alter the flow of your current fight. For all the creatures involved in the same encounter as you, when the next combat round starts, initiative count is inverted, with the creature with the lowest initiative starting first and the one with the highest going last.",
+				"Once the round of combat ends, initiative count is reverted back to the original count."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Magical Stomp",
+			"source": "NuariaToClassify",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You stomp on the ground. A magical copy of size Large of your foot appears over a point you can see within range. Creatures inside a 10-foot cube make a Strength saving throw, taking bludgeoning damage equal to {@damage 3d8} + your Strength modifier and are knocked {@condition prone} on a failed save and taking half as much and aren't buried on a successful one.",
+				"A buried creature can climb its way back to the surface."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Light",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Electric Charge (Cantrip)",
+			"source": "NuariaToClassify",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You charge your weapon with electricity as you charge towards your enemy. ",
+				"As part of the action used to cast your spell, you must move towards a target and make a melee attack. On a hit, you deal an additional {@damage 1d10} lightning damage for every 20 feet you move on a straight line on your next attack. ",
+				"This spell's damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}

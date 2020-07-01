@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Nuaria",
-				"abbreviation": "Nuaria",
-				"full": "Nuaria",
+				"json": "Templates",
+				"abbreviation": "Templates",
+				"full": "Templates",
 				"authors": [
 					"birgador"
 				],
@@ -20,154 +20,56 @@
 	},
 	"subclass": [
 		{
-			"class": "Cleric",
 			"name": "Template Domain",
 			"shortName": "Template",
-			"source": "Nuaria",
+			"source": "Templates",
+			"className": "Cleric",
+			"classSource": "PHB",
 			"page": 15,
 			"subclassSpells": [
-				"burning hands",
-				"cure wounds",
-				"flaming sphere",
-				"lesser restoration",
-				"beacon of hope",
-				"fireball",
-				"death ward",
-				"wall of fire",
-				"flame strike",
-				"mass cure wounds"
+				"guiding bolt",
+				"command",
+				"see invisibility",
+				{
+					"name": "mind spike",
+					"source": "XGE"
+				},
+				"tongues",
+				"clairvoyance",
+				"divination",
+				"arcane eye",
+				"contact other plane",
+				"rary's telepathic bond"
 			],
 			"subclassFeatures": [
-				[
-					{
-						"name": "Template Domain",
-						"entries": [
-							"Placeholder.",
-							"At each indicated cleric level, you add the listed spells to your spells prepared.",
-							{
-								"type": "table",
-								"caption": "Template Domain Spells",
-								"colLabels": [
-									"Cleric Level",
-									"Spells"
-								],
-								"colStyles": [
-									"col-3 text-center",
-									"col-9"
-								],
-								"rows": [
-									[
-										"1st",
-										"{@spell burning hands}, {@spell cure wounds}"
-									],
-									[
-										"3rd",
-										"{@spell flaming sphere}, {@spell lesser restoration}"
-									],
-									[
-										"5th",
-										"{@spell beacon of hope}, {@spell fireball}"
-									],
-									[
-										"7th",
-										"{@spell death ward}, {@spell wall of fire}"
-									],
-									[
-										"9th",
-										"{@spell flame strike}, {@spell mass cure wounds}"
-									]
-								]
-							},
-							{
-								"name": "Template feature 1st level",
-								"entries": [
-									"Placeholder 1st level."
-								]
-							},
-							{
-								"name": "Template feature",
-								"entries": [
-									"Also at 1st level, Placeholder."
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Channel Divinity: Template",
-								"entries": [
-									"At 2nd level, Placeholder"
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Template feature 6th level",
-								"entries": [
-									"Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level."
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Template feature 8th level",
-								"entries": [
-									"At 8th level, Placeholder."
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Template feature 17th level",
-								"entries": [
-									"Starting at 17th level, Placeholder"
-								]
-							}
-						]
-					}
-				]
+				"Template Domain|Cleric||Template|Templates|1",
+				"Channel Divinity: Template Power|Cleric||Template|Templates|2",
+				"Template Feature 1|Cleric||Template|Templates|6",
+				"Template Feature 2|Cleric||Template|Templates|8",
+				"Template Feature 3|Cleric||Template|Templates|17"
 			],
 			"spells": [
 				{
 					"prepared": {
 						"1": [
-							"burning hands",
-							"cure wounds"
+							"guiding bolt",
+							"command"
 						],
 						"3": [
-							"flaming sphere",
-							"lesser restoration"
+							"see invisibility",
+							"mind spike|xge"
 						],
 						"5": [
-							"beacon of hope",
-							"fireball"
+							"tongues",
+							"clairvoyance"
 						],
 						"7": [
-							"death ward",
-							"wall of fire"
+							"divination",
+							"arcane eye"
 						],
 						"9": [
-							"flame strike",
-							"mass cure wounds"
+							"Rary's telepathic bond",
+							"contact other plane"
 						]
 					}
 				}
@@ -176,27 +78,195 @@
 				{
 					"prepared": {
 						"1": [
-							"burning hands",
-							"cure wounds"
+							"guiding bolt",
+							"command"
 						],
 						"3": [
-							"flaming sphere",
-							"lesser restoration"
+							"see invisibility",
+							"mind spike|xge"
 						],
 						"5": [
-							"beacon of hope",
-							"fireball"
+							"tongues",
+							"clairvoyance"
 						],
 						"7": [
-							"death ward",
-							"wall of fire"
+							"divination",
+							"arcane eye"
 						],
 						"9": [
-							"flame strike",
-							"mass cure wounds"
+							"Rary's telepathic bond",
+							"contact other plane"
 						]
 					}
 				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Template Domain",
+			"source": "Templates",
+			"page": 15,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Template",
+			"subclassSource": "Templates",
+			"level": 1,
+			"entries": [
+				"Once the dragons of the Chamber employed agents that drew power from the Draconic Prophecy as a divine force itself. They acted throughout the Last War to prevent the Lords of Dust from freeing the Overlords. Their subtle works went unsung and as the Last War came to a close the need for the clerics of the Draconic Prophecy faded, and so did the agents. Now as the new millennium approaches Khorvaire has become a powder keg that could explode into war again. The need for such clerics is suddenly renewed. Now the Lords of Dust have also raised their own clerics of the Prophecy. Some clerics of the Draconic Prophecy consider themselves servants of fate, while others think of themselves as the directors of fate.",
+				"At each indicated cleric level, you add the listed spells to your spells prepared.",
+				{
+					"type": "table",
+					"caption": "Template Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell guiding bolt}, {@spell command}"
+						],
+						[
+							"3rd",
+							"{@spell see invisibility}, {@spell mind spike|XGE}"
+						],
+						[
+							"5th",
+							"{@spell tongues}, {@spell clairvoyance}"
+						],
+						[
+							"7th",
+							"{@spell divination}, {@spell arcane eye}"
+						],
+						[
+							"9th",
+							"{@spell rary's telepathic bond}, {@spell contact other plane}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Omens of Danger|Cleric||Template|Templates|1"
+				}
+			]
+		},
+		{
+			"name": "Omens of Danger",
+			"entries": [
+				"At 1st level, through your daily life you take note of omens that foretell of danger to you, allowing you to brace yourself. When making a Dexterity saving throw or when you are the target of an attack roll you can use your reaction to take the Dodge action. You can this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+			],
+			"source": "Templates",
+			"page": 15,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Template",
+			"subclassSource": "Templates",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Channel Divinity: Template Power",
+			"source": "Templates",
+			"page": 15,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Template",
+			"subclassSource": "Templates",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"At 2nd level, with a small ripple you set into motion a series of events that moves towards a favorable future. When you roll damage for a cleric spell roll another die for each die that landed on its maximum value. If any of the new dice land on their maximum value you can roll another dice for each of those, continuing the cycle until no more dice land on their maximum value."
+			]
+		},
+		{
+			"name": "Template Feature 1",
+			"source": "Templates",
+			"page": 15,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Template",
+			"subclassSource": "Templates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can subtly guide the future down certain paths of the Prophecy. On your turn you can grant yourself or an ally within 60 feet of you the ability to apply advantage to an attack roll, ability check, or saving throw within 1 minute, after the player has seen the roll, but before the DM has announced the result. To use this feature roll 1d6 on the Table: Foreseen Fortune. The result describes requirement you must meet using your item interaction before you can grant advantage. Once you use this feature you can not use it again until you finish a short rest. If you can not fulfill the requirement the use is not wasted.",
+				{
+					"type": "table",
+					"caption": "Foreseen Fortune",
+					"colLabels": [
+						"d6",
+						"Requirement"
+					],
+					"colStyles": [
+						"col-2 text-align-center",
+						"col-12"
+					],
+					"rows": [
+						[
+							"1",
+							"Knock over a standing object."
+						],
+						[
+							"2",
+							"Take out (if not on hand) and blow a feather."
+						],
+						[
+							"3",
+							"Break a small object, like a stick or maybe a clay vase."
+						],
+						[
+							"4",
+							"Take out a liquid container (if not on hand) and pour a drop of liquid on the floor."
+						],
+						[
+							"5",
+							"Take out (if not on hand) and drop a ball bearing, allowing it to roll."
+						],
+						[
+							"6",
+							"Kick a piece of debris, such as a small stone."
+						]
+					]
+				},
+				{
+					"type": "inset",
+					"entries": [
+						"NOTE to Dungeon Masters: The requirements for Foreseen Fortune are meant to be evocative and spark your imagination as to how fulfilling the requirement results in advantage. Perhaps some unusual domino effect results in the advantage being granted, or maybe fulfilling the requirement invisibly alters the threads of fate. One thing the requirements should not be, is difficult to accomplish. If you find the requirements are too often unfulfillable in your campaign then you can construct your own table of item interactions."
+					]
+				}
+			]
+		},
+		{
+			"name": "Template Feature 2",
+			"source": "Templates",
+			"page": 15,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Template",
+			"subclassSource": "Templates",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Template Feature 3",
+			"source": "Templates",
+			"page": 15,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Template",
+			"subclassSource": "Templates",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can add 4 {@filter divination spells|spells|school=D} from any spell list to your domain spells. Like your other domain spells they are always prepared for you."
 			]
 		}
 	]

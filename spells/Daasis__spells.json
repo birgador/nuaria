@@ -1,0 +1,391 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Daasisspells",
+				"abbreviation": "DS",
+				"full": "Daasis' spells",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1593522655,
+		"dateLastModified": 1593522655
+	},
+	"spell": [
+		{
+			"name": "Daasis's roll of madness",
+			"source": "Daasisspells",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You unleash a torrent of conflicting thoughts and ideas in the mind of one creature you can see within range, damaging its pysche and altering its behaviour. The target must succeed on a Wisdom saving throw or be infused by dissonant thoughts. Roll a {@dice 1d6}. It gains one of the following negative effects. ",
+				{
+					"type": "list",
+					"items": [
+						"(1)The target takes the Attack action and targets the nearest creature it can see within range of the attack at random. It moves towards the target if it's a melee attack and can reach the target.",
+						"(2)The target screams loudly and raises its arms (if they have any). It has disadvantage on attack rolls and Dexterity saving throws.",
+						"(3)The target drops to the ground and acts normally on its turn but must remain {@condition prone}",
+						"(4)The target is {@condition frightened}.",
+						"(5)The target starts laughing uncontrollably and loses the ability to speak normally.",
+						"(6)The dissonant thoughts are extremely intense. The target takes another {@damage 1d12} of psychic damage and is {@condition incapacitated}."
+					]
+				},
+				"At the end of each of its turns, it takes {@damage 1d12} psychic damage, and it can then make another Wisdom saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Coin Toss",
+			"source": "Daasisspells",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "A coin"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Whenever you see a creature within range attempting an attack or a saving throw, you can let fate decide. Toss a coin (or roll a {@dice 1d2}). On heads (or a 1) it adds +2 to the roll and on tails (or a 2) it adds -2.",
+				"A creature is not a valid target of this spell if it's already being targettend by this spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Randomness Domain",
+							"source": "Nuaria"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Madness Spike",
+			"source": "Daasisspells",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose a creature within range. The creature gets imbued with psychic energy attacking it through the nervous system. The creature must succed a Wisdom saving throw or take {@damage 1d8} psychic damage. Roll an additional {@dice 1d8}. On a roll of 8, the target is also {@condition incapacitated} until the end of its next turn. This cantrip does not affect constructs or undead.",
+				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"opposedCheck": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "Nuaria"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Broken Mind",
+							"source": "Nuaria"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mental Breakdown (WIP)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Asylum (WIP PSYC TERR)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Cube, psychic damage increase. Sav throws for {@condition frightened}. Sav throw per turn and failed, spends reaction. Creatures with Int lower than X immune.",
+				"Per fer spell",
+				"- Disable(nom)",
+				"- Encore",
+				"- Explosion",
+				"- Facade",
+				"- Focus energy",
+				"- Glare",
+				"- Judgement(nom)",
+				"- Lucky chant",
+				"- Weather healing(morning sun)",
+				"-Nature power (damage funció environment)",
+				"- Pain Split",
+				"- Perish Song (nom, bard)",
+				"-Relic song(nom)",
+				"-Sonic boom (nom)",
+				"-Substitute",
+				"-Weather ball",
+				"-Wish",
+				"-Yawn",
+				"WATER",
+				"- Aqua jet",
+				"Aqua ring, Geyser, Muddy water, Steam Eruption, Water Sport",
+				"Ghost, Destiny bond, Shadow ball, shadow claw, shadow force, shadow sneak, Curse",
+				"Dragon",
+				"Draco meteor (Cant move after), Roar of time, Spacial Rend",
+				"Fighting",
+				"No retreat, Focus blast",
+				"Poison",
+				"Acid armor, Baneful Bunker(reaction), toxic spikes, venoshock, toxic thread, sludge bomb, sludge wave",
+				"Ground",
+				"Lands wrath, Sand tomb, spikes",
+				"Flying",
+				"Aeroblast,Air slash,chatter(bard cantrip),"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Paranoia",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Wis sav throw or hears/sees a la paranoia del valorant"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Encore(WIP)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"User repeats action,against same targets(even corpses), on same point, etc. it last did. End of each turn, makes Wisdom saving throw",
+				"If it can't wastes action doing nothing"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}

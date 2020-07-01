@@ -1,0 +1,1187 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "NuariaBelanorsBestiary",
+				"abbreviation": "BB",
+				"full": "Belanor",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1593522692,
+		"dateLastModified": 1593522692
+	},
+	"spell": [
+		{
+			"name": "Frostball",
+			"source": "NuariaBelanorsBestiary",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a tiny ball of snow and sulfur"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A fast blue light flashes from your pointing finger to a point you choose within range and a chunk of ice grows on it. It then explodes into tiny ice shards in all directions. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@damage 5d8} cold damage and is knocked {@condition prone} by the ice on a failed save, or half as much damage and isn't knocked {@condition prone} on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 5d8|3-9|1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Light",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fiend",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Zeal (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Destruction (Twitter)",
+							"source": "Twitter"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer (Revisited)",
+							"source": "UAArtificerRevisited"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "UAArtificerRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Wildfire (UA)",
+							"source": "UAClericDruidWizard"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "ERLW"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "ERLW"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie (UA)",
+							"source": "UA2020SubclassesRevisited",
+							"subSubclass": "Efreeti"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Snow)",
+					"source": "Nuaria",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Freezing Winds",
+			"source": "NuariaBelanorsBestiary",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an ice shard from a frozen water elemental"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Freezing and violent winds rise at your command and travel along a 40 feet long and 10 feet wide line from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 6d6} cold damage on a failed save, or half as much damage on a successful one.",
+				"The path covered by the winds is covered by magical snow and becomes dificult terrain for 1 minute. ",
+				"If there is non-magical snow on the ground along the line, the spell deals an additional {@dice 4d6} of cold damage.",
+				"The winds lift tiny objects that are loose on its path."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 8d6|3-9|1d6} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"L"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Mountain"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ice Shards",
+			"source": "NuariaBelanorsBestiary",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Five frozen shards appear and float around you and you can throw them at targets within range. You can use your bonus action to throw them one at a time or your action to throw all your remaining shards at once.",
+				"Make a ranged spell attack for each shard. On a hit, the target takes {@damage 2d6} cold damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you create one additional shard for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Light",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fiend",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer (Revisited)",
+							"source": "UAArtificerRevisited"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "UAArtificerRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Wildfire (UA)",
+							"source": "UAClericDruidWizard"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "ERLW"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "ERLW"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie (UA)",
+							"source": "UA2020SubclassesRevisited",
+							"subSubclass": "Efreeti"
+						}
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Boros Legionnaire",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Blizzard",
+			"source": "NuariaBelanorsBestiary",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a cool material component"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Strong sustained magical winds blow in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, ice and snow circulate violently inside the cylinder.",
+				"When a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed by the blizzard, and it must make a Constitution saving throw. It takes {@damage 2d10} cold damage on a failed save, or half as much damage on a successful one.",
+				"Creatures of size Medium or smaller make their saving throw with disadvantage. If they fail, their speed is also halved until the start of their next turn. Additionally, creatures inside the blizzard have disadvantage on Wisdom ({@skill Perception}) checks that rely on sight.",
+				"On each of your turns after you cast this spell, you can use an action to move the blizzard up to 15 feet in any direction."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 2d10|3-9|1d10} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Watchers (UA)",
+							"source": "UA2020SubclassesPt1"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Cool Moves",
+			"source": "NuariaBelanorsBestiary",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, you can add your Dexterity modifier to Charisma ({@skill performance}) checks."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Frost Barrier",
+			"source": "NuariaBelanorsBestiary",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you or an ally are the target of a ranged attack you can witness."
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You raise a wall of magical snow on an unoccupied space within range to protect you or an ally from an incoming missile. ",
+				"The wall is at most 15 feet long and 15 feet tall but always 5 feet thick and has 10 AC and 10 hit points. It is vulnerable to fire damage and lasts for 1 minute before melting or until destroyed.",
+				"The wall acts as a full cover for all creatures of size Large or smaller that are behind it. If any of the creatures behind the wall was a target of an incoming ranged attack, the attack targets the wall instead.",
+				"If the missile deals damage that exceeds the wall's maximum hit points, the original target takes the remaining damage if the attack roll would hit it."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 2nd or higher, the wall's maximum hit points increases by either 5 hit points or 5 feet (your choice) for each slot level above 1st."
+					]
+				}
+			],
+			"areaTags": [
+				"W"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ice Shackles",
+			"source": "NuariaBelanorsBestiary",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of iron and a piece of ice"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Magical shackles of freezing-cold ice appear on the limbs of a creature you can see within range. It makes  then a Strength saving throw, taking {@damage 4d6} cold damage and is {@condition restrained} on a failed save. At the start of each of its turns, the creature repeats the saving throw. It takes {@damage 2d6} on a failed save and the spell ends on a succesful one.",
+				"Oozes and other creatures that don't have limbs can't be targeted by this spell."
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Watchers (UA)",
+							"source": "UA2020SubclassesPt1"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Snowshoes",
+			"source": "NuariaBelanorsBestiary",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 4
+					}
+				}
+			],
+			"entries": [
+				"Choose a number of creatures equal to 1 + your spellcasting modifier (minimum of 1) that walk with two legs within range. Their footwear or their feet get the ability to walk over snow or ice without problem. These creatures ignore dificult terrain from ice or snow."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ice Blade",
+			"source": "NuariaBelanorsBestiary",
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You freeze moisture from the air to create a sword of solidified magical ice in your hand. This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals {@damage 2d8} cold damage on a hit and has the finesse, light, and thrown properties (range 20/60). In addition, when you use the sword to attack a target that on an arctic environment, you make the attack roll with advantage.",
+				"If you drop the weapon or throw it, it melts at the end of the turn. Thereafter, while the spell persists, you can use a bonus action to cause another sword to reappear in your hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to {@dice 3d8}. When you cast it using a 5th- or 6th-level spell slot, the damage increases to {@dice 4d8}. When you cast it using a spell slot of 7th level or higher, the damage increases to {@dice 5d8}."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cael's Absolute Zero",
+			"source": "NuariaBelanorsBestiary",
+			"level": 9,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You sap even the slightest trace of heat from a 30-foot radius sphere centered on a point you choose within range.",
+				"All fire in the area is extinguished, and each creature in the area takes {@damage 10d8} cold damage. A creature that takes this damage must make a Constitution saving throw. On a failed save, it is completely frozen in place, becoming {@condition paralyzed} for the duration.",
+				"When an affected creature takes fire damage, it can make a Constitution saving throw. On a successful save, the spell ends on the creature.",
+				"A creature killed by this spell becomes a permanent statue of ice."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Fridge",
+			"source": "NuariaBelanorsBestiary",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You magically alter the heat flow of creatures inside a 15-foot cube centered on a point you can see within range. ",
+				"All creatures within the cube make a Constitution saving throw, taking {@damage 1d6} cold damage on a failed save, and half as much on a successful one.",
+				"One side of the cube, selected by you when you cast this spell, deals  {@damage 1d6} fire damage plus an additional {@dice 1d6}  per each creature Small or larger inside the cube that failed its saving throw, to each creature that fails a Constitution saving throw and ends its turn within 10 feet of that side. ",
+				"You can repeat this effect as an action on each or your turns until the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 2d6|3-9|1d6} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold",
+				"fire"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cold Heart",
+			"source": "NuariaBelanorsBestiary",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a creature. For the duration of the spell it can't feel any emotions, is immune to being {@condition charmed} and {@condition frightened}, and has disadvantage on Charisma checks. ",
+				"Unwilling creatures can make a charisma saving throw to resist the spells effect, both when it is cast, and at the end of each of their turns."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sense Heat",
+			"source": "NuariaBelanorsBestiary",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, you can sense the presence and location of significant heat sources within 60 feet, such as fire or warm-blooded creatures. Similarly, you know if there is a place or object within 30 feet of you that has been in contact with a significant heat source within the last 10 minutes.",
+				"Paladin, Ranger, Wizard"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Boreal Beam",
+			"source": "NuariaBelanorsBestiary",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A beam of light of varying colour blasts out from your finger in a direction you choose. Creatures in a 100 feet long and 5 feet wide line must succeed on a Constitution saving throw or take {@damage 4d10} radiant damage and are {@condition blinded} for 1 minute. On a succesful save a creature takes half as much damage and isn't {@condition blinded}.",
+				"At the end of each of their turns, affected creatures repeat the save and are no longer {@condition blinded} on a success.",
+				"If you cast this spell when an aurora is visible on the sky, this spell does an additional {dice {@damage 1d10} of damage."
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Iceberg (WIP)",
+			"source": "NuariaBelanorsBestiary",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"This spell requires a body of water at least 50 feet square and 25 feet deep. You create a Gargantuan formation of ice and put it in the path of a ship.",
+				"Any ship within 5 feet of it must make a Dexterity saving throw, taking {@damage 20d12} piercing damage on a failed save and no damage and is diverted 5 feet to one of the sides of the ice block on a succesful save.",
+				"reword the intro from the whirpool option of the control water spell",
+				"get away by giving some sample size"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Release Warmth",
+			"source": "NuariaBelanorsBestiary",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You slowly release the warmth from inside a creature you can see within range. The target must make a Constitution saving throw. It takes {@damage 1d8} cold damage on a failed save, has disadvantage on attack rolls, Constitution saving throws to mantain concentration and its speed is halved until the spell ends. ",
+				"At the end of each of its turns, the target repeats the saving throw. On a failed save, the damage it takes is increased by a {@dice 1d8} and the spell ends on a successful one. ",
+				"Creatures that are not warm such as undead or constructs are immune to this effect."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 2nd- or 3rd-level spell slot, the initial damage increases to {@dice 2d8}. When you cast it using a 4th- or 5th-level spell slot, the initial damage increases to {@dice 3d8}. When you cast it using a 6th- or 7th-level spell slot, the initial damage increases to {@dice 4d8}. When you cast it using a spell slot of 7th level or higher, the initial damage increases to {@dice 5d8}."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Coldbomb (Beta)",
+			"source": "NuariaBelanorsBestiary",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				},
+				{
+					"number": 1,
+					"unit": "round"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of ice and sulfur"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You violently concentrate cold air from the sorroundings to quickly unleash in an explosion. Choose a point you can see within range. Each creature on a 20-foot radius sphere makes a Dexterity saving throw, taking {@damage 6d8} cold damage on a failed save or half as much on a succesful one.",
+				"You may use your action to empower the spell and cast it on your next turn instead, which increases the damage of the spell to {@dice 8d8}."
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
