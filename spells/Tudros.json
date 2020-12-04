@@ -1,0 +1,141 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tudros",
+				"abbreviation": "TS",
+				"full": "Tudros",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1607059100,
+		"dateLastModified": 1607059100
+	},
+	"spell": [
+		{
+			"name": "Tudros Cantrip(WIP)",
+			"source": "Tudros",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Str saving throw"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Tudros' Electric Field",
+			"source": "Tudros",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of amber"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You charge natural terrain in a 30-foot cube in range with electric particles and sparks of electricity can be seen jumping all around. ",
+				"Creatures put to sleep or that are sleeping inside the cube automatically wake up.",
+				"Attacks and Dexterity saving throws that deal electric damage are made with advantage and disadvantage, respectfully, and deal an additional damage die.",
+				"While concentrating on this spell, you can choose a point inside the cube to quickly concentrate all the electric energy. Each creatur inside a 15-foot sphere centered on that point must make a Dexterity saving throw. On a failed save, they take {@damage 7d6} electric damage and half as much on a succesful one."
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Desert"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Mark of Shadow)",
+					"source": "ERLW",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				}
+			],
+			"opposedCheck": [
+				"intelligence"
+			]
+		}
+	]
+}

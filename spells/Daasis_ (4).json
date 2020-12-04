@@ -12,12 +12,12 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1605811548,
-		"dateLastModified": 1605811548
+		"dateAdded": 1607058747,
+		"dateLastModified": 1607058747
 	},
 	"spell": [
 		{
-			"name": "Daasis's roll of madness",
+			"name": "Daasis's Roll of Madness",
 			"source": "Daasisspells",
 			"level": 2,
 			"school": "E",
@@ -53,12 +53,12 @@
 				{
 					"type": "list",
 					"items": [
-						"(1)The target takes the Attack action and targets the nearest creature it can see within range of the attack at random. It moves towards the target if it's a melee attack and can reach the target.",
-						"(2)The target screams loudly and raises its arms (if they have any). It has disadvantage on attack rolls and Dexterity saving throws.",
-						"(3)The target drops to the ground and acts normally on its turn but must remain {@condition prone}",
-						"(4)The target is {@condition frightened}.",
-						"(5)The target starts laughing uncontrollably and loses the ability to speak normally.",
-						"(6)The dissonant thoughts are extremely intense. The target takes another {@damage 1d12} of psychic damage and is {@condition incapacitated}."
+						"The target takes the Attack action and targets the nearest creature it can see within range of the attack at random. It moves towards the target if it's a melee attack and can reach the target. If it cannot reach any target, it takes the Dash action instead and moves towards the nearest creature it can see.",
+						"The target screams loudly and raises its arms (if they have any) and drops everything it is holding. It has disadvantage on attack rolls and Dexterity saving throws.",
+						"The target drops to the ground and acts normally on its turn but must remain {@condition prone}",
+						"The target is {@condition frightened} by you.",
+						"The target starts laughing uncontrollably and loses the ability to speak normally.",
+						"The dissonant thoughts are extremely intense. The target takes {@damage 1d12} of psychic damage and is {@condition incapacitated}."
 					]
 				},
 				"At the end of each of its turns, it takes {@damage 1d12} psychic damage, and it can then make another Wisdom saving throw. On a success, the spell ends on the target."
@@ -328,7 +328,7 @@
 			}
 		},
 		{
-			"name": "Paranoia",
+			"name": "Paranoia (WIP)",
 			"source": "Daasisspells",
 			"level": 3,
 			"school": "E",
@@ -385,10 +385,10 @@
 			}
 		},
 		{
-			"name": "Encore(WIP)",
+			"name": "Encore",
 			"source": "Daasisspells",
-			"level": 1,
-			"school": "A",
+			"level": 4,
+			"school": "E",
 			"time": [
 				{
 					"number": 1,
@@ -398,17 +398,27 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "self"
+					"type": "feet",
+					"amount": 60
 				}
+			},
+			"components": {
+				"v": true,
+				"s": true
 			},
 			"duration": [
 				{
-					"type": "instant"
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
 				}
 			],
 			"entries": [
-				"User repeats action,against same targets(even corpses), on same point, etc. it last did. End of each turn, makes Wisdom saving throw",
-				"If it can't wastes action doing nothing"
+				"You set the thoughts of a creature you can see in a loop.",
+				"The target must make a Wisdom saving throw. On a failed save, the creature repeats the last Action it took within the last minute. The repeated Action is identical in every way to the original Action. Furthermore, the creature cannot use reactions or bonus actions while affected. If the creature cannot repeat the Action, the creature stands still doing nothing instead.",
+				"An affected creature can repeat the saving throw at the end of each of its turns."
 			],
 			"classes": {
 				"fromClassList": [
@@ -420,9 +430,9 @@
 			}
 		},
 		{
-			"name": "Confusing Grasp (WIP)",
+			"name": "Psychosomatic Attack (Beta)",
 			"source": "Daasisspells",
-			"level": 1,
+			"level": 3,
 			"school": "E",
 			"time": [
 				{
@@ -436,13 +446,39 @@
 					"type": "self"
 				}
 			},
+			"components": {
+				"v": true,
+				"s": true
+			},
 			"duration": [
 				{
-					"type": "instant"
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 5,
+						"upTo": true
+					}
 				}
 			],
 			"entries": [
-				"Make a Wisdom saving throw. On a failure, the target takes {@damage 2d4} psychic damage and must take the Attack action and attack the closest creature within his reach. If no creature is within reach, it targets itself instead."
+				"You unleash a powerful surge of psychic energy directly at the nervous system of an enemy.",
+				"Make a ranged spell attack roll against a creature. On a hit It takes {@damage 4d12} psychic damage and must succeed on an Intelligence saving throw as you try to manipulate its thoughts into believing it is hurt. On a failed save, the target takes {@damage 1d12} psychic damage at the start of each of its turns.",
+				"A creature can repeat the saving throw at the end of each of its turns.",
+				"Constructs and undeadcan't be targetted by this spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the  damage dealt by the attack increases by {@dice 1d12} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"spellAttack": [
+				"R"
 			],
 			"classes": {
 				"fromClassList": [
@@ -492,57 +528,6 @@
 			}
 		},
 		{
-			"name": "Pain Split (WIP)",
-			"source": "Daasisspells",
-			"level": 1,
-			"school": "N",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"Armor-like effect. Whenever an enemy hits with a melee attack, spen dice.",
-				"When hit by a melee attack, you can spend your reaction and roll {@dice 2d6}. You must cast this spell before seeing the damage roll. You then substract this roll to the damage roll and you deal this amount of damage to the attacking creature."
-			],
-			"entriesHigherLevel": [
-				{
-					"name": "At Higher Levels",
-					"entries": [
-						"When upcasting, {@dice 2d6}"
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "PHB"
-					}
-				]
-			}
-		},
-		{
 			"name": "Dream Weaver (WIP)",
 			"source": "Daasisspells",
 			"level": 1,
@@ -581,7 +566,7 @@
 			}
 		},
 		{
-			"name": "Mental reclusion (WIP)",
+			"name": "Mental Horror",
 			"source": "Daasisspells",
 			"level": 1,
 			"school": "A",
@@ -642,8 +627,8 @@
 			],
 			"entries": [
 				"You touch a living creature and unleash psychic energy from your hand that travels through the nervous system of the creature.",
-				"Make a melee spell attack. On a hit, the creature takes {@damage 1d6} and substracts {@dice 1d4} from its next attack roll.",
-				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"Make a melee spell attack. On a hit, the creature takes {@damage 1d8} and substracts {@dice 1d4} from its next attack roll.",
+				"This spell's damage increases by {@dice 1d8} when you reach certain levels: 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
 			],
 			"classes": {
 				"fromClassList": [
@@ -683,8 +668,322 @@
 					"source": "PHB",
 					"baseName": "Elf",
 					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
 				}
 			]
+		},
+		{
+			"name": "Brainstorm (WIP)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Nervous Bomb (WIP)",
+			"source": "Daasisspells",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A purple flash is shot from your pointing finger to a point you choose within range and then blossoms in an explosion of bright purple light that attacks the nervous system of nearby creatures. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A target takes {@damage 5d8} psychic damage on a failed save and has its Intelligence score reduced by 2, or half as much damage on a successful one and its Inteligence isn't reduced. Repeated uses of this spell against a creature already under the effects of this spell don't reduce the Intelligence score further.",
+				"Affected creatures have their Intelligence restored after 1 minute."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 8d6|3-9|1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Light",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fiend",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Zeal (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer (Revisited)",
+							"source": "UAArtificerRevisited"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "UAArtificerRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Wildfire (UA)",
+							"source": "UAClericDruidWizard"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie (UA)",
+							"source": "UA2020SubclassesRevisited",
+							"subSubclass": "Efreeti"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie (UA)",
+							"source": "UA2020SubclassesRevisited"
+						}
+					}
+				]
+			},
+			"eldritchInvocations": [
+				{
+					"name": "Kiss of Mephistopheles",
+					"source": "UAWarlockAndWizard"
+				}
+			]
+		},
+		{
+			"name": "Confusing Grasp(NaN)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Asylum (WIP)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cube",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You unleash the madness within you and concentrate it in a 20-foot cube centered on a point you can see. ",
+				"When a creature enters for the first time in a round or starts its turn inside the cube, it takes {@damage 2d10} psychic damage and then makes an Intelligence saving throw. Each time it fails a saving throw it takes the next effect in the list of the following effects, starting by the first and ending with the last effect .",
+				{
+					"type": "list",
+					"items": [
+						"The creature takes {@damage 5d10} psychic damage as its mental barrier is broken.",
+						"The cognitive part of its nervous system is attacked and its perception of you is altered as it sees you as horrifying creature. The creature is {@condition frightened} by you and spends its reaction by screaming due to the mental pain.",
+						"The creature drops to the floor, becoming {@condition restrained} and {@condition prone}, while muttering incomprehensible words, as you overload its nervous system.",
+						"The creature breaks with reality and is {@condition incapacitated}.",
+						"The target becomes unconcious and gets a permanent madness."
+					]
+				},
+				"Creatures that with an intelligence score less than 4 and that are immune to both the {@condition charmed} and {@condition frightened} conditions are immune to this spell."
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	]
 }

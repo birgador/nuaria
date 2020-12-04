@@ -314,6 +314,41 @@
 					}
 				]
 			}
+		},
+		{
+		"name": "Technopriest Sword(placeholder name)",
+		"source": "Nuaria",
+		"type": "M",
+		"tier": "major",
+		"rarity": "rare",
+		"value": 1500000,
+		"reqAttune": true,
+		"weapon": true,
+		"weaponCategory": "martial",
+		"weight": 3,
+		"dmg1": "1d8",
+		"dmg2": "1d10",
+		"bonusWeapon": "+2",
+		"dmgType": "S",
+		"property": [
+			"V"
+		],
+			"baseItem": "greatsword|phb",
+		"entries": [
+				"While holding this sword, you can spend one of its charges and cast the {@spell branding smite} as part of the attack. THE AXE IS MORE POWERFUL AND CASTS {@spell blinding smite}",
+				"The sword has 3 charges and you recover some at next dawn."
+			],
+		"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/QJHHK1R.png"
+						}
+					}
+				]
+			}
 		}
 	],	
 	"variant": [

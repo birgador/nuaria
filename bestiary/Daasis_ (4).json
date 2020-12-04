@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1604244537,
-		"dateLastModified": 1604244537
+		"dateAdded": 1607059234,
+		"dateLastModified": 1607059234
 	},
 	"monster": [
 		{
@@ -40,8 +40,8 @@
 				}
 			],
 			"hp": {
-				"formula": "18d8 + 18",
-				"average": 99
+				"formula": "18d8 + 54",
+				"average": 135
 			},
 			"speed": {
 				"walk": 40,
@@ -49,7 +49,7 @@
 			},
 			"str": 13,
 			"dex": 19,
-			"con": 12,
+			"con": 17,
 			"int": 10,
 			"wis": 16,
 			"cha": 15,
@@ -85,7 +85,7 @@
 				{
 					"name": "Blade mastery",
 					"entries": [
-						"The blade juggler adds a +2 bonus to his attack rolls (already counted in his attacks) made with any weapon that has a blade."
+						"The blade juggler adds a +2 bonus to his attack rolls and saving throws (already counted in his attacks) made with any weapon that has a blade."
 					]
 				}
 			],
@@ -99,14 +99,14 @@
 				{
 					"name": "Blade storm",
 					"entries": [
-						"The blade juggler throws viciously blades at his enemies. Each creature in a 30-foot cone makes a {@dc 17} Dexterity saving throw, taking 7 ({@damage 2d6}) piercing damage on a failed save or half as much on a succesful one."
+						"The blade juggler throws viciously blades at his enemies. Each creature in a 30-foot cone makes a {@dc 17} Dexterity saving throw, taking 14 ({@damage 4d6}) piercing damage on a failed save or half as much on a succesful one."
 					]
 				},
 				{
-					"name": "Pinning Shot",
+					"name": "Bleeding Shot",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage. The target must make a Dexterity saving throw, becoming {@condition restrained} on a failed save. ",
-						"A creature or a creature's ally must use an action to get rid of the pinning blades."
+						"{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage. The target must make a {@dc 17} Constitution saving throw. On a failed save, the creature loses {@dice 1d6} hit points due to blood loss at the start of each of its turns .",
+						"A creature or a creature's ally must use their action to stop the bleeding. Otherwise it ends after 1 minute."
 					]
 				},
 				{
@@ -116,9 +116,11 @@
 					]
 				},
 				{
-					"name": "Performance Attack {@recharge}",
+					"name": "Performance Attack {recharges after a long rest}",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 4}) piercing damage plus 9 ({@damage 2d8}) psychic damage. Any creature with a line of sight to the juggler must make a 14 Wisdom saving throw or be {@condition charmed} by the juggler until the start of the juggler's next turn."
+						"If the juggler is below half its hit point maximum it can use its performance attack. ",
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 4}) piercing damage plus 20 ({@damage 4d8 + 2}) psychic damage. Any creature with a line of sight to the juggler must succeed on a {@dc 15} Charisma saving throw or have their Charisma score reduced by 2 points.",
+						"A creature restores lost points from their Charisma score after finishing a Long Rest."
 					]
 				}
 			],
@@ -137,6 +139,11 @@
 				}
 			],
 			"fluff": {
+				"entries": [
+					"{@b {@i Bleeding Shot.}} El malabarista comenta {@i Splash!}",
+					"{@b {@i Performance Attack.}} {@i Ahora os mostraré, querido público, mi mayor obra, mi mejor acto. ¡Mi gran truco!.} El malabarista, fa un salt (gif). Véis como coge una espada de su cinto, la hoja de la cual empieza a coger un brillo púrpura muy leve. ¡Pero es solo por un instante, pues súbitamente pega un salto y se prepara para golpear!",
+					"Con un corte limpio en el pecho, brota un reguero de sangre, y una distorsión se propaga por toda la sala como si se tratase de una onda expansiva creada por el golpe. Sin embargo...no hay choque ni ruido que acompañe a la distorsión. Solo..., solo una una sensación de no conocerse a uno mismo. Como si uno se olvidara de quien es realmente..."
+				],
 				"images": [
 					{
 						"type": "image",
@@ -163,9 +170,6 @@
 				"AOE",
 				"MW",
 				"RW"
-			],
-			"conditionInflict": [
-				"charmed"
 			]
 		},
 		{
@@ -241,6 +245,12 @@
 			],
 			"action": [
 				{
+					"name": "Brain Control",
+					"entries": [
+						"{@atk rw} {@hit -1} to hit, range 20/60 ft., one target. {@h}0 ({@damage 1d6 - 3}) acid damage."
+					]
+				},
+				{
 					"name": "Pseudopod",
 					"entries": [
 						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 18 ({@damage 4d8}) acid damage plus 4 ({@damage 1d8}) psychic damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
@@ -252,6 +262,15 @@
 					"name": "Split",
 					"entries": [
 						"When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Brain Control (Costs 3)",
+					"entries": [
+						"The pudding shoots one part of itself towards trying to reach the creature's brain. {@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}3 {@damage 1d6 } acid damage. The creature then makes a {@dc 15} Wisdom saving throw. On a fail, the creature takes 13{@damage 3d8} psychic damage and is {@condition charmed} by the pudding. Additionally, it becomes an ally of the pudding and regards as hostile the creatures that are considered hostile by the pudding. ",
+						"A creature attempts to repeat the saving throw at the end of its turn. On a success, it ends the effect."
 					]
 				}
 			],
@@ -339,9 +358,11 @@
 				"Y"
 			],
 			"miscTags": [
-				"MW"
+				"MW",
+				"RW"
 			],
 			"conditionInflict": [
+				"charmed",
 				"incapacitated"
 			]
 		},
@@ -1082,6 +1103,9 @@
 				"blindsight 60 ft."
 			],
 			"passive": 9,
+			"resist": [
+				"thunder"
+			],
 			"cr": "10",
 			"trait": [
 				{
@@ -1177,6 +1201,805 @@
 			"conditionInflict": [
 				"prone",
 				"restrained"
+			]
+		},
+		{
+			"name": "Melvin (WIP)",
+			"shortName": "cleric",
+			"source": "Daasisspells",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 117,
+				"formula": "18d8 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 14,
+			"int": 11,
+			"wis": 17,
+			"cha": 13,
+			"save": {
+				"con": "+7",
+				"wis": "+8"
+			},
+			"skill": {
+				"intimidation": "+6",
+				"religion": "+5"
+			},
+			"passive": 13,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell mending}",
+								"{@spell sacred flame}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell dissonant whispers}",
+								"{@spell Tasha's hideous laughter}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell crown of madness}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}",
+								"{@spell suggestion}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell fear}",
+								"{@spell fireball}",
+								"{@spell spirit guardians}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell compulsion}",
+								"{@spell confusion}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell flame strike}",
+								"{@spell hold monster}",
+								"{@spell mass cure wounds}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The priest makes two melee attacks."
+					]
+				},
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Channel Divinity: Realm of Madness (2/rest)",
+					"entries": [
+						"A 30-foot radius sphere of pruple colour appears centered on the cleric. The sphere moves with it, and lasts for 1 minute or until the cleric is {@condition incapacitated} or dies. Whenever a creature (including the cleric) is in the sphere, it gets one of these effects:",
+						"If the cleric sees the creature as friendly, the creature gets advantage on Wisdom saving throws or saving throws that would make them {@condition charmed} or {@condition frightened}, as long it is inside the sphere.",
+						"If the cleric sees the creature as an enemy, the creature gets disadvantage on Wisdom saving throws that would make them {@condition charmed} or {@condition frightened}. In addition to that, the ceric can try to damage its enemies’ minds. At the start of the cleric's turn, he can use its action to deal psychic damage to hostile creatures inside his sphere’s aura. Creatures must succeed on a {@dc 15} Wisdom saving throw or take {@damage 1d6 + 9} psychic damage. Constructs and undeads automatically succeed this saving throw."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "A mightier Mind (Recharges after a short rest)",
+					"entries": [
+						"When the cleric gets hit by an attack it can spend its reaction to try to force your attacker to target another creature instead of him. The attacker must succeed on a Wisdom saving throw or attack another creature within the reach of the attack. If two or more creatures are equally closer, the target is chosen at random. If there are no other possible targets, the attacker doesn’t attack and loses its action."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"fluff": {
+				"name": "War Priest",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"War priests worship deities of war and combat. They plan tactics, lead soldiers into battle, confront enemy spellcasters, and tend to casualties. A war priest might command an army or serve as a warlord's right hand on the battlefield."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/War Priest.png?v=1.112.4",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/war-priest.mp3?v=1.112.4"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Madman",
+			"isNamedCreature": true,
+			"source": "Daasisspells",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "4d8",
+				"average": 18
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "0",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell nervous touch|Daasisspells}"
+							]
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/uG80Ddh.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/6K0TtXZ.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/commoner.mp3?v=1.115.0"
+			},
+			"altArt": [
+				{
+					"name": "Vistana Commoner",
+					"source": "CoS"
+				},
+				{
+					"name": "Commoner",
+					"source": "EGW"
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Face Stealer(Alt)",
+			"source": "Daasisspells",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"Innate {@spell mage armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "26d8 + 78",
+				"average": 810
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 15,
+			"con": 17,
+			"int": 19,
+			"wis": 17,
+			"cha": 24,
+			"skill": {
+				"perception": "+8",
+				"arcana": "+14",
+				"religion": "+9"
+			},
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons"
+				}
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Dwarvish"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell charm person}",
+						"{@spell daasis's roll of madness|Daasisspells}",
+						"{@spell detect thoughts}",
+						"{@spell madness spike|Daasisspells}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Vitality Syphon",
+					"entries": [
+						"The face stealer can activate or deactivate this feature as a bonus action. While active, the aura deals {@damage 1d10} necrotic damage to any creature that ends its turn within 30 feet of the face stealer and creatures cannot regain hit points while inside the aura. The face stealer regains hit points equal to the amount of damage dealt. Undead and constructs ignore this effect."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The face stealer has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Daasis Roll of Madness",
+					"entries": [
+						"The face stealer chooses a creature it can see within 60 feet. The creature gets imbued with psychic energy attacking it through the nervous system. The creature must succed on a Wisdom saving throw or take {@damage 3d8} psychic damage. On any roll of 8, the target is also {@condition stunned} until the end of its next turn. This cantrip does not affect constructs or undead."
+					]
+				},
+				{
+					"name": "Face spawn (Recharges after a Long Rest)",
+					"entries": [
+						"The face stealer throws five faces into the air which quickly materialize into copies from their previous owners. On five unoccupied spaces that the face stealer can see within 60 feet of him appear a bone knight, an enchanter, a gladiator, a master thief and a warcaster."
+					]
+				},
+				{
+					"name": "Face steal {@recharge}",
+					"entries": [
+						"The face stealer teleports to a point it can see within 30 feet and makes a touch of pain attack. On a hit, the face stealer steals the target's face and the target is {@condition blinded}, {@condition deafened} and starts suffocating. A creature without a face makes a Charisma saving throw at the start of each of its turns to get back its face."
+					]
+				},
+				{
+					"name": "Touch of Pain",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}23 ({@damage 3d10 + 7}) necrotic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Remove Identity",
+					"entries": [
+						"On a hit from a creature within 30 feet of it, the face stealer can spend his reaction to make a spell ranged or melee attack. On a hit the target takes 25 ({@damage 10d4}) psychic damage and must succeed on a {@dc 20} Charisma saving throw or lose 2 points from its highest ability score. If two or more abilities have the same score, the affected ability is chosen at random.",
+						"An affected creature regains all lost points if the collector dies or after 24 hours."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack (1 action)",
+					"entries": [
+						"The face stealer uses his daasis roll of madness or touch of pain."
+					]
+				},
+				{
+					"name": "Daasis Roll of Madness (Costs 2 Actions)",
+					"entries": [
+						"The face stealer casts Daasis roll of Madness"
+					]
+				},
+				{
+					"name": "Face steal (Costs 3 Actions)",
+					"entries": [
+						"The face stealer uses his face steal, if available."
+					]
+				},
+				{
+					"name": "Move (1 action)",
+					"entries": [
+						"The face stealer moves up to its speed."
+					]
+				},
+				{
+					"name": "Sight Steal (3 actions)",
+					"entries": [
+						"Each creature on a 20-foot cone must succeed on a {@dc 20} Charisma saving throw or take 14 ({@damage 4d6}) necrotic damage and is {@condition blinded}. An affected creature can repeat the saving throw at the start of each of its turns to end this effect. ",
+						"The collector can use a bonus action to see from the eyes of a creature it has stolen the sight from."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/6CZ9CVN.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/ghrgJDX.png",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E"
+			],
+			"damageTags": [
+				"N",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"deafened",
+				"stunned"
+			]
+		},
+		{
+			"name": "Puppeteer",
+			"source": "Daasisspells",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"formula": "1d8",
+				"average": 304
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 22,
+			"con": 14,
+			"int": 17,
+			"wis": 18,
+			"cha": 11,
+			"save": {
+				"dex": "+12",
+				"wis": "+8",
+				"int": "+3"
+			},
+			"passive": 14,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"incapacitated"
+			],
+			"cr": "0",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"daily": {
+						"3e": [
+							"{@spell encore|Daasisspells}",
+							"{@spell nervous bomb (wip)|Daasisspells}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Attraction",
+					"entries": [
+						"Once per turn, when the puppeteer hits a creature with an attack, it pulls that creature 15 ft towards itself."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The puppeteer makes 3 string attacks."
+					]
+				},
+				{
+					"name": "String attachment",
+					"entries": [
+						"The puppeteer attaches its strings to a victim. They must succeed on a {@dc 18} Wisdom saving throw or be {@condition charmed} by the puppeteer for 5 rounds. If a creature has recently been attacked with a string attack, it makes the saving throw with disadvantage."
+					]
+				},
+				{
+					"name": "String",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 50/100 ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Puppet strings",
+					"entries": [
+						"{@dc 18} Wisdom saving throw. if fail, the target is {@condition charmed} by the puppeteer. As a bonus action, the puppeteer can command the creature. An affecte creature can repeat the saving throw at the end of each of its turns."
+					]
+				},
+				{
+					"name": "Thread choke (Cooldown 3)",
+					"entries": [
+						"{@dc 15} Dexterity saving throw. or take 14 ({@dice 3d8 + 6}) plus {@damage 3d8} psychic damage. It then is {@condition restrained}."
+					]
+				},
+				{
+					"name": "Final show",
+					"entries": [
+						"When the puppeteer drops below half of its hp, starts singing a song. As he sings, the strings from his hands, spin slowly but increasingly fast,  increasing their speed with each spin. You eventually can't see them, since they spin very fast. At the start of its next turn, each creature on a DC on a 25 ft sphere take {@damage 12d12} slashing damage. A creature that drops to 0 hit points with this attack, gains two failed death saving throw."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/hahbDCE.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/mloZykI.png",
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"conditionInflict": [
+				"charmed"
+			]
+		},
+		{
+			"name": "Silence (WIP)",
+			"source": "Daasisspells",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"formula": "1d8",
+				"average": 152
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0",
+			"action": [
+				{
+					"name": "Void slash",
+					"entries": [
+						"Silence slashes the air in front of a creature. The creature must make a {@dc 16} Charisma saving throw. On a failed save, it takes 11 ({@damage 1d10 + 6}) slashing damage and mentally retracts to its mind and falls to the floor unresponsive and unaware to anything going on in its sorroundings.",
+						"The creature believes it has been teleported to another place."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Madman (Elite)",
+			"isNamedCreature": true,
+			"source": "Daasisspells",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "9d8 + 36",
+				"average": 76
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 13,
+			"con": 19,
+			"int": 10,
+			"wis": 15,
+			"cha": 12,
+			"save": {
+				"con": "+8",
+				"dex": "+5",
+				"wis": "+2"
+			},
+			"passive": 12,
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell nervous touch|Daasisspells}"
+							]
+						}
+					},
+					"daily": {
+						"2e": [
+							"{@spell Tasha's hideous laughter}",
+							"{@spell Tasha's mind whip|TCE}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Mental mark",
+					"entries": [
+						"When the madman attacks a creature, it makes a laughter that penetrates its mind, ressonating all the time, except when it focus its attention back to the madman. That creature has a -2 penalty to attack rolls against creatures other than the madman."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Stay with me",
+					"entries": [
+						"When a creature tries to leave the madman's reach, even if using the disengage action, it must make a {@dc 13} Wisdom saving throw. On a failed save, the target's speed becomes 0 and the madman makes an attack as part of the reaction."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/T5wGSbR.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/MR1lmQr.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/commoner.mp3?v=1.115.0"
+			},
+			"altArt": [
+				{
+					"name": "Vistana Commoner",
+					"source": "CoS"
+				},
+				{
+					"name": "Commoner",
+					"source": "EGW"
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
 			]
 		}
 	]

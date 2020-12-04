@@ -1,0 +1,67 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Sinmos",
+				"abbreviation": "SM",
+				"full": "Sinmos",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1607058830,
+		"dateLastModified": 1607058830
+	},
+	"spell": [
+		{
+			"name": "Pain Split (WIP)",
+			"source": "Sinmos",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you take damage from a melee attack"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You redirect part of the pain an enemy deals to you.",
+				"Make a melee spell attack against a creature within 5 feet of you. If the target is the creature that has attacked you, you make the attack with advantage. On a hit, you deal {@damage 2d6} damage, of the same type, to the target and reduce the incoming damage by this amount."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
