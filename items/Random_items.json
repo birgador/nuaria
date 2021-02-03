@@ -1,0 +1,70 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Random_magic_items_Nuaria",
+				"abbreviation": "RMIN",
+				"full": "Random_magic_items_Nuaria",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": [
+					"birgador"
+				]
+			}
+		],
+		"dateAdded": 1589597475,
+		"dateLastModified": 1589597475
+	},
+	"item": [
+		{
+			"name": "Spellbinding Menacles",
+			"type": "INS",
+			"weight": 20,
+			"tier": "major",
+			"rarity": "very rare",
+			"source": "Nuaria",
+			"value": 1600000,
+			"entries": [
+				"Each of these bellshaped devices is hinged on the side.",
+				"When a spellcaster’s fisted hand is forced into the bell, and the device is locked shut, he cannot open his fingers.",
+				"The manacles include a short chain allowing the spellcaster’s hands to be chained either in front or behind his body.",
+				"Spellbinding manacles are also enchanted with a permanent silence effect, as cast by a 4th level cleric."
+			]
+		},
+		{
+			"name": "Mundane Spellbinding Menacles",
+			"type": "INS",
+			"weight": 20,
+			"tier": "major",
+			"rarity": "uncommon",
+			"source": "Nuaria",
+			"value": 1500,
+			"entries": [
+				"Each of these bellshaped devices is hinged on the side.",
+				"When a spellcaster’s fisted hand is forced into the bell, and the device is locked shut, he cannot comfortably open his fingers.",
+				"The manacles include a short chain allowing the spellcaster’s hands to be chained either in front or behind his body.",
+				"When a spellcaster attempts to cast a spell with somatic components, they must succeed on a DC 15 Dexterity skill check, otherwise the casting fails and the spell slot used is consumed."
+			]
+		},
+		{
+			"name": "Ring of Dalor",
+			"type": "RG",
+			"weight": 0.2,
+			"dmg1": "4d8",
+			"dmgType": "C",
+			"tier": "major",
+			"rarity": "very rare",
+			"source": "Nuaria",
+			"value": 1600000,
+			"charges": 5,
+			"entries": [
+				"The ring is a golden featureless band that is constantly covered in a layer of frost that never melts. It is extremely cold to the touch, and deals {@dice 1d4} cold damage to a creature unattuned to it on touching it.",
+				"The ring grants protection against divination magic, requiring a succesful DC 15 check of its spellcasting ability by anyone casting a diviniation spell that would grant information from the creature wearing the ring.",
+				"The ring has 5 charges. As a reaction, which the holder takes after an enemy hits him with a ranged attack, he can spend a charge and gain a +3 bonus to his AC, as he unleashes the freezing energy inside the ring in a semisphere that blocks the projectile.",
+				"Additionally, the holder can spend a charge to create a blast of freezing energy in a point he can see within 30 feet of him. Any creature other than the holder in a 15-foot sphere must make a DC 15 Dexterity saving throw and take {@damage 4d8} cold damage and have its speed reduced to 0 on a failed save or half as much on a succesful one and have no speed reduction."
+			]
+		}
+	]
+}

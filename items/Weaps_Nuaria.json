@@ -1,0 +1,128 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Weapons_Nuaria",
+				"abbreviation": "WN",
+				"full": "Weapons_Nuaria",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": [
+					"birgador"
+				]
+			}
+		],
+		"dateAdded": 1589597475,
+		"dateLastModified": 1589597475
+	},
+	"item": [
+		{
+			"name": "Le Noir's Greatsword",
+			"type": "M",
+			"weaponCategory": "martial",
+			"baseItem": "greatsword|phb",
+			"weight": 6,
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"property": [
+				"H",
+				"2H"
+			],
+			"tier": "major",
+			"rarity": "very rare",
+			"source": "Weapons_Nuaria",
+			"value": 3500000,
+			"entries": [
+				"This long forgotten sword confers to its attuned wielder unimaginable power.",
+				"It looks like a +1 sword, however after speaking its command word it reveals its true nature and shape",
+				"The sword has 3 charges. When the sword is in its real shape and hits an enemy, the wielder can spend one charge and deal additional {@damage 4d6} necrotic damage.",
+				"When a living creature is slain by this sword, the sword faintly glows in red",
+				"The sword regains all unexpended charges at midnight"
+			],
+			"bonusWeapon": "+2",
+			"reqAttune": "by somebody levelling up as a Hexblade for the first time"
+		},
+		{
+			"name": "Neoaxe",
+			"source": "Weapons_Nuaria",
+			"page": "0",
+			"type": "M",
+			"rarity": "very rare",
+			"entries": [
+				"While holding this battleaxe, you can spend one of its charges and cast the {@spell blinding smite} spell as part of the attack.",
+				"The axe sheds bright blue-light in a 10-foot radius and dim light in an additional 10-foot radius."
+			],
+			"baseItem": "battleaxe|phb",
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"property": [
+				"V"
+			],
+			"bonusWeapon": "+3",
+			"charges": 3,
+			"recharge": "dusk",
+			"reqAttune": "by a follower of Hetesis",
+			"attachedSpells": [
+				"blinding smite"
+			],
+			"value": 3500000,
+			"weight": 3,
+			"fluff": {
+				"entries": [
+					""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "example.com/image.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Neosword",
+			"source": "Weapons_Nuaria",
+			"page": "0",
+			"type": "M",
+			"rarity": "very rare",
+			"entries": [
+				"While holding this greatsword, you can spend one of its charges and cast the {@spell branding smite} spell as part of the attack.",
+				"The axe sheds bright purple-light in a 10-foot radius and dim light in an additional 10-foot radius."
+			],
+			"baseItem": "greatsword|phb",
+			"dmg1": "2d6",
+			"property": [
+				"H",
+				"2H"
+			],
+			"bonusWeapon": "+3",
+			"charges": 3,
+			"recharge": "dusk",
+			"reqAttune": "by a follower of Hetesis",
+			"attachedSpells": [
+				"branding smite"
+			],
+			"value": 2500000,
+			"weight": 3,
+			"fluff": {
+				"entries": [
+					""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/WqxGoCM.png"
+						}
+					}
+				]
+			}
+		}
+	]
+}
