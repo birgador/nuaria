@@ -18,7 +18,7 @@
 	"spell": [	
 		{
 			"name": "Alluvial Pool",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 49,
 			"level": 8,
 			"school": "C",
@@ -95,7 +95,7 @@
 		},
 		{
 			"name": "Armament of Irritants",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 49,
 			"level": 8,
 			"school": "C",
@@ -161,7 +161,7 @@
 		},
 		{
 			"name": "Scornful Mantle of the Undaunted",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 51,
 			"level": 8,
 			"school": "A",
@@ -220,7 +220,7 @@
 		},
 		{
 			"name": "Acid Rain",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 46,
 			"level": 7,
 			"school": "C",
@@ -287,7 +287,7 @@
 		},
 		{
 			"name": "Kelemvor's Irradiating Beam",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 48,
 			"level": 7,
 			"school": "V",
@@ -357,7 +357,7 @@
 		},
 		{
 			"name": "Bound into Obedience",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 42,
 			"level": 6,
 			"school": "E",
@@ -427,7 +427,7 @@
 		},
 		{
 			"name": "Grace of Shar",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 42,
 			"level": 6,
 			"school": "D",
@@ -495,7 +495,7 @@
 		},
 		{
 			"name": "Ice Wave",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 43,
 			"level": 6,
 			"school": "V",
@@ -565,7 +565,7 @@
 		},
 		{
 			"name": "Kossuth's Burning Mark",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 43,
 			"level": 6,
 			"school": "V",
@@ -623,7 +623,7 @@
 		},
 		{
 			"name": "Oppression",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 44,
 			"level": 6,
 			"school": "V",
@@ -677,7 +677,7 @@
 		},
 		{
 			"name": "Psyche Onslaught",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 45,
 			"level": 6,
 			"school": "E",
@@ -736,7 +736,7 @@
 		},
 		{
 			"name": "Rampart of Dispel Magic",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 45,
 			"level": 6,
 			"school": "A",
@@ -807,7 +807,7 @@
 		},
 		{
 			"name": "Zariel's Memento",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 45,
 			"level": 6,
 			"school": "V",
@@ -859,7 +859,7 @@
 		},
 		{
 			"name": "Aegis",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 37,
 			"level": 5,
 			"school": "A",
@@ -903,7 +903,7 @@
 		},
 		{
 			"name": "Blood of the Martyr",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 38,
 			"level": 5,
 			"school": "A",
@@ -941,7 +941,7 @@
 		},
 		{
 			"name": "Frost Nova",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 38,
 			"level": 5,
 			"school": "V",
@@ -1006,7 +1006,7 @@
 		},
 		{
 			"name": "Hederan Embrace",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 39,
 			"level": 5,
 			"school": "T",
@@ -1055,7 +1055,7 @@
 		},
 		{
 			"name": "Ilmater's Fortune",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 39,
 			"level": 5,
 			"school": "D",
@@ -1119,7 +1119,7 @@
 		},
 		{
 			"name": "Manifest Mimic",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 5,
 			"school": "T",
@@ -1230,7 +1230,7 @@
 		},
 		{
 			"name": "Midnight",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 5,
 			"school": "V",
@@ -1289,7 +1289,7 @@
 		},
 		{
 			"name": "Muffle",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 5,
 			"school": "I",
@@ -1344,7 +1344,7 @@
 		},
 		{
 			"name": "Mystra's Bequest",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 5,
 			"school": "E",
@@ -1389,7 +1389,7 @@
 		},
 		{
 			"name": "Pride of the Wild",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "E",
@@ -1438,7 +1438,7 @@
 		},
 		{
 			"name": "Ruin",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "V",
@@ -1515,7 +1515,7 @@
 		},
 		{
 			"name": "Sundering Smite",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "E",
@@ -1567,7 +1567,7 @@
 		},
 		{
 			"name": "Vengeance of Talos",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "V",
@@ -1638,7 +1638,7 @@
 		},
 		{
 			"name": "Wall",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "A",
@@ -1684,7 +1684,7 @@
 		},
 		{
 			"name": "Boundary",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 32,
 			"level": 4,
 			"school": "A",
@@ -1746,7 +1746,7 @@
 		},
 		{
 			"name": "Embers",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 33,
 			"level": 4,
 			"school": "V",
@@ -1824,7 +1824,7 @@
 		},
 		{
 			"name": "Gift of Vivacity",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 33,
 			"level": 4,
 			"school": "A",
@@ -1868,7 +1868,7 @@
 		},
 		{
 			"name": "Improved Mage Armor",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 4,
 			"school": "A",
@@ -1919,7 +1919,7 @@
 		},
 		{
 			"name": "Lathander's Blessing",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 4,
 			"school": "A",
@@ -1970,7 +1970,7 @@
 		},
 		{
 			"name": "Observance",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 4,
 			"school": "E",
@@ -2034,7 +2034,7 @@
 		},
 		{
 			"name": "Raze",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 35,
 			"level": 4,
 			"school": "V",
@@ -2102,7 +2102,7 @@
 		},
 		{
 			"name": "Spellsteal",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 35,
 			"level": 4,
 			"school": "A",
@@ -2161,7 +2161,7 @@
 		},
 		{
 			"name": "Sticks to Snakes",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 35,
 			"level": 4,
 			"school": "T",
@@ -2216,7 +2216,7 @@
 		},
 		{
 			"name": "Absorbing Ward",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 26,
 			"level": 3,
 			"school": "A",
@@ -2281,7 +2281,7 @@
 		},
 		{
 			"name": "Displacement",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 26,
 			"level": 3,
 			"school": "C",
@@ -2339,7 +2339,7 @@
 		},
 		{
 			"name": "Frost Armor",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 27,
 			"level": 3,
 			"school": "C",
@@ -2398,7 +2398,7 @@
 		},
 		{
 			"name": "Inferno",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 28,
 			"level": 3,
 			"school": "V",
@@ -2473,7 +2473,7 @@
 		},
 		{
 			"name": "Lunacy",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 28,
 			"level": 3,
 			"school": "E",
@@ -2531,7 +2531,7 @@
 		},
 		{
 			"name": "Mass Vicious Mockery",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 28,
 			"level": 3,
 			"school": "E",
@@ -2591,7 +2591,7 @@
 		},
 		{
 			"name": "Poison Darts",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 29,
 			"level": 3,
 			"school": "C",
@@ -2672,7 +2672,7 @@
 		},
 		{
 			"name": "Return",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 29,
 			"level": 3,
 			"school": "A",
@@ -2726,7 +2726,7 @@
 		},
 		{
 			"name": "Sacred Ward",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 30,
 			"level": 3,
 			"school": "A",
@@ -2792,7 +2792,7 @@
 		},
 		{
 			"name": "Thunderous Bellow",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 31,
 			"level": 3,
 			"school": "V",
@@ -2853,7 +2853,7 @@
 		},
 		{
 			"name": "Analyze Blood",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 20,
 			"level": 2,
 			"school": "D",
@@ -2923,7 +2923,7 @@
 		},
 		{
 			"name": "Avian Geyser",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 20,
 			"level": 2,
 			"school": "T",
@@ -2993,7 +2993,7 @@
 		},
 		{
 			"name": "Consecration",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 21,
 			"level": 2,
 			"school": "A",
@@ -3052,7 +3052,7 @@
 		},
 		{
 			"name": "Detect Familiar",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 21,
 			"level": 2,
 			"school": "D",
@@ -3125,7 +3125,7 @@
 		},
 		{
 			"name": "Divine Ward",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 21,
 			"level": 2,
 			"school": "A",
@@ -3181,7 +3181,7 @@
 		},
 		{
 			"name": "Elemental Anguish",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 22,
 			"level": 2,
 			"school": "N",
@@ -3253,7 +3253,7 @@
 		},
 		{
 			"name": "Gale of Obscurity",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 22,
 			"level": 2,
 			"school": "V",
@@ -3312,7 +3312,7 @@
 		},
 		{
 			"name": "Glacious",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 22,
 			"level": 2,
 			"school": "V",
@@ -3382,7 +3382,7 @@
 		},
 		{
 			"name": "Grimlore's Shadowgrasp",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 22,
 			"level": 2,
 			"school": "N",
@@ -3456,7 +3456,7 @@
 		},
 		{
 			"name": "Manacle of Burden",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 23,
 			"level": 2,
 			"school": "C",
@@ -3516,7 +3516,7 @@
 		},
 		{
 			"name": "Necrotic Visage",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 23,
 			"level": 2,
 			"school": "N",
@@ -3578,7 +3578,7 @@
 		},
 		{
 			"name": "Pullulate",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 24,
 			"level": 2,
 			"school": "T",
@@ -3621,7 +3621,7 @@
 		},
 		{
 			"name": "Shadow Bind",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 24,
 			"level": 2,
 			"school": "I",
@@ -3697,7 +3697,7 @@
 		},
 		{
 			"name": "Silvanus' Favor",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 24,
 			"level": 2,
 			"school": "T",
@@ -3757,7 +3757,7 @@
 		},
 		{
 			"name": "Whispers of Hellfire",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 25,
 			"level": 2,
 			"school": "V",
@@ -3817,7 +3817,7 @@
 		},
 		{
 			"name": "Acrid Delight",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 13,
 			"level": 1,
 			"school": "T",
@@ -3890,7 +3890,7 @@
 		},
 		{
 			"name": "Creeping Crawling Claw",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 14,
 			"level": 1,
 			"school": "N",
@@ -3947,7 +3947,7 @@
 		},
 		{
 			"name": "Death's Grasp",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 14,
 			"level": 1,
 			"school": "N",
@@ -4014,7 +4014,7 @@
 		},
 		{
 			"name": "Earthen Grip",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 15,
 			"level": 1,
 			"school": "T",
@@ -4077,7 +4077,7 @@
 		},
 		{
 			"name": "Earthen Pillar",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 15,
 			"level": 1,
 			"school": "T",
@@ -4144,7 +4144,7 @@
 		},
 		{
 			"name": "Grimlore's Shadowblight",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 16,
 			"level": 1,
 			"school": "N",
@@ -4209,7 +4209,7 @@
 		},
 		{
 			"name": "Helm's Everwatchful Eye",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 16,
 			"level": 1,
 			"school": "A",
@@ -4262,7 +4262,7 @@
 		},
 		{
 			"name": "Larloch's Minor Drain",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 17,
 			"level": 1,
 			"school": "N",
@@ -4317,7 +4317,7 @@
 		},
 		{
 			"name": "Shield of Devotion",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 18,
 			"level": 1,
 			"school": "A",
@@ -4371,7 +4371,7 @@
 		},
 		{
 			"name": "Smolder",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 19,
 			"level": 1,
 			"school": "T",
@@ -4434,7 +4434,7 @@
 		},
 		{
 			"name": "Conflagrate",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 6,
 			"level": 0,
 			"school": "V",
@@ -4509,7 +4509,7 @@
 		},
 		{
 			"name": "Corruption",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 6,
 			"level": 0,
 			"school": "N",
@@ -4567,7 +4567,7 @@
 		},
 		{
 			"name": "Courage",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 6,
 			"level": 0,
 			"school": "E",
@@ -4614,7 +4614,7 @@
 		},
 		{
 			"name": "Dazzle",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 6,
 			"level": 0,
 			"school": "I",
@@ -4677,7 +4677,7 @@
 		},
 		{
 			"name": "Disarm",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "V",
@@ -4732,7 +4732,7 @@
 		},
 		{
 			"name": "Glacial Blade",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "V",
@@ -4794,7 +4794,7 @@
 		},
 		{
 			"name": "Gleam",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "V",
@@ -4850,7 +4850,7 @@
 		},
 		{
 			"name": "Gloom",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "V",
@@ -4914,7 +4914,7 @@
 		},
 		{
 			"name": "Grim Scythe",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "T",
@@ -4965,7 +4965,7 @@
 		},
 		{
 			"name": "Grimlore's Influence",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 8,
 			"level": 0,
 			"school": "N",
@@ -5029,7 +5029,7 @@
 		},
 		{
 			"name": "Hinder",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 8,
 			"level": 0,
 			"school": "A",
@@ -5090,7 +5090,7 @@
 		},
 		{
 			"name": "Lullaby",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 9,
 			"level": 0,
 			"school": "E",
@@ -5155,7 +5155,7 @@
 		},
 		{
 			"name": "Night Terror",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 9,
 			"level": 0,
 			"school": "C",
@@ -5226,7 +5226,7 @@
 		},
 		{
 			"name": "Phase",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 9,
 			"level": 0,
 			"school": "A",
@@ -5273,7 +5273,7 @@
 		},
 		{
 			"name": "Shawl of the Unseen",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 10,
 			"level": 0,
 			"school": "C",
@@ -5327,7 +5327,7 @@
 		},
 		{
 			"name": "Thunderous Chord",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 11,
 			"level": 0,
 			"school": "V",
@@ -5394,7 +5394,7 @@
 		},
 		{
 			"name": "Veil",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 11,
 			"level": 0,
 			"school": "C",
@@ -5441,7 +5441,7 @@
 		},
 		{
 			"name": "Venomous Strike",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 12,
 			"level": 0,
 			"school": "T",
@@ -5508,7 +5508,7 @@
 		},
 		{
 			"name": "Alluvial Pool",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 49,
 			"level": 8,
 			"school": "C",
@@ -5585,7 +5585,7 @@
 		},
 		{
 			"name": "Armament of Irritants",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 49,
 			"level": 8,
 			"school": "C",
@@ -5651,7 +5651,7 @@
 		},
 		{
 			"name": "Scornful Mantle of the Undaunted",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 51,
 			"level": 8,
 			"school": "A",
@@ -5710,7 +5710,7 @@
 		},
 		{
 			"name": "Acid Rain",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 46,
 			"level": 7,
 			"school": "C",
@@ -5777,7 +5777,7 @@
 		},
 		{
 			"name": "Kelemvor's Irradiating Beam",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 48,
 			"level": 7,
 			"school": "V",
@@ -5847,7 +5847,7 @@
 		},
 		{
 			"name": "Bound into Obedience",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 42,
 			"level": 6,
 			"school": "E",
@@ -5917,7 +5917,7 @@
 		},
 		{
 			"name": "Grace of Shar",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 42,
 			"level": 6,
 			"school": "D",
@@ -5985,7 +5985,7 @@
 		},
 		{
 			"name": "Ice Wave",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 43,
 			"level": 6,
 			"school": "V",
@@ -6055,7 +6055,7 @@
 		},
 		{
 			"name": "Kossuth's Burning Mark",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 43,
 			"level": 6,
 			"school": "V",
@@ -6113,7 +6113,7 @@
 		},
 		{
 			"name": "Oppression",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 44,
 			"level": 6,
 			"school": "V",
@@ -6167,7 +6167,7 @@
 		},
 		{
 			"name": "Psyche Onslaught",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 45,
 			"level": 6,
 			"school": "E",
@@ -6226,7 +6226,7 @@
 		},
 		{
 			"name": "Rampart of Dispel Magic",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 45,
 			"level": 6,
 			"school": "A",
@@ -6297,7 +6297,7 @@
 		},
 		{
 			"name": "Zariel's Memento",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 45,
 			"level": 6,
 			"school": "V",
@@ -6349,7 +6349,7 @@
 		},
 		{
 			"name": "Aegis",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 37,
 			"level": 5,
 			"school": "A",
@@ -6393,7 +6393,7 @@
 		},
 		{
 			"name": "Blood of the Martyr",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 38,
 			"level": 5,
 			"school": "A",
@@ -6431,7 +6431,7 @@
 		},
 		{
 			"name": "Frost Nova",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 38,
 			"level": 5,
 			"school": "V",
@@ -6496,7 +6496,7 @@
 		},
 		{
 			"name": "Hederan Embrace",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 39,
 			"level": 5,
 			"school": "T",
@@ -6545,7 +6545,7 @@
 		},
 		{
 			"name": "Ilmater's Fortune",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 39,
 			"level": 5,
 			"school": "D",
@@ -6609,7 +6609,7 @@
 		},
 		{
 			"name": "Manifest Mimic",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 5,
 			"school": "T",
@@ -6720,7 +6720,7 @@
 		},
 		{
 			"name": "Midnight",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 5,
 			"school": "V",
@@ -6779,7 +6779,7 @@
 		},
 		{
 			"name": "Muffle",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 5,
 			"school": "I",
@@ -6834,7 +6834,7 @@
 		},
 		{
 			"name": "Mystra's Bequest",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 5,
 			"school": "E",
@@ -6879,7 +6879,7 @@
 		},
 		{
 			"name": "Pride of the Wild",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "E",
@@ -6928,7 +6928,7 @@
 		},
 		{
 			"name": "Ruin",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "V",
@@ -7005,7 +7005,7 @@
 		},
 		{
 			"name": "Sundering Smite",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "E",
@@ -7057,7 +7057,7 @@
 		},
 		{
 			"name": "Vengeance of Talos",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "V",
@@ -7128,7 +7128,7 @@
 		},
 		{
 			"name": "Wall",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 5,
 			"school": "A",
@@ -7174,7 +7174,7 @@
 		},
 		{
 			"name": "Boundary",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 32,
 			"level": 4,
 			"school": "A",
@@ -7236,7 +7236,7 @@
 		},
 		{
 			"name": "Embers",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 33,
 			"level": 4,
 			"school": "V",
@@ -7314,7 +7314,7 @@
 		},
 		{
 			"name": "Gift of Vivacity",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 33,
 			"level": 4,
 			"school": "A",
@@ -7358,7 +7358,7 @@
 		},
 		{
 			"name": "Improved Mage Armor",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 4,
 			"school": "A",
@@ -7409,7 +7409,7 @@
 		},
 		{
 			"name": "Lathander's Blessing",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 4,
 			"school": "A",
@@ -7460,7 +7460,7 @@
 		},
 		{
 			"name": "Observance",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 4,
 			"school": "E",
@@ -7524,7 +7524,7 @@
 		},
 		{
 			"name": "Raze",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 35,
 			"level": 4,
 			"school": "V",
@@ -7592,7 +7592,7 @@
 		},
 		{
 			"name": "Spellsteal",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 35,
 			"level": 4,
 			"school": "A",
@@ -7651,7 +7651,7 @@
 		},
 		{
 			"name": "Sticks to Snakes",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 35,
 			"level": 4,
 			"school": "T",
@@ -7706,7 +7706,7 @@
 		},
 		{
 			"name": "Absorbing Ward",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 26,
 			"level": 3,
 			"school": "A",
@@ -7771,7 +7771,7 @@
 		},
 		{
 			"name": "Displacement",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 26,
 			"level": 3,
 			"school": "C",
@@ -7829,7 +7829,7 @@
 		},
 		{
 			"name": "Frost Armor",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 27,
 			"level": 3,
 			"school": "C",
@@ -7888,7 +7888,7 @@
 		},
 		{
 			"name": "Inferno",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 28,
 			"level": 3,
 			"school": "V",
@@ -7963,7 +7963,7 @@
 		},
 		{
 			"name": "Lunacy",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 28,
 			"level": 3,
 			"school": "E",
@@ -8021,7 +8021,7 @@
 		},
 		{
 			"name": "Mass Vicious Mockery",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 28,
 			"level": 3,
 			"school": "E",
@@ -8081,7 +8081,7 @@
 		},
 		{
 			"name": "Poison Darts",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 29,
 			"level": 3,
 			"school": "C",
@@ -8162,7 +8162,7 @@
 		},
 		{
 			"name": "Return",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 29,
 			"level": 3,
 			"school": "A",
@@ -8216,7 +8216,7 @@
 		},
 		{
 			"name": "Sacred Ward",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 30,
 			"level": 3,
 			"school": "A",
@@ -8282,7 +8282,7 @@
 		},
 		{
 			"name": "Thunderous Bellow",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 31,
 			"level": 3,
 			"school": "V",
@@ -8343,7 +8343,7 @@
 		},
 		{
 			"name": "Analyze Blood",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 20,
 			"level": 2,
 			"school": "D",
@@ -8413,7 +8413,7 @@
 		},
 		{
 			"name": "Avian Geyser",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 20,
 			"level": 2,
 			"school": "T",
@@ -8483,7 +8483,7 @@
 		},
 		{
 			"name": "Consecration",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 21,
 			"level": 2,
 			"school": "A",
@@ -8542,7 +8542,7 @@
 		},
 		{
 			"name": "Detect Familiar",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 21,
 			"level": 2,
 			"school": "D",
@@ -8615,7 +8615,7 @@
 		},
 		{
 			"name": "Divine Ward",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 21,
 			"level": 2,
 			"school": "A",
@@ -8671,7 +8671,7 @@
 		},
 		{
 			"name": "Elemental Anguish",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 22,
 			"level": 2,
 			"school": "N",
@@ -8743,7 +8743,7 @@
 		},
 		{
 			"name": "Gale of Obscurity",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 22,
 			"level": 2,
 			"school": "V",
@@ -8802,7 +8802,7 @@
 		},
 		{
 			"name": "Glacious",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 22,
 			"level": 2,
 			"school": "V",
@@ -8872,7 +8872,7 @@
 		},
 		{
 			"name": "Grimlore's Shadowgrasp",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 22,
 			"level": 2,
 			"school": "N",
@@ -8946,7 +8946,7 @@
 		},
 		{
 			"name": "Manacle of Burden",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 23,
 			"level": 2,
 			"school": "C",
@@ -9006,7 +9006,7 @@
 		},
 		{
 			"name": "Necrotic Visage",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 23,
 			"level": 2,
 			"school": "N",
@@ -9068,7 +9068,7 @@
 		},
 		{
 			"name": "Pullulate",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 24,
 			"level": 2,
 			"school": "T",
@@ -9111,7 +9111,7 @@
 		},
 		{
 			"name": "Shadow Bind",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 24,
 			"level": 2,
 			"school": "I",
@@ -9187,7 +9187,7 @@
 		},
 		{
 			"name": "Silvanus' Favor",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 24,
 			"level": 2,
 			"school": "T",
@@ -9247,7 +9247,7 @@
 		},
 		{
 			"name": "Whispers of Hellfire",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 25,
 			"level": 2,
 			"school": "V",
@@ -9307,7 +9307,7 @@
 		},
 		{
 			"name": "Acrid Delight",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 13,
 			"level": 1,
 			"school": "T",
@@ -9380,7 +9380,7 @@
 		},
 		{
 			"name": "Creeping Crawling Claw",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 14,
 			"level": 1,
 			"school": "N",
@@ -9437,7 +9437,7 @@
 		},
 		{
 			"name": "Death's Grasp",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 14,
 			"level": 1,
 			"school": "N",
@@ -9504,7 +9504,7 @@
 		},
 		{
 			"name": "Earthen Grip",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 15,
 			"level": 1,
 			"school": "T",
@@ -9567,7 +9567,7 @@
 		},
 		{
 			"name": "Earthen Pillar",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 15,
 			"level": 1,
 			"school": "T",
@@ -9634,7 +9634,7 @@
 		},
 		{
 			"name": "Grimlore's Shadowblight",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 16,
 			"level": 1,
 			"school": "N",
@@ -9699,7 +9699,7 @@
 		},
 		{
 			"name": "Helm's Everwatchful Eye",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 16,
 			"level": 1,
 			"school": "A",
@@ -9752,7 +9752,7 @@
 		},
 		{
 			"name": "Larloch's Minor Drain",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 17,
 			"level": 1,
 			"school": "N",
@@ -9807,7 +9807,7 @@
 		},
 		{
 			"name": "Shield of Devotion",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 18,
 			"level": 1,
 			"school": "A",
@@ -9861,7 +9861,7 @@
 		},
 		{
 			"name": "Smolder",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 19,
 			"level": 1,
 			"school": "T",
@@ -9924,7 +9924,7 @@
 		},
 		{
 			"name": "Conflagrate",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 6,
 			"level": 0,
 			"school": "V",
@@ -9999,7 +9999,7 @@
 		},
 		{
 			"name": "Corruption",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 6,
 			"level": 0,
 			"school": "N",
@@ -10057,7 +10057,7 @@
 		},
 		{
 			"name": "Courage",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 6,
 			"level": 0,
 			"school": "E",
@@ -10104,7 +10104,7 @@
 		},
 		{
 			"name": "Dazzle",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 6,
 			"level": 0,
 			"school": "I",
@@ -10167,7 +10167,7 @@
 		},
 		{
 			"name": "Disarm",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "V",
@@ -10222,7 +10222,7 @@
 		},
 		{
 			"name": "Glacial Blade",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "V",
@@ -10284,7 +10284,7 @@
 		},
 		{
 			"name": "Gleam",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "V",
@@ -10340,7 +10340,7 @@
 		},
 		{
 			"name": "Gloom",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "V",
@@ -10404,7 +10404,7 @@
 		},
 		{
 			"name": "Grim Scythe",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 7,
 			"level": 0,
 			"school": "T",
@@ -10455,7 +10455,7 @@
 		},
 		{
 			"name": "Grimlore's Influence",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 8,
 			"level": 0,
 			"school": "N",
@@ -10519,7 +10519,7 @@
 		},
 		{
 			"name": "Hinder",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 8,
 			"level": 0,
 			"school": "A",
@@ -10580,7 +10580,7 @@
 		},
 		{
 			"name": "Lullaby",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 9,
 			"level": 0,
 			"school": "E",
@@ -10645,7 +10645,7 @@
 		},
 		{
 			"name": "Night Terror",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 9,
 			"level": 0,
 			"school": "C",
@@ -10716,7 +10716,7 @@
 		},
 		{
 			"name": "Phase",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 9,
 			"level": 0,
 			"school": "A",
@@ -10763,7 +10763,7 @@
 		},
 		{
 			"name": "Shawl of the Unseen",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 10,
 			"level": 0,
 			"school": "C",
@@ -10817,7 +10817,7 @@
 		},
 		{
 			"name": "Thunderous Chord",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 11,
 			"level": 0,
 			"school": "V",
@@ -10884,7 +10884,7 @@
 		},
 		{
 			"name": "Veil",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 11,
 			"level": 0,
 			"school": "C",
@@ -10931,7 +10931,7 @@
 		},
 		{
 			"name": "Venomous Strike",
-			"source": "GrimloresGrimoire",
+			"source": "HomebrewSpellz",
 			"page": 12,
 			"level": 0,
 			"school": "T",
@@ -11654,7 +11654,7 @@
 		},
 		{
 			"name": "Absorption",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 10,
 			"level": 4,
 			"school": "T",
@@ -11699,7 +11699,7 @@
 		},
 		{
 			"name": "Acid Blast",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 10,
 			"level": 6,
 			"school": "V",
@@ -11758,7 +11758,7 @@
 		},
 		{
 			"name": "Acid Storm",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 10,
 			"level": 7,
 			"school": "V",
@@ -11815,7 +11815,7 @@
 		},
 		{
 			"name": "Acid Swamp",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 10,
 			"level": 7,
 			"school": "V",
@@ -11871,7 +11871,7 @@
 		},
 		{
 			"name": "Aetheric Shield",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 11,
 			"level": 4,
 			"school": "A",
@@ -11926,7 +11926,7 @@
 		},
 		{
 			"name": "Air Sphere",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 13,
 			"level": 4,
 			"school": "C",
@@ -11982,7 +11982,7 @@
 		},
 		{
 			"name": "Alter Scent",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 13,
 			"level": 1,
 			"school": "T",
@@ -12031,7 +12031,7 @@
 		},
 		{
 			"name": "Arcane Spear",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 14,
 			"level": 3,
 			"school": "V",
@@ -12091,7 +12091,7 @@
 		},
 		{
 			"name": "Assault of Stone",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 15,
 			"level": 7,
 			"school": "C",
@@ -12147,7 +12147,7 @@
 		},
 		{
 			"name": "Augment Flames",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 16,
 			"level": 2,
 			"school": "T",
@@ -12207,7 +12207,7 @@
 		},
 		{
 			"name": "Aura of Tsathogga",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 16,
 			"level": 4,
 			"school": "C",
@@ -12270,7 +12270,7 @@
 		},
 		{
 			"name": "Bead of Blasting",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 18,
 			"level": 4,
 			"school": "V",
@@ -12337,7 +12337,7 @@
 		},
 		{
 			"name": "Bead of Frost",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 18,
 			"level": 2,
 			"school": "V",
@@ -12397,7 +12397,7 @@
 		},
 		{
 			"name": "Binding Sap",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 20,
 			"level": 1,
 			"school": "T",
@@ -12446,7 +12446,7 @@
 		},
 		{
 			"name": "Blades of Bone",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 21,
 			"level": 5,
 			"school": "N",
@@ -12504,7 +12504,7 @@
 		},
 		{
 			"name": "Blades of Jade",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 21,
 			"level": 6,
 			"school": "T",
@@ -12559,7 +12559,7 @@
 		},
 		{
 			"name": "Blazing Blood",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 22,
 			"level": 8,
 			"school": "T",
@@ -12610,7 +12610,7 @@
 		},
 		{
 			"name": "Blunt the Edge",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 24,
 			"level": 2,
 			"school": "T",
@@ -12659,7 +12659,7 @@
 		},
 		{
 			"name": "Bound Hearts",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 25,
 			"level": 7,
 			"school": "E",
@@ -12716,7 +12716,7 @@
 		},
 		{
 			"name": "Branch Assault",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 25,
 			"level": 2,
 			"school": "T",
@@ -12770,7 +12770,7 @@
 		},
 		{
 			"name": "Breach Defenses",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 26,
 			"level": 6,
 			"school": "T",
@@ -12830,7 +12830,7 @@
 		},
 		{
 			"name": "Buoyancy",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 26,
 			"level": 1,
 			"school": "T",
@@ -12878,7 +12878,7 @@
 		},
 		{
 			"name": "Burning Rain",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 27,
 			"level": 7,
 			"school": "T",
@@ -12928,7 +12928,7 @@
 		},
 		{
 			"name": "Buttress",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 27,
 			"level": 2,
 			"school": "T",
@@ -12981,7 +12981,7 @@
 		},
 		{
 			"name": "Call of the Wild Companion",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 27,
 			"level": 1,
 			"school": "V",
@@ -13025,7 +13025,7 @@
 		},
 		{
 			"name": "Charged Missile",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 29,
 			"level": 2,
 			"school": "V",
@@ -13085,7 +13085,7 @@
 		},
 		{
 			"name": "Chariot of Fire",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 29,
 			"level": 8,
 			"school": "C",
@@ -13147,7 +13147,7 @@
 		},
 		{
 			"name": "Charismatic Shield",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 30,
 			"level": 7,
 			"school": "E",
@@ -13199,7 +13199,7 @@
 		},
 		{
 			"name": "Charnel Stench",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 30,
 			"level": 2,
 			"school": "N",
@@ -13257,7 +13257,7 @@
 		},
 		{
 			"name": "Chrysalis",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 31,
 			"level": 6,
 			"school": "T",
@@ -13305,7 +13305,7 @@
 		},
 		{
 			"name": "Circle of Scrying",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 32,
 			"level": 4,
 			"school": "D",
@@ -13360,7 +13360,7 @@
 		},
 		{
 			"name": "Claws of Digging",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 32,
 			"level": 6,
 			"school": "T",
@@ -13414,7 +13414,7 @@
 		},
 		{
 			"name": "Cold Fog",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 33,
 			"level": 6,
 			"school": "C",
@@ -13472,7 +13472,7 @@
 		},
 		{
 			"name": "Combat Mind",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 33,
 			"level": 2,
 			"school": "D",
@@ -13517,7 +13517,7 @@
 		},
 		{
 			"name": "Conflagration",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 9,
 			"school": "V",
@@ -13574,7 +13574,7 @@
 		},
 		{
 			"name": "Constant Heat",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 2,
 			"school": "T",
@@ -13624,7 +13624,7 @@
 		},
 		{
 			"name": "Containment Orbs",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 7,
 			"school": "A",
@@ -13674,7 +13674,7 @@
 		},
 		{
 			"name": "Copy",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 34,
 			"level": 1,
 			"school": "T",
@@ -13721,7 +13721,7 @@
 		},
 		{
 			"name": "Corrupt Water",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 35,
 			"level": 5,
 			"school": "T",
@@ -13791,7 +13791,7 @@
 		},
 		{
 			"name": "Crag Warrior",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 35,
 			"level": 9,
 			"school": "C",
@@ -13842,7 +13842,7 @@
 		},
 		{
 			"name": "Create Iceberg",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 36,
 			"level": 7,
 			"school": "T",
@@ -13891,7 +13891,7 @@
 		},
 		{
 			"name": "Creation's Fury",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 36,
 			"level": 9,
 			"school": "T",
@@ -13942,7 +13942,7 @@
 		},
 		{
 			"name": "Crystal Wail",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 37,
 			"level": 4,
 			"school": "V",
@@ -14000,7 +14000,7 @@
 		},
 		{
 			"name": "Curse of the Ancient Mariner",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 38,
 			"level": 9,
 			"school": "T",
@@ -14047,7 +14047,7 @@
 		},
 		{
 			"name": "Darken Forest",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 8,
 			"school": "T",
@@ -14102,7 +14102,7 @@
 		},
 		{
 			"name": "Daze Animal",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 0,
 			"school": "E",
@@ -14152,7 +14152,7 @@
 		},
 		{
 			"name": "Death Rattle",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 40,
 			"level": 2,
 			"school": "N",
@@ -14209,7 +14209,7 @@
 		},
 		{
 			"name": "Death's Imposition",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 6,
 			"school": "E",
@@ -14271,7 +14271,7 @@
 		},
 		{
 			"name": "Debilitate",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 1,
 			"school": "N",
@@ -14327,7 +14327,7 @@
 		},
 		{
 			"name": "Decrypt",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 41,
 			"level": 1,
 			"school": "T",
@@ -14378,7 +14378,7 @@
 		},
 		{
 			"name": "Delude",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 42,
 			"level": 2,
 			"school": "A",
@@ -14425,7 +14425,7 @@
 		},
 		{
 			"name": "Desert Refuge",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 42,
 			"level": 4,
 			"school": "A",
@@ -14473,7 +14473,7 @@
 		},
 		{
 			"name": "Detect Charm",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 43,
 			"level": 0,
 			"school": "D",
@@ -14528,7 +14528,7 @@
 		},
 		{
 			"name": "Detect Life",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 43,
 			"level": 1,
 			"school": "D",
@@ -14574,7 +14574,7 @@
 		},
 		{
 			"name": "Detune",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 43,
 			"level": 0,
 			"school": "T",
@@ -14621,7 +14621,7 @@
 		},
 		{
 			"name": "Dissonance",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 45,
 			"level": 0,
 			"school": "T",
@@ -14671,7 +14671,7 @@
 		},
 		{
 			"name": "Divine Beacon",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 46,
 			"level": 1,
 			"school": "A",
@@ -14749,7 +14749,7 @@
 		},
 		{
 			"name": "Divine Intervention",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 47,
 			"level": 7,
 			"school": "A",
@@ -14801,7 +14801,7 @@
 		},
 		{
 			"name": "Divining Rod",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 47,
 			"level": 1,
 			"school": "D",
@@ -14851,7 +14851,7 @@
 		},
 		{
 			"name": "Dream Speaker",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 48,
 			"level": 2,
 			"school": "E",
@@ -14902,7 +14902,7 @@
 		},
 		{
 			"name": "Earth Ear",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 49,
 			"level": 2,
 			"school": "D",
@@ -14953,7 +14953,7 @@
 		},
 		{
 			"name": "Earth Shift",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 49,
 			"level": 5,
 			"school": "T",
@@ -14992,7 +14992,7 @@
 		},
 		{
 			"name": "Earthburst",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 49,
 			"level": 4,
 			"school": "T",
@@ -15062,7 +15062,7 @@
 		},
 		{
 			"name": "Earthen Blast",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 49,
 			"level": 1,
 			"school": "V",
@@ -15121,7 +15121,7 @@
 		},
 		{
 			"name": "Electrical Storm",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 50,
 			"level": 7,
 			"school": "V",
@@ -15177,7 +15177,7 @@
 		},
 		{
 			"name": "Elemental Cloak",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 50,
 			"level": 6,
 			"school": "T",
@@ -15249,7 +15249,7 @@
 		},
 		{
 			"name": "Elemental Infusion",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 51,
 			"level": 8,
 			"school": "T",
@@ -15315,7 +15315,7 @@
 		},
 		{
 			"name": "Encrypt",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 52,
 			"level": 0,
 			"school": "T",
@@ -15361,7 +15361,7 @@
 		},
 		{
 			"name": "Endless Abyss",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 52,
 			"level": 4,
 			"school": "C",
@@ -15414,7 +15414,7 @@
 		},
 		{
 			"name": "Enliven Wood",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 52,
 			"level": 4,
 			"school": "T",
@@ -15468,7 +15468,7 @@
 		},
 		{
 			"name": "Enrich Soil",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 52,
 			"level": 5,
 			"school": "T",
@@ -15512,7 +15512,7 @@
 		},
 		{
 			"name": "Erase",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 53,
 			"level": 1,
 			"school": "T",
@@ -15554,7 +15554,7 @@
 		},
 		{
 			"name": "Establish Foundation",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 53,
 			"level": 7,
 			"school": "T",
@@ -15610,7 +15610,7 @@
 		},
 		{
 			"name": "Eternal Sleep",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 54,
 			"level": 9,
 			"school": "T",
@@ -15658,7 +15658,7 @@
 		},
 		{
 			"name": "Farsighted",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 56,
 			"level": 1,
 			"school": "T",
@@ -15710,7 +15710,7 @@
 		},
 		{
 			"name": "Farvision",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 56,
 			"level": 6,
 			"school": "T",
@@ -15753,7 +15753,7 @@
 		},
 		{
 			"name": "Feather Step",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 56,
 			"level": 1,
 			"school": "T",
@@ -15802,7 +15802,7 @@
 		},
 		{
 			"name": "Fiery Blast",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 56,
 			"level": 4,
 			"school": "V",
@@ -15863,7 +15863,7 @@
 		},
 		{
 			"name": "Fiery Constrictor",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 57,
 			"level": 6,
 			"school": "T",
@@ -15934,7 +15934,7 @@
 		},
 		{
 			"name": "Fiery Grasp",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 57,
 			"level": 1,
 			"school": "V",
@@ -15997,7 +15997,7 @@
 		},
 		{
 			"name": "Flaming Bolts",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 59,
 			"level": 1,
 			"school": "V",
@@ -16056,7 +16056,7 @@
 		},
 		{
 			"name": "Foggy Flying Carpet",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 60,
 			"level": 5,
 			"school": "C",
@@ -16105,7 +16105,7 @@
 		},
 		{
 			"name": "Forceful Crush",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 61,
 			"level": 7,
 			"school": "V",
@@ -16162,7 +16162,7 @@
 		},
 		{
 			"name": "Fortify Armor",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 61,
 			"level": 2,
 			"school": "T",
@@ -16210,7 +16210,7 @@
 		},
 		{
 			"name": "Frostfire",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 62,
 			"level": 1,
 			"school": "V",
@@ -16273,7 +16273,7 @@
 		},
 		{
 			"name": "Fuse Joints",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 62,
 			"level": 8,
 			"school": "T",
@@ -16327,7 +16327,7 @@
 		},
 		{
 			"name": "Giant's Potency",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 64,
 			"level": 6,
 			"school": "T",
@@ -16383,7 +16383,7 @@
 		},
 		{
 			"name": "Glass Window",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 64,
 			"level": 6,
 			"school": "T",
@@ -16430,7 +16430,7 @@
 		},
 		{
 			"name": "Glass into Iron",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 64,
 			"level": 8,
 			"school": "T",
@@ -16470,7 +16470,7 @@
 		},
 		{
 			"name": "Grave-Touched Weapon",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 65,
 			"level": 1,
 			"school": "N",
@@ -16521,7 +16521,7 @@
 		},
 		{
 			"name": "Hard Water Weapon",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 67,
 			"level": 4,
 			"school": "T",
@@ -16573,7 +16573,7 @@
 		},
 		{
 			"name": "Harmonic Dissolution",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 67,
 			"level": 8,
 			"school": "V",
@@ -16623,7 +16623,7 @@
 		},
 		{
 			"name": "Headwind",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 68,
 			"level": 0,
 			"school": "V",
@@ -16672,7 +16672,7 @@
 		},
 		{
 			"name": "Hemophilia",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 69,
 			"level": 3,
 			"school": "N",
@@ -16732,7 +16732,7 @@
 		},
 		{
 			"name": "Heraldic Mastiff",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 70,
 			"level": 1,
 			"school": "T",
@@ -16780,7 +16780,7 @@
 		},
 		{
 			"name": "Heraldic Owl",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 70,
 			"level": 1,
 			"school": "T",
@@ -16828,7 +16828,7 @@
 		},
 		{
 			"name": "Heraldic Ox",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 70,
 			"level": 1,
 			"school": "A",
@@ -16876,7 +16876,7 @@
 		},
 		{
 			"name": "Hound's Scent",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 72,
 			"level": 1,
 			"school": "T",
@@ -16920,7 +16920,7 @@
 		},
 		{
 			"name": "Hovership",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 72,
 			"level": 7,
 			"school": "T",
@@ -16966,7 +16966,7 @@
 		},
 		{
 			"name": "Hunter's Insight",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 73,
 			"level": 2,
 			"school": "T",
@@ -17010,7 +17010,7 @@
 		},
 		{
 			"name": "Ice Geyser",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 73,
 			"level": 8,
 			"school": "V",
@@ -17068,7 +17068,7 @@
 		},
 		{
 			"name": "Icebreaker",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 73,
 			"level": 7,
 			"school": "T",
@@ -17114,7 +17114,7 @@
 		},
 		{
 			"name": "Iceform",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 73,
 			"level": 4,
 			"school": "T",
@@ -17172,7 +17172,7 @@
 		},
 		{
 			"name": "Identify Tracks",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 74,
 			"level": 2,
 			"school": "D",
@@ -17219,7 +17219,7 @@
 		},
 		{
 			"name": "Ignite",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 74,
 			"level": 2,
 			"school": "V",
@@ -17281,7 +17281,7 @@
 		},
 		{
 			"name": "Imbue Passion",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 74,
 			"level": 8,
 			"school": "E",
@@ -17341,7 +17341,7 @@
 		},
 		{
 			"name": "Immunity to Energy",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 75,
 			"level": 7,
 			"school": "A",
@@ -17400,7 +17400,7 @@
 		},
 		{
 			"name": "Infinite Knowledge",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 75,
 			"level": 4,
 			"school": "D",
@@ -17444,7 +17444,7 @@
 		},
 		{
 			"name": "Inner Storm",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 76,
 			"level": 5,
 			"school": "V",
@@ -17497,7 +17497,7 @@
 		},
 		{
 			"name": "Insomnia",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 76,
 			"level": 2,
 			"school": "E",
@@ -17550,7 +17550,7 @@
 		},
 		{
 			"name": "Judicious Concealment",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 79,
 			"level": 6,
 			"school": "I",
@@ -17607,7 +17607,7 @@
 		},
 		{
 			"name": "Know the Mark",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 79,
 			"level": 1,
 			"school": "D",
@@ -17654,7 +17654,7 @@
 		},
 		{
 			"name": "Landslide",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 80,
 			"level": 6,
 			"school": "C",
@@ -17715,7 +17715,7 @@
 		},
 		{
 			"name": "Lasting Breath",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 80,
 			"level": 1,
 			"school": "T",
@@ -17758,7 +17758,7 @@
 		},
 		{
 			"name": "Leaf Fall",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 80,
 			"level": 2,
 			"school": "N",
@@ -17805,7 +17805,7 @@
 		},
 		{
 			"name": "Leaf Tide",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 81,
 			"level": 2,
 			"school": "T",
@@ -17858,7 +17858,7 @@
 		},
 		{
 			"name": "Light Control",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 81,
 			"level": 4,
 			"school": "T",
@@ -17907,7 +17907,7 @@
 		},
 		{
 			"name": "Lightning Wheel",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 82,
 			"level": 6,
 			"school": "V",
@@ -17969,7 +17969,7 @@
 		},
 		{
 			"name": "Liquid Fire",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 82,
 			"level": 7,
 			"school": "V",
@@ -18023,7 +18023,7 @@
 		},
 		{
 			"name": "Locate Water",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 83,
 			"level": 1,
 			"school": "D",
@@ -18070,7 +18070,7 @@
 		},
 		{
 			"name": "Lock Form",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 83,
 			"level": 4,
 			"school": "A",
@@ -18126,7 +18126,7 @@
 		},
 		{
 			"name": "Lost Wanderer",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 83,
 			"level": 6,
 			"school": "E",
@@ -18190,7 +18190,7 @@
 		},
 		{
 			"name": "Lower Spell Resistance",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 83,
 			"level": 5,
 			"school": "T",
@@ -18241,7 +18241,7 @@
 		},
 		{
 			"name": "Magma Eruption",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 84,
 			"level": 7,
 			"school": "C",
@@ -18300,7 +18300,7 @@
 		},
 		{
 			"name": "Malicious Intent",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 84,
 			"level": 1,
 			"school": "E",
@@ -18356,7 +18356,7 @@
 		},
 		{
 			"name": "Maligned Performance",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 84,
 			"level": 4,
 			"school": "I",
@@ -18410,7 +18410,7 @@
 		},
 		{
 			"name": "Mangling Foot",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 85,
 			"level": 7,
 			"school": "V",
@@ -18481,7 +18481,7 @@
 		},
 		{
 			"name": "Mark of Ownership",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 86,
 			"level": 4,
 			"school": "A",
@@ -18524,7 +18524,7 @@
 		},
 		{
 			"name": "Melt",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 86,
 			"level": 2,
 			"school": "T",
@@ -18577,7 +18577,7 @@
 		},
 		{
 			"name": "Memento",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 86,
 			"level": 5,
 			"school": "T",
@@ -18617,7 +18617,7 @@
 		},
 		{
 			"name": "Mind Link",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 87,
 			"level": 3,
 			"school": "T",
@@ -18661,7 +18661,7 @@
 		},
 		{
 			"name": "Muddy Appearance",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 88,
 			"level": 1,
 			"school": "I",
@@ -18708,7 +18708,7 @@
 		},
 		{
 			"name": "Nullifying Cloak",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 90,
 			"level": 5,
 			"school": "A",
@@ -18763,7 +18763,7 @@
 		},
 		{
 			"name": "Otter's Grace",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 92,
 			"level": 1,
 			"school": "T",
@@ -18819,7 +18819,7 @@
 		},
 		{
 			"name": "Paean of Greater Glory",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 92,
 			"level": 4,
 			"school": "E",
@@ -18858,12 +18858,12 @@
 				]
 			},
 			"entries": [
-				"You fill the air with a powerful song of glory that inspires your allies and bolsters their spirit. Choose any number of willing creatures within range. For the duration of the spell, an affected creature gets tactical advantage on saving throws against being {@condition frightened}; it adds {@dice 1d4} to its attack rolls; and whenever it makes a damage roll and dislikes the result, it can reroll the dice and choose to use either the first or second result."
+				"You fill the air with a powerful song of glory that inspires your allies and HomebrewSpellzters their spirit. Choose any number of willing creatures within range. For the duration of the spell, an affected creature gets tactical advantage on saving throws against being {@condition frightened}; it adds {@dice 1d4} to its attack rolls; and whenever it makes a damage roll and dislikes the result, it can reroll the dice and choose to use either the first or second result."
 			]
 		},
 		{
 			"name": "Piercing Vision",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 93,
 			"level": 4,
 			"school": "D",
@@ -18919,7 +18919,7 @@
 		},
 		{
 			"name": "Plant Form",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 93,
 			"level": 6,
 			"school": "T",
@@ -18974,7 +18974,7 @@
 		},
 		{
 			"name": "Prey's Scent",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 94,
 			"level": 5,
 			"school": "T",
@@ -19021,7 +19021,7 @@
 		},
 		{
 			"name": "Protection from Oozes",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 95,
 			"level": 1,
 			"school": "A",
@@ -19069,7 +19069,7 @@
 		},
 		{
 			"name": "Putrefy Food and Drink",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 95,
 			"level": 1,
 			"school": "T",
@@ -19119,7 +19119,7 @@
 		},
 		{
 			"name": "Rainbow Spear",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 97,
 			"level": 4,
 			"school": "V",
@@ -19276,7 +19276,7 @@
 		},
 		{
 			"name": "Rainbow Staff",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 97,
 			"level": 5,
 			"school": "V",
@@ -19401,7 +19401,7 @@
 		},
 		{
 			"name": "Raise Island",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 97,
 			"level": 7,
 			"school": "C",
@@ -19446,7 +19446,7 @@
 		},
 		{
 			"name": "Ravaging Fire",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 98,
 			"level": 9,
 			"school": "C",
@@ -19504,7 +19504,7 @@
 		},
 		{
 			"name": "Revelation Field",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 99,
 			"level": 7,
 			"school": "A",
@@ -19557,7 +19557,7 @@
 		},
 		{
 			"name": "Reverence",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 99,
 			"level": 5,
 			"school": "E",
@@ -19611,7 +19611,7 @@
 		},
 		{
 			"name": "Scalding Sea",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 101,
 			"level": 4,
 			"school": "V",
@@ -19669,7 +19669,7 @@
 		},
 		{
 			"name": "Scintillating Doom",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 102,
 			"level": 9,
 			"school": "V",
@@ -19832,7 +19832,7 @@
 		},
 		{
 			"name": "Serpent Hands",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 104,
 			"level": 6,
 			"school": "T",
@@ -19893,7 +19893,7 @@
 		},
 		{
 			"name": "Shattering Cry",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 105,
 			"level": 5,
 			"school": "V",
@@ -19945,7 +19945,7 @@
 		},
 		{
 			"name": "Shield Open Flame",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 106,
 			"level": 0,
 			"school": "A",
@@ -19997,7 +19997,7 @@
 		},
 		{
 			"name": "Shield of Crackling Fire",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 105,
 			"level": 7,
 			"school": "A",
@@ -20045,7 +20045,7 @@
 		},
 		{
 			"name": "Silver Shield",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 106,
 			"level": 4,
 			"school": "A",
@@ -20092,7 +20092,7 @@
 		},
 		{
 			"name": "Slur",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 108,
 			"level": 2,
 			"school": "T",
@@ -20153,7 +20153,7 @@
 		},
 		{
 			"name": "Solar Flare",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 108,
 			"level": 8,
 			"school": "V",
@@ -20209,7 +20209,7 @@
 		},
 		{
 			"name": "Solar Fury",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 108,
 			"level": 6,
 			"school": "V",
@@ -20262,7 +20262,7 @@
 		},
 		{
 			"name": "Solar Spear",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 109,
 			"level": 4,
 			"school": "V",
@@ -20330,7 +20330,7 @@
 		},
 		{
 			"name": "Spell Inhibitor",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 111,
 			"level": 6,
 			"school": "A",
@@ -20379,7 +20379,7 @@
 		},
 		{
 			"name": "Spell Kill",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 112,
 			"level": 3,
 			"school": "T",
@@ -20435,7 +20435,7 @@
 		},
 		{
 			"name": "Spirit Disk",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 112,
 			"level": 8,
 			"school": "V",
@@ -20490,7 +20490,7 @@
 		},
 		{
 			"name": "Steam Cloud",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 114,
 			"level": 4,
 			"school": "V",
@@ -20550,7 +20550,7 @@
 		},
 		{
 			"name": "Steel Butterflies",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 114,
 			"level": 4,
 			"school": "C",
@@ -20612,7 +20612,7 @@
 		},
 		{
 			"name": "Stonefast",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 114,
 			"level": 4,
 			"school": "A",
@@ -20667,7 +20667,7 @@
 		},
 		{
 			"name": "Storm of Vitriol",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 114,
 			"level": 9,
 			"school": "V",
@@ -20724,7 +20724,7 @@
 		},
 		{
 			"name": "Tattoo Object",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 116,
 			"level": 5,
 			"school": "T",
@@ -20777,7 +20777,7 @@
 		},
 		{
 			"name": "Torrent",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 117,
 			"level": 6,
 			"school": "C",
@@ -20827,7 +20827,7 @@
 		},
 		{
 			"name": "Touch of Madness",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 117,
 			"level": 8,
 			"school": "E",
@@ -20879,7 +20879,7 @@
 		},
 		{
 			"name": "Transmute Gold to Steel",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 119,
 			"level": 6,
 			"school": "T",
@@ -20919,7 +20919,7 @@
 		},
 		{
 			"name": "Twitch",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 119,
 			"level": 1,
 			"school": "E",
@@ -20977,7 +20977,7 @@
 		},
 		{
 			"name": "Unchained Melody",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 120,
 			"level": 1,
 			"school": "T",
@@ -21020,7 +21020,7 @@
 		},
 		{
 			"name": "Violent Scream",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 124,
 			"level": 5,
 			"school": "V",
@@ -21085,7 +21085,7 @@
 		},
 		{
 			"name": "Voice of Memories",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 124,
 			"level": 5,
 			"school": "E",
@@ -21136,7 +21136,7 @@
 		},
 		{
 			"name": "Wailing Dirge",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 125,
 			"level": 3,
 			"school": "E",
@@ -21188,7 +21188,7 @@
 		},
 		{
 			"name": "Wall of Blood",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 125,
 			"level": 4,
 			"school": "C",
@@ -21240,7 +21240,7 @@
 		},
 		{
 			"name": "Warrior's Touch",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 126,
 			"level": 4,
 			"school": "T",
@@ -21294,7 +21294,7 @@
 		},
 		{
 			"name": "Weather Calming",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 127,
 			"level": 3,
 			"school": "C",
@@ -21339,7 +21339,7 @@
 		},
 		{
 			"name": "Web Orb",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 127,
 			"level": 1,
 			"school": "V",
@@ -21398,7 +21398,7 @@
 		},
 		{
 			"name": "Wind Speak",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 128,
 			"level": 1,
 			"school": "D",
@@ -21444,7 +21444,7 @@
 		},
 		{
 			"name": "Woodland Shriek",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 129,
 			"level": 1,
 			"school": "A",
@@ -21492,7 +21492,7 @@
 		},
 		{
 			"name": "Words of Thunder",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 129,
 			"level": 6,
 			"school": "V",
@@ -21548,7 +21548,7 @@
 		},
 		{
 			"name": "Xenophobic Rage",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 130,
 			"level": 8,
 			"school": "E",
@@ -21609,7 +21609,7 @@
 		},
 		{
 			"name": "Zone of Metamagic Minimization",
-			"source": "BoLS",
+			"source": "HomebrewSpellz",
 			"page": 131,
 			"level": 8,
 			"school": "A",
@@ -21692,8 +21692,8 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Hunter",
-						"source": "Hunter"
+						"name": "Ranger",
+						"source": "PHB"
 					}
 				]
 			},
@@ -21701,7 +21701,7 @@
 				"As part of the action used to cast this spell, you must make a ranged attack with a weapon against one creature within range of both the weapon and the spell, otherwise the spell fails. On a hit, the target suffers the attack's normal effects and the ammunition summons grasping, poisonous brambles, which wrap around the target until the start of your next turn. If the target willingly moves or is moved out of its original space before then, it immediately takes {@damage 1d6} poison damage, and the spell ends.",
 				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
 			],
-			"source": "ArcaneArcherSpells",
+			"source": "HomebrewSpellz",
 			"page": "1",
 			"components": {
 				"s": true,
@@ -21750,8 +21750,8 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Hunter",
-						"source": "Hunter"
+						"name": "Ranger",
+						"source": "PHB"
 					}
 				]
 			},
@@ -21759,7 +21759,7 @@
 				"Choose one creature you have seen in the past minute. You send a piece of ammunition toward that creature, which moves around corners if necessary and ignore three-quarters cover and half cover. If the target is within range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes {@damage 1d6} force damage, and you learn the target's current location until the end of the turn.",
 				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
 			],
-			"source": "ArcaneArcherSpells",
+			"source": "HomebrewSpellz",
 			"page": "2",
 			"components": {
 				"s": true,
