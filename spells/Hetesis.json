@@ -12,15 +12,15 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1607059199,
-		"dateLastModified": 1607059199
+		"dateAdded": 1612547394,
+		"dateLastModified": 1612547394
 	},
 	"spell": [
 		{
-			"name": "Hetesis Damage cantrip",
+			"name": "Hetesis' Heavy Limb",
 			"source": "Hetesis",
 			"level": 0,
-			"school": "E",
+			"school": "T",
 			"time": [
 				{
 					"number": 1,
@@ -30,10 +30,12 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "touch"
+					"type": "feet",
+					"amount": 60
 				}
 			},
 			"components": {
+				"v": true,
 				"s": true
 			},
 			"duration": [
@@ -42,78 +44,67 @@
 				}
 			],
 			"entries": [
-				"You touch a living creature and unleash psychic energy from your hand that travels through the nervous system of the creature.",
-				"Make a melee spell attack. On a hit, the creature takes {@damage 1d8} and substracts {@dice 1d4} from its next attack roll.",
-				"This spell's damage increases by {@dice 1d8} when you reach certain levels: 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"You attempt to transform the limb of a creature that is moving. It must make a Constitution saving throw. On a failed save, the limp solidifies into a heavy metal until the end of the creature's turn and no effect happens on a succesful save.",
+				"Creatures with a Strength score lower than your spellcasting DC, are knocked {@condition prone} if they attempt move, while those with the score equal or above your spellcasting DC have their speed reduced by 15 feet. Nonetheless, each creature takes {@damage 1d4} force damage as their flesh changes.",
+				"(Constructs are immune to this spell)",
+				"The spell's damage increases by {@dice 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
+			],
+			"scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Cleric",
 						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Undying Light (UA)",
+							"source": "UALightDarkUnderdark"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Celestial",
+							"source": "XGE"
+						}
 					}
 				]
 			},
-			"races": [
+			"backgrounds": [
 				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
+					"name": "Boros Legionnaire",
+					"source": "GGR"
 				}
 			]
 		}

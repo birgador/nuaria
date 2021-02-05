@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1607058813,
-		"dateLastModified": 1607058813
+		"dateAdded": 1612547426,
+		"dateLastModified": 1612547426
 	},
 	"spell": [
 		{
@@ -508,6 +508,18 @@
 					"source": "PHB",
 					"baseName": "Elf",
 					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
 				}
 			]
 		},
@@ -838,6 +850,18 @@
 					"source": "PHB",
 					"baseName": "Elf",
 					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
 				}
 			]
 		},
@@ -879,6 +903,74 @@
 			],
 			"conditionInflict": [
 				"poisoned"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dynamo(WIP)",
+			"source": "NuariaToClassify",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Un punt on surten bolts electrics. En una semiesfera, els que tingnuin armor de metall surten malparats, rollo més damage, saving throw disadv o simplement no saving throw. Podria ser un spell de bestus anti-civilització"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cauterize (WIP)",
+			"source": "NuariaToClassify",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Channelling magic through your hands you lay them on an ally’s wounds. Immediately deal {@dice 2d4} hit points and remove all ongoing hit point loss due to blood loss. Further, the wounds will not become infected."
 			],
 			"classes": {
 				"fromClassList": [

@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1607058830,
-		"dateLastModified": 1607058830
+		"dateAdded": 1612547440,
+		"dateLastModified": 1612547440
 	},
 	"spell": [
 		{
@@ -53,6 +53,1155 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
 					]
 				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sinmos Damage Cantrip",
+			"source": "Sinmos",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a living creature and unleash psychic energy from your hand that travels through the nervous system of the creature.",
+				"Make a melee spell attack. On a hit, the creature takes {@damage 1d8} and substracts {@dice 1d4} from its next attack roll.",
+				"This spell's damage increases by {@dice 1d8} when you reach certain levels: 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Clutch (Libris Mortis)",
+			"source": "Sinmos",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"One humanoid of your choice that you can see within range begins to suffer a magic-induced heart attack. ",
+				"The target must succeed on a Constitution saving throw or take {@damage 3d8} necrotic damage and be {@condition stunned} for the duration. At the end of each of its turns, the target repeats the saving throw. It takes {@damage 3d8} necrotic damage on a failed save, and the spell ends on the target on a successful one."
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Consumptive Field (Libris Mortis)",
+			"source": "Sinmos",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "sphere",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A consumptive death field radiates from you in an aura with a 15-foot radius. ",
+				"Until the spell ends, the aura moves with you, centered on you. When a hostile creature enters the aura for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes {@damage 2d6} necrotic damage, and you regain hit points equal to half the necrotic damage dealt. ",
+				"Undead are unaffected by this spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Energy Ebb(Libris Mortis)",
+			"source": "Sinmos",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You point your finger and utter a foul incantation, releasing a black needle of crackling negative energy that suppresses the life force of living creatures. ",
+				"When you cast this spell, and as an action on each of your turns until the spell ends, you can target one creature you can see within range. If the target isn't undead, it must succeed on a Constitution saving throw or take {@damage 4d8} necrotic damage and suffer one level of {@condition exhaustion}. If the target is undead, you instead roll {@dice 4d8}. The target gains half the total as temporary hit points."
+			],
+			"conditionInflict": [
+				"exhaustion"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ghoul Light (Libris Mortis)",
+			"source": "Sinmos",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of rendered fat"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"A sickly green flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, except for its green hue, but it creates no heat and doesn't use oxygen. The flame can be covered and hidden, but not smothered or quenched. ",
+				"Undead within 30 feet of this light have advantage on saving throws against effects that turn undead. If an undead already had advantage on such saving throws before entering the area, it instead gains immunity to effects that turn undead while within the area."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the effect persists until it is dispelled."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ghastly Stench (Libris Mortis)",
+			"source": "Sinmos",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You emanate the putrid stench of a ghast. For the duration, each creature that starts its turn within 15 feet of you must succeed on a Constitution saving throw or be {@condition poisoned} until the start of its next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can increase the radius of this spell by 5 feet for each slot level above 2nd."
+					]
+				}
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Grave Bolt (WIP) (Libris Mortis)",
+			"source": "Sinmos",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You launch a bolt of negative energy at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} necrotic damage. If this attack hits a tree, a plant creature, or some other form of vegetation, the target instead takes {@damage 1d12} damage.",
+				"The spell's damage increases by one die when you reach 5th level ({@dice 2d10} or {@dice 2d12}), 11th level ({@dice 3d10} or {@dice 3d12}), and 17th level ({@dice 4d10} or {@dice 4d12})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Kiss of the Vampire (WIP Libris Mortis)",
+			"source": "Sinmos",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "(a black onyx worth at least 50 gp that has been carved with the image of a fang-mouthed face",
+					"consumed": true,
+					"cost": 5000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You target one non-undead creature you can see within 30 feet of you. If the target can see you, it must succeed on a Wisdom saving throw or be {@condition charmed} by you for the duration. The {@condition charmed} target regards you as a trusted friend to be heeded and protected. Although the target isn't under your direct control, it takes your requests or actions in the most favorable way it can.",
+				"The {@condition charmed} target can repeat the saving throw at the end of each of its turns. It takes {@damage 3d6} psychic damage on a failed save, and the spell ends for it on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional humanoid for each slot level above 3rd."
+					]
+				}
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Lay Waste (Libris Mortis)",
+			"source": "Sinmos",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create six tiny orbs of negative energy in your space. They float in the air and orbit you for the spell's duration. When you cast the spell—and as a bonus action on each of your turns thereafter—you can expend one or two of the orbs, sending them streaking toward a point or points you choose within 120 feet of you. Once a orb reaches its destination or impacts against a solid surface, the orb explodes. Each creature within 5 feet of the point where the orb explodes must make a Constitution saving throw. ",
+				"A creature takes {@damage 2d6} necrotic damage on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the number of orbs created increases by two for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mourning Mist (Libris Mortis)",
+			"source": "Sinmos",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bottle of black ichor"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You hurl a globule of black mist at a point within range. Each non-undead creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw. On a failed save, a creature takes {@damage 4d10} necrotic damage, and each undead ally of your choice has advantage on attacks against the creature until the end of your next turn."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Necrotic Cyst (LM)",
+			"source": "Sinmos",
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Make a melee spell attack against a creature within your reach. On a hit, the target develops an internal spherical sac that contains fluid or semisolid necrotic flesh, unless it is a construct or undead. The internal cyst is noticeable as a slight bulge on the target's arm, abdomen, or face (wherever you chose to touch the target) or it is buried deeply enough in the flesh of your target that it is not immediately obvious- the target may not realize what was implanted within them.",
+				"While the target possesses a necrotic cyst, it suffers from the {@condition poisoned} condition, and it can't magically regain hit points or benefit from resistance to necrotic damage. Additionally, whenever the target takes damage, it must make a Constitution saving throw. On a failed save, the target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+				"A protection from evil and good spell prevents the necrotic cyst from forming, but once a necrotic cyst is implanted, it can only be removed can be removed only by heal or another disease-curing spell of 6th level or higher. The target may also elect to have some well-meaning chirurgeon remove them surgically. The procedure is a bloody, painful process that has a chance to kill the target if done improperly. The procedure takes 1 hour, and the chirurgeon must make a Wisdom (Medicine) check against your spell save DC. On a success, the cyst is removed safely, and the target suffers one level of {@condition exhaustion}. On a failure, the target dies."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Protection from Positive and Negative Energy (LM)",
+			"source": "Sinmos",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, the willing creature you touch has resistance to necrotic and radiant damage."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sheltered Vitality (LM)",
+			"source": "Sinmos",
+			"level": 6,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"One willing creature you touch gains advantage on saving throws against the following effects for the duration:",
+				{
+					"type": "list",
+					"items": [
+						"Effects that reduce its ability scores.",
+						"Effects that reduce its hit point maximum.",
+						"Effects that cause its {@condition exhaustion} level to increase."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Unholy Crusade (LM)",
+			"source": "Sinmos",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Unholy power radiates from you in an aura with a 30-foot radius, infusing your allies' weapons with negative energy. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra {@damage 1d4} necrotic damage when it hits with a weapon attack."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Vampiric Smite (LM) WIP",
+			"source": "Sinmos",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a weapon attack before this spell ends, you siphon away some of the target's life force. The attack deals an extra {@damage 3d6} necrotic damage to the target, and you regain hit points equal to half the amount of necrotic damage dealt."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level above 3rd"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Venomous Smite (LM)",
+			"source": "Sinmos",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a melee weapon attack during the spell's duration, your attack deals an extra {@damage 1d6} poison damage. Additionally, the target must make a Constitution saving throw or be {@condition poisoned} until the spell ends. As an action, the creature can make a Constitution check against your spell save DC to steel its resolve and end this spell."
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wall of Pain (LM)",
+			"source": "Sinmos",
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a wall of negative energy on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. ",
+				"When the wall appears, each non-undead creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 4d8} necrotic damage and has its speed halved until the end of their next turn. On a successful save, it takes half as much damage and does not have its speed halved. ",
+				"A non-undead creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage. An undead that passes through either side of the wall has its speed doubled until the start of the undead's next turn"
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Veil of Undeath (LM)",
+			"source": "Sinmos",
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a black sapphire worth 1,000 gp",
+					"cost": 100000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You gain many of the traits common to undead creatures. You gain the following benefits for the duration:",
+				{
+					"type": "list",
+					"items": [
+						"Your body appears sick and ghastly, as though you were a walking corpse. Undead with an Intelligence score of 6 or lower won't attack you except in self defense or when ordered to, and you are detected as an undead by a paladin's Divine Sense feature.",
+						"You don't require air, food, drink, or sleep.",
+						"You are immune to necrotic and poison damage.",
+						"Whenever you are subjected to necrotic damage, you instead gain a number of temporary hit points equal to half the necrotic damage you would have taken.",
+						"You are immune to the {@condition poisoned} conditition, disease, and {@condition exhaustion}."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wither Limb (LM)",
+			"source": "Sinmos",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Choose one humanoid that you can see within range to make a Constitution saving throw. On a failed save, you can choose to wither one of its legs or one of its arms. If you wither a leg, the target falls {@condition prone} and can't stand up for the duration. If you wither an arm, the target drops any item it is holding with that arm, and until the spell ends, it can't use that arm to use or hold items, to make attacks, or to perform somatic components for spells."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Soul fire (AevilokE)",
+			"source": "Sinmos",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Choose a living or deceased creature within range. The creature must succeed on a Wisdom saving throw or take {@damage 1d8} necrotic damage as blue fire erupts from within its chest. This fire does not burn, nor it damages objects.",
+				"If the creature is alive after taking damage, the spell ends. Otherwise, the fire grows to the size of a bonfire in the deceased creature's space. A creature takes {@damage 1d8} necrotic damage when it moves into the bonfire's space for the first time on a turn or ends its turn there.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "False Reassurance (AvilokE)",
+			"source": "Sinmos",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch one creature, imbuing it with false vitality and granting it {@dice 1d6} temporary hit points. When the temporary hit points are lost, the creature takes {@damage 2d8} necrotic damage. ",
+				"For the duration of the spell, the creature feels safe and protected, unless it has been affected by this spell before. If the creature is unwilling, you must make a malee spell attack. ",
+				"A {@i {@spell remove curse} } spell cast on the target ends this spell.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 3d8}), 11th level ({@dice 4d8}) and 17th level ({@dice 5d8})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ethereal Anchor (AvilokE WIP)",
+			"source": "Sinmos",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Translucent chains form, tying a creature you touch to its current position. Whenever the creature willingly moves to a point that is more than 10 feet away from its tethered position, it must make a Charisma saving throw or gain a level of {@condition exhaustion} and have its speed reduced to 0 until the end of its next turn. On a succesful save, the spell ends.",
+				"A creature anchored this way cannot be physically moved away from the tethered point. Only the creature can willingly move further from the point.",
+				"If the target teleports with a spell of 4th level or higher, the spell ends."
+			],
+			"conditionInflict": [
+				"exhaustion"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Exhaust",
+			"source": "Sinmos",
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose a creature you can see within range. It must succeed on a Charisma saving throw or gain 2 levels of {@condition exhaustion}, as their body faintly withers. ",
+				"Affected creatures cannot reduce their levels of {@condition exhaustion} below 2 by regular means such as finishing a long rest. Only by spells such as {@spell remove curse}, {@spell greater restoration} or {@spell wish}.",
+				"Exhaustion levels gained this way don't stack."
+			],
+			"conditionInflict": [
+				"exhaustion"
 			],
 			"classes": {
 				"fromClassList": [

@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1607058792,
-		"dateLastModified": 1607058792
+		"dateAdded": 1612547378,
+		"dateLastModified": 1612547378
 	},
 	"spell": [
 		{
@@ -62,6 +62,18 @@
 				]
 			},
 			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
 				{
 					"name": "Elf (High)",
 					"source": "PHB",

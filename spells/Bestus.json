@@ -12,73 +12,10 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1607059080,
-		"dateLastModified": 1607059080
+		"dateAdded": 1612547332,
+		"dateLastModified": 1612547332
 	},
 	"spell": [
-		{
-			"name": "Alasia (MUST BE MOVED)",
-			"source": "Bestus",
-			"level": 0,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"You raise your holy symbol and call forth Alasia to strike the carriers of Lie and Darkness, as a beam of radiant energy is shot from your symbol. Make a ranged spell attack. On a hit, the target takes {@damage 1d8} radiant damage.",
-				"If the target is a monstrosity or a follower of Daasis or Sinmos, you can reroll the damage die, but you must take the new roll.",
-				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Life",
-							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Light",
-							"source": "PHB"
-						}
-					}
-				]
-			}
-		},
 		{
 			"name": "Bestus' Paw (WIP)",
 			"source": "Bestus",
@@ -187,6 +124,18 @@
 				]
 			},
 			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
 				{
 					"name": "Elf (High)",
 					"source": "PHB",

@@ -12,12 +12,12 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1607059178,
-		"dateLastModified": 1607059178
+		"dateAdded": 1612547467,
+		"dateLastModified": 1612547467
 	},
 	"spell": [
 		{
-			"name": "Viesis damage cantrip(NaN)",
+			"name": "Justice Shot (WIP)",
 			"source": "Viesis",
 			"level": 0,
 			"school": "V",
@@ -44,9 +44,8 @@
 				}
 			],
 			"entries": [
-				"You raise your holy symbol and call forth Alasia to strike the carriers of Lie and Darkness, as a beam of radiant energy is shot from your symbol. Make a ranged spell attack. On a hit, the target takes {@damage 1d8} radiant damage.",
-				"If the target is a monstrosity or a follower of Daasis or Sinmos, you can reroll the damage die, but you must take the new roll.",
-				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"You judge a creature for its crimes and shoot pure and just energy towards it. On a hit the target takes {@damage 1d8} force damage. If you are aware that the target has commited a crime, it takes {@damage 1d12} force damage instead.",
+				"The spell's damage increases by {@dice 1d8} and {@dice 1d12} when you reach 5th level ({@dice 2d8} and {@dice 2d12}), 11th level ({@dice 3d8} and {@dice 3d12}), and 17th level ({@dice 4d8} and {@dice 4d12})."
 			],
 			"classes": {
 				"fromClassList": [
@@ -75,6 +74,604 @@
 							"name": "Light",
 							"source": "PHB"
 						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Divine Judgement (WIP)",
+			"source": "Viesis",
+			"page": 289,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You let your god judge a creature.",
+				"If that creature has commited any of the following in the past hour,",
+				"- Crime",
+				"- Crime",
+				"- Crime",
+				"(maybe you can ask for the crime, like have you killed)",
+				"They must make a Charisma saving throw. On a failed save, they take X damage and half as much on a success.. You can choose to deal non-lethal damage. (Let player choose castigation)",
+				"They must succeed on a Charisma saving throw",
+				"Discord: Rachayz i Lucifer.",
+				"https://discord.com/channels/113801089362558983/116687515288600579/784453189336170566"
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of Xth or higher, the time for the crime that you look back is a day, month, year."
+					]
+				}
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Devotion",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Crown",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Monster Slayer (UA)",
+							"source": "UAATrioOfSubclasses"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Monster Slayer",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger (Revised)",
+							"source": "UATheRangerRevised"
+						},
+						"subclass": {
+							"name": "Monster Slayer (UA)",
+							"source": "UAATrioOfSubclasses"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger (Revised)",
+							"source": "UATheRangerRevised"
+						},
+						"subclass": {
+							"name": "Monster Slayer",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Order",
+							"source": "TCE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Human (Mark of Sentinel)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Order (WIP)",
+			"source": "Viesis",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:",
+				{
+					"type": "list",
+					"items": [
+						"You sort a set of objects by a trait, such as books by name, or coloured stones by colour.",
+						"You rearrange in an ordered manner a set of objects, such as pebbels by size, knotted wires or puzzle pieces in a puzzle."
+					]
+				},
+				"If you cast this spell multiple times, you can have up to bla bla of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Archer",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Abyssal)",
+					"source": "UAThatOldBlackMagic",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Halfling (Mark of Hospitality)",
+					"source": "ERLW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Detect Alignment(WIP)",
+			"source": "Viesis",
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You read the alignment of a creature.",
+				"The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie (UA)",
+							"source": "UA2020SubclassesRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie",
+							"source": "TCE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Elf (Mark of Detection)",
+					"source": "ERLW",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Prison/Cage (WIP)",
+			"source": "Viesis",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of powder made by crushing a clear gemstone"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"An {@condition invisible} wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).",
+				"Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by {@spell dispel magic}. A {@spell disintegrate} spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall."
+			],
+			"damageImmune": [
+				"force"
+			],
+			"areaTags": [
+				"W"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Protection (UA)",
+							"source": "UAClericDivineDomains"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Redemption (UA)",
+							"source": "UAATrioOfSubclasses"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Redemption",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer (Revisited)",
+							"source": "UAArtificerRevisited"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "UAArtificerRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Clockwork Soul (UA)",
+							"source": "UA2020SubclassesPt2"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Armorer (UA)",
+							"source": "UA2020SubclassesPt3"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Armorer",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Clockwork Soul",
+							"source": "TCE"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Heart of Justice (WIP)",
+			"source": "Viesis",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You place your hand on a creature's chest, right next to where the heart is.",
+				"For the duration, the creature gets a +1 on attack rolls and saving throws against being {@condition charmed} or {@condition frightened}, related to creatures that are unjust."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the bonus increases by +1 for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Weight of Justice (WIP)",
+			"source": "Viesis",
+			"level": 6,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose a target. It must make a Dexterity saving throw. On a failed save, the target takes {@damage 10d10} radiant damage and is paralysed and its speed becomes 0 for the duration.",
+				"You can choose to make the damage non-lethal."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Circle of Divine Censure (WIP)",
+			"source": "Viesis",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You radiate a holy aura in a 30-foot radius that is anathema to lies. Any undead or fiend that enters the aura or begins its turn in the aura takes {@damage 2d6} radiant damage and must make a Charisma saving throw; if the saving throw fails, the creature must move out of the aura as soon it can."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Palaidn",
+						"source": "PHB"
 					}
 				]
 			}

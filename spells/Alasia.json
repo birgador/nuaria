@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1607059028,
-		"dateLastModified": 1607059028
+		"dateAdded": 1612547174,
+		"dateLastModified": 1612547174
 	},
 	"spell": [
 		{
@@ -44,7 +44,7 @@
 				}
 			],
 			"entries": [
-				"You raise your holy symbol and call forth Alasia to strike your unholy foes. Make a ranged spell attack. On a hit, the target  takes {@damage 1d8} radiant damage. If the target is a monstrosity or follows Daasis or Sinmos, you can reroll the damage die, but you must take the new roll.",
+				"You raise your holy symbol and call forth Alasia to strike your unholy foes. Make a ranged spell attack. On a hit, the target  takes {@damage 1d6} radiant damage. If the target is a monstrosity or follows Daasis or Sinmos, the damage increases to {@damage 1d12}.",
 				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
 			],
 			"scalingLevelDice": {
@@ -105,6 +105,205 @@
 					"source": "GGR"
 				}
 			]
+		},
+		{
+			"name": "Alasia's Healing Prayer",
+			"source": "Alasia",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A creature you touch regains a number of hit points equal to {@dice 8d8} + your spellcasting ability modifier, as a radiant light is emitted from your hand. Additionally, the creature gains for the duration resistance to the type of damage it last received in the past hour, which defaults to necrotic damage if no damage was received during that period of time."
+			],
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Celestial",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Wildfire",
+							"source": "TCE"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Alasia's Kiss",
+			"source": "Alasia",
+			"page": 248,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch one willing creature. Once before the spell ends, the target can roll a {@dice d4} and add the number rolled on death saving throws."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Alasia's Shield (WIP)",
+			"source": "Alasia",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch one willing creature that is heavily injured (Below 25% of its maximum hit points). The target regains {@dice 1d8} + your spellcasting ability modifier hit points and gains a +2 bonus to their AC, as it is blessed by Alasia."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	]
 }

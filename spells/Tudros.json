@@ -12,12 +12,12 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1607059100,
-		"dateLastModified": 1607059100
+		"dateAdded": 1612547454,
+		"dateLastModified": 1612547454
 	},
 	"spell": [
 		{
-			"name": "Tudros Cantrip(WIP)",
+			"name": "Tudros Damage Cantrip(WIP)",
 			"source": "Tudros",
 			"level": 0,
 			"school": "A",
@@ -48,7 +48,21 @@
 						"source": "PHB"
 					}
 				]
-			}
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				}
+			]
 		},
 		{
 			"name": "Tudros' Electric Field",
@@ -136,6 +150,199 @@
 			"opposedCheck": [
 				"intelligence"
 			]
+		},
+		{
+			"name": "Tudros' Magical Stomp",
+			"source": "Tudros",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You stomp on the ground. A magical copy of size Large of your foot appears over a point you can see within range. Creatures inside a 10-foot cube make a Strength saving throw, taking bludgeoning damage equal to {@damage 2d8} + your Strength modifier and are knocked {@condition prone} on a failed save and taking half as much and aren't knocked {@condition prone} on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Light",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Crush (WIP)",
+			"source": "Tudros",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to magically crush a creature and test its physical resolve. ",
+				"The creature must succeed on a Strength saving throw or take {@damage 3d6} + your Strength score bludgeoning damage, be {@condition restrained} and {@condition incapacitated}. You can on each of your turns use your Action to deal X damage automatically. ",
+				"The spell ends if you use your Action to do anything else.",
+				"A creature can repeat the saving throw at the end of each of its turns."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Obliterate (WIP)",
+			"source": "Tudros",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Each creature in a 20-foot cylinder takes 15 force damage and must make a Strength saving throw. On a failed save it takes {@damage 12d4} force damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"SPELL FOLLOWS DMG TABLE"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Earth crush (WIP)",
+			"source": "Tudros",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"STR sav thro or take {@damage 8d6} force damage and {@condition prone}"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	]
 }
