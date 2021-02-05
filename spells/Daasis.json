@@ -1,0 +1,1470 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Daasisspells",
+				"abbreviation": "DS",
+				"full": "Daasis'",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1612547347,
+		"dateLastModified": 1612547347
+	},
+	"spell": [
+		{
+			"name": "Daasis's Roll of Madness",
+			"source": "Daasisspells",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You unleash a torrent of conflicting thoughts and ideas in the mind of one creature you can see within range, damaging its pysche and altering its behaviour. The target must succeed on a Wisdom saving throw or be infused by dissonant thoughts. Roll a {@dice 1d6}. It gains one of the following negative effects. ",
+				{
+					"type": "list",
+					"items": [
+						"The target takes the Attack action and targets the nearest creature it can see within range of the attack at random. It moves towards the target if it's a melee attack and can reach the target. If it cannot reach any target, it takes the Dash action instead and moves towards the nearest creature it can see.",
+						"The target screams loudly and raises its arms (if they have any) and drops everything it is holding. It has disadvantage on attack rolls and Dexterity saving throws.",
+						"The target drops to the ground and acts normally on its turn but must remain {@condition prone}",
+						"The target is {@condition frightened} by you.",
+						"The target starts laughing uncontrollably and loses the ability to speak normally.",
+						"The dissonant thoughts are extremely intense. The target takes {@damage 1d12} of psychic damage and is {@condition incapacitated}."
+					]
+				},
+				"At the end of each of its turns, it takes {@damage 1d12} psychic damage, and it can then make another Wisdom saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Coin Toss",
+			"source": "Daasisspells",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "A coin"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Whenever you see a creature within range attempting an attack or a saving throw, you can let fate decide. Toss a coin (or roll a {@dice 1d2}). On heads (or a 1) it adds +2 to the roll and on tails (or a 2) it adds -2.",
+				"A creature is not a valid target of this spell if it's already being targetted by this spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Randomness Domain",
+							"source": "Nuaria"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Madness Spike",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose a creature within range. The creature gets imbued with psychic energy attacking it through the nervous system. The creature must succed a Wisdom saving throw or take {@damage 2d10} psychic damage. Roll a {@dice 1d8}. On a roll of 8, the target is also {@condition incapacitated} until the end of its next turn. This cantrip does not affect non-intelligent constructs or undead."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d10} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "Nuaria"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Broken Mind",
+							"source": "Nuaria"
+						}
+					}
+				]
+			},
+			"opposedCheck": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Mental Breakdown (WIP)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Spell"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Asylum (WIP PSYC TERR)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Cube, psychic damage increase. Sav throws for {@condition frightened}. Sav throw per turn and failed, spends reaction. Creatures with Int lower than X immune.",
+				"Per fer spell",
+				"- Disable(nom)",
+				"- Encore",
+				"- Explosion",
+				"- Facade",
+				"- Focus energy",
+				"- Glare",
+				"- Judgement(nom)",
+				"- Lucky chant",
+				"- Weather healing(morning sun)",
+				"-Nature power (damage funció environment)",
+				"- Pain Split",
+				"- Perish Song (nom, bard)",
+				"-Relic song(nom)",
+				"-Sonic boom (nom)",
+				"-Substitute",
+				"-Weather ball",
+				"-Wish",
+				"-Yawn",
+				"WATER",
+				"- Aqua jet",
+				"Aqua ring, Geyser, Muddy water, Steam Eruption, Water Sport",
+				"Ghost, Destiny bond, Shadow ball, shadow claw, shadow force, shadow sneak, Curse",
+				"Dragon",
+				"Draco meteor (Cant move after), Roar of time, Spacial Rend",
+				"Fighting",
+				"No retreat, Focus blast",
+				"Poison",
+				"Acid armor, Baneful Bunker(reaction), toxic spikes, venoshock, toxic thread, sludge bomb, sludge wave",
+				"Ground",
+				"Lands wrath, Sand tomb, spikes",
+				"Flying",
+				"Aeroblast,Air slash,chatter(bard cantrip),"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Paranoia (WIP)",
+			"source": "Daasisspells",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You imbue a creature within a state of paranoia. This creature must succeed on an Intelligence saving throw or become {@condition frightened} of every creature they see within 30 feet of them.  ",
+				"While {@condition frightened} by this spell, the creature must take the Attack action and make a range attack against the closest creature it is {@condition frightened} by, provided they are within range and can make such attack.",
+				"A creature repeats the saving throw again at the end of their turn. On a success, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can target an additional creature for each slot level above 3rd."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Encore",
+			"source": "Daasisspells",
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You set the thoughts of a creature you can see in a loop.",
+				"The target must make a Wisdom saving throw. On a failed save, the creature repeats the last Action it took within the last minute. The repeated Action is identical in every way to the original Action. Furthermore, the creature cannot use reactions or bonus actions while affected. If the creature cannot repeat the Action, the creature stands still doing nothing instead.",
+				"An affected creature can repeat the saving throw at the end of each of its turns."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Psychosomatic Attack (Beta)",
+			"source": "Daasisspells",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 5,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You unleash a powerful surge of psychic energy directly at the nervous system of an enemy.",
+				"Make a ranged spell attack roll against a creature. On a hit It takes {@damage 4d12} psychic damage and must succeed on an Intelligence saving throw as you try to manipulate its thoughts into believing it is hurt. On a failed save, the target takes {@damage 1d12} psychic damage at the start of each of its turns.",
+				"A creature can repeat the saving throw at the end of each of its turns.",
+				"Constructs and undeadcan't be targetted by this spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the  damage dealt by the attack increases by {@dice 1d12} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cards of X (WIP)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You conjure a set of cards that can either be Blue, red, purple or black. On black, double cards.",
+				"Blue -> ",
+				"Red ->",
+				"Purple ->",
+				"Black ->"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dream Weaver (WIP)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You get into the mind of a sleeping intelligent creature.",
+				"You can take several actions. ",
+				"Damage mind",
+				"Suggest course of action",
+				"Gather info"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mental Horror",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You incapacitate intelligent creature. You fill the mind of the creature with macabre and horrendous images. At the start of turn they repeat saving throw. On a fail, they try to stop the viewing by scratching their eyes. They take {@dice 2d4} and become {@condition blinded} until the start of their next turn. A creature that spends 5 rounds or more under this condition is permanently {@condition blinded}.",
+				" You must spend your action to keep the effect."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Nervous Touch",
+			"source": "Daasisspells",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a living creature and unleash psychic energy from your hand that travels through the nervous system of the creature.",
+				"Make a melee spell attack. On a hit, the creature takes {@damage 1d8} and substracts {@dice 1d4} from its next attack roll.",
+				"This spell's damage increases by {@dice 1d8} when you reach certain levels: 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Brainstorm (WIP)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Nervous Bomb",
+			"source": "Daasisspells",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A purple flash is shot from your pointing finger to a point you choose within range and then blossoms in an explosion of bright purple light that attacks the nervous system of nearby creatures. Each creature of your choice in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A target takes {@damage 5d8} psychic damage on a failed save and has its Intelligence score reduced by 2, or half as much damage on a successful one and its Inteligence isn't reduced. Repeated uses of this spell against a creature already under the effects of this spell don't reduce the Intelligence score further.",
+				"Affected creatures have their Intelligence restored after 1 minute."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 8d6|3-9|1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Light",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fiend",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Zeal (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer (Revisited)",
+							"source": "UAArtificerRevisited"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "UAArtificerRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Wildfire (UA)",
+							"source": "UAClericDruidWizard"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Artillerist",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie (UA)",
+							"source": "UA2020SubclassesRevisited",
+							"subSubclass": "Efreeti"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie (UA)",
+							"source": "UA2020SubclassesRevisited"
+						}
+					}
+				]
+			},
+			"eldritchInvocations": [
+				{
+					"name": "Kiss of Mephistopheles",
+					"source": "UAWarlockAndWizard"
+				}
+			]
+		},
+		{
+			"name": "Confusing Grasp(NaN)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Asylum (WIP)",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cube",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You unleash the madness within you and concentrate it in a 20-foot cube centered on a point you can see. ",
+				"When a creature enters for the first time in a round or starts its turn inside the cube, it takes {@damage 2d10} psychic damage and then makes an Intelligence saving throw. Each time it fails a saving throw it takes the next effect in the list of the following effects, starting by the first and ending with the last effect .",
+				{
+					"type": "list",
+					"items": [
+						"The creature takes {@damage 5d10} psychic damage as its mental barrier is broken.",
+						"The cognitive part of its nervous system is attacked and its perception of you is altered as it sees you as horrifying creature. The creature is {@condition frightened} by you and spends its reaction by screaming due to the mental pain.",
+						"The creature drops to the floor, becoming {@condition restrained} and {@condition prone}, while muttering incomprehensible words, as you overload its nervous system.",
+						"The creature breaks with reality and is {@condition incapacitated}.",
+						"The target becomes unconcious and gets a permanent madness."
+					]
+				},
+				"Creatures that with an intelligence score less than 4 and that are immune to both the {@condition charmed} and {@condition frightened} conditions are immune to this spell."
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Uncertain Thought (WIP)",
+			"source": "Daasisspells",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a living creature and unleash psychic energy from your hand that travels through the nervous system of the creature.",
+				"The target must make a Constitution saving throw or take {@damage 1d10} psychic damage. If the roll is a natural 1, it takes double damage, while if it rolls a natural 20 it takes half as much damage instead.",
+				"This spell's damage increases by {@dice 1d10} when you reach certain levels: 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10.})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Brain Spider (Lords of Madness)",
+			"source": "Daasisspells",
+			"page": 210,
+			"level": 7,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 400
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A spider of any size or kind. It can be dead, but it must still have all eight legs"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"This spell allows you to eavesdrop, by using your action, on the thoughts of up to eight other creatures at once. Each creature must succed on a Wisdom saving throw or you can hear as desired:",
+				{
+					"type": "list",
+					"items": [
+						"The ceaseless chaos representing images of surface thoughts.",
+						"Individual trains of thought in whatever order you desire.",
+						"Information from all minds about one particular topic, thing, or being, one nugget of information per caster level.",
+						"A study of the thoughts and memories of one creature of the group in detail."
+					]
+				},
+				"Once per round, if you do not perform a detailed study of one creature’s mind, you can attempt (as an action) to implant a suggestion in the mind of any one of the affected creatures. The creature can make another Wisdom saving throw to resist the suggestion, using the save DC of the brain spider. ",
+				"Success on this saving throw does not negate the other effects of the brain spider for that creature."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Maddening Scream (Lords of Madness)",
+			"source": "Daasisspells",
+			"page": 211,
+			"level": 8,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "turn",
+						"amount": 3
+					}
+				}
+			],
+			"entries": [
+				"The subject cannot keep himself from screaming, gibbering, and leaping about as though completely mad. ",
+				"This spell makes it impossible for the victim to do anything other than race about caterwauling. ",
+				"Make a melee spell attack. On a hit the target takes a –4 penalty to Armor Class. Furthermore, whenever the target makes a Dexterity saving throw, it will fail the save unless it rolls a natural 20."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Touch of Madness (Lords of Madness)",
+			"source": "Daasisspells",
+			"page": 212,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You can daze one living creature by making a successful touch attack. If the target creature does not make a successful Wisdom save, its mind is clouded and it takes no action until the start of your next turn. A dazed creature is not {@condition stunned} (so attackers get no special advantage against it), but it can’t move, cast spells, use mental abilities, and so on."
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Morality Undone  (Lords of Madness)",
+			"source": "Daasisspells",
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"On a failed Wisdom saving throw. The caster turns one creature evil. The chaotic/neutral/lawful component of the subject’s alignment is unchanged. The subject  retains whatever outlook, allegiances, and relationships it had before, as long as they do not conflict with the new alignment. Otherwise, it acts with its new selfi sh, bloodthirsty, and cruel outlook on all things.",
+				"For example, a wizard might not immediately turn on her fi ghter companion for no apparent reason, particularly in the middle of a combat when they’re fi ghting on the same side. But she might allow her friend to be hurt or killed if her friend is carrying something valuable she could recover later, or she might use spells to control or deceive her friend to get what she wants. She might even eventually decide to betray or attack her friend if there is some potential gain involved."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Broken Mind",
+							"source": "Daasisspells"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Glance of the Unknown",
+			"source": "Daasisspells",
+			"level": 5,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each",
+					"cost": 25000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Basically, el casteges a algú que està willing, otherwise faileja. La persona fa Sav throw si faileja, rep damage i permanent madness. Si success, medium madness i half damage. El caster no coneix en cap moment la info trasmesa, a no ser que se'l casteixi a ell mateix. Comentar info requereix Wis sav throw?",
+				"Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you gain no information. The more information you already have about the thing, the more precise and detailed the information you receive is.",
+				"The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: \\\"Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips.\\\""
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Undying",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Seeker (UA)",
+							"source": "UATheFaithful"
+						}
+					},
+					{
+						"class": {
+							"name": "Artificer (Revisited)",
+							"source": "UAArtificerRevisited"
+						},
+						"subclass": {
+							"name": "Archivist",
+							"source": "UAArtificerRevisited"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Undead (UA)",
+							"source": "UA2020SubclassesPt4"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Elf (Mark of Detection)",
+					"source": "ERLW",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "AAAABETTING SPELLS",
+			"source": "Daasisspells",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Spells on \"apostes\" per a aconseguir el benefici.",
+				"Exemple, una ruleta on esculls black or red i si surt doncs bonus.",
+				"Unes dianes on tu les intentes hitejar amb dards màgics i si hitejes l'enemic rep damage. Aposta a que un dau sigui major o menor, o que se't bufi el dau a dau caotic de {@dice 1d20}"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
