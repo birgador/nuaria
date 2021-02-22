@@ -55,7 +55,7 @@
 				"A creature entering the pool for the first time on a turn or starting its turn there must make a Dexterity saving throw, taking {@HomebrewSpellzage 4d6} acid HomebrewSpellzage on a failed save and sinking into the pool, as the grappled condition. On a successful save, the creature takes half as much acid HomebrewSpellzage and is not grappled. A grappled creature can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check (its choice) against your spell save DC. On a success, it frees itself. A creature of size Large or smaller that fails the saving throw while already grappled by the pool is also restrained against your spell save DC.",
 				"A restrained creature can't breathe, and any non-magical metal objects it carries begin to corrode. When the restrained creature takes acid HomebrewSpellzage from the pool, non-magical metal weapons and armor take a permanent, cumulative -1 penalty to their HomebrewSpellzage rolls and AC, respectively. If this penalty on a weapon reaches -5, the weapon is destroyed; similarly, armor is destroyed if its AC is reduced to 10. Other metal objects take cumulative HomebrewSpellzage as well, as the pool eats through a 1- inch-thickness of non-magical metal each round it is immersed."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid"
 			],
 			"conditionInflict": [
@@ -263,7 +263,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid"
 			],
 			"savingThrow": [
@@ -330,7 +330,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"radiant"
 			],
 			"savingThrow": [
@@ -536,7 +536,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning",
 				"cold"
 			],
@@ -599,7 +599,7 @@
 			"entries": [
 				"You burn a fiery rune in the shape of Kossuth's symbol into the forehead of a creature. At the start of the targets turns, it must make a Constitution saving throw. On a failed save, the target takes {@HomebrewSpellzage 1d8} fire HomebrewSpellzage for every 5 feet it moves on during that turn. On a successful save, the target is not affected during that turn but the spell does not end."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -652,7 +652,7 @@
 			"entries": [
 				"Each creature in a 15-foot-radius sphere centered on a point you choose must make a Wisdom save. On a failed save, a target takes {@HomebrewSpellzage 6d6} force HomebrewSpellzage and suffers disadvantage on saving throws vs magical effects until the start of your next turn, or half as much HomebrewSpellzage and no other effects on a successful one. A creature with magic resistance automatically succeeds the save and the spell deals minimum HomebrewSpellzage."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"force"
 			],
 			"savingThrow": [
@@ -835,7 +835,7 @@
 			"entries": [
 				"You lash out at a creature, searing its flesh with the spiteful fires that burn in Avernus. Make a melee spell against the target. On a hit, the target takes {@HomebrewSpellzage 10d12} fire HomebrewSpellzage, and it is branded with the mark of Zariel that is fueled by combat and suffering for 1 minute. While branded, each time the creature takes critical HomebrewSpellzage from an attack, the critical HomebrewSpellzage is doubled."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"spellAttack": [
@@ -982,7 +982,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"savingThrow": [
@@ -1480,7 +1480,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -1547,7 +1547,7 @@
 			"entries": [
 				"The next time you hit with a melee weapon attack during the spell's duration, your attack deals an extra {@HomebrewSpellzage 6d8} radiant HomebrewSpellzage. The target must make a Strength save or suffer a -5 AC penalty until the end of its next turn."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"radiant"
 			],
 			"savingThrow": [
@@ -1605,7 +1605,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"lightning"
 			],
 			"conditionInflict": [
@@ -1789,7 +1789,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -2075,7 +2075,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -2259,7 +2259,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"force"
 			],
 			"classes": {
@@ -2373,7 +2373,7 @@
 				"You touch a willing creature, encasing them in a protective coating of ice. For the duration, they gain a +3 bonus to AC and become resistant to cold HomebrewSpellzage but suffer disadvantage on all Dexterity checks and saves for the duration. Every time they are hit by a melee weapon attack, their attacker takes {@HomebrewSpellzage 1d6} cold HomebrewSpellzage.",
 				"Additionally, each time they are successfully attacked, the protection provided by frost armor wanes, reducing its armor class bonus by 1. After the AC bonus provided by the armor is reduced to 0, the armor shatters and the spell ends."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"classes": {
@@ -2445,7 +2445,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -2568,7 +2568,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"psychic"
 			],
 			"savingThrow": [
@@ -2633,7 +2633,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"poison"
 			],
 			"conditionInflict": [
@@ -2829,7 +2829,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"thunder"
 			],
 			"savingThrow": [
@@ -3287,7 +3287,7 @@
 				"You summon a blizzard that obscures you from other creatures. For the duration, the gale provides you half cover, resistance to fire HomebrewSpellzage, and any creature that starts its turn or moves within 5 feet of you for the first time takes {@HomebrewSpellzage 1d6} cold HomebrewSpellzage.",
 				"While the gale is active, you suffer disadvantage on all ranged weapon and spell attacks."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"classes": {
@@ -3354,7 +3354,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"savingThrow": [
@@ -3425,7 +3425,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"spellAttack": [
@@ -3492,7 +3492,7 @@
 				"For the duration, any HomebrewSpellzage done to either target is halved (rounded down) and then dealt to the other bound creature as well.",
 				"If the two bound creatures move more than 20 feet apart, the manacle breaks causing {@HomebrewSpellzage 4d6} necrotic HomebrewSpellzage to each target."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"savingThrow": [
@@ -3557,7 +3557,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"savingThrow": [
@@ -3658,7 +3658,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"conditionInflict": [
@@ -3794,7 +3794,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -3862,7 +3862,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"poison"
 			],
 			"conditionInflict": [
@@ -3990,7 +3990,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"savingThrow": [
@@ -4116,7 +4116,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning"
 			],
 			"conditionInflict": [
@@ -4181,7 +4181,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"conditionInflict": [
@@ -4291,7 +4291,7 @@
 			"entries": [
 				"You create a ball of necrotic energy and launch it towards a creature that you can see within range. Make a ranged spell attack against the target. On a hit, the target takes {@HomebrewSpellzage 1d8} necrotic HomebrewSpellzage, and you regain hit points equal to half the amount of necrotic HomebrewSpellzage dealt. If you are at your maximum total hit points, you receive double the amount as temporary hit points instead."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"spellAttack": [
@@ -4412,7 +4412,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"classes": {
@@ -4469,7 +4469,7 @@
 				"You burn a target and make them susceptible to fire. Make a ranged spell attack against the target. On a hit, the target takes {@HomebrewSpellzage 1d6} fire HomebrewSpellzage and is marked with a fiery rune for the duration of the spell. In any round after the one when this spell is cast, a target that takes fire HomebrewSpellzage from any source takes an additional {@HomebrewSpellzage 1d6} fire HomebrewSpellzage. This effect can only occur once per round.",
 				"Both instances of this spell's HomebrewSpellzage increase by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"spellAttack": [
@@ -4766,7 +4766,7 @@
 				"As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes encased in a sheath of ice until the start of your next turn. If the target uses its action to make a weapon attack, it immediately takes {@HomebrewSpellzage 1d8} cold HomebrewSpellzage, and the spell ends.",
 				"At 5th level, the melee attack deals an extra {@HomebrewSpellzage 1d8} cold HomebrewSpellzage to the target, and the HomebrewSpellzage the target takes for making a weapon attack increases to {@dice 2d8}. Both HomebrewSpellzage rolls increase by {@dice 1d8} at 11th level and 17th level."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"spellAttack": [
@@ -4821,7 +4821,7 @@
 			"entries": [
 				"You may use your reaction to cause your physical form to emit a bright flash of light. This flash will shed bright light in a 10-foot radius and dim light for an additional 10 feet, centered on yourself. Additionally, if you are currently being grappled by a creature, it must succeed on a Dexterity saving throw or take {@HomebrewSpellzage 2d6} radiant HomebrewSpellzage and drop its grapple."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"radiant"
 			],
 			"savingThrow": [
@@ -4947,7 +4947,7 @@
 			"entries": [
 				"For the duration, a spectral blade forms on the end of a quarterstaff you touch. While this blade lasts, you use your spellcasting ability instead of Strength for the attack and HomebrewSpellzage rolls of two-handed melee attacks. The weapon also becomes magical if it isn't, it deals necrotic HomebrewSpellzage instead of bludgeoning, and its HomebrewSpellzage die becomes a {@dice d10}. The spell ends if you cast it again or if you let go of the weapon."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"classes": {
@@ -4995,7 +4995,7 @@
 				"Any creatures of your choice that are within 30 feet and {@condition frightened} of you take {@HomebrewSpellzage 1d6} psychic HomebrewSpellzage.",
 				"This spell's HomebrewSpellzage increases by {@dice 1d6} and the range increases by 5 feet when you reach 5th level ({@dice 2d6}, 35 feet), 11th level ({@dice 3d6}, 40 feet), and 17th level ({@dice 4d6}, 45 feet)."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"psychic"
 			],
 			"miscTags": [
@@ -5191,7 +5191,7 @@
 				"As an action, you can repeat the attack against a creature within 30 feet of it that you can see.",
 				"This spell's HomebrewSpellzage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"psychic"
 			],
 			"savingThrow": [
@@ -5358,7 +5358,7 @@
 				"You release a blast of sound that can be heard up to 60 feet away. A creature that you can see within range must make a Constitution saving throw or take {@HomebrewSpellzage 2d4} thunder HomebrewSpellzage and become  {@condition deafened} until the end of its next turn.",
 				"This spell's HomebrewSpellzage increases by {@dice 2d4} when you reach 5th level ({@dice 4d4}), 11th ({@dice 6d4}), and 17th ({@dice 8d4})."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"thunder"
 			],
 			"conditionInflict": [
@@ -5496,7 +5496,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"poison"
 			],
 			"spellAttack": [
@@ -5793,7 +5793,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"radiant",
 				"thunder"
 			],
@@ -5847,7 +5847,7 @@
 			"entries": [
 				"A beam of tenebrous moonlight streaks from your left eye toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@HomebrewSpellzage 1d8} necrotic HomebrewSpellzage and can't take the Disengage action until the end of your next turn.<br>This spell creates an additional beam and deals more HomebrewSpellzage at higher levels. At 5th level, you fire a second beam originating from your right eye. Your first beam's HomebrewSpellzage increases by {@dice 1d8} ({@dice 2d8}) when you reach 11th level, and your second beam's HomebrewSpellzage increases by {@dice 1d8} ({@dice 2d8}) when you reach 17th level."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"spellAttack": [
@@ -5892,7 +5892,7 @@
 			"entries": [
 				"A beam of furious radiance erupts from your right eye, directed at a creature you can see within range. Make a ranged spell attack against the target. On a hit, the target takes {@HomebrewSpellzage 1d8} radiant HomebrewSpellzage and can't take the Hide action until the end of your next turn.<br>This spell creates an additional beam and deals more HomebrewSpellzage at higher levels. At 5th level, you fire a second beam originating from your left eye. Your first beam's HomebrewSpellzage increases by {@dice 1d8} ({@dice 2d8}) when you reach 11th level, and your second beam's HomebrewSpellzage increases by {@dice 1d8} ({@dice 2d8}) when you reach 17th level."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"spellAttack": [
@@ -5941,7 +5941,7 @@
 			"entries": [
 				"You extend your forefinger and thumb, a dangerous gesture mimicking a gun. For the duration, you can use your action to make a spell attack roll against one creature you can see within 60 feet, dealing {@HomebrewSpellzage 1d8} force HomebrewSpellzage on a hit.<br>Your finger gun is considered to be a blaster (but not magical technology) for spells and effects which influence blasters.<br>The spell's HomebrewSpellzage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"force"
 			],
 			"spellAttack": [
@@ -6071,7 +6071,7 @@
 			"entries": [
 				"You conjure into existence a spectral microphone, which can hover in front of you or be held in one hand. Speaking through the microphone amplifies your voice to a booming level and allows you to distort your voice. This distortion can change your voice's pitch, cause an echo, make it sound metallic, add a layer of static noise, or any other simple audio effect. It can't be used to completely duplicate another person's voice. You can change the mic's volume and change the nature of the distortion on your turn (no action required). Your voice also projects through radio waves allowing you to be heard on comm sets and communication systems within 10 miles.<br>You can use your action to shout into the mic. When you do so, each creature you choose within 10 feet of you must make a Constitution saving throw or take {@HomebrewSpellzage 1d4} thunder HomebrewSpellzage.<br>The spell's HomebrewSpellzage increases when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})"
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"thunder"
 			],
 			"savingThrow": [
@@ -6259,7 +6259,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid"
 			],
 			"savingThrow": [
@@ -6316,7 +6316,7 @@
 				"You create a caustic downpour of acid in a cylindrical area with a 20-foot radius, 30 feet high, extending downward from a point you can see. For the duration, each creature that starts its turn in the area or enters the area takes {@HomebrewSpellzage 5d8} acid HomebrewSpellzage. Even after leaving the area, a creature is still coated with the acid and continues taking {@HomebrewSpellzage 2d8} acid HomebrewSpellzage at the end of each of its turns. A creature can use an action to rinse off the acid if it has water, vinegar, or another suitable substance available. All ongoing HomebrewSpellzage ends when the spell ends.",
 				"The acid can also HomebrewSpellzage objects in the affected area, but the extent of this HomebrewSpellzage must be determined by the GM."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid"
 			],
 			"miscTags": [
@@ -6372,7 +6372,7 @@
 			"entries": [
 				"You transform a normal body of water into a pool of thick, bubbling acid. The spell affects an area up to 100 ft. by 100 feet by 20 feet deep. The acid is black and opaque and reeks of sulfur. Anyone splashed by the acid takes {@HomebrewSpellzage 2d6} acid HomebrewSpellzage. A creature that starts its turn in the acid or that enters the acid takes {@HomebrewSpellzage 10d6} acid HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid"
 			],
 			"savingThrow": [
@@ -6592,7 +6592,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"force"
 			],
 			"spellAttack": [
@@ -6641,7 +6641,7 @@
 				"Each creature in the area must make a Dexterity saving throw. If the saving throw fails, the creature takes {@HomebrewSpellzage 8d8} bludgeoning HomebrewSpellzage, falls {@condition prone}, and is {@condition restrained} beneath boulders until they escape or the stones disappear. A successful save means the creature takes half HomebrewSpellzage and isn't knocked {@condition prone} or {@condition restrained}. A {@condition restrained} creature can escape from under the boulders by using an action and making a successful Strength (Athletics) check against your spell saving throw DC.",
 				"The stones remain on the ground for 1 minute after they fall, making the area difficult terrain and providing plenty of places to find cover."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning"
 			],
 			"savingThrow": [
@@ -6708,7 +6708,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -6768,7 +6768,7 @@
 				"A swirling mist of corrosive green vapor engulfs your body for the duration of this spell. Any creature that strikes you with a melee attack takes {@HomebrewSpellzage 4d6} acid HomebrewSpellzage, and you gain resistance to acid HomebrewSpellzage.",
 				"As an action, you can make a melee spell attack against one creature within your reach; a hit does {@HomebrewSpellzage 10d6} acid HomebrewSpellzage and ends this spell."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid"
 			],
 			"HomebrewSpellzageResist": [
@@ -6835,7 +6835,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"thunder"
 			],
 			"savingThrow": [
@@ -6898,7 +6898,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"spellAttack": [
@@ -7005,7 +7005,7 @@
 			"entries": [
 				"One willing creature you touch sprouts long, sharp spurs of bone all over its body. The creature does {@HomebrewSpellzage 2d6} piercing HomebrewSpellzage to its target when it successfully initiates a grapple. It does another {@HomebrewSpellzage 2d6} HomebrewSpellzage at the start of its turn to any creature it has {@condition grappled}."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"piercing"
 			],
 			"conditionInflict": [
@@ -7057,7 +7057,7 @@
 				"You cause all leaves, petals, and blades of grass within 30 feet of a point you can see to become unnaturally hard and sharp. Each creature that starts its turn in or enters the affected area has its speed reduced by 10 feet until the end of its turn unless it makes a successful Dexterity saving throw. In addition, any creature that moves in the affected area suffers {@HomebrewSpellzage 1d6} slashing HomebrewSpellzage for every 5 feet moved.",
 				"If blades of jade is cast in an area with especially thick underbrush (as determined by the GM), the spell becomes more dangerous: HomebrewSpellzage increases to {@dice 2d6} per 5 feet in lightly obscuring foliage, and to {@dice 4d6} per 5 feet in heavily obscuring foliage."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"slashing"
 			],
 			"savingThrow": [
@@ -7108,7 +7108,7 @@
 				"You attempt to transform the blood of up to three creatures you can see into a blazing fluid. Each creature takes {@HomebrewSpellzage 10d8} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw. If the creature has imbibed alcohol within the last hour, the HomebrewSpellzage increases to {@HomebrewSpellzage 10d10} fire HomebrewSpellzage.",
 				"Creatures without blood are immune to this spell."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -7268,7 +7268,7 @@
 			"entries": [
 				"You imbue one tree you can see with the ability to strike creatures with its branches. The tree remains immobile otherwise. When you cast the spell, and as an action on your turn, you direct the tree to attack one target that it can reach. Make a melee spell attack against the target; a successful hit does {@HomebrewSpellzage 2d10 + 5} bludgeoning HomebrewSpellzage."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning"
 			],
 			"spellAttack": [
@@ -7432,7 +7432,7 @@
 				"Burning rain transforms natural rain into droplets of liquid fire. It affects a cylindrical area 100 feet in radius and 50 feet high. A creature that starts its turn in the affected area or enters the area takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage. The spell has no effect unless rain is already falling.",
 				"Burning rain also HomebrewSpellzages objects in the area and ignites unattended, flammable objects, but the extent of this HomebrewSpellzage must be determined by the GM."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			]
 		},
@@ -7589,7 +7589,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"lightning"
 			]
 		},
@@ -7642,7 +7642,7 @@
 				"The chariot and horses can be HomebrewSpellzaged. Treat the entire assemblage as have AC 18 and 100 hit points. It uses your saving throws, and is immune to fire HomebrewSpellzage and to bludgeoning, slashing, and piercing HomebrewSpellzage from nonmagical weapons. The spell ends if the chariot is reduced to 0 hit points.",
 				"The chariot and horses disappear immediately when the spell ends, which can leave passengers falling to the ground."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"HomebrewSpellzageResist": [
@@ -7755,7 +7755,7 @@
 			"entries": [
 				"You exude a sickening, carrion stench. Every living creature that begins its turn within 10 feet of you or that enters the area of effect must make a Constitution saving throw. If the saving throw fails, the creature is {@condition poisoned} for as long as it stays in the area of effect and for an additional {@dice 1d4} rounds after it leaves the area. A creature that makes a successful save is immune to the effect of this casting of charnel stench."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"poison"
 			],
 			"savingThrow": [
@@ -7918,7 +7918,7 @@
 				"A creature that burrows through stone leaves a tunnel behind it. If it burrows through soft earth, the tunnel fills in behind it (with earth excavated from ahead of the creature) unless the creature slows down to half speed.",
 				"In addition, the creature's unarmed attacks do {@HomebrewSpellzage 2d6} slashing HomebrewSpellzage. The claws are considered aHomebrewSpellzantine."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"slashing"
 			]
 		},
@@ -7973,7 +7973,7 @@
 				"Each creature that starts its turn in the fog, or enters it, takes {@HomebrewSpellzage 4d6} cold HomebrewSpellzage and its speed is reduced by 10 feet until the end of its turn.",
 				"The fog lasts for the duration of the spell or until it's dispersed by a wind of moderate or greater speed (at least 10 mph)."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"miscTags": [
@@ -8075,7 +8075,7 @@
 				"You point at a creature within range and mentally command it to burst into flame. The creature must make a Dexterity saving throw. If the saving throw fails, it takes {@HomebrewSpellzage 6d10 + 20} fire HomebrewSpellzage and begins burning; on a successful save, it takes half HomebrewSpellzage and suffers no other effect.",
 				"A burning creature takes {@HomebrewSpellzage 2d10} fire HomebrewSpellzage at the end of each of its turns. The fire can't be extinguished by natural means; it burns for the duration of the spell."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -8128,7 +8128,7 @@
 			"entries": [
 				"You enchant a rock so that it warms with some of the heat from its creation. The rock glows red-hot and radiates enough heat to warm a normal-sized room or a small cave to 70 degrees. The rock must weigh at least 10 pounds. Anyone who touches the rock directly takes {@HomebrewSpellzage 1d6} fire HomebrewSpellzage."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			]
 		},
@@ -8286,7 +8286,7 @@
 			"entries": [
 				"You change an area of water you can see into a poisonous, toxic substance. The spell affects a maximum of 10,000 cubic feet of water (picture ten cubes, each 10 feet on a side). Each creature that begins its turn in the water or that enters the water takes {@HomebrewSpellzage 5d6} poison HomebrewSpellzage and becomes {@condition poisoned} for as long as it stays in the corrupt water; a successful Constitution saving throw negates the effect on that creature. If the affected area is part of a larger body of water, new water entering the area becomes poisonous while water leaving the area is no longer affected."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"poison"
 			],
 			"savingThrow": [
@@ -8439,7 +8439,7 @@
 				"The entire chosen region becomes a nightmare of natural disasters. Scalding geysers erupt. Caverns collapse. Crevasses split wide open. All structures and living creatures in the area of effect sustain {@dice 5d6} points of bludgeoning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. You are knocked {@condition prone} and {@condition stunned} for {@dice 2d6} rounds immediately after casting creation's fury, and you can't cast any spells except cantrips for 30 days afterward.",
 				"The exact effect of the destruction wrought by this spell must be determined by the GM."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning"
 			],
 			"savingThrow": [
@@ -8498,7 +8498,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"thunder"
 			],
 			"savingThrow": [
@@ -8768,7 +8768,7 @@
 				"If the creature remains {@condition unconscious} but alive for ten rounds (1 minute, the spell's full duration), it must make a Constitution saving throw at the end of its turn instead of a Charisma saving throw. If the Constitution saving throw fails, the creature dies.",
 				"The creature instantly awakes when the spell ends. Creatures immune to charming are not affected by death's imposition."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"necrotic"
 			],
 			"savingThrow": [
@@ -9557,7 +9557,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning"
 			],
 			"savingThrow": [
@@ -9622,7 +9622,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning"
 			],
 			"savingThrow": [
@@ -9678,7 +9678,7 @@
 				"The surrounding air within 100 feet of you erupts in a violent electrical storm. Each creature in the affected area other than you takes {@HomebrewSpellzage 12d6} lightning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw.",
 				"The electrical storm sets fire to combustibles and HomebrewSpellzages objects in the area. It can melt metals with a low melting point such as lead, gold, copper, silver, or bronze. The extent of this HomebrewSpellzage must be determined by the GM. If the HomebrewSpellzage caused to an interposing barrier shatters or breaks through it, the burst can continue beyond the barrier to the limit of the spell's range. Otherwise, it stops at the barrier, the same as any other spell effect."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"lightning"
 			],
 			"savingThrow": [
@@ -9745,7 +9745,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"HomebrewSpellzageResist": [
@@ -9969,7 +9969,7 @@
 			"entries": [
 				"Up to three plants or wooden objects gain the ability to regenerate. At the beginning of each of their turns, they regain 10 hit points. An enlivened plant or object doesn't regenerate if it took fire or acid HomebrewSpellzage since its previous turn."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid"
 			],
 			"miscTags": [
@@ -10364,7 +10364,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -10429,7 +10429,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -10498,7 +10498,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"spellAttack": [
@@ -10557,7 +10557,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"miscTags": [
@@ -10657,7 +10657,7 @@
 				"One creature you can see must make a Dexterity saving throw to evade a hammer and anvil of pure force that are trying to crush it. If the saving throw fails, the creature takes {@HomebrewSpellzage 10d10} force HomebrewSpellzage and is {@condition incapacitated}. On a successful save, the creature takes half HomebrewSpellzage and is not otherwise affected.",
 				"An {@condition incapacitated} creature can repeat the saving throw at the end of each of its turns; a successful save ends the incapacitation."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"force"
 			],
 			"savingThrow": [
@@ -10774,7 +10774,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"savingThrow": [
@@ -11121,7 +11121,7 @@
 				"You create a 20-foot sphere of harmonic vibration at a point you can see within range. All creatures in the area of that sphere take {@HomebrewSpellzage 8d10} force HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw. If this HomebrewSpellzage reduces the creature to 0 hit points, it is disintegrated.",
 				"Unattended, nonmagical objects (or portions of them) that are inside the area are automatically disintegrated."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"force"
 			],
 			"savingThrow": [
@@ -11229,7 +11229,7 @@
 				"One living creature you can see must make a Constitution saving throw. If the saving throw fails, its blood loses the ability to clot, so that it takes an additional {@HomebrewSpellzage 1d6} HomebrewSpellzage from any attack that does piercing or slashing HomebrewSpellzage to it for the duration of the spell. An affected creature can repeat the saving throw at the end of each of its turns; a successful save ends the spell.",
 				"Creatures without blood are immune to this spell."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"piercing",
 				"slashing"
 			],
@@ -11566,7 +11566,7 @@
 				"Choose a point on the ground you can see. Ice and freezing water spray high into the sky from that point, filling a cylindrical area 40 feet high and with a 10-foot radius. Each creature in that area when you cast the spell takes {@HomebrewSpellzage 8d10} cold HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. A creature that fails the save also has its speed reduced by 20 feet. A slowed creature can repeat the saving throw at the end of each of its turns; a successful save ends the speed reduction.",
 				"At the beginning of your next turn, the geyser spouts again. This time, it affects a cylindrical area 20 feet high and 20 feet in radius. The affect on creatures in the area is the same as before. The spell ends after the second eruption."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"savingThrow": [
@@ -11670,7 +11670,7 @@
 			"entries": [
 				"Your body transforms into an icelike substance. Your possessions remain unchanged. You gain immunity to cold HomebrewSpellzage but vulnerability to fire HomebrewSpellzage. Your melee weapon attacks do an additional {@HomebrewSpellzage 2d6} cold HomebrewSpellzage when they hit, and you have tactical advantage on ability checks made to escape from a grapple."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"HomebrewSpellzageImmune": [
@@ -11779,7 +11779,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"spellAttack": [
@@ -11995,7 +11995,7 @@
 			"entries": [
 				"Electrical sparks wreathe your body for the duration of the spell. Whenever a creature that's within 5 feet of you hits you with a melee attack, the creature takes {@HomebrewSpellzage 4d8} lightning HomebrewSpellzage. If the creature is wearing metal armor, it also is knocked {@condition prone} unless it make a successful Constitution saving throw. You can end the spell early with an action."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"lightning"
 			],
 			"savingThrow": [
@@ -12209,7 +12209,7 @@
 				"Any creature engulfed by the wall must make a Dexterity saving throw. If the saving throw fails, the creature takes {@HomebrewSpellzage 12d6} cold HomebrewSpellzage and is knocked {@condition prone} and buried by snow; a successful save results in half HomebrewSpellzage and no other effect. Buried creatures are considered {@condition prone} and {@condition restrained} until they escape, even if the spell has ended. A {@condition restrained} creature can escape if it uses an action and makes a successful Strength (Athletics) check against your spell saving throw DC.",
 				"The wall disappears when it can no longer move downhill or when the spell ends, but a heavy dusting of snow will still cover the ground."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"cold"
 			],
 			"savingThrow": [
@@ -12356,7 +12356,7 @@
 			"entries": [
 				"One pile of leaves within range rises in a wave and engulfs a creature you can see. The creature takes {@HomebrewSpellzage 5d6} bludgeoning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning"
 			],
 			"savingThrow": [
@@ -12462,7 +12462,7 @@
 			"entries": [
 				"You throw a wheel of ferocious electrical energy at one creature you can see. The creature takes {@HomebrewSpellzage 3d10 + 10} lightning HomebrewSpellzage plus {@HomebrewSpellzage 3d10 + 10} thunder HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw, as the wheel detonates with a shattering crack of thunder. Every creature within 20 feet of the target must make a successful Constitution saving throw or be {@condition deafened} for 1 minute."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"lightning",
 				"thunder"
 			],
@@ -12521,7 +12521,7 @@
 			"entries": [
 				"A ball of liquid fire speeds from your outstretched hand to a point you can see, where it explodes. Every creature within 30 feet of the explosion takes {@HomebrewSpellzage 10d6} fire HomebrewSpellzage and catches fire, or takes half HomebrewSpellzage and doesn't catch fire if it makes a successful Dexterity saving throw. A creature that's on fire takes {@HomebrewSpellzage 5d6} fire HomebrewSpellzage at the end of each of its turns. The fire burns out naturally after three rounds, or a creature can spend an action extinguishing the fire on itself or an adjacent creature."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -12800,7 +12800,7 @@
 				"Rocks and ash continue falling for the duration of the spell; each creature in the area at the end of its turn takes {@HomebrewSpellzage 2d6} fire HomebrewSpellzage and {@HomebrewSpellzage 2d6} bludgeoning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. The area is treated as difficult terrain.",
 				"The geyser ends at the end of the spell. The remaining lava melts away into the ground {@dice 1d3} rounds later, leaving behind scorched earth."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning",
 				"fire"
 			],
@@ -12969,7 +12969,7 @@
 				"Instead of stomping, you can also command the foot to kick; this also does {@HomebrewSpellzage 10d8} force HomebrewSpellzage, but instead of being knocked {@condition prone} and {@condition restrained}, the target is pushed up to 60 feet. A successful Strength saving throw by the target creature halves the HomebrewSpellzage and negates the push effect.",
 				"The foot is big enough to provide cover and to prevent movement through its space."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"force"
 			],
 			"savingThrow": [
@@ -13075,7 +13075,7 @@
 			"entries": [
 				"You melt all inanimate ice and snow within 20 feet of a point you can see. Creature made of ice or snow in the affected area take {@HomebrewSpellzage 4d6} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -13261,7 +13261,7 @@
 			"entries": [
 				"You cloak one creature you can see in a faint, silvery shimmer of light that suppresses its attempts to cast spells. The creature can make a Wisdom saving throw. If the saving throw fails, then whenever the creature tries to cast a spell during the duration of nullifying cloak, it must make an ability check using its spellcasting ability against your spell save DC. If the check fails, the spell is countered with no effect (the spell slot is expended) and the creature takes {@HomebrewSpellzage 2d6} radiant HomebrewSpellzage."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"radiant"
 			],
 			"savingThrow": [
@@ -13765,7 +13765,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid",
 				"cold",
 				"fire",
@@ -13890,7 +13890,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid",
 				"cold",
 				"fire",
@@ -14000,7 +14000,7 @@
 				"Each creature that begins its turn in the affected area or that enters the area must make both a Dexterity saving throw and a Constitution saving throw. If the creature fails the Dexterity save, it takes {@HomebrewSpellzage 6d6} bludgeoning HomebrewSpellzage from falling rocks. If the creature fails the Constitution save, it takes {@HomebrewSpellzage 6d6} fire HomebrewSpellzage from the heat. In both cases, a creature takes half HomebrewSpellzage with a successful save.",
 				"Flammable objects burn in the cloud, and stone and metal structures warp and deform. The soil becomes ashen and unable to bear life for the next {@dice 1d4} years unless special measures are used to restore it."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning",
 				"fire"
 			],
@@ -14167,7 +14167,7 @@
 			"entries": [
 				"You cause a large body of water to emit scalding steam. The steam cloud rises upward in a 50-foot-radius, 30-foot-high cylinder from a point you can see within range. Each creature in the steam cloud at the start of its turn takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -14319,7 +14319,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid",
 				"cold",
 				"fire",
@@ -14388,7 +14388,7 @@
 				"Your hands transform into serpent heads. As an action on your turn, you can make a melee spell attack with your hands. If you hit, the target takes {@HomebrewSpellzage 5d8} poison HomebrewSpellzage and becomes {@condition poisoned}. At the beginning of each of its turns, a {@condition poisoned} creature makes a Constitution saving throw; on a successful save, it is no longer {@condition poisoned}.",
 				"For the duration of the spell, you can't hold items or cast spells that have somatic components."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"poison"
 			],
 			"savingThrow": [
@@ -14548,7 +14548,7 @@
 				"You surround yourself with an aura of electrical sparks and flames. For the duration of the spell, you gain resistance against lightning and fire HomebrewSpellzage. If you are struck by a melee weapon attack by a creature within 5 feet of you, the attacker takes {@HomebrewSpellzage 2d8} fire HomebrewSpellzage plus {@HomebrewSpellzage 2d8} lightning HomebrewSpellzage.",
 				"The flames shed bright light in a radius of 10 feet around you, and dim light to a further 10 feet."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire",
 				"lightning"
 			]
@@ -14701,7 +14701,7 @@
 				"You summon a vertical column of divine fire from the heavens. Each creature in a 15-foot-radius, 60-foot-tall cylinder centered on a point within range takes {@HomebrewSpellzage 6d6} fire HomebrewSpellzage plus {@HomebrewSpellzage 6d6} radiant HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. Each creature in the cylinder or within 15 feet of it that can see the fire is permanently {@condition blinded} unless it makes a successful Constitution saving throw.",
 				"The light from the solar flare affects creatures as if it were true sunlight."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire",
 				"radiant"
 			],
@@ -14760,7 +14760,7 @@
 			"entries": [
 				"Your body glows intensely, giving off bright light in a 60-foot radius and dim light for a further 60 feet. For the duration of the spell, you gain resistance to fire HomebrewSpellzage. You also radiate heat in a 20-foot radius; each creature that begins its turn within 20 feet of you takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"HomebrewSpellzageResist": [
@@ -14822,7 +14822,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"radiant"
 			],
 			"savingThrow": [
@@ -14988,7 +14988,7 @@
 				"You evoke a spinning disk of force that streaks toward one creature you can see. Make a ranged spell attack. If it hits, the creature takes {@HomebrewSpellzage 10d10} force HomebrewSpellzage. If you roll a natural 20 to hit, roll the {@dice d20} again. If the result of the second roll is another 20, the creature loses a limb, the same as if it had been struck by a sword of sharpness.",
 				"Once launched, the spirit disk remains hovering near its target. As an action, you can attack again with it on each of your turns. The target, however, can't be changed."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"force"
 			],
 			"spellAttack": [
@@ -15047,7 +15047,7 @@
 				"You call up a billowing cloud of superheated water in a 20-foot-radius sphere within range. The area of the cloud is lightly obscured. Each creature that starts its turn in the cloud or enters the cloud takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw. The area of the cloud is also quite slippery; any creature moving through it on the ground must make a successful Dexterity saving throw when it begins its move or fall {@condition prone}.",
 				"At the beginning of each of your turns, the cloud moves 10 feet directly away from you. The cloud lasts for the duration of the spell or until a strong wind disperses it."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"fire"
 			],
 			"savingThrow": [
@@ -15110,7 +15110,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"slashing"
 			],
 			"savingThrow": [
@@ -15218,7 +15218,7 @@
 			"entries": [
 				"You create a compressed globule of vitriol at a point you can see within range, which then bursts into a 200-foot-sphere of caustic acid, corroding and dissolving anything in the area. Each creature in the affected area takes {@HomebrewSpellzage 6d10 + 20} acid HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. Each creature must also make a Constitution saving throw; if it fails, they are {@condition incapacitated} for {@dice 1d4} rounds by the burning fumes. Creatures who don't breathe or that are immune to acid HomebrewSpellzage are unaffected by the second effect."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"acid"
 			],
 			"savingThrow": [
@@ -15328,7 +15328,7 @@
 			"entries": [
 				"You conjure a 60-foot cone of water from your hands. Each creature in the area must make a Dexterity saving throw. If the saving throw fails, the creature takes {@HomebrewSpellzage 7d6 + 15} bludgeoning HomebrewSpellzage and is pushed 30 feet away from you. On a successful save, the creature takes half HomebrewSpellzage and is not pushed."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"bludgeoning"
 			],
 			"savingThrow": [
@@ -15376,7 +15376,7 @@
 				"The judgment of a creature you can see is overwhelmed with contradictory images and impulses. The creature takes {@HomebrewSpellzage 4d6} psychic HomebrewSpellzage and must make a Wisdom saving throw. If the saving throw fails, the creature's Wisdom score becomes 1, it can't cast divine spells, and it becomes incredibly trusting, always following the last order given to it by anyone unless doing so would cause self-harm.",
 				"At the end of every 30 days, the creature can repeat the saving throw to end the effect. The spell can also be ended by a greater restoration, heal, or wish spell."
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"psychic"
 			],
 			"savingThrow": [
@@ -15583,7 +15583,7 @@
 					]
 				}
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"thunder"
 			],
 			"savingThrow": [
@@ -16220,7 +16220,7 @@
 			"areaTags": [
 				"ST"
 			],
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"poison"
 			],
 			"miscTags": [
@@ -16275,7 +16275,7 @@
 				"s": true,
 				"m": "a piece of ammunition"
 			},
-			"HomebrewSpellzageInflict": [
+			"DamageInflict": [
 				"force"
 			],
 			"areaTags": [
