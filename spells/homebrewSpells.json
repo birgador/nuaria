@@ -52,8 +52,8 @@
 			],
 			"entries": [
 				"Thick ooze fills an area of the ground you choose within range. The area by default is a 50-foot square, but its dimensions may be whatever you wish, provided it is one continuous pool and the total surface area does not exceed 2500 square feet. The resulting pool has a depth of 10 feet and is difficult terrain. The area looks like a shallow pool of water at first glance, and any creature that was not aware of the spell being cast must make an Intelligence (Investigation) or Wisdom (Perception) check against your spell DC to believe otherwise before contact is made with the pool.",
-				"A creature entering the pool for the first time on a turn or starting its turn there must make a Dexterity saving throw, taking {@HomebrewSpellzage 4d6} acid HomebrewSpellzage on a failed save and sinking into the pool, as the grappled condition. On a successful save, the creature takes half as much acid HomebrewSpellzage and is not grappled. A grappled creature can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check (its choice) against your spell save DC. On a success, it frees itself. A creature of size Large or smaller that fails the saving throw while already grappled by the pool is also restrained against your spell save DC.",
-				"A restrained creature can't breathe, and any non-magical metal objects it carries begin to corrode. When the restrained creature takes acid HomebrewSpellzage from the pool, non-magical metal weapons and armor take a permanent, cumulative -1 penalty to their HomebrewSpellzage rolls and AC, respectively. If this penalty on a weapon reaches -5, the weapon is destroyed; similarly, armor is destroyed if its AC is reduced to 10. Other metal objects take cumulative HomebrewSpellzage as well, as the pool eats through a 1- inch-thickness of non-magical metal each round it is immersed."
+				"A creature entering the pool for the first time on a turn or starting its turn there must make a Dexterity saving throw, taking {@damage 4d6} acid damage on a failed save and sinking into the pool, as the grappled condition. On a successful save, the creature takes half as much acid damage and is not grappled. A grappled creature can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check (its choice) against your spell save DC. On a success, it frees itself. A creature of size Large or smaller that fails the saving throw while already grappled by the pool is also restrained against your spell save DC.",
+				"A restrained creature can't breathe, and any non-magical metal objects it carries begin to corrode. When the restrained creature takes acid damage from the pool, non-magical metal weapons and armor take a permanent, cumulative -1 penalty to their damage rolls and AC, respectively. If this penalty on a weapon reaches -5, the weapon is destroyed; similarly, armor is destroyed if its AC is reduced to 10. Other metal objects take cumulative damage as well, as the pool eats through a 1- inch-thickness of non-magical metal each round it is immersed."
 			],
 			"damageInflict": [
 				"acid"
@@ -134,7 +134,7 @@
 						"45 or more. You have half cover."
 					]
 				},
-				"Additionally, once per round, if a single source of HomebrewSpellzage would remove more than 50 temporary hit points, you can use your reaction to only lose half of the temporary hit points instead. The spell lasts for the duration or when the temporary hit points are depleted, whichever happens first. You can only have one instance of this spell active at a time."
+				"Additionally, once per round, if a single source of damage would remove more than 50 temporary hit points, you can use your reaction to only lose half of the temporary hit points instead. The spell lasts for the duration or when the temporary hit points are depleted, whichever happens first. You can only have one instance of this spell active at a time."
 			],
 			"entriesHigherLevel": [
 				{
@@ -197,7 +197,7 @@
 			],
 			"entries": [
 				"You touch a willing creature and strengthen its resolve, allowing it to become dauntless in the face of untold danger. For the duration, the target becomes immune to all conditions. If the target is currently affected with any condition other than exhaustion or is unconscious, casting this spell will remove those conditions from the target.",
-				"Additionally, if a single source of HomebrewSpellzage would kill the target while the spell is active, the target's health is set to 1 hit point instead, and the spell ends."
+				"Additionally, if a single source of damage would kill the target while the spell is active, the target's health is set to 1 hit point instead, and the spell ends."
 			],
 			"areaTags": [
 				"ST"
@@ -252,8 +252,8 @@
 				}
 			],
 			"entries": [
-				"You create gloomy storm clouds 50 feet above the ground, creating a mixture of dense fog and pouring acidic rain in a 15-foot-radius, 50-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder. Its area is heavily obscured and acts as difficult terrain. A creature that ends its turn in the cylinder must make a Constitution saving throw. A creature takes {@HomebrewSpellzage 8d10} acid HomebrewSpellzage on a failed save, or half on a success.",
-				"Additionally, each time a creature takes HomebrewSpellzage from the acid rain, metal items held or worn are exposed to the rain and might be destroyed. For metal weapons, armor, and objects, roll a {@dice d8}. Non-magical metal weapons, armor, and objects are destroyed on a 3 or lower. Uncommon items are destroyed on a 2 or lower. Rare items are destroyed on a 1 or lower. Very Rare and Legendary items are unaffected."
+				"You create gloomy storm clouds 50 feet above the ground, creating a mixture of dense fog and pouring acidic rain in a 15-foot-radius, 50-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder. Its area is heavily obscured and acts as difficult terrain. A creature that ends its turn in the cylinder must make a Constitution saving throw. A creature takes {@damage 8d10} acid damage on a failed save, or half on a success.",
+				"Additionally, each time a creature takes damage from the acid rain, metal items held or worn are exposed to the rain and might be destroyed. For metal weapons, armor, and objects, roll a {@dice d8}. Non-magical metal weapons, armor, and objects are destroyed on a 3 or lower. Uncommon items are destroyed on a 2 or lower. Rare items are destroyed on a 1 or lower. Very Rare and Legendary items are unaffected."
 			],
 			"entriesHigherLevel": [
 				{
@@ -320,13 +320,13 @@
 				}
 			],
 			"entries": [
-				"You create a beam of radiant energy that burns undead creatures in a 20-foot radius cylinder up to 100 feet tall centered on a point that you can see within range. The cylinder is considered difficult terrain for undead creatures. When an undead creature enters the cylinder for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the undead creature takes {@HomebrewSpellzage 6d10} radiant HomebrewSpellzage or half as much on a success. Incorporeal undead automatically fail the save and take maximum HomebrewSpellzage from the spell. Living creatures are unaffected by the cylinder and it is not difficult terrain for them."
+				"You create a beam of radiant energy that burns undead creatures in a 20-foot radius cylinder up to 100 feet tall centered on a point that you can see within range. The cylinder is considered difficult terrain for undead creatures. When an undead creature enters the cylinder for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the undead creature takes {@damage 6d10} radiant damage or half as much on a success. Incorporeal undead automatically fail the save and take maximum damage from the spell. Living creatures are unaffected by the cylinder and it is not difficult terrain for them."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 8th level or higher, the HomebrewSpellzage increases by {@dice 1d10} for each slot level above 7th."
+						"When you cast this spell using a spell slot of 8th level or higher, the damage increases by {@dice 1d10} for each slot level above 7th."
 					]
 				}
 			],
@@ -526,13 +526,13 @@
 				}
 			],
 			"entries": [
-				"You touch the ground within 5 feet of you, sending a wave of ice shooting forward. The ice forms a line outward from your position that can be up to 40 feet long, up to 10 feet wide, and up to 20 feet tall. Each creature within the area must make a Dexterity saving throw. On a failed save, a creature takes {@HomebrewSpellzage 2d8} cold HomebrewSpellzage and {@HomebrewSpellzage 2d8} bludgeoning HomebrewSpellzage. Additionally, its movement speed becomes 0 until the end of its next turn. On a successful save, a creature takes half as much HomebrewSpellzage and it does not suffer a movement speed penalty."
+				"You touch the ground within 5 feet of you, sending a wave of ice shooting forward. The ice forms a line outward from your position that can be up to 40 feet long, up to 10 feet wide, and up to 20 feet tall. Each creature within the area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 2d8} cold damage and {@damage 2d8} bludgeoning damage. Additionally, its movement speed becomes 0 until the end of its next turn. On a successful save, a creature takes half as much damage and it does not suffer a movement speed penalty."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the cold HomebrewSpellzage or the bludgeoning HomebrewSpellzage (your choice) increases by {@dice 1d8} for each slot level above 6th."
+						"When you cast this spell using a spell slot of 7th level or higher, the cold damage or the bludgeoning damage (your choice) increases by {@dice 1d8} for each slot level above 6th."
 					]
 				}
 			],
@@ -597,7 +597,7 @@
 				}
 			],
 			"entries": [
-				"You burn a fiery rune in the shape of Kossuth's symbol into the forehead of a creature. At the start of the targets turns, it must make a Constitution saving throw. On a failed save, the target takes {@HomebrewSpellzage 1d8} fire HomebrewSpellzage for every 5 feet it moves on during that turn. On a successful save, the target is not affected during that turn but the spell does not end."
+				"You burn a fiery rune in the shape of Kossuth's symbol into the forehead of a creature. At the start of the targets turns, it must make a Constitution saving throw. On a failed save, the target takes {@damage 1d8} fire damage for every 5 feet it moves on during that turn. On a successful save, the target is not affected during that turn but the spell does not end."
 			],
 			"damageInflict": [
 				"fire"
@@ -650,7 +650,7 @@
 				}
 			],
 			"entries": [
-				"Each creature in a 15-foot-radius sphere centered on a point you choose must make a Wisdom save. On a failed save, a target takes {@HomebrewSpellzage 6d6} force HomebrewSpellzage and suffers disadvantage on saving throws vs magical effects until the start of your next turn, or half as much HomebrewSpellzage and no other effects on a successful one. A creature with magic resistance automatically succeeds the save and the spell deals minimum HomebrewSpellzage."
+				"Each creature in a 15-foot-radius sphere centered on a point you choose must make a Wisdom save. On a failed save, a target takes {@damage 6d6} force damage and suffers disadvantage on saving throws vs magical effects until the start of your next turn, or half as much damage and no other effects on a successful one. A creature with magic resistance automatically succeeds the save and the spell deals minimum damage."
 			],
 			"damageInflict": [
 				"force"
@@ -833,7 +833,7 @@
 				}
 			],
 			"entries": [
-				"You lash out at a creature, searing its flesh with the spiteful fires that burn in Avernus. Make a melee spell against the target. On a hit, the target takes {@HomebrewSpellzage 10d12} fire HomebrewSpellzage, and it is branded with the mark of Zariel that is fueled by combat and suffering for 1 minute. While branded, each time the creature takes critical HomebrewSpellzage from an attack, the critical HomebrewSpellzage is doubled."
+				"You lash out at a creature, searing its flesh with the spiteful fires that burn in Avernus. Make a melee spell against the target. On a hit, the target takes {@damage 10d12} fire damage, and it is branded with the mark of Zariel that is fueled by combat and suffering for 1 minute. While branded, each time the creature takes critical damage from an attack, the critical damage is doubled."
 			],
 			"damageInflict": [
 				"fire"
@@ -890,7 +890,7 @@
 				}
 			],
 			"entries": [
-				"You create a protective tether to your allies, strengthing your durability as you endure their pain for 1 minute. Select up to 6 willing creatures within range. For each creature you select, you gain HomebrewSpellzage resistance to a HomebrewSpellzage type of your choice. You can choose acid, bludgeoning, cold, fire, lightning, piercing, poison, slashing, or thunder. For the duration, any HomebrewSpellzage to one of creatures selected when casting the spell is transferred to you instead. The spell ends early if you die."
+				"You create a protective tether to your allies, strengthing your durability as you endure their pain for 1 minute. Select up to 6 willing creatures within range. For each creature you select, you gain damage resistance to a damage type of your choice. You can choose acid, bludgeoning, cold, fire, lightning, piercing, poison, slashing, or thunder. For the duration, any damage to one of creatures selected when casting the spell is transferred to you instead. The spell ends early if you die."
 			],
 			"classes": {
 				"fromClassList": [
@@ -928,7 +928,7 @@
 				}
 			],
 			"entries": [
-				"When you receive HomebrewSpellzage from a melee attack from a creature that is within 5 feet of you, you can choose to take an additional {@HomebrewSpellzage 8d6} HomebrewSpellzage of that HomebrewSpellzage type. Upon doing so, you can then use your reaction to make a melee attack with advantage against the creature that just attacked you. If your attack is successful, you deal your normal weapon HomebrewSpellzage plus an additional {@HomebrewSpellzage 6d6} weapon HomebrewSpellzage."
+				"When you receive damage from a melee attack from a creature that is within 5 feet of you, you can choose to take an additional {@damage 8d6} damage of that damage type. Upon doing so, you can then use your reaction to make a melee attack with advantage against the creature that just attacked you. If your attack is successful, you deal your normal weapon damage plus an additional {@damage 6d6} weapon damage."
 			],
 			"classes": {
 				"fromClassList": [
@@ -972,13 +972,13 @@
 				}
 			],
 			"entries": [
-				"You invoke the arctic cold to freeze your foes. All creatures other than yourself within 20 feet of you must succeed on a Dexterity saving throw or take {@HomebrewSpellzage 8d8} cold HomebrewSpellzage and suffer disadvantage on Dexterity saving throws until the start of your next turn. On a successful save, a target takes half HomebrewSpellzage and does not suffer disadvantage on Dexterity saves."
+				"You invoke the arctic cold to freeze your foes. All creatures other than yourself within 20 feet of you must succeed on a Dexterity saving throw or take {@damage 8d8} cold damage and suffer disadvantage on Dexterity saving throws until the start of your next turn. On a successful save, a target takes half damage and does not suffer disadvantage on Dexterity saves."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the HomebrewSpellzage of this spell increases by {@dice 1d8} for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage of this spell increases by {@dice 1d8} for each slot level above 5th."
 					]
 				}
 			],
@@ -1179,7 +1179,7 @@
 							"Tiny",
 							"41",
 							"18",
-							"+3 to hit, {@HomebrewSpellzage 1d4 + 1} HomebrewSpellzage",
+							"+3 to hit, {@damage 1d4 + 1} damage",
 							"13",
 							"18"
 						],
@@ -1187,7 +1187,7 @@
 							"Small",
 							"50",
 							"16",
-							"+4 to hit, {@HomebrewSpellzage 1d6 + 2} HomebrewSpellzage",
+							"+4 to hit, {@damage 1d6 + 2} damage",
 							"15",
 							"16"
 						],
@@ -1195,7 +1195,7 @@
 							"Medium",
 							"58",
 							"12",
-							"+5 to hit, {@HomebrewSpellzage 1d8 + 3} HomebrewSpellzage",
+							"+5 to hit, {@damage 1d8 + 3} damage",
 							"17",
 							"12"
 						],
@@ -1203,7 +1203,7 @@
 							"Large",
 							"68",
 							"8",
-							"+6 to hit, {@HomebrewSpellzage 1d10 + 4} HomebrewSpellzage",
+							"+6 to hit, {@damage 1d10 + 4} damage",
 							"19",
 							"8"
 						]
@@ -1470,13 +1470,13 @@
 				}
 			],
 			"entries": [
-				"You create a maelstrom of fire and brimstone in a 20-foot-radius sphere at a point you can see within range. When a creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes {@HomebrewSpellzage 5d8} fire HomebrewSpellzage or half as much on a success. Constructs and structures automatically fail the save and the spell deals maximum HomebrewSpellzage."
+				"You create a maelstrom of fire and brimstone in a 20-foot-radius sphere at a point you can see within range. When a creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes {@damage 5d8} fire damage or half as much on a success. Constructs and structures automatically fail the save and the spell deals maximum damage."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the HomebrewSpellzage increases by {@dice 1d8} for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
 					]
 				}
 			],
@@ -1545,7 +1545,7 @@
 				}
 			],
 			"entries": [
-				"The next time you hit with a melee weapon attack during the spell's duration, your attack deals an extra {@HomebrewSpellzage 6d8} radiant HomebrewSpellzage. The target must make a Strength save or suffer a -5 AC penalty until the end of its next turn."
+				"The next time you hit with a melee weapon attack during the spell's duration, your attack deals an extra {@damage 6d8} radiant damage. The target must make a Strength save or suffer a -5 AC penalty until the end of its next turn."
 			],
 			"damageInflict": [
 				"radiant"
@@ -1595,13 +1595,13 @@
 				}
 			],
 			"entries": [
-				"You channel the rage of Talos, god of storms, to strike down a foe where it stands. Make a melee attack with a weapon. On hit, the target suffers the attack's normal effects plus {@HomebrewSpellzage 6d8} lightning HomebrewSpellzage and becomes {@condition stunned} until the start of its next turn. Additionally, every creature of Large size or smaller other than yourself within 20 feet of the target must make a Dexterity saving throw or be knocked {@condition prone}, regardless of whether the initial attack was successful."
+				"You channel the rage of Talos, god of storms, to strike down a foe where it stands. Make a melee attack with a weapon. On hit, the target suffers the attack's normal effects plus {@damage 6d8} lightning damage and becomes {@condition stunned} until the start of its next turn. Additionally, every creature of Large size or smaller other than yourself within 20 feet of the target must make a Dexterity saving throw or be knocked {@condition prone}, regardless of whether the initial attack was successful."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the HomebrewSpellzage increases by {@dice 1d8} for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
 					]
 				}
 			],
@@ -1668,7 +1668,7 @@
 				}
 			],
 			"entries": [
-				"An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +7 bonus to AC and impose disadvantage on attacks made against you, including against the triggering attack, and you take no HomebrewSpellzage from magic missile."
+				"An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +7 bonus to AC and impose disadvantage on attacks made against you, including against the triggering attack, and you take no damage from magic missile."
 			],
 			"classes": {
 				"fromClassList": [
@@ -1777,7 +1777,7 @@
 					"type": "list",
 					"items": [
 						"{@bold Help.} The embers provide restorative powers to all creatures that you choose within the area. A creature that has 0 hit points gains advantage on death saving throws until it completes a short rest or dies, whichever happens first. A creatures that is has 1 hit point or more gains {@dice 3d6} temporary hit points.",
-						"{@bold Hinder.} The embers work to oppress your foes. All creatures that you choose within range must make a Dexterity saving throw. On a failed save, a creature takes {@HomebrewSpellzage 3d6} fire HomebrewSpellzage and has its movement speed halved until the end of their next turn. It takes half HomebrewSpellzage and its move speed is unaffected on a successful save."
+						"{@bold Hinder.} The embers work to oppress your foes. All creatures that you choose within range must make a Dexterity saving throw. On a failed save, a creature takes {@damage 3d6} fire damage and has its movement speed halved until the end of their next turn. It takes half damage and its move speed is unaffected on a successful save."
 					]
 				}
 			],
@@ -2065,7 +2065,7 @@
 				}
 			],
 			"entries": [
-				"You summon a fiery floor of bubbling lava below your feet. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes {@HomebrewSpellzage 4d10} fire HomebrewSpellzage and may only move up to half of their movement speed until the end of their next turn. Creatures that are within 5 feet of you must make the Dexterity saving throw with disadvantage. Creatures take half HomebrewSpellzage and do not lose any movement speed on a successful saving throw."
+				"You summon a fiery floor of bubbling lava below your feet. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 4d10} fire damage and may only move up to half of their movement speed until the end of their next turn. Creatures that are within 5 feet of you must make the Dexterity saving throw with disadvantage. Creatures take half damage and do not lose any movement speed on a successful saving throw."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2248,8 +2248,8 @@
 				}
 			],
 			"entries": [
-				"When you take a single source of HomebrewSpellzage, you create a protective ward that has 18 hit points. The ward absorbs up to its total number of hit points from the attack.",
-				"Once the ward has absorbed HomebrewSpellzage in this manner, it goes inurt until you release it the next time you deal HomebrewSpellzage. The number of hit points absorbed by the ward is added as force HomebrewSpellzage to your next attack, spell, or spell-like ability."
+				"When you take a single source of damage, you create a protective ward that has 18 hit points. The ward absorbs up to its total number of hit points from the attack.",
+				"Once the ward has absorbed damage in this manner, it goes inurt until you release it the next time you deal damage. The number of hit points absorbed by the ward is added as force damage to your next attack, spell, or spell-like ability."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2370,7 +2370,7 @@
 				}
 			],
 			"entries": [
-				"You touch a willing creature, encasing them in a protective coating of ice. For the duration, they gain a +3 bonus to AC and become resistant to cold HomebrewSpellzage but suffer disadvantage on all Dexterity checks and saves for the duration. Every time they are hit by a melee weapon attack, their attacker takes {@HomebrewSpellzage 1d6} cold HomebrewSpellzage.",
+				"You touch a willing creature, encasing them in a protective coating of ice. For the duration, they gain a +3 bonus to AC and become resistant to cold damage but suffer disadvantage on all Dexterity checks and saves for the duration. Every time they are hit by a melee weapon attack, their attacker takes {@damage 1d6} cold damage.",
 				"Additionally, each time they are successfully attacked, the protection provided by frost armor wanes, reducing its armor class bonus by 1. After the AC bonus provided by the armor is reduced to 0, the armor shatters and the spell ends."
 			],
 			"damageInflict": [
@@ -2434,14 +2434,14 @@
 				}
 			],
 			"entries": [
-				"You ignite a wildfire to scorch the battlefield, centered on one creature you can see within range. The target must succeed on a Dexterity saving throw or take {@HomebrewSpellzage 2d6} fire HomebrewSpellzage and burn uncontrollably. At the start of each of its turns, the target must make another Dexterity saving throw. On a failed save, it takes {@HomebrewSpellzage 1d6} fire HomebrewSpellzage. A successful saving throw ends the spell.",
-				"While the spell is active, if the target takes fire HomebrewSpellzage from any source other than this spell, each creature in a 15- foot-radius sphere centered on the target must make a Dexterity saving throw. A creature takes {@HomebrewSpellzage 1d6} fire HomebrewSpellzage on a failed save, or half as much HomebrewSpellzage on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried. This effect can only occur once per round."
+				"You ignite a wildfire to scorch the battlefield, centered on one creature you can see within range. The target must succeed on a Dexterity saving throw or take {@damage 2d6} fire damage and burn uncontrollably. At the start of each of its turns, the target must make another Dexterity saving throw. On a failed save, it takes {@damage 1d6} fire damage. A successful saving throw ends the spell.",
+				"While the spell is active, if the target takes fire damage from any source other than this spell, each creature in a 15- foot-radius sphere centered on the target must make a Dexterity saving throw. A creature takes {@damage 1d6} fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried. This effect can only occur once per round."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, both HomebrewSpellzage rolls increase by {@dice 1d6} for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, both damage rolls increase by {@dice 1d6} for each slot level above 3rd."
 					]
 				}
 			],
@@ -2558,13 +2558,13 @@
 				}
 			],
 			"entries": [
-				"You unleash a string of insults laced with subtle enchantments at up to 6 creatures that you can see within range. If a target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take {@HomebrewSpellzage 2d4} psychic HomebrewSpellzage and have disadvantage on the next attack roll it makes before the end of its next turn."
+				"You unleash a string of insults laced with subtle enchantments at up to 6 creatures that you can see within range. If a target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take {@damage 2d4} psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the HomebrewSpellzage increases by {@HomebrewSpellzage 2d4} HomebrewSpellzage for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@damage 2d4} damage for each slot level above 3rd."
 					]
 				}
 			],
@@ -2623,7 +2623,7 @@
 				}
 			],
 			"entries": [
-				"You conjure {@dice 2d4} magical darts that last for one hour or until they are used. As an action on your turn, you may expend one of the darts to make a ranged spell attack against a creature you can see within in range. On a successful attack, you deal {@HomebrewSpellzage 2d6} poison HomebrewSpellzage to the target and force them to make a Constitution saving throw or become {@condition poisoned} until the end of their next turn."
+				"You conjure {@dice 2d4} magical darts that last for one hour or until they are used. As an action on your turn, you may expend one of the darts to make a ranged spell attack against a creature you can see within in range. On a successful attack, you deal {@damage 2d6} poison damage to the target and force them to make a Constitution saving throw or become {@condition poisoned} until the end of their next turn."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2758,7 +2758,7 @@
 				}
 			],
 			"entries": [
-				"You place a divine ward with three charges on a creature of your choice that you can see within range. After the target takes HomebrewSpellzage, it regains hit points equal to {@dice 2d8} + your spellcasting ability modifier, and the ward loses one charge.",
+				"You place a divine ward with three charges on a creature of your choice that you can see within range. After the target takes damage, it regains hit points equal to {@dice 2d8} + your spellcasting ability modifier, and the ward loses one charge.",
 				"Once the target is healed, the ward jumps up to 30 feet to another creature of your choice. After the ward loses all of its charges, the spell ends. This spell has no effect on undead or constructs."
 			],
 			"entriesHigherLevel": [
@@ -2819,13 +2819,13 @@
 				}
 			],
 			"entries": [
-				"You shout a thunderous phrase that bursts outward from your location. Each creature in a 20-foot cone must make a Constitution saving throw. A creature takes {@HomebrewSpellzage 4d8} thunder HomebrewSpellzage and is pushed 15 feet away from you on a failed save, or half as much HomebrewSpellzage and is not pushed on a success."
+				"You shout a thunderous phrase that bursts outward from your location. Each creature in a 20-foot cone must make a Constitution saving throw. A creature takes {@damage 4d8} thunder damage and is pushed 15 feet away from you on a failed save, or half as much damage and is not pushed on a success."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the HomebrewSpellzage increases by {@dice 1d8} for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
 					]
 				}
 			],
@@ -3214,13 +3214,13 @@
 			],
 			"entries": [
 				"You extend your finger and point at a creature while muttering a guttural curse. The target has until the end of its next turn to move 60 feet or more from you.",
-				"If the target fails or chooses not to move this distance away from you, it must immediately make a Constitution saving throw or lose its resistance from one of the following HomebrewSpellzage types: acid, cold, fire, lightning, or thunder (your choice) for 1 minute. Creatures with immunity to the chosen type are instead treated as having resistance to the HomebrewSpellzage. A remove curse spell ends this effect."
+				"If the target fails or chooses not to move this distance away from you, it must immediately make a Constitution saving throw or lose its resistance from one of the following damage types: acid, cold, fire, lightning, or thunder (your choice) for 1 minute. Creatures with immunity to the chosen type are instead treated as having resistance to the damage. A remove curse spell ends this effect."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can choose another HomebrewSpellzage type for every two slot levels above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, you can choose another damage type for every two slot levels above 2nd."
 					]
 				}
 			],
@@ -3284,7 +3284,7 @@
 				}
 			],
 			"entries": [
-				"You summon a blizzard that obscures you from other creatures. For the duration, the gale provides you half cover, resistance to fire HomebrewSpellzage, and any creature that starts its turn or moves within 5 feet of you for the first time takes {@HomebrewSpellzage 1d6} cold HomebrewSpellzage.",
+				"You summon a blizzard that obscures you from other creatures. For the duration, the gale provides you half cover, resistance to fire damage, and any creature that starts its turn or moves within 5 feet of you for the first time takes {@damage 1d6} cold damage.",
 				"While the gale is active, you suffer disadvantage on all ranged weapon and spell attacks."
 			],
 			"damageInflict": [
@@ -3344,13 +3344,13 @@
 				}
 			],
 			"entries": [
-				"The ground freezes in a 10-foot-radius sphere centered on a point you choose within range. Any creature that starts its turn or moves into the area for the first time must make a Constitution saving throw or take {@HomebrewSpellzage 2d8} cold HomebrewSpellzage and gain one level of {@condition exhaustion}. On a successful save, a creature takes half as much HomebrewSpellzage and does not suffer exhaustion. Creatures resistant or immune to cold HomebrewSpellzage automatically succeed on the saving throw."
+				"The ground freezes in a 10-foot-radius sphere centered on a point you choose within range. Any creature that starts its turn or moves into the area for the first time must make a Constitution saving throw or take {@damage 2d8} cold damage and gain one level of {@condition exhaustion}. On a successful save, a creature takes half as much damage and does not suffer exhaustion. Creatures resistant or immune to cold damage automatically succeed on the saving throw."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the HomebrewSpellzage increases by {@dice 1d8} for each slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
 					]
 				}
 			],
@@ -3414,14 +3414,14 @@
 				}
 			],
 			"entries": [
-				"You create a floating hand made of shadow in an unoccupied space that you can see within range. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the shadowy hand. On a hit, the target takes {@dice 1d12} of necrotic HomebrewSpellzage and must make a Wisdom saving throw or be {@condition frightened} of you until the end of its next turn.",
+				"You create a floating hand made of shadow in an unoccupied space that you can see within range. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the shadowy hand. On a hit, the target takes {@dice 1d12} of necrotic damage and must make a Wisdom saving throw or be {@condition frightened} of you until the end of its next turn.",
 				"As a bonus action, you can move the shadowy hand up to 20 feet and repeat the attack against a creature within 5 feet of it."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the HomebrewSpellzage dealt by the hand increases by {@dice 1d12} for every two spell slot levels above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage dealt by the hand increases by {@dice 1d12} for every two spell slot levels above 2nd."
 					]
 				}
 			],
@@ -3488,9 +3488,9 @@
 				}
 			],
 			"entries": [
-				"You target two creatures that are within 20 feet of each other within range and cause them to make a Strength saving throw with disadvantage. If both targets fail, they are bound to one another by a spectral manacle of your creation and will split all HomebrewSpellzage done to them.",
-				"For the duration, any HomebrewSpellzage done to either target is halved (rounded down) and then dealt to the other bound creature as well.",
-				"If the two bound creatures move more than 20 feet apart, the manacle breaks causing {@HomebrewSpellzage 4d6} necrotic HomebrewSpellzage to each target."
+				"You target two creatures that are within 20 feet of each other within range and cause them to make a Strength saving throw with disadvantage. If both targets fail, they are bound to one another by a spectral manacle of your creation and will split all damage done to them.",
+				"For the duration, any damage done to either target is halved (rounded down) and then dealt to the other bound creature as well.",
+				"If the two bound creatures move more than 20 feet apart, the manacle breaks causing {@damage 4d6} necrotic damage to each target."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -3547,13 +3547,13 @@
 				}
 			],
 			"entries": [
-				"You evoke a shadowy visage that appears above you. The visage remains until you use your action to make a melee weapon attack against a target within range. On a successful attack, your attack is replaced by that of the shadowy visage, who hits your target with a necrotic scythe, dealing {@HomebrewSpellzage 4d6} necrotic HomebrewSpellzage and forcing the target to succeed on a Dexterity saving throw or have its movement speed reduced to 0 until the end of its next turn. The visage then disappears."
+				"You evoke a shadowy visage that appears above you. The visage remains until you use your action to make a melee weapon attack against a target within range. On a successful attack, your attack is replaced by that of the shadowy visage, who hits your target with a necrotic scythe, dealing {@damage 4d6} necrotic damage and forcing the target to succeed on a Dexterity saving throw or have its movement speed reduced to 0 until the end of its next turn. The visage then disappears."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the HomebrewSpellzage increases by {@dice 1d6} for every slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for every slot level above 2nd."
 					]
 				}
 			],
@@ -3648,13 +3648,13 @@
 				}
 			],
 			"entries": [
-				"You take control of the shadow belonging to a creature to restrain its master. Make a ranged spell attack against a creature that you can see within range, dealing {@HomebrewSpellzage 2d6} necrotic HomebrewSpellzage and grappling the target. The grappled creature can use an action to make a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (creature's choice) against your spellcasting DC, ending the spell if successful. You are not able to control a target's shadow in this manner if the target is in bright light."
+				"You take control of the shadow belonging to a creature to restrain its master. Make a ranged spell attack against a creature that you can see within range, dealing {@damage 2d6} necrotic damage and grappling the target. The grappled creature can use an action to make a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (creature's choice) against your spellcasting DC, ending the spell if successful. You are not able to control a target's shadow in this manner if the target is in bright light."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the HomebrewSpellzage increases by {@dice 1d6} for each slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
 			],
@@ -3728,7 +3728,7 @@
 				}
 			],
 			"entries": [
-				"You touch a willing beast. Until the spell ends, the beast's non-magical attacks become magical attacks with a +1 bonus to attack rolls and HomebrewSpellzage rolls."
+				"You touch a willing beast. Until the spell ends, the beast's non-magical attacks become magical attacks with a +1 bonus to attack rolls and damage rolls."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3784,13 +3784,13 @@
 				}
 			],
 			"entries": [
-				"With a wave of your hand, you imbue a creature with hellish energy at the moment it dies. Using your reaction when a creature dies within range, you cause its corpse to explode in a ball of fire. Each creature in a 15-foot-sphere centered on the corpse must make a Dexterity saving throw. A creature takes {@HomebrewSpellzage 2d8} fire HomebrewSpellzage on a failed save, or half as much HomebrewSpellzage on a successful one."
+				"With a wave of your hand, you imbue a creature with hellish energy at the moment it dies. Using your reaction when a creature dies within range, you cause its corpse to explode in a ball of fire. Each creature in a 15-foot-sphere centered on the corpse must make a Dexterity saving throw. A creature takes {@damage 2d8} fire damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the HomebrewSpellzage increases by {@dice 1d8} for each slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
 					]
 				}
 			],
@@ -3852,13 +3852,13 @@
 				"ritual": true
 			},
 			"entries": [
-				"You touch a piece of food (weighing up to 5 lbs), rotting it from the inside, but maintaining its original taste, texture, appearance and smell. If the piece of food is then eaten by a creature within one hour, the creature must make a Constitution saving throw or take {@HomebrewSpellzage 2d8} poison HomebrewSpellzage and become poisoned until it completes a long rest. On a successful save the creature takes half the HomebrewSpellzage and is not poisoned. If the food is not eaten within one hour, it succumbs to its rotten nature and spoils."
+				"You touch a piece of food (weighing up to 5 lbs), rotting it from the inside, but maintaining its original taste, texture, appearance and smell. If the piece of food is then eaten by a creature within one hour, the creature must make a Constitution saving throw or take {@damage 2d8} poison damage and become poisoned until it completes a long rest. On a successful save the creature takes half the damage and is not poisoned. If the food is not eaten within one hour, it succumbs to its rotten nature and spoils."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the HomebrewSpellzage increases by {@dice 1d8} for each spell slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each spell slot level above 1st."
 					]
 				}
 			],
@@ -3980,7 +3980,7 @@
 			],
 			"entries": [
 				"Grasping spectral hands sprout from the ground in a 10-foot square starting from a point within range. For the duration, these hands turn the ground in the area into difficult terrain.",
-				"Creatures ending their turn in the area must succeed on a Dexterity saving throw or take {@HomebrewSpellzage 3d6} necrotic HomebrewSpellzage from the spectral hands."
+				"Creatures ending their turn in the area must succeed on a Dexterity saving throw or take {@damage 3d6} necrotic damage from the spectral hands."
 			],
 			"entriesHigherLevel": [
 				{
@@ -4106,13 +4106,13 @@
 			"entries": [
 				"You call forth a column of dirt to rise out of the ground in a space you can see within range. The pillar has a diameter of 5 feet, a height of 20 feet, an AC of 10 and 15 hit points.",
 				"If the pillar is created under a Medium or smaller creature, that creature must succeed on a Dexterity save or be lifted by the pillar. Large creatures make the save with advantage. Huge or bigger creatures are unaffected as the earthen pillar is unable to be created under the creature's weight. A Large or smaller creature can choose to fail the save.",
-				"If the pillar is prevented from reaching its full height due to contact with another solid surface, a creature on the pillar takes {@HomebrewSpellzage 2d6} bludgeoning HomebrewSpellzage and is {@condition restrained}. The restrained creature can use an action to make a Strength or Dexterity check (creature's choice) against the spell's save DC. On a success, the creature is no longer restrained and must either move or fall off the pillar."
+				"If the pillar is prevented from reaching its full height due to contact with another solid surface, a creature on the pillar takes {@damage 2d6} bludgeoning damage and is {@condition restrained}. The restrained creature can use an action to make a Strength or Dexterity check (creature's choice) against the spell's save DC. On a success, the creature is no longer restrained and must either move or fall off the pillar."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, you can increase the height of the pillar by 5 feet and the potential HomebrewSpellzage it deals by {@dice 1d6} for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, you can increase the height of the pillar by 5 feet and the potential damage it deals by {@dice 1d6} for each slot level above 1st."
 					]
 				}
 			],
@@ -4171,13 +4171,13 @@
 				}
 			],
 			"entries": [
-				"You hurl a ball of dark energy at a target within range. Make a ranged spell attack against the target. On a hit, the target takes {@HomebrewSpellzage 1d12} necrotic HomebrewSpellzage and must make a Wisdom saving throw or become {@condition frightened} of you until the end of your next turn."
+				"You hurl a ball of dark energy at a target within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d12} necrotic damage and must make a Wisdom saving throw or become {@condition frightened} of you until the end of your next turn."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the HomebrewSpellzage dealt increases by {@dice 1d12} for every two spell slot levels above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage dealt increases by {@dice 1d12} for every two spell slot levels above 1st."
 					]
 				}
 			],
@@ -4289,7 +4289,7 @@
 				}
 			],
 			"entries": [
-				"You create a ball of necrotic energy and launch it towards a creature that you can see within range. Make a ranged spell attack against the target. On a hit, the target takes {@HomebrewSpellzage 1d8} necrotic HomebrewSpellzage, and you regain hit points equal to half the amount of necrotic HomebrewSpellzage dealt. If you are at your maximum total hit points, you receive double the amount as temporary hit points instead."
+				"You create a ball of necrotic energy and launch it towards a creature that you can see within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. If you are at your maximum total hit points, you receive double the amount as temporary hit points instead."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -4402,13 +4402,13 @@
 				}
 			],
 			"entries": [
-				"You focus on fanning the flames that burn within your soul. Using your bonus action, you are able to add an additional {@HomebrewSpellzage 1d8} fire HomebrewSpellzage to the next source of fire HomebrewSpellzage you deal. You can only have one source of this spell active at a time."
+				"You focus on fanning the flames that burn within your soul. Using your bonus action, you are able to add an additional {@damage 1d8} fire damage to the next source of fire damage you deal. You can only have one source of this spell active at a time."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the HomebrewSpellzage increases by {@dice 1d8} for every slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for every slot level above 1st."
 					]
 				}
 			],
@@ -4466,8 +4466,8 @@
 				}
 			],
 			"entries": [
-				"You burn a target and make them susceptible to fire. Make a ranged spell attack against the target. On a hit, the target takes {@HomebrewSpellzage 1d6} fire HomebrewSpellzage and is marked with a fiery rune for the duration of the spell. In any round after the one when this spell is cast, a target that takes fire HomebrewSpellzage from any source takes an additional {@HomebrewSpellzage 1d6} fire HomebrewSpellzage. This effect can only occur once per round.",
-				"Both instances of this spell's HomebrewSpellzage increase by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"You burn a target and make them susceptible to fire. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d6} fire damage and is marked with a fiery rune for the duration of the spell. In any round after the one when this spell is cast, a target that takes fire damage from any source takes an additional {@damage 1d6} fire damage. This effect can only occur once per round.",
+				"Both instances of this spell's damage increase by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
 			],
 			"damageInflict": [
 				"fire"
@@ -4498,7 +4498,7 @@
 				]
 			},
 			"scalingLevelDice": {
-				"label": "fire HomebrewSpellzage",
+				"label": "fire damage",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -4763,8 +4763,8 @@
 				}
 			],
 			"entries": [
-				"As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes encased in a sheath of ice until the start of your next turn. If the target uses its action to make a weapon attack, it immediately takes {@HomebrewSpellzage 1d8} cold HomebrewSpellzage, and the spell ends.",
-				"At 5th level, the melee attack deals an extra {@HomebrewSpellzage 1d8} cold HomebrewSpellzage to the target, and the HomebrewSpellzage the target takes for making a weapon attack increases to {@dice 2d8}. Both HomebrewSpellzage rolls increase by {@dice 1d8} at 11th level and 17th level."
+				"As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes encased in a sheath of ice until the start of your next turn. If the target uses its action to make a weapon attack, it immediately takes {@damage 1d8} cold damage, and the spell ends.",
+				"At 5th level, the melee attack deals an extra {@damage 1d8} cold damage to the target, and the damage the target takes for making a weapon attack increases to {@dice 2d8}. Both damage rolls increase by {@dice 1d8} at 11th level and 17th level."
 			],
 			"damageInflict": [
 				"cold"
@@ -4819,7 +4819,7 @@
 				}
 			],
 			"entries": [
-				"You may use your reaction to cause your physical form to emit a bright flash of light. This flash will shed bright light in a 10-foot radius and dim light for an additional 10 feet, centered on yourself. Additionally, if you are currently being grappled by a creature, it must succeed on a Dexterity saving throw or take {@HomebrewSpellzage 2d6} radiant HomebrewSpellzage and drop its grapple."
+				"You may use your reaction to cause your physical form to emit a bright flash of light. This flash will shed bright light in a 10-foot radius and dim light for an additional 10 feet, centered on yourself. Additionally, if you are currently being grappled by a creature, it must succeed on a Dexterity saving throw or take {@damage 2d6} radiant damage and drop its grapple."
 			],
 			"damageInflict": [
 				"radiant"
@@ -4945,7 +4945,7 @@
 				}
 			],
 			"entries": [
-				"For the duration, a spectral blade forms on the end of a quarterstaff you touch. While this blade lasts, you use your spellcasting ability instead of Strength for the attack and HomebrewSpellzage rolls of two-handed melee attacks. The weapon also becomes magical if it isn't, it deals necrotic HomebrewSpellzage instead of bludgeoning, and its HomebrewSpellzage die becomes a {@dice d10}. The spell ends if you cast it again or if you let go of the weapon."
+				"For the duration, a spectral blade forms on the end of a quarterstaff you touch. While this blade lasts, you use your spellcasting ability instead of Strength for the attack and damage rolls of two-handed melee attacks. The weapon also becomes magical if it isn't, it deals necrotic damage instead of bludgeoning, and its damage die becomes a {@dice d10}. The spell ends if you cast it again or if you let go of the weapon."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -4992,8 +4992,8 @@
 				}
 			],
 			"entries": [
-				"Any creatures of your choice that are within 30 feet and {@condition frightened} of you take {@HomebrewSpellzage 1d6} psychic HomebrewSpellzage.",
-				"This spell's HomebrewSpellzage increases by {@dice 1d6} and the range increases by 5 feet when you reach 5th level ({@dice 2d6}, 35 feet), 11th level ({@dice 3d6}, 40 feet), and 17th level ({@dice 4d6}, 45 feet)."
+				"Any creatures of your choice that are within 30 feet and {@condition frightened} of you take {@damage 1d6} psychic damage.",
+				"This spell's damage increases by {@dice 1d6} and the range increases by 5 feet when you reach 5th level ({@dice 2d6}, 35 feet), 11th level ({@dice 3d6}, 40 feet), and 17th level ({@dice 4d6}, 45 feet)."
 			],
 			"damageInflict": [
 				"psychic"
@@ -5018,7 +5018,7 @@
 				]
 			},
 			"scalingLevelDice": {
-				"label": "psychic HomebrewSpellzage",
+				"label": "psychic damage",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -5122,7 +5122,7 @@
 				}
 			],
 			"entries": [
-				"This spell sends a creature into a magical slumber. Roll {@dice 3d4}; this is the amount of hit points this spell can affect. Compare this amount to the hit points of a creature you can see within range of the spell. If the total equals or exceeds the target's hit points, it falls {@condition unconscious} until the spell ends, the target takes HomebrewSpellzage, or someone uses an action to shake or slap it awake. If the total is less than the target's hit points, it has disadvantage on Wisdom based skill checks until the spell ends or someone takes a hostile action against it.",
+				"This spell sends a creature into a magical slumber. Roll {@dice 3d4}; this is the amount of hit points this spell can affect. Compare this amount to the hit points of a creature you can see within range of the spell. If the total equals or exceeds the target's hit points, it falls {@condition unconscious} until the spell ends, the target takes damage, or someone uses an action to shake or slap it awake. If the total is less than the target's hit points, it has disadvantage on Wisdom based skill checks until the spell ends or someone takes a hostile action against it.",
 				"The amount of hit points this spell can affect increases by {@dice 2d4} when you reach 5th level ({@dice 5d4}), 11th level ({@dice 7d4}), and 17th level ({@dice 9d4})."
 			],
 			"conditionInflict": [
@@ -5187,9 +5187,9 @@
 				}
 			],
 			"entries": [
-				"You conjure an Small shadowy figure in an area that you can see within range that remains until it is slain or the spell ends. The shadowy figure has 10 Hit Points, an Armor Class of 14 and a movement speed of 0. When you cast the spell, you can command the shadowy figure to assault the mind of a creature within 30 feet of it that you can see. The target must succeed on an Intelligence saving throw or take {@HomebrewSpellzage 1d8} psychic HomebrewSpellzage.",
+				"You conjure an Small shadowy figure in an area that you can see within range that remains until it is slain or the spell ends. The shadowy figure has 10 Hit Points, an Armor Class of 14 and a movement speed of 0. When you cast the spell, you can command the shadowy figure to assault the mind of a creature within 30 feet of it that you can see. The target must succeed on an Intelligence saving throw or take {@damage 1d8} psychic damage.",
 				"As an action, you can repeat the attack against a creature within 30 feet of it that you can see.",
-				"This spell's HomebrewSpellzage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
 			],
 			"damageInflict": [
 				"psychic"
@@ -5215,7 +5215,7 @@
 				]
 			},
 			"scalingLevelDice": {
-				"label": "psychic HomebrewSpellzage",
+				"label": "psychic damage",
 				"scaling": {
 					"1": "1d8",
 					"5": "2d8",
@@ -5355,8 +5355,8 @@
 				}
 			],
 			"entries": [
-				"You release a blast of sound that can be heard up to 60 feet away. A creature that you can see within range must make a Constitution saving throw or take {@HomebrewSpellzage 2d4} thunder HomebrewSpellzage and become  {@condition deafened} until the end of its next turn.",
-				"This spell's HomebrewSpellzage increases by {@dice 2d4} when you reach 5th level ({@dice 4d4}), 11th ({@dice 6d4}), and 17th ({@dice 8d4})."
+				"You release a blast of sound that can be heard up to 60 feet away. A creature that you can see within range must make a Constitution saving throw or take {@damage 2d4} thunder damage and become  {@condition deafened} until the end of its next turn.",
+				"This spell's damage increases by {@dice 2d4} when you reach 5th level ({@dice 4d4}), 11th ({@dice 6d4}), and 17th ({@dice 8d4})."
 			],
 			"damageInflict": [
 				"thunder"
@@ -5383,7 +5383,7 @@
 				]
 			},
 			"scalingLevelDice": {
-				"label": "thunder HomebrewSpellzage",
+				"label": "thunder damage",
 				"scaling": {
 					"1": "2d4",
 					"5": "4d4",
@@ -5402,7 +5402,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take when you are hit by a melee attack that deals HomebrewSpellzage"
+					"condition": "which you take when you are hit by a melee attack that deals damage"
 				}
 			],
 			"range": {
@@ -5421,7 +5421,7 @@
 				}
 			],
 			"entries": [
-				"A thick pale mist radiates from you after you take HomebrewSpellzage from from a melee attack. You are treated as having total cover, but are {@condition blinded} and {@condition deafened} until the end of your next turn, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
+				"A thick pale mist radiates from you after you take damage from from a melee attack. You are treated as having total cover, but are {@condition blinded} and {@condition deafened} until the end of your next turn, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
 			],
 			"conditionInflict": [
 				"blinded",
@@ -5468,7 +5468,7 @@
 				}
 			],
 			"entries": [
-				"As part of the action used to cast this spell, you embue a magical poison on a weapon or piece of ammo you touch and must make an attack with a it against one creature within the weapon's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects plus {@HomebrewSpellzage 1d4} poison HomebrewSpellzage. If your attack roll deals critical HomebrewSpellzage, the target becomes {@condition poisoned} until the end of its next turn. Targets resistant or immune to poison HomebrewSpellzage or immune to the poisoned condition do not become poisoned."
+				"As part of the action used to cast this spell, you embue a magical poison on a weapon or piece of ammo you touch and must make an attack with a it against one creature within the weapon's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects plus {@damage 1d4} poison damage. If your attack roll deals critical damage, the target becomes {@condition poisoned} until the end of its next turn. Targets resistant or immune to poison damage or immune to the poisoned condition do not become poisoned."
 			],
 			"areaTags": [
 				"ST"
@@ -5492,7 +5492,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"This spell deals an additional {@HomebrewSpellzage 1d4} poison HomebrewSpellzage when you reach 5th level ({@HomebrewSpellzage 2d4}), 11th level ({@HomebrewSpellzage 3d4}) and 17th level ({@HomebrewSpellzage 4d4})."
+						"This spell deals an additional {@damage 1d4} poison damage when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}) and 17th level ({@damage 4d4})."
 					]
 				}
 			],
@@ -5783,13 +5783,13 @@
 				}
 			],
 			"entries": [
-				"Streams of arcane energy pour from your hands and coalesce into a great unstable ball at a point you can see within range. At the end of this spell's duration, when the mass of arcane energy is at its zenith, you rupture the ball of energy, causing a massive detonation. When this happens, roll a {@dice d20}. On a 1, the ball fizzles into nothingness. On any other roll, each creature in a 30-foot radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@HomebrewSpellzage 5d8} thunder HomebrewSpellzage plus {@HomebrewSpellzage 5d8} radiant HomebrewSpellzage on a failed save, or half as much HomebrewSpellzage on a successful one."
+				"Streams of arcane energy pour from your hands and coalesce into a great unstable ball at a point you can see within range. At the end of this spell's duration, when the mass of arcane energy is at its zenith, you rupture the ball of energy, causing a massive detonation. When this happens, roll a {@dice d20}. On a 1, the ball fizzles into nothingness. On any other roll, each creature in a 30-foot radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@damage 5d8} thunder damage plus {@damage 5d8} radiant damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the thunder HomebrewSpellzage or the radiant HomebrewSpellzage (your choice) increases by {@dice 1d8} for each slot level above 4th."
+						"When you cast this spell using a spell slot of 5th level or higher, the thunder damage or the radiant damage (your choice) increases by {@dice 1d8} for each slot level above 4th."
 					]
 				}
 			],
@@ -5845,7 +5845,7 @@
 				}
 			],
 			"entries": [
-				"A beam of tenebrous moonlight streaks from your left eye toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@HomebrewSpellzage 1d8} necrotic HomebrewSpellzage and can't take the Disengage action until the end of your next turn.<br>This spell creates an additional beam and deals more HomebrewSpellzage at higher levels. At 5th level, you fire a second beam originating from your right eye. Your first beam's HomebrewSpellzage increases by {@dice 1d8} ({@dice 2d8}) when you reach 11th level, and your second beam's HomebrewSpellzage increases by {@dice 1d8} ({@dice 2d8}) when you reach 17th level."
+				"A beam of tenebrous moonlight streaks from your left eye toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} necrotic damage and can't take the Disengage action until the end of your next turn.<br>This spell creates an additional beam and deals more damage at higher levels. At 5th level, you fire a second beam originating from your right eye. Your first beam's damage increases by {@dice 1d8} ({@dice 2d8}) when you reach 11th level, and your second beam's damage increases by {@dice 1d8} ({@dice 2d8}) when you reach 17th level."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -5890,7 +5890,7 @@
 				}
 			],
 			"entries": [
-				"A beam of furious radiance erupts from your right eye, directed at a creature you can see within range. Make a ranged spell attack against the target. On a hit, the target takes {@HomebrewSpellzage 1d8} radiant HomebrewSpellzage and can't take the Hide action until the end of your next turn.<br>This spell creates an additional beam and deals more HomebrewSpellzage at higher levels. At 5th level, you fire a second beam originating from your left eye. Your first beam's HomebrewSpellzage increases by {@dice 1d8} ({@dice 2d8}) when you reach 11th level, and your second beam's HomebrewSpellzage increases by {@dice 1d8} ({@dice 2d8}) when you reach 17th level."
+				"A beam of furious radiance erupts from your right eye, directed at a creature you can see within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} radiant damage and can't take the Hide action until the end of your next turn.<br>This spell creates an additional beam and deals more damage at higher levels. At 5th level, you fire a second beam originating from your left eye. Your first beam's damage increases by {@dice 1d8} ({@dice 2d8}) when you reach 11th level, and your second beam's damage increases by {@dice 1d8} ({@dice 2d8}) when you reach 17th level."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -5939,7 +5939,7 @@
 				}
 			],
 			"entries": [
-				"You extend your forefinger and thumb, a dangerous gesture mimicking a gun. For the duration, you can use your action to make a spell attack roll against one creature you can see within 60 feet, dealing {@HomebrewSpellzage 1d8} force HomebrewSpellzage on a hit.<br>Your finger gun is considered to be a blaster (but not magical technology) for spells and effects which influence blasters.<br>The spell's HomebrewSpellzage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"You extend your forefinger and thumb, a dangerous gesture mimicking a gun. For the duration, you can use your action to make a spell attack roll against one creature you can see within 60 feet, dealing {@damage 1d8} force damage on a hit.<br>Your finger gun is considered to be a blaster (but not magical technology) for spells and effects which influence blasters.<br>The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
 			],
 			"damageInflict": [
 				"force"
@@ -6008,7 +6008,7 @@
 				}
 			],
 			"entries": [
-				"This spell intensifies gravity in a 50-foot radius, 100-foot high cylinder centered on a point within range. Each creature in this area must spend two feet of movement for every foot moved, including flying, jumping, and climbing movement. This can be combined with difficult terrain to slow movement to a quarter of normal speed. If a {@condition prone} creature wishes to stand up, it must succeed on a Strength check against your spell save DC. On a failure, it can't move at all on its turn.<br>Objects in the area, including those being worn or carried, weigh double their usual weight, which may cause creatures to become encumbered or cause load-bearing spells like levitate to fail. Any ranged weapon attacks that pass into, out of, or through the area have disadvantage, and any falling HomebrewSpellzage dealt within the spell's area is doubled."
+				"This spell intensifies gravity in a 50-foot radius, 100-foot high cylinder centered on a point within range. Each creature in this area must spend two feet of movement for every foot moved, including flying, jumping, and climbing movement. This can be combined with difficult terrain to slow movement to a quarter of normal speed. If a {@condition prone} creature wishes to stand up, it must succeed on a Strength check against your spell save DC. On a failure, it can't move at all on its turn.<br>Objects in the area, including those being worn or carried, weigh double their usual weight, which may cause creatures to become encumbered or cause load-bearing spells like levitate to fail. Any ranged weapon attacks that pass into, out of, or through the area have disadvantage, and any falling damage dealt within the spell's area is doubled."
 			],
 			"abilityCheck": [
 				"strength"
@@ -6069,7 +6069,7 @@
 				}
 			],
 			"entries": [
-				"You conjure into existence a spectral microphone, which can hover in front of you or be held in one hand. Speaking through the microphone amplifies your voice to a booming level and allows you to distort your voice. This distortion can change your voice's pitch, cause an echo, make it sound metallic, add a layer of static noise, or any other simple audio effect. It can't be used to completely duplicate another person's voice. You can change the mic's volume and change the nature of the distortion on your turn (no action required). Your voice also projects through radio waves allowing you to be heard on comm sets and communication systems within 10 miles.<br>You can use your action to shout into the mic. When you do so, each creature you choose within 10 feet of you must make a Constitution saving throw or take {@HomebrewSpellzage 1d4} thunder HomebrewSpellzage.<br>The spell's HomebrewSpellzage increases when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})"
+				"You conjure into existence a spectral microphone, which can hover in front of you or be held in one hand. Speaking through the microphone amplifies your voice to a booming level and allows you to distort your voice. This distortion can change your voice's pitch, cause an echo, make it sound metallic, add a layer of static noise, or any other simple audio effect. It can't be used to completely duplicate another person's voice. You can change the mic's volume and change the nature of the distortion on your turn (no action required). Your voice also projects through radio waves allowing you to be heard on comm sets and communication systems within 10 miles.<br>You can use your action to shout into the mic. When you do so, each creature you choose within 10 feet of you must make a Constitution saving throw or take {@damage 1d4} thunder damage.<br>The spell's damage increases when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})"
 			],
 			"damageInflict": [
 				"thunder"
@@ -6248,14 +6248,14 @@
 				]
 			},
 			"entries": [
-				"A blast of caustic acid erupts from your fingers. Every creature in the cone takes {@HomebrewSpellzage 6d8} acid HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. Creatures that fail their saving throw also take an additional {@HomebrewSpellzage 2d8} acid HomebrewSpellzage at the end of their next turn."
+				"A blast of caustic acid erupts from your fingers. Every creature in the cone takes {@damage 6d8} acid damage, or half damage with a successful Dexterity saving throw. Creatures that fail their saving throw also take an additional {@damage 2d8} acid damage at the end of their next turn."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 6th level, the subsequent HomebrewSpellzage increases by {@scaleHomebrewSpellzage 2d8|6-9|1d8}."
+						"For each spell slot used higher than 6th level, the subsequent damage increases by {@scaledamage 2d8|6-9|1d8}."
 					]
 				}
 			],
@@ -6313,8 +6313,8 @@
 				]
 			},
 			"entries": [
-				"You create a caustic downpour of acid in a cylindrical area with a 20-foot radius, 30 feet high, extending downward from a point you can see. For the duration, each creature that starts its turn in the area or enters the area takes {@HomebrewSpellzage 5d8} acid HomebrewSpellzage. Even after leaving the area, a creature is still coated with the acid and continues taking {@HomebrewSpellzage 2d8} acid HomebrewSpellzage at the end of each of its turns. A creature can use an action to rinse off the acid if it has water, vinegar, or another suitable substance available. All ongoing HomebrewSpellzage ends when the spell ends.",
-				"The acid can also HomebrewSpellzage objects in the affected area, but the extent of this HomebrewSpellzage must be determined by the GM."
+				"You create a caustic downpour of acid in a cylindrical area with a 20-foot radius, 30 feet high, extending downward from a point you can see. For the duration, each creature that starts its turn in the area or enters the area takes {@damage 5d8} acid damage. Even after leaving the area, a creature is still coated with the acid and continues taking {@damage 2d8} acid damage at the end of each of its turns. A creature can use an action to rinse off the acid if it has water, vinegar, or another suitable substance available. All ongoing damage ends when the spell ends.",
+				"The acid can also damage objects in the affected area, but the extent of this damage must be determined by the GM."
 			],
 			"damageInflict": [
 				"acid"
@@ -6370,7 +6370,7 @@
 				]
 			},
 			"entries": [
-				"You transform a normal body of water into a pool of thick, bubbling acid. The spell affects an area up to 100 ft. by 100 feet by 20 feet deep. The acid is black and opaque and reeks of sulfur. Anyone splashed by the acid takes {@HomebrewSpellzage 2d6} acid HomebrewSpellzage. A creature that starts its turn in the acid or that enters the acid takes {@HomebrewSpellzage 10d6} acid HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw."
+				"You transform a normal body of water into a pool of thick, bubbling acid. The spell affects an area up to 100 ft. by 100 feet by 20 feet deep. The acid is black and opaque and reeks of sulfur. Anyone splashed by the acid takes {@damage 2d6} acid damage. A creature that starts its turn in the acid or that enters the acid takes {@damage 10d6} acid damage, or half damage with a successful Constitution saving throw."
 			],
 			"damageInflict": [
 				"acid"
@@ -6581,14 +6581,14 @@
 				]
 			},
 			"entries": [
-				"You hurl a spear made of magical force at one creature within range. Make a ranged spell attack against the target. If it hits, the spear does {@HomebrewSpellzage 3d10} force HomebrewSpellzage. If the target is a spellcaster, the hit also wipes out one of its available, lowest-level spell slots as if the spell had been expended."
+				"You hurl a spear made of magical force at one creature within range. Make a ranged spell attack against the target. If it hits, the spear does {@damage 3d10} force damage. If the target is a spellcaster, the hit also wipes out one of its available, lowest-level spell slots as if the spell had been expended."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 3rd level, HomebrewSpellzage increases by {@scaleHomebrewSpellzage 3d10|3-9|1d10}. When you cast arcane spear using a spell slot of 6th level or higher, a hit also wipes out two of the target's spell slots instead of one."
+						"For each spell slot used higher than 3rd level, damage increases by {@scaledamage 3d10|3-9|1d10}. When you cast arcane spear using a spell slot of 6th level or higher, a hit also wipes out two of the target's spell slots instead of one."
 					]
 				}
 			],
@@ -6638,7 +6638,7 @@
 			},
 			"entries": [
 				"When you cast this spell, rocks, boulders, and other large stones are summoned from the Elemental Plane of Earth and rain down on the area of effect, which can be up to 1,200 square feet (twelve 10-by-10-foot squares). The area can be laid out as you wish, but it must be contiguous, at least 10 feet across at every point, entirely within the spell's range, and entirely within your line of sight.",
-				"Each creature in the area must make a Dexterity saving throw. If the saving throw fails, the creature takes {@HomebrewSpellzage 8d8} bludgeoning HomebrewSpellzage, falls {@condition prone}, and is {@condition restrained} beneath boulders until they escape or the stones disappear. A successful save means the creature takes half HomebrewSpellzage and isn't knocked {@condition prone} or {@condition restrained}. A {@condition restrained} creature can escape from under the boulders by using an action and making a successful Strength (Athletics) check against your spell saving throw DC.",
+				"Each creature in the area must make a Dexterity saving throw. If the saving throw fails, the creature takes {@damage 8d8} bludgeoning damage, falls {@condition prone}, and is {@condition restrained} beneath boulders until they escape or the stones disappear. A successful save means the creature takes half damage and isn't knocked {@condition prone} or {@condition restrained}. A {@condition restrained} creature can escape from under the boulders by using an action and making a successful Strength (Athletics) check against your spell saving throw DC.",
 				"The stones remain on the ground for 1 minute after they fall, making the area difficult terrain and providing plenty of places to find cover."
 			],
 			"damageInflict": [
@@ -6697,14 +6697,14 @@
 				]
 			},
 			"entries": [
-				"You cause one normal fire to flare out in a 30-foot cone in the direction of your choice. Each creature in the cone takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
+				"You cause one normal fire to flare out in a 30-foot cone in the direction of your choice. Each creature in the cone takes {@damage 4d6} fire damage, or half damage with a successful Dexterity saving throw."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast augment flames using a spell slot of 3rd level or higher, the HomebrewSpellzage increases by {@scaleHomebrewSpellzage 4d6|2-9|1d6} for each slot level above 2nd."
+						"When you cast augment flames using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 4d6|2-9|1d6} for each slot level above 2nd."
 					]
 				}
 			],
@@ -6765,13 +6765,13 @@
 				]
 			},
 			"entries": [
-				"A swirling mist of corrosive green vapor engulfs your body for the duration of this spell. Any creature that strikes you with a melee attack takes {@HomebrewSpellzage 4d6} acid HomebrewSpellzage, and you gain resistance to acid HomebrewSpellzage.",
-				"As an action, you can make a melee spell attack against one creature within your reach; a hit does {@HomebrewSpellzage 10d6} acid HomebrewSpellzage and ends this spell."
+				"A swirling mist of corrosive green vapor engulfs your body for the duration of this spell. Any creature that strikes you with a melee attack takes {@damage 4d6} acid damage, and you gain resistance to acid damage.",
+				"As an action, you can make a melee spell attack against one creature within your reach; a hit does {@damage 10d6} acid damage and ends this spell."
 			],
 			"damageInflict": [
 				"acid"
 			],
-			"HomebrewSpellzageResist": [
+			"damageResist": [
 				"acid"
 			],
 			"spellAttack": [
@@ -6824,14 +6824,14 @@
 				]
 			},
 			"entries": [
-				"A small bead of concentrated sound travels from your hand to a point within range that you select, where it explodes in a 15-foot-radius sphere. Each creature in the radius takes {@HomebrewSpellzage 5d8} thunder HomebrewSpellzage and is {@condition deafened} for 1 minute, or takes half HomebrewSpellzage and is not {@condition deafened} with a successful Constitution saving throw."
+				"A small bead of concentrated sound travels from your hand to a point within range that you select, where it explodes in a 15-foot-radius sphere. Each creature in the radius takes {@damage 5d8} thunder damage and is {@condition deafened} for 1 minute, or takes half damage and is not {@condition deafened} with a successful Constitution saving throw."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 4th level, bead of blasting does an additional {@scaleHomebrewSpellzage 5d8|4-9|1d8} HomebrewSpellzage."
+						"For each spell slot used higher than 4th level, bead of blasting does an additional {@scaledamage 5d8|4-9|1d8} damage."
 					]
 				}
 			],
@@ -6887,14 +6887,14 @@
 				]
 			},
 			"entries": [
-				"You create a small bead of elemental frost that you then hurl at a target within range. If you make a successful ranged spell attack roll, the target takes {@HomebrewSpellzage 5d6} cold HomebrewSpellzage and is unable to move until the beginning of your next turn."
+				"You create a small bead of elemental frost that you then hurl at a target within range. If you make a successful ranged spell attack roll, the target takes {@damage 5d6} cold damage and is unable to move until the beginning of your next turn."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast bead of frost using a spell slot of 3rd level or higher, you deal an additional {@scaleHomebrewSpellzage 5d6|2-9|1d6} HomebrewSpellzage for each slot level above 2nd."
+						"When you cast bead of frost using a spell slot of 3rd level or higher, you deal an additional {@scaledamage 5d6|2-9|1d6} damage for each slot level above 2nd."
 					]
 				}
 			],
@@ -7003,7 +7003,7 @@
 				]
 			},
 			"entries": [
-				"One willing creature you touch sprouts long, sharp spurs of bone all over its body. The creature does {@HomebrewSpellzage 2d6} piercing HomebrewSpellzage to its target when it successfully initiates a grapple. It does another {@HomebrewSpellzage 2d6} HomebrewSpellzage at the start of its turn to any creature it has {@condition grappled}."
+				"One willing creature you touch sprouts long, sharp spurs of bone all over its body. The creature does {@damage 2d6} piercing damage to its target when it successfully initiates a grapple. It does another {@damage 2d6} damage at the start of its turn to any creature it has {@condition grappled}."
 			],
 			"damageInflict": [
 				"piercing"
@@ -7054,8 +7054,8 @@
 				]
 			},
 			"entries": [
-				"You cause all leaves, petals, and blades of grass within 30 feet of a point you can see to become unnaturally hard and sharp. Each creature that starts its turn in or enters the affected area has its speed reduced by 10 feet until the end of its turn unless it makes a successful Dexterity saving throw. In addition, any creature that moves in the affected area suffers {@HomebrewSpellzage 1d6} slashing HomebrewSpellzage for every 5 feet moved.",
-				"If blades of jade is cast in an area with especially thick underbrush (as determined by the GM), the spell becomes more dangerous: HomebrewSpellzage increases to {@dice 2d6} per 5 feet in lightly obscuring foliage, and to {@dice 4d6} per 5 feet in heavily obscuring foliage."
+				"You cause all leaves, petals, and blades of grass within 30 feet of a point you can see to become unnaturally hard and sharp. Each creature that starts its turn in or enters the affected area has its speed reduced by 10 feet until the end of its turn unless it makes a successful Dexterity saving throw. In addition, any creature that moves in the affected area suffers {@damage 1d6} slashing damage for every 5 feet moved.",
+				"If blades of jade is cast in an area with especially thick underbrush (as determined by the GM), the spell becomes more dangerous: damage increases to {@dice 2d6} per 5 feet in lightly obscuring foliage, and to {@dice 4d6} per 5 feet in heavily obscuring foliage."
 			],
 			"damageInflict": [
 				"slashing"
@@ -7105,7 +7105,7 @@
 				]
 			},
 			"entries": [
-				"You attempt to transform the blood of up to three creatures you can see into a blazing fluid. Each creature takes {@HomebrewSpellzage 10d8} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw. If the creature has imbibed alcohol within the last hour, the HomebrewSpellzage increases to {@HomebrewSpellzage 10d10} fire HomebrewSpellzage.",
+				"You attempt to transform the blood of up to three creatures you can see into a blazing fluid. Each creature takes {@damage 10d8} fire damage, or half damage with a successful Constitution saving throw. If the creature has imbibed alcohol within the last hour, the damage increases to {@damage 10d10} fire damage.",
 				"Creatures without blood are immune to this spell."
 			],
 			"damageInflict": [
@@ -7161,7 +7161,7 @@
 				]
 			},
 			"entries": [
-				"You cause one weapon within range that does piercing or slashing HomebrewSpellzage to become blunt. If the weapon's wielder fails a Wisdom saving throw, then for the duration of the spell, the weapon does only half HomebrewSpellzage and can't score critical hits."
+				"You cause one weapon within range that does piercing or slashing damage to become blunt. If the weapon's wielder fails a Wisdom saving throw, then for the duration of the spell, the weapon does only half damage and can't score critical hits."
 			],
 			"savingThrow": [
 				"wisdom"
@@ -7266,7 +7266,7 @@
 				]
 			},
 			"entries": [
-				"You imbue one tree you can see with the ability to strike creatures with its branches. The tree remains immobile otherwise. When you cast the spell, and as an action on your turn, you direct the tree to attack one target that it can reach. Make a melee spell attack against the target; a successful hit does {@HomebrewSpellzage 2d10 + 5} bludgeoning HomebrewSpellzage."
+				"You imbue one tree you can see with the ability to strike creatures with its branches. The tree remains immobile otherwise. When you cast the spell, and as an action on your turn, you direct the tree to attack one target that it can reach. Make a melee spell attack against the target; a successful hit does {@damage 2d10 + 5} bludgeoning damage."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -7324,9 +7324,9 @@
 				]
 			},
 			"entries": [
-				"You attempt to nullify the resistances of one creature you can see. The creature loses all of its resistance to bludgeoning, piercing, and slashing HomebrewSpellzage for the duration of the spell unless it makes a successful Constitution saving throw. The spell doesn't affect the creature's immunities."
+				"You attempt to nullify the resistances of one creature you can see. The creature loses all of its resistance to bludgeoning, piercing, and slashing damage for the duration of the spell unless it makes a successful Constitution saving throw. The spell doesn't affect the creature's immunities."
 			],
-			"HomebrewSpellzageResist": [
+			"damageResist": [
 				"bludgeoning",
 				"piercing",
 				"slashing"
@@ -7429,8 +7429,8 @@
 				]
 			},
 			"entries": [
-				"Burning rain transforms natural rain into droplets of liquid fire. It affects a cylindrical area 100 feet in radius and 50 feet high. A creature that starts its turn in the affected area or enters the area takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage. The spell has no effect unless rain is already falling.",
-				"Burning rain also HomebrewSpellzages objects in the area and ignites unattended, flammable objects, but the extent of this HomebrewSpellzage must be determined by the GM."
+				"Burning rain transforms natural rain into droplets of liquid fire. It affects a cylindrical area 100 feet in radius and 50 feet high. A creature that starts its turn in the affected area or enters the area takes {@damage 4d6} fire damage. The spell has no effect unless rain is already falling.",
+				"Burning rain also damages objects in the area and ignites unattended, flammable objects, but the extent of this damage must be determined by the GM."
 			],
 			"damageInflict": [
 				"fire"
@@ -7478,9 +7478,9 @@
 				]
 			},
 			"entries": [
-				"You cause one item weighing up to 10 lbs. to become stronger and less likely to break. It gains resistance against bludgeoning, piercing, and slashing HomebrewSpellzage and gains temporary hit points equal to its current hit points. The temporary hit points disappear when the spell ends."
+				"You cause one item weighing up to 10 lbs. to become stronger and less likely to break. It gains resistance against bludgeoning, piercing, and slashing damage and gains temporary hit points equal to its current hit points. The temporary hit points disappear when the spell ends."
 			],
-			"HomebrewSpellzageResist": [
+			"damageResist": [
 				"bludgeoning",
 				"piercing",
 				"slashing"
@@ -7578,14 +7578,14 @@
 				]
 			},
 			"entries": [
-				"One arrow, bolt, or sling bullet you touch becomes infused with electrical energy. A successful attack with the affected ammunition does its normal HomebrewSpellzage plus {@HomebrewSpellzage 5d6} lightning HomebrewSpellzage. The spell ends after the projectile is used, whether it hits or misses."
+				"One arrow, bolt, or sling bullet you touch becomes infused with electrical energy. A successful attack with the affected ammunition does its normal damage plus {@damage 5d6} lightning damage. The spell ends after the projectile is used, whether it hits or misses."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 2nd level, the missile does an additional {@scaleHomebrewSpellzage 5d6|2-9|1d6} HomebrewSpellzage."
+						"For each spell slot used higher than 2nd level, the missile does an additional {@scaledamage 5d6|2-9|1d6} damage."
 					]
 				}
 			],
@@ -7636,19 +7636,19 @@
 			},
 			"entries": [
 				"You bring forth a large chariot made of flames and two fiery horses to draw it in an unoccupied space within range. The chariot and horses have a land speed of 70 feet and a fly speed of 140 feet. The chariot can carry up to eight Medium or Small creatures; you must touch them as you cast the spell for them to ride the chariot safely.",
-				"Other creatures that begin their turn within 10 feet of the chariot or who approach within 10 feet during their turn take {@HomebrewSpellzage 2d6} fire HomebrewSpellzage.",
-				"While aboard the chariot, a creature has resistance to fire HomebrewSpellzage (but only selected creatures can get aboard).",
+				"Other creatures that begin their turn within 10 feet of the chariot or who approach within 10 feet during their turn take {@damage 2d6} fire damage.",
+				"While aboard the chariot, a creature has resistance to fire damage (but only selected creatures can get aboard).",
 				"The chariot and horses follow your verbal commands.",
-				"The chariot and horses can be HomebrewSpellzaged. Treat the entire assemblage as have AC 18 and 100 hit points. It uses your saving throws, and is immune to fire HomebrewSpellzage and to bludgeoning, slashing, and piercing HomebrewSpellzage from nonmagical weapons. The spell ends if the chariot is reduced to 0 hit points.",
+				"The chariot and horses can be damaged. Treat the entire assemblage as have AC 18 and 100 hit points. It uses your saving throws, and is immune to fire damage and to bludgeoning, slashing, and piercing damage from nonmagical weapons. The spell ends if the chariot is reduced to 0 hit points.",
 				"The chariot and horses disappear immediately when the spell ends, which can leave passengers falling to the ground."
 			],
 			"damageInflict": [
 				"fire"
 			],
-			"HomebrewSpellzageResist": [
+			"damageResist": [
 				"fire"
 			],
-			"HomebrewSpellzageImmune": [
+			"damageImmune": [
 				"bludgeoning",
 				"fire",
 				"piercing",
@@ -7916,7 +7916,7 @@
 			"entries": [
 				"You transform one willing creature's hands into thick, wide claws that enable it to burrow through earth and stone. The creature can burrow through earth at a rate equal to its land speed, and through rock or stone at one-quarter of that rate.",
 				"A creature that burrows through stone leaves a tunnel behind it. If it burrows through soft earth, the tunnel fills in behind it (with earth excavated from ahead of the creature) unless the creature slows down to half speed.",
-				"In addition, the creature's unarmed attacks do {@HomebrewSpellzage 2d6} slashing HomebrewSpellzage. The claws are considered aHomebrewSpellzantine."
+				"In addition, the creature's unarmed attacks do {@damage 2d6} slashing damage. The claws are considered adamantine."
 			],
 			"damageInflict": [
 				"slashing"
@@ -7970,7 +7970,7 @@
 			},
 			"entries": [
 				"You create a cloud of icy fog in a 20-foot-radius sphere centered on a point you can see. The sphere extends around corners, and its area is heavily obscured. The fog is semi-solid, and its area is considered difficult terrain.",
-				"Each creature that starts its turn in the fog, or enters it, takes {@HomebrewSpellzage 4d6} cold HomebrewSpellzage and its speed is reduced by 10 feet until the end of its turn.",
+				"Each creature that starts its turn in the fog, or enters it, takes {@damage 4d6} cold damage and its speed is reduced by 10 feet until the end of its turn.",
 				"The fog lasts for the duration of the spell or until it's dispersed by a wind of moderate or greater speed (at least 10 mph)."
 			],
 			"damageInflict": [
@@ -8072,8 +8072,8 @@
 				]
 			},
 			"entries": [
-				"You point at a creature within range and mentally command it to burst into flame. The creature must make a Dexterity saving throw. If the saving throw fails, it takes {@HomebrewSpellzage 6d10 + 20} fire HomebrewSpellzage and begins burning; on a successful save, it takes half HomebrewSpellzage and suffers no other effect.",
-				"A burning creature takes {@HomebrewSpellzage 2d10} fire HomebrewSpellzage at the end of each of its turns. The fire can't be extinguished by natural means; it burns for the duration of the spell."
+				"You point at a creature within range and mentally command it to burst into flame. The creature must make a Dexterity saving throw. If the saving throw fails, it takes {@damage 6d10 + 20} fire damage and begins burning; on a successful save, it takes half damage and suffers no other effect.",
+				"A burning creature takes {@damage 2d10} fire damage at the end of each of its turns. The fire can't be extinguished by natural means; it burns for the duration of the spell."
 			],
 			"damageInflict": [
 				"fire"
@@ -8126,7 +8126,7 @@
 				]
 			},
 			"entries": [
-				"You enchant a rock so that it warms with some of the heat from its creation. The rock glows red-hot and radiates enough heat to warm a normal-sized room or a small cave to 70 degrees. The rock must weigh at least 10 pounds. Anyone who touches the rock directly takes {@HomebrewSpellzage 1d6} fire HomebrewSpellzage."
+				"You enchant a rock so that it warms with some of the heat from its creation. The rock glows red-hot and radiates enough heat to warm a normal-sized room or a small cave to 70 degrees. The rock must weigh at least 10 pounds. Anyone who touches the rock directly takes {@damage 1d6} fire damage."
 			],
 			"damageInflict": [
 				"fire"
@@ -8174,7 +8174,7 @@
 			},
 			"entries": [
 				"You are surrounded by three small orbs of multicolored force that can absorb certain spells. When you cast containment orbs, you choose a school of magic for each orb (e.g., abjuration, evocation, transmutation). Any spells of the appropriate type that would affect you are absorbed by the corresponding orb and have no further effect.",
-				"Each orb can absorb only one spell. Once an orb has absorbed a spell, you can use an action to cause it to explode. All creatures within 20 feet of you take {@HomebrewSpellzage 2d6} HomebrewSpellzage per level of the spell the orb absorbed, or half HomebrewSpellzage with a successful Dexterity saving throw. The DC for the saving throw is set by you, not by the spell's original caster.",
+				"Each orb can absorb only one spell. Once an orb has absorbed a spell, you can use an action to cause it to explode. All creatures within 20 feet of you take {@damage 2d6} damage per level of the spell the orb absorbed, or half damage with a successful Dexterity saving throw. The DC for the saving throw is set by you, not by the spell's original caster.",
 				"As an action, you can instead choose an orb to discharge the absorbed spell with no effect.",
 				"An orb is destroyed after it has discharged a spell or exploded. All orbs disappear with no further effect when the spell ends."
 			],
@@ -8284,7 +8284,7 @@
 				]
 			},
 			"entries": [
-				"You change an area of water you can see into a poisonous, toxic substance. The spell affects a maximum of 10,000 cubic feet of water (picture ten cubes, each 10 feet on a side). Each creature that begins its turn in the water or that enters the water takes {@HomebrewSpellzage 5d6} poison HomebrewSpellzage and becomes {@condition poisoned} for as long as it stays in the corrupt water; a successful Constitution saving throw negates the effect on that creature. If the affected area is part of a larger body of water, new water entering the area becomes poisonous while water leaving the area is no longer affected."
+				"You change an area of water you can see into a poisonous, toxic substance. The spell affects a maximum of 10,000 cubic feet of water (picture ten cubes, each 10 feet on a side). Each creature that begins its turn in the water or that enters the water takes {@damage 5d6} poison damage and becomes {@condition poisoned} for as long as it stays in the corrupt water; a successful Constitution saving throw negates the effect on that creature. If the affected area is part of a larger body of water, new water entering the area becomes poisonous while water leaving the area is no longer affected."
 			],
 			"damageInflict": [
 				"poison"
@@ -8436,7 +8436,7 @@
 			},
 			"entries": [
 				"You unleash cataclysmic forces of nature over a vast area. The area affected is an entire geographic region within sight of the caster, such as a valley, the caverns beneath a mountain, or a lake from shore to shore. If the geographical area is especially large (a great plain, an ocean, etc.), then even this spell can't affect it entirely. Assume a maximum 1-mile-radius area of effect centered on a point chosen by the caster. To properly channel the massive energy this spell requires, the caster must be within the area of effect, if only at its periphery.",
-				"The entire chosen region becomes a nightmare of natural disasters. Scalding geysers erupt. Caverns collapse. Crevasses split wide open. All structures and living creatures in the area of effect sustain {@dice 5d6} points of bludgeoning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. You are knocked {@condition prone} and {@condition stunned} for {@dice 2d6} rounds immediately after casting creation's fury, and you can't cast any spells except cantrips for 30 days afterward.",
+				"The entire chosen region becomes a nightmare of natural disasters. Scalding geysers erupt. Caverns collapse. Crevasses split wide open. All structures and living creatures in the area of effect sustain {@dice 5d6} points of bludgeoning damage, or half damage with a successful Dexterity saving throw. You are knocked {@condition prone} and {@condition stunned} for {@dice 2d6} rounds immediately after casting creation's fury, and you can't cast any spells except cantrips for 30 days afterward.",
 				"The exact effect of the destruction wrought by this spell must be determined by the GM."
 			],
 			"damageInflict": [
@@ -8486,7 +8486,7 @@
 				]
 			},
 			"entries": [
-				"You give a piercing scream that vibrates in a 40-foot radius sphere centered on you. Unattended crystal or glass items in the affected area take {@HomebrewSpellzage 7d6} thunder HomebrewSpellzage. Each creature in the area takes {@HomebrewSpellzage 7d6} thunder HomebrewSpellzage and is {@condition deafened}, or takes half HomebrewSpellzage and is not {@condition deafened} with a successful Constitution saving throw.",
+				"You give a piercing scream that vibrates in a 40-foot radius sphere centered on you. Unattended crystal or glass items in the affected area take {@damage 7d6} thunder damage. Each creature in the area takes {@damage 7d6} thunder damage and is {@condition deafened}, or takes half damage and is not {@condition deafened} with a successful Constitution saving throw.",
 				"A {@condition deafened} creature can repeat the saving throw at the end of each of its turns; a successful save restores its hearing."
 			],
 			"entriesHigherLevel": [
@@ -8494,7 +8494,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 4th level, the spell does {@scaleHomebrewSpellzage 7d6|4-9|1d6} extra HomebrewSpellzage."
+						"For each spell slot used higher than 4th level, the spell does {@scaledamage 7d6|4-9|1d6} extra damage."
 					]
 				}
 			],
@@ -8764,7 +8764,7 @@
 			},
 			"entries": [
 				"The magic you weave around one living creature makes it believe it has died. It falls {@condition unconscious} unless it makes a successful Charisma saving throw.",
-				"At the end of each of its turns, the creature can repeat the saving throw. If the saving throw succeeds, it wakes up and the spell ends. Otherwise, it takes {@HomebrewSpellzage 4d8} necrotic HomebrewSpellzage, remains {@condition unconscious}, and the spell continues. If an adjacent creature spends an action trying to awaken the affected creature, it gets tactical advantage on its next saving throw.",
+				"At the end of each of its turns, the creature can repeat the saving throw. If the saving throw succeeds, it wakes up and the spell ends. Otherwise, it takes {@damage 4d8} necrotic damage, remains {@condition unconscious}, and the spell continues. If an adjacent creature spends an action trying to awaken the affected creature, it gets tactical advantage on its next saving throw.",
 				"If the creature remains {@condition unconscious} but alive for ten rounds (1 minute, the spell's full duration), it must make a Constitution saving throw at the end of its turn instead of a Charisma saving throw. If the Constitution saving throw fails, the creature dies.",
 				"The creature instantly awakes when the spell ends. Creatures immune to charming are not affected by death's imposition."
 			],
@@ -9546,14 +9546,14 @@
 				]
 			},
 			"entries": [
-				"You touch the ground and send a furrow of displaced earth 5 feet wide toward a point you can see. Upon reaching the target point, the earth erupts in a cylinder 30 feet in radius and 30 feet high. Creatures that were standing on top of the furrow as it passed underfoot are knocked {@condition prone} unless they make successful Dexterity saving throws. Creatures in the area of the eruption take {@HomebrewSpellzage 7d6} bludgeoning HomebrewSpellzage and are knocked {@condition prone}, or take half HomebrewSpellzage and are not knocked {@condition prone} with a successful Dexterity saving throw."
+				"You touch the ground and send a furrow of displaced earth 5 feet wide toward a point you can see. Upon reaching the target point, the earth erupts in a cylinder 30 feet in radius and 30 feet high. Creatures that were standing on top of the furrow as it passed underfoot are knocked {@condition prone} unless they make successful Dexterity saving throws. Creatures in the area of the eruption take {@damage 7d6} bludgeoning damage and are knocked {@condition prone}, or take half damage and are not knocked {@condition prone} with a successful Dexterity saving throw."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 4th level, the spelldoes an additional {@scaleHomebrewSpellzage 7d6|4-9|1d6} HomebrewSpellzage."
+						"For each spell slot used higher than 4th level, the spelldoes an additional {@scaledamage 7d6|4-9|1d6} damage."
 					]
 				}
 			],
@@ -9611,14 +9611,14 @@
 				]
 			},
 			"entries": [
-				"Stone and earth erupt from your fingers in a 15-foot cone. Each creature in the area of effect takes {@HomebrewSpellzage 2d6} bludgeoning HomebrewSpellzage and can't move until the end of its next turn, or takes half HomebrewSpellzage and is not immobilized if it makes a successful Dexterity saving throw."
+				"Stone and earth erupt from your fingers in a 15-foot cone. Each creature in the area of effect takes {@damage 2d6} bludgeoning damage and can't move until the end of its next turn, or takes half damage and is not immobilized if it makes a successful Dexterity saving throw."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 1st level, the HomebrewSpellzage increases by {@scaleHomebrewSpellzage 2d6|1-9|1d6}."
+						"For each spell slot used higher than 1st level, the damage increases by {@scaledamage 2d6|1-9|1d6}."
 					]
 				}
 			],
@@ -9675,8 +9675,8 @@
 				]
 			},
 			"entries": [
-				"The surrounding air within 100 feet of you erupts in a violent electrical storm. Each creature in the affected area other than you takes {@HomebrewSpellzage 12d6} lightning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw.",
-				"The electrical storm sets fire to combustibles and HomebrewSpellzages objects in the area. It can melt metals with a low melting point such as lead, gold, copper, silver, or bronze. The extent of this HomebrewSpellzage must be determined by the GM. If the HomebrewSpellzage caused to an interposing barrier shatters or breaks through it, the burst can continue beyond the barrier to the limit of the spell's range. Otherwise, it stops at the barrier, the same as any other spell effect."
+				"The surrounding air within 100 feet of you erupts in a violent electrical storm. Each creature in the affected area other than you takes {@damage 12d6} lightning damage, or half damage with a successful Dexterity saving throw.",
+				"The electrical storm sets fire to combustibles and damages objects in the area. It can melt metals with a low melting point such as lead, gold, copper, silver, or bronze. The extent of this damage must be determined by the GM. If the damage caused to an interposing barrier shatters or breaks through it, the burst can continue beyond the barrier to the limit of the spell's range. Otherwise, it stops at the barrier, the same as any other spell effect."
 			],
 			"damageInflict": [
 				"lightning"
@@ -9729,30 +9729,30 @@
 				]
 			},
 			"entries": [
-				"You infuse a willing creature with properties of creatures of either ice or fire. The creature is affected as described below, depending on which element it's infused with. These resistances and vulnerabilities completely replace any existing resistance or vulnerability to fire and cold HomebrewSpellzage that the creature had when elemental cloak was cast on it.",
+				"You infuse a willing creature with properties of creatures of either ice or fire. The creature is affected as described below, depending on which element it's infused with. These resistances and vulnerabilities completely replace any existing resistance or vulnerability to fire and cold damage that the creature had when elemental cloak was cast on it.",
 				{
 					"type": "entries",
 					"name": "Fire",
 					"entries": [
-						" Resistance to fire HomebrewSpellzage, vulnerability to cold HomebrewSpellzage."
+						" Resistance to fire damage, vulnerability to cold damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Ice",
 					"entries": [
-						" Resistance to cold HomebrewSpellzage, vulnerability to fire HomebrewSpellzage."
+						" Resistance to cold damage, vulnerability to fire damage."
 					]
 				}
 			],
 			"damageInflict": [
 				"cold"
 			],
-			"HomebrewSpellzageResist": [
+			"damageResist": [
 				"cold",
 				"fire"
 			],
-			"HomebrewSpellzageVulnerable": [
+			"damageVulnerable": [
 				"cold",
 				"fire"
 			]
@@ -9806,15 +9806,15 @@
 				]
 			},
 			"entries": [
-				"You infuse one willing creature with elemental energy. The creature gains 50 temporary hit points; remaining points disappear when the spell ends. For the duration of the spell, the creature is immune to poison HomebrewSpellzage and the {@condition poisoned} condition, gains darkvision (60 feet), and has resistance to bludgeoning, piercing, and slashing HomebrewSpellzage from nonmagical weapons. The creature also gains immunity to one of the following (your choice): acid, cold, electricity, or fire HomebrewSpellzage. The affected creature's eyes faintly glow with the color of the chosen element."
+				"You infuse one willing creature with elemental energy. The creature gains 50 temporary hit points; remaining points disappear when the spell ends. For the duration of the spell, the creature is immune to poison damage and the {@condition poisoned} condition, gains darkvision (60 feet), and has resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons. The creature also gains immunity to one of the following (your choice): acid, cold, electricity, or fire damage. The affected creature's eyes faintly glow with the color of the chosen element."
 			],
-			"HomebrewSpellzageImmune": [
+			"damageImmune": [
 				"acid",
 				"cold",
 				"fire",
 				"poison"
 			],
-			"HomebrewSpellzageResist": [
+			"damageResist": [
 				"bludgeoning",
 				"piercing",
 				"slashing"
@@ -9967,7 +9967,7 @@
 				]
 			},
 			"entries": [
-				"Up to three plants or wooden objects gain the ability to regenerate. At the beginning of each of their turns, they regain 10 hit points. An enlivened plant or object doesn't regenerate if it took fire or acid HomebrewSpellzage since its previous turn."
+				"Up to three plants or wooden objects gain the ability to regenerate. At the beginning of each of their turns, they regain 10 hit points. An enlivened plant or object doesn't regenerate if it took fire or acid damage since its previous turn."
 			],
 			"damageInflict": [
 				"acid"
@@ -10352,7 +10352,7 @@
 				]
 			},
 			"entries": [
-				"A fan of flames bursts in a 60-foot cone from your outstretched hand. Each creature in the cone takes {@HomebrewSpellzage 5d8} fire HomebrewSpellzage, or half as much with a successful Dexterity saving throw.",
+				"A fan of flames bursts in a 60-foot cone from your outstretched hand. Each creature in the cone takes {@damage 5d8} fire damage, or half as much with a successful Dexterity saving throw.",
 				"The spell sets fire to unattended flammable materials."
 			],
 			"entriesHigherLevel": [
@@ -10360,7 +10360,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 4th level, fiery blast does an additional {@scaleHomebrewSpellzage 5d8|4-9|1d8} HomebrewSpellzage."
+						"For each spell slot used higher than 4th level, fiery blast does an additional {@scaledamage 5d8|4-9|1d8} damage."
 					]
 				}
 			],
@@ -10417,7 +10417,7 @@
 				]
 			},
 			"entries": [
-				"You cause a great tendril, 20 feet long, to lash out from an existing source of fire you can see. The tendril tries to wrap around a creature within its reach (20 feet) that you can also see. The creature must make a Dexterity saving throw. If it fails, it takes {@HomebrewSpellzage 6d6} fire HomebrewSpellzage and is {@condition restrained} until the spell ends. At the end of each of its turns, it can repeat the saving throw; it escapes if the save succeeds, but it takes another {@HomebrewSpellzage 6d6} fire HomebrewSpellzage if the saving throw fails.",
+				"You cause a great tendril, 20 feet long, to lash out from an existing source of fire you can see. The tendril tries to wrap around a creature within its reach (20 feet) that you can also see. The creature must make a Dexterity saving throw. If it fails, it takes {@damage 6d6} fire damage and is {@condition restrained} until the spell ends. At the end of each of its turns, it can repeat the saving throw; it escapes if the save succeeds, but it takes another {@damage 6d6} fire damage if the saving throw fails.",
 				"At the beginning of your turn, if the tendril is not restraining a creature, it can attack a creature within reach that you can see, the same as the initial attack."
 			],
 			"entriesHigherLevel": [
@@ -10425,7 +10425,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 6th level, the tendril's attacks do an additional {@scaleHomebrewSpellzage 6d6|6-9|1d6} fire HomebrewSpellzage."
+						"For each spell slot used higher than 6th level, the tendril's attacks do an additional {@scaledamage 6d6|6-9|1d6} fire damage."
 					]
 				}
 			],
@@ -10487,14 +10487,14 @@
 				]
 			},
 			"entries": [
-				"Your hands burst into flames. Until the spell ends, you can use an action to make a melee spell attack against a creature you can reach. A hit does {@HomebrewSpellzage 2d6} fire HomebrewSpellzage."
+				"Your hands burst into flames. Until the spell ends, you can use an action to make a melee spell attack against a creature you can reach. A hit does {@damage 2d6} fire damage."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"The HomebrewSpellzage dealt by this spell increases to {@scaleHomebrewSpellzage 2d6|1-9|3d6} if you use a 3rd level slot, {@scaleHomebrewSpellzage 2d6|1-9|4d6} if you use a 6th level slot, or {@scaleHomebrewSpellzage 2d6|1-9|6d6} if you use an 8th level or higher slot."
+						"The damage dealt by this spell increases to {@scaledamage 2d6|1-9|3d6} if you use a 3rd level slot, {@scaledamage 2d6|1-9|4d6} if you use a 6th level slot, or {@scaledamage 2d6|1-9|6d6} if you use an 8th level or higher slot."
 					]
 				}
 			],
@@ -10546,7 +10546,7 @@
 				]
 			},
 			"entries": [
-				"You create three bolts of fire that you direct at one or more creatures you can see within range. Each bolt hits automatically and does {@HomebrewSpellzage 1d6} fire HomebrewSpellzage. The bolts all strike simultaneously."
+				"You create three bolts of fire that you direct at one or more creatures you can see within range. Each bolt hits automatically and does {@damage 1d6} fire damage. The bolts all strike simultaneously."
 			],
 			"entriesHigherLevel": [
 				{
@@ -10654,7 +10654,7 @@
 				]
 			},
 			"entries": [
-				"One creature you can see must make a Dexterity saving throw to evade a hammer and anvil of pure force that are trying to crush it. If the saving throw fails, the creature takes {@HomebrewSpellzage 10d10} force HomebrewSpellzage and is {@condition incapacitated}. On a successful save, the creature takes half HomebrewSpellzage and is not otherwise affected.",
+				"One creature you can see must make a Dexterity saving throw to evade a hammer and anvil of pure force that are trying to crush it. If the saving throw fails, the creature takes {@damage 10d10} force damage and is {@condition incapacitated}. On a successful save, the creature takes half damage and is not otherwise affected.",
 				"An {@condition incapacitated} creature can repeat the saving throw at the end of each of its turns; a successful save ends the incapacitation."
 			],
 			"damageInflict": [
@@ -10763,14 +10763,14 @@
 				]
 			},
 			"entries": [
-				"A wave of cold fire spreads out from your fingertips. Each creature in a 15-foot cone takes {@HomebrewSpellzage 2d6} cold HomebrewSpellzage and has its speed reduced by 10 feet until the end of its next turn; a successful Constitution saving throw reduces HomebrewSpellzage to half and negates the speed penalty."
+				"A wave of cold fire spreads out from your fingertips. Each creature in a 15-foot cone takes {@damage 2d6} cold damage and has its speed reduced by 10 feet until the end of its next turn; a successful Constitution saving throw reduces damage to half and negates the speed penalty."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 1st level, the spell does {@scaleHomebrewSpellzage 2d6|1-9|1d6} additional cold HomebrewSpellzage. At 5th level or above, the speed reduction is 20 feet. At 9th level, the speed reduction is 30 feet."
+						"For each spell slot used higher than 1st level, the spell does {@scaledamage 2d6|1-9|1d6} additional cold damage. At 5th level or above, the speed reduction is 20 feet. At 9th level, the speed reduction is 30 feet."
 					]
 				}
 			],
@@ -11118,7 +11118,7 @@
 				]
 			},
 			"entries": [
-				"You create a 20-foot sphere of harmonic vibration at a point you can see within range. All creatures in the area of that sphere take {@HomebrewSpellzage 8d10} force HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw. If this HomebrewSpellzage reduces the creature to 0 hit points, it is disintegrated.",
+				"You create a 20-foot sphere of harmonic vibration at a point you can see within range. All creatures in the area of that sphere take {@damage 8d10} force damage, or half damage with a successful Constitution saving throw. If this damage reduces the creature to 0 hit points, it is disintegrated.",
 				"Unattended, nonmagical objects (or portions of them) that are inside the area are automatically disintegrated."
 			],
 			"damageInflict": [
@@ -11226,7 +11226,7 @@
 				]
 			},
 			"entries": [
-				"One living creature you can see must make a Constitution saving throw. If the saving throw fails, its blood loses the ability to clot, so that it takes an additional {@HomebrewSpellzage 1d6} HomebrewSpellzage from any attack that does piercing or slashing HomebrewSpellzage to it for the duration of the spell. An affected creature can repeat the saving throw at the end of each of its turns; a successful save ends the spell.",
+				"One living creature you can see must make a Constitution saving throw. If the saving throw fails, its blood loses the ability to clot, so that it takes an additional {@damage 1d6} damage from any attack that does piercing or slashing damage to it for the duration of the spell. An affected creature can repeat the saving throw at the end of each of its turns; a successful save ends the spell.",
 				"Creatures without blood are immune to this spell."
 			],
 			"damageInflict": [
@@ -11471,7 +11471,7 @@
 			"entries": [
 				"One ship you touch rises up until it hovers 5 feet above the water or ground. If it has sails, it can travel at its normal speed. Rowing won't work, but a vessel without sails could be propelled by poling.",
 				"When the spell ends, the ship sinks slowly and safely to rest on whatever surface is beneath it. If that isn't water, the ship is likely to keel over.",
-				"The ship can travel over almost any terrain, but extremely rugged ground presents problems because it has only 5 feet of ground clearance. It can't cross sheer chasms or other steep-sided escarpments. If it is propelled over a cliff more than 10 feet high, it plunges to the ground and crashes. The extent of the HomebrewSpellzage must be determined by the GM, but it's likely to be severe."
+				"The ship can travel over almost any terrain, but extremely rugged ground presents problems because it has only 5 feet of ground clearance. It can't cross sheer chasms or other steep-sided escarpments. If it is propelled over a cliff more than 10 feet high, it plunges to the ground and crashes. The extent of the damage must be determined by the GM, but it's likely to be severe."
 			]
 		},
 		{
@@ -11563,7 +11563,7 @@
 				]
 			},
 			"entries": [
-				"Choose a point on the ground you can see. Ice and freezing water spray high into the sky from that point, filling a cylindrical area 40 feet high and with a 10-foot radius. Each creature in that area when you cast the spell takes {@HomebrewSpellzage 8d10} cold HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. A creature that fails the save also has its speed reduced by 20 feet. A slowed creature can repeat the saving throw at the end of each of its turns; a successful save ends the speed reduction.",
+				"Choose a point on the ground you can see. Ice and freezing water spray high into the sky from that point, filling a cylindrical area 40 feet high and with a 10-foot radius. Each creature in that area when you cast the spell takes {@damage 8d10} cold damage, or half damage with a successful Dexterity saving throw. A creature that fails the save also has its speed reduced by 20 feet. A slowed creature can repeat the saving throw at the end of each of its turns; a successful save ends the speed reduction.",
 				"At the beginning of your next turn, the geyser spouts again. This time, it affects a cylindrical area 20 feet high and 20 feet in radius. The affect on creatures in the area is the same as before. The spell ends after the second eruption."
 			],
 			"damageInflict": [
@@ -11668,15 +11668,15 @@
 				]
 			},
 			"entries": [
-				"Your body transforms into an icelike substance. Your possessions remain unchanged. You gain immunity to cold HomebrewSpellzage but vulnerability to fire HomebrewSpellzage. Your melee weapon attacks do an additional {@HomebrewSpellzage 2d6} cold HomebrewSpellzage when they hit, and you have tactical advantage on ability checks made to escape from a grapple."
+				"Your body transforms into an icelike substance. Your possessions remain unchanged. You gain immunity to cold damage but vulnerability to fire damage. Your melee weapon attacks do an additional {@damage 2d6} cold damage when they hit, and you have tactical advantage on ability checks made to escape from a grapple."
 			],
 			"damageInflict": [
 				"cold"
 			],
-			"HomebrewSpellzageImmune": [
+			"damageImmune": [
 				"cold"
 			],
-			"HomebrewSpellzageVulnerable": [
+			"damageVulnerable": [
 				"fire"
 			]
 		},
@@ -11768,14 +11768,14 @@
 				]
 			},
 			"entries": [
-				"You send a thick orange-and-purple ray at one creature you can see. Make a ranged spell attack; if it hits, the creature takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage and catches fire. At the end of each of its turns, it takes {@HomebrewSpellzage 2d6} fire HomebrewSpellzage. A burning creature or an adjacent ally can spend an action to extinguish the fire."
+				"You send a thick orange-and-purple ray at one creature you can see. Make a ranged spell attack; if it hits, the creature takes {@damage 4d6} fire damage and catches fire. At the end of each of its turns, it takes {@damage 2d6} fire damage. A burning creature or an adjacent ally can spend an action to extinguish the fire."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 2nd level, the initial HomebrewSpellzage increases by {@scaleHomebrewSpellzage 4d6|2-9|1d6}. HomebrewSpellzage at the end of a burning creature's turn is unchanged."
+						"For each spell slot used higher than 2nd level, the initial damage increases by {@scaledamage 4d6|2-9|1d6}. damage at the end of a burning creature's turn is unchanged."
 					]
 				}
 			],
@@ -11898,9 +11898,9 @@
 				]
 			},
 			"entries": [
-				"You grant a willing creature you touch immunity to one of the following HomebrewSpellzage types (your choice) for the duration of the spell: acid, cold, fire, lightning, or thunder."
+				"You grant a willing creature you touch immunity to one of the following damage types (your choice) for the duration of the spell: acid, cold, fire, lightning, or thunder."
 			],
-			"HomebrewSpellzageImmune": [
+			"damageImmune": [
 				"acid",
 				"cold",
 				"fire",
@@ -11993,7 +11993,7 @@
 				]
 			},
 			"entries": [
-				"Electrical sparks wreathe your body for the duration of the spell. Whenever a creature that's within 5 feet of you hits you with a melee attack, the creature takes {@HomebrewSpellzage 4d8} lightning HomebrewSpellzage. If the creature is wearing metal armor, it also is knocked {@condition prone} unless it make a successful Constitution saving throw. You can end the spell early with an action."
+				"Electrical sparks wreathe your body for the duration of the spell. Whenever a creature that's within 5 feet of you hits you with a melee attack, the creature takes {@damage 4d8} lightning damage. If the creature is wearing metal armor, it also is knocked {@condition prone} unless it make a successful Constitution saving throw. You can end the spell early with an action."
 			],
 			"damageInflict": [
 				"lightning"
@@ -12206,7 +12206,7 @@
 			},
 			"entries": [
 				"Landslide can only be used in snowy, mountainous regions. You create a fast-moving wall of snow, 20 feet high, 10 feet thick, and 120 feet long. The entire wall must be within 400 feet of you. When you cast the spell and again at the beginning of each of your turns, the landslide moves 60 feet under your control; it must always move downhill, but it can move sideways at the same time.",
-				"Any creature engulfed by the wall must make a Dexterity saving throw. If the saving throw fails, the creature takes {@HomebrewSpellzage 12d6} cold HomebrewSpellzage and is knocked {@condition prone} and buried by snow; a successful save results in half HomebrewSpellzage and no other effect. Buried creatures are considered {@condition prone} and {@condition restrained} until they escape, even if the spell has ended. A {@condition restrained} creature can escape if it uses an action and makes a successful Strength (Athletics) check against your spell saving throw DC.",
+				"Any creature engulfed by the wall must make a Dexterity saving throw. If the saving throw fails, the creature takes {@damage 12d6} cold damage and is knocked {@condition prone} and buried by snow; a successful save results in half damage and no other effect. Buried creatures are considered {@condition prone} and {@condition restrained} until they escape, even if the spell has ended. A {@condition restrained} creature can escape if it uses an action and makes a successful Strength (Athletics) check against your spell saving throw DC.",
 				"The wall disappears when it can no longer move downhill or when the spell ends, but a heavy dusting of snow will still cover the ground."
 			],
 			"damageInflict": [
@@ -12354,7 +12354,7 @@
 				]
 			},
 			"entries": [
-				"One pile of leaves within range rises in a wave and engulfs a creature you can see. The creature takes {@HomebrewSpellzage 5d6} bludgeoning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
+				"One pile of leaves within range rises in a wave and engulfs a creature you can see. The creature takes {@damage 5d6} bludgeoning damage, or half damage with a successful Dexterity saving throw."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -12460,7 +12460,7 @@
 				]
 			},
 			"entries": [
-				"You throw a wheel of ferocious electrical energy at one creature you can see. The creature takes {@HomebrewSpellzage 3d10 + 10} lightning HomebrewSpellzage plus {@HomebrewSpellzage 3d10 + 10} thunder HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw, as the wheel detonates with a shattering crack of thunder. Every creature within 20 feet of the target must make a successful Constitution saving throw or be {@condition deafened} for 1 minute."
+				"You throw a wheel of ferocious electrical energy at one creature you can see. The creature takes {@damage 3d10 + 10} lightning damage plus {@damage 3d10 + 10} thunder damage, or half damage with a successful Dexterity saving throw, as the wheel detonates with a shattering crack of thunder. Every creature within 20 feet of the target must make a successful Constitution saving throw or be {@condition deafened} for 1 minute."
 			],
 			"damageInflict": [
 				"lightning",
@@ -12519,7 +12519,7 @@
 				]
 			},
 			"entries": [
-				"A ball of liquid fire speeds from your outstretched hand to a point you can see, where it explodes. Every creature within 30 feet of the explosion takes {@HomebrewSpellzage 10d6} fire HomebrewSpellzage and catches fire, or takes half HomebrewSpellzage and doesn't catch fire if it makes a successful Dexterity saving throw. A creature that's on fire takes {@HomebrewSpellzage 5d6} fire HomebrewSpellzage at the end of each of its turns. The fire burns out naturally after three rounds, or a creature can spend an action extinguishing the fire on itself or an adjacent creature."
+				"A ball of liquid fire speeds from your outstretched hand to a point you can see, where it explodes. Every creature within 30 feet of the explosion takes {@damage 10d6} fire damage and catches fire, or takes half damage and doesn't catch fire if it makes a successful Dexterity saving throw. A creature that's on fire takes {@damage 5d6} fire damage at the end of each of its turns. The fire burns out naturally after three rounds, or a creature can spend an action extinguishing the fire on itself or an adjacent creature."
 			],
 			"damageInflict": [
 				"fire"
@@ -12796,8 +12796,8 @@
 				]
 			},
 			"entries": [
-				"You cause the ground to explode and spew forth a geyser of molten rock that showers down in a 40-foot-radius, 30-foot-high cylinder. Creatures in the cylinder when the geyser erupts take {@HomebrewSpellzage 6d6} fire HomebrewSpellzage and {@HomebrewSpellzage 6d6} bludgeoning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw.",
-				"Rocks and ash continue falling for the duration of the spell; each creature in the area at the end of its turn takes {@HomebrewSpellzage 2d6} fire HomebrewSpellzage and {@HomebrewSpellzage 2d6} bludgeoning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. The area is treated as difficult terrain.",
+				"You cause the ground to explode and spew forth a geyser of molten rock that showers down in a 40-foot-radius, 30-foot-high cylinder. Creatures in the cylinder when the geyser erupts take {@damage 6d6} fire damage and {@damage 6d6} bludgeoning damage, or half damage with a successful Dexterity saving throw.",
+				"Rocks and ash continue falling for the duration of the spell; each creature in the area at the end of its turn takes {@damage 2d6} fire damage and {@damage 2d6} bludgeoning damage, or half damage with a successful Dexterity saving throw. The area is treated as difficult terrain.",
 				"The geyser ends at the end of the spell. The remaining lava melts away into the ground {@dice 1d3} rounds later, leaving behind scorched earth."
 			],
 			"damageInflict": [
@@ -12964,9 +12964,9 @@
 				]
 			},
 			"entries": [
-				"You create an enormous, glowing, blue-white foot of magical force in an unoccupied space that you can see within range. The Medium-size foot hovers in the air, 3 to 4 feet above the ground. At the beginning of your turn, you can use a bonus action to move it up to 60 feet to an unoccupied space. The foot is immune to HomebrewSpellzage and all conditions.",
-				"As an action, you can direct the foot to stomp on a creature adjacent to it. Make a melee spell attack against that creature. If it hits, the foot does {@HomebrewSpellzage 10d8} force HomebrewSpellzage, knocks the target {@condition prone}, and restrains it. A successful Strength saving throw halves the HomebrewSpellzage and prevents the target from being knocked {@condition prone} or {@condition restrained}. A {@condition restrained} creature takes {@HomebrewSpellzage 4d8} force HomebrewSpellzage at the end of each of its turns. The restraint ends automatically if the foot moves or attacks again. Otherwise, a {@condition restrained} creature can escape by using an action to make a successful Strength check against your spell saving throw DC.",
-				"Instead of stomping, you can also command the foot to kick; this also does {@HomebrewSpellzage 10d8} force HomebrewSpellzage, but instead of being knocked {@condition prone} and {@condition restrained}, the target is pushed up to 60 feet. A successful Strength saving throw by the target creature halves the HomebrewSpellzage and negates the push effect.",
+				"You create an enormous, glowing, blue-white foot of magical force in an unoccupied space that you can see within range. The Medium-size foot hovers in the air, 3 to 4 feet above the ground. At the beginning of your turn, you can use a bonus action to move it up to 60 feet to an unoccupied space. The foot is immune to damage and all conditions.",
+				"As an action, you can direct the foot to stomp on a creature adjacent to it. Make a melee spell attack against that creature. If it hits, the foot does {@damage 10d8} force damage, knocks the target {@condition prone}, and restrains it. A successful Strength saving throw halves the damage and prevents the target from being knocked {@condition prone} or {@condition restrained}. A {@condition restrained} creature takes {@damage 4d8} force damage at the end of each of its turns. The restraint ends automatically if the foot moves or attacks again. Otherwise, a {@condition restrained} creature can escape by using an action to make a successful Strength check against your spell saving throw DC.",
+				"Instead of stomping, you can also command the foot to kick; this also does {@damage 10d8} force damage, but instead of being knocked {@condition prone} and {@condition restrained}, the target is pushed up to 60 feet. A successful Strength saving throw by the target creature halves the damage and negates the push effect.",
 				"The foot is big enough to provide cover and to prevent movement through its space."
 			],
 			"damageInflict": [
@@ -13073,7 +13073,7 @@
 				]
 			},
 			"entries": [
-				"You melt all inanimate ice and snow within 20 feet of a point you can see. Creature made of ice or snow in the affected area take {@HomebrewSpellzage 4d6} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw."
+				"You melt all inanimate ice and snow within 20 feet of a point you can see. Creature made of ice or snow in the affected area take {@damage 4d6} fire damage, or half damage with a successful Constitution saving throw."
 			],
 			"damageInflict": [
 				"fire"
@@ -13259,7 +13259,7 @@
 				]
 			},
 			"entries": [
-				"You cloak one creature you can see in a faint, silvery shimmer of light that suppresses its attempts to cast spells. The creature can make a Wisdom saving throw. If the saving throw fails, then whenever the creature tries to cast a spell during the duration of nullifying cloak, it must make an ability check using its spellcasting ability against your spell save DC. If the check fails, the spell is countered with no effect (the spell slot is expended) and the creature takes {@HomebrewSpellzage 2d6} radiant HomebrewSpellzage."
+				"You cloak one creature you can see in a faint, silvery shimmer of light that suppresses its attempts to cast spells. The creature can make a Wisdom saving throw. If the saving throw fails, then whenever the creature tries to cast a spell during the duration of nullifying cloak, it must make an ability check using its spellcasting ability against your spell save DC. If the check fails, the spell is countered with no effect (the spell slot is expended) and the creature takes {@damage 2d6} radiant damage."
 			],
 			"damageInflict": [
 				"radiant"
@@ -13368,7 +13368,7 @@
 				]
 			},
 			"entries": [
-				"You fill the air with a powerful song of glory that inspires your allies and HomebrewSpellzters their spirit. Choose any number of willing creatures within range. For the duration of the spell, an affected creature gets tactical advantage on saving throws against being {@condition frightened}; it adds {@dice 1d4} to its attack rolls; and whenever it makes a HomebrewSpellzage roll and dislikes the result, it can reroll the dice and choose to use either the first or second result."
+				"You fill the air with a powerful song of glory that inspires your allies and bolsters their spirit. Choose any number of willing creatures within range. For the duration of the spell, an affected creature gets tactical advantage on saving throws against being {@condition frightened}; it adds {@dice 1d4} to its attack rolls; and whenever it makes a damage roll and dislikes the result, it can reroll the dice and choose to use either the first or second result."
 			]
 		},
 		{
@@ -13473,11 +13473,11 @@
 					"type": "entries",
 					"name": "You take on some of the attributes of plant creatures",
 					"entries": [
-						" your skin becomes like bark and your hair like leaves. Until the spell ends, your base AC becomes 17, you gain resistance to psychic and poison HomebrewSpellzage, you are immune to stunning, and you have tactical advantage on saving throws against poison."
+						" your skin becomes like bark and your hair like leaves. Until the spell ends, your base AC becomes 17, you gain resistance to psychic and poison damage, you are immune to stunning, and you have tactical advantage on saving throws against poison."
 					]
 				}
 			],
-			"HomebrewSpellzageResist": [
+			"damageResist": [
 				"poison",
 				"psychic"
 			]
@@ -13571,9 +13571,9 @@
 				]
 			},
 			"entries": [
-				"You ward one creature against attacks from oozes. For the duration of the spell, oozes have tactical disadvantage on attack rolls against that creature, and the target has resistance to acid HomebrewSpellzage caused by oozes."
+				"You ward one creature against attacks from oozes. For the duration of the spell, oozes have tactical disadvantage on attack rolls against that creature, and the target has resistance to acid damage caused by oozes."
 			],
-			"HomebrewSpellzageResist": [
+			"damageResist": [
 				"acid"
 			]
 		},
@@ -13690,7 +13690,7 @@
 								}
 							},
 							"Red",
-							"{@HomebrewSpellzage 4d6} fire HomebrewSpellzage"
+							"{@damage 4d6} fire damage"
 						],
 						[
 							{
@@ -13700,7 +13700,7 @@
 								}
 							},
 							"Orange",
-							"{@HomebrewSpellzage 4d6} acid HomebrewSpellzage"
+							"{@damage 4d6} acid damage"
 						],
 						[
 							{
@@ -13710,7 +13710,7 @@
 								}
 							},
 							"Yellow",
-							"{@HomebrewSpellzage 2d6} cold HomebrewSpellzage and speed reduced by 10 feet (Constitution save negates speed loss)"
+							"{@damage 2d6} cold damage and speed reduced by 10 feet (Constitution save negates speed loss)"
 						],
 						[
 							{
@@ -13720,7 +13720,7 @@
 								}
 							},
 							"Green",
-							"{@HomebrewSpellzage 2d6} poison HomebrewSpellzage and {@condition poisoned} (Constitution save negates condition)"
+							"{@damage 2d6} poison damage and {@condition poisoned} (Constitution save negates condition)"
 						],
 						[
 							{
@@ -13730,7 +13730,7 @@
 								}
 							},
 							"Blue",
-							"{@HomebrewSpellzage 4d6} lightning HomebrewSpellzage"
+							"{@damage 4d6} lightning damage"
 						],
 						[
 							{
@@ -13740,7 +13740,7 @@
 								}
 							},
 							"Indigo",
-							"{@HomebrewSpellzage 2d6} thunder HomebrewSpellzage and {@condition stunned} (Constitution save negates stun)"
+							"{@damage 2d6} thunder damage and {@condition stunned} (Constitution save negates stun)"
 						],
 						[
 							{
@@ -13750,11 +13750,11 @@
 								}
 							},
 							"Violet",
-							"{@HomebrewSpellzage 4d6} thunder HomebrewSpellzage"
+							"{@damage 4d6} thunder damage"
 						]
 					]
 				},
-				"Effects beyond HomebrewSpellzage are negated by a successful Constitution saving throw. If the saving throw fails, the creature can repeat the saving throw at the end of each of its turns; a successful save ends the effect."
+				"Effects beyond damage are negated by a successful Constitution saving throw. If the saving throw fails, the creature can repeat the saving throw at the end of each of its turns; a successful save ends the effect."
 			],
 			"entriesHigherLevel": [
 				{
@@ -13845,41 +13845,41 @@
 						[
 							"1\u20132",
 							"Red",
-							"{@HomebrewSpellzage 3d6} fire HomebrewSpellzage"
+							"{@damage 3d6} fire damage"
 						],
 						[
 							"3",
 							"Orange",
-							"{@HomebrewSpellzage 3d6} acid HomebrewSpellzage"
+							"{@damage 3d6} acid damage"
 						],
 						[
 							"4",
 							"Yellow",
-							"{@HomebrewSpellzage 2d6} cold HomebrewSpellzage and speed reduced by 10 feet (Constitution save negates speed reduction)"
+							"{@damage 2d6} cold damage and speed reduced by 10 feet (Constitution save negates speed reduction)"
 						],
 						[
 							"5",
 							"Green",
-							"{@HomebrewSpellzage 2d6} poison HomebrewSpellzage and {@condition poisoned} (Constitution save negates condition)"
+							"{@damage 2d6} poison damage and {@condition poisoned} (Constitution save negates condition)"
 						],
 						[
 							"6",
 							"Blue",
-							"{@HomebrewSpellzage 3d6} lightning HomebrewSpellzage"
+							"{@damage 3d6} lightning damage"
 						],
 						[
 							"7",
 							"Indigo",
-							"{@HomebrewSpellzage 1d6} thunder HomebrewSpellzage and {@condition stunned} (Constitution save negates stun)"
+							"{@damage 1d6} thunder damage and {@condition stunned} (Constitution save negates stun)"
 						],
 						[
 							"8",
 							"Violet",
-							"{@HomebrewSpellzage 3d6} thunder HomebrewSpellzage"
+							"{@damage 3d6} thunder damage"
 						]
 					]
 				},
-				"Effects beyond HomebrewSpellzage are negated by a successful Constitution saving throw. If the saving throw fails, the creature can repeat the saving throw at the end of each of its turns; a successful save ends the effect."
+				"Effects beyond damage are negated by a successful Constitution saving throw. If the saving throw fails, the creature can repeat the saving throw at the end of each of its turns; a successful save ends the effect."
 			],
 			"entriesHigherLevel": [
 				{
@@ -13997,7 +13997,7 @@
 			},
 			"entries": [
 				"You create an eruption of burning rocks and magma in a 100-foot-radius sphere centered on a point you can see. At the beginning of each of your turns, you can use a bonus action to move the sphere 20 feet in the direction of your choice.",
-				"Each creature that begins its turn in the affected area or that enters the area must make both a Dexterity saving throw and a Constitution saving throw. If the creature fails the Dexterity save, it takes {@HomebrewSpellzage 6d6} bludgeoning HomebrewSpellzage from falling rocks. If the creature fails the Constitution save, it takes {@HomebrewSpellzage 6d6} fire HomebrewSpellzage from the heat. In both cases, a creature takes half HomebrewSpellzage with a successful save.",
+				"Each creature that begins its turn in the affected area or that enters the area must make both a Dexterity saving throw and a Constitution saving throw. If the creature fails the Dexterity save, it takes {@damage 6d6} bludgeoning damage from falling rocks. If the creature fails the Constitution save, it takes {@damage 6d6} fire damage from the heat. In both cases, a creature takes half damage with a successful save.",
 				"Flammable objects burn in the cloud, and stone and metal structures warp and deform. The soil becomes ashen and unable to bear life for the next {@dice 1d4} years unless special measures are used to restore it."
 			],
 			"damageInflict": [
@@ -14165,7 +14165,7 @@
 				]
 			},
 			"entries": [
-				"You cause a large body of water to emit scalding steam. The steam cloud rises upward in a 50-foot-radius, 30-foot-high cylinder from a point you can see within range. Each creature in the steam cloud at the start of its turn takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw."
+				"You cause a large body of water to emit scalding steam. The steam cloud rises upward in a 50-foot-radius, 30-foot-high cylinder from a point you can see within range. Each creature in the steam cloud at the start of its turn takes {@damage 4d6} fire damage, or half damage with a successful Constitution saving throw."
 			],
 			"damageInflict": [
 				"fire"
@@ -14229,7 +14229,7 @@
 					"caption": "Chaos Bolt",
 					"colLabels": [
 						"{@dice d8}",
-						"HomebrewSpellzage Type"
+						"damage Type"
 					],
 					"colStyles": [
 						"col-3 text-center",
@@ -14244,7 +14244,7 @@
 									"entry": "1 - Red"
 								}
 							},
-							"The target takes {@HomebrewSpellzage 8d8} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
+							"The target takes {@damage 8d8} fire damage, or half damage with a successful Dexterity saving throw."
 						],
 						[
 							{
@@ -14254,7 +14254,7 @@
 									"entry": "2 - Orange"
 								}
 							},
-							"The target takes {@HomebrewSpellzage 8d8} acid HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
+							"The target takes {@damage 8d8} acid damage, or half damage with a successful Dexterity saving throw."
 						],
 						[
 							{
@@ -14264,7 +14264,7 @@
 									"entry": "3 - Yellow"
 								}
 							},
-							"The target takes {@HomebrewSpellzage 8d8} lightning HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
+							"The target takes {@damage 8d8} lightning damage, or half damage with a successful Dexterity saving throw."
 						],
 						[
 							{
@@ -14274,7 +14274,7 @@
 									"entry": "4 - Green"
 								}
 							},
-							"The target takes {@HomebrewSpellzage 8d8} poison HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
+							"The target takes {@damage 8d8} poison damage, or half damage with a successful Dexterity saving throw."
 						],
 						[
 							{
@@ -14284,7 +14284,7 @@
 									"entry": "5 - Blue"
 								}
 							},
-							"The target takes {@HomebrewSpellzage 8d8} cold HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
+							"The target takes {@damage 8d8} cold damage, or half damage with a successful Dexterity saving throw."
 						],
 						[
 							{
@@ -14385,7 +14385,7 @@
 				]
 			},
 			"entries": [
-				"Your hands transform into serpent heads. As an action on your turn, you can make a melee spell attack with your hands. If you hit, the target takes {@HomebrewSpellzage 5d8} poison HomebrewSpellzage and becomes {@condition poisoned}. At the beginning of each of its turns, a {@condition poisoned} creature makes a Constitution saving throw; on a successful save, it is no longer {@condition poisoned}.",
+				"Your hands transform into serpent heads. As an action on your turn, you can make a melee spell attack with your hands. If you hit, the target takes {@damage 5d8} poison damage and becomes {@condition poisoned}. At the beginning of each of its turns, a {@condition poisoned} creature makes a Constitution saving throw; on a successful save, it is no longer {@condition poisoned}.",
 				"For the duration of the spell, you can't hold items or cast spells that have somatic components."
 			],
 			"damageInflict": [
@@ -14446,7 +14446,7 @@
 				]
 			},
 			"entries": [
-				"You let out a powerful, magically-enhanced shout that affects a 50-foot cone emanating from your space. Each creature in the cone takes {@HomebrewSpellzage 8d8} sonic HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw. A creature made of glass or crystal has tactical disadvantage on its saving throw.",
+				"You let out a powerful, magically-enhanced shout that affects a 50-foot cone emanating from your space. Each creature in the cone takes {@damage 8d8} sonic damage, or half damage with a successful Constitution saving throw. A creature made of glass or crystal has tactical disadvantage on its saving throw.",
 				"The shout shatters mundane, unattended objects made of crystal or glass. Attended items of that sort only shatter if their possessor fails his or her saving throw."
 			],
 			"savingThrow": [
@@ -14545,7 +14545,7 @@
 				]
 			},
 			"entries": [
-				"You surround yourself with an aura of electrical sparks and flames. For the duration of the spell, you gain resistance against lightning and fire HomebrewSpellzage. If you are struck by a melee weapon attack by a creature within 5 feet of you, the attacker takes {@HomebrewSpellzage 2d8} fire HomebrewSpellzage plus {@HomebrewSpellzage 2d8} lightning HomebrewSpellzage.",
+				"You surround yourself with an aura of electrical sparks and flames. For the duration of the spell, you gain resistance against lightning and fire damage. If you are struck by a melee weapon attack by a creature within 5 feet of you, the attacker takes {@damage 2d8} fire damage plus {@damage 2d8} lightning damage.",
 				"The flames shed bright light in a radius of 10 feet around you, and dim light to a further 10 feet."
 			],
 			"damageInflict": [
@@ -14698,7 +14698,7 @@
 				]
 			},
 			"entries": [
-				"You summon a vertical column of divine fire from the heavens. Each creature in a 15-foot-radius, 60-foot-tall cylinder centered on a point within range takes {@HomebrewSpellzage 6d6} fire HomebrewSpellzage plus {@HomebrewSpellzage 6d6} radiant HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. Each creature in the cylinder or within 15 feet of it that can see the fire is permanently {@condition blinded} unless it makes a successful Constitution saving throw.",
+				"You summon a vertical column of divine fire from the heavens. Each creature in a 15-foot-radius, 60-foot-tall cylinder centered on a point within range takes {@damage 6d6} fire damage plus {@damage 6d6} radiant damage, or half damage with a successful Dexterity saving throw. Each creature in the cylinder or within 15 feet of it that can see the fire is permanently {@condition blinded} unless it makes a successful Constitution saving throw.",
 				"The light from the solar flare affects creatures as if it were true sunlight."
 			],
 			"damageInflict": [
@@ -14758,12 +14758,12 @@
 				]
 			},
 			"entries": [
-				"Your body glows intensely, giving off bright light in a 60-foot radius and dim light for a further 60 feet. For the duration of the spell, you gain resistance to fire HomebrewSpellzage. You also radiate heat in a 20-foot radius; each creature that begins its turn within 20 feet of you takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw."
+				"Your body glows intensely, giving off bright light in a 60-foot radius and dim light for a further 60 feet. For the duration of the spell, you gain resistance to fire damage. You also radiate heat in a 20-foot radius; each creature that begins its turn within 20 feet of you takes {@damage 4d6} fire damage, or half damage with a successful Dexterity saving throw."
 			],
 			"damageInflict": [
 				"fire"
 			],
-			"HomebrewSpellzageResist": [
+			"damageResist": [
 				"fire"
 			],
 			"savingThrow": [
@@ -14811,14 +14811,14 @@
 				]
 			},
 			"entries": [
-				"A bolt of light streaks from your hand to a creature you can see. Make a ranged spell attack against that creature. If you hit, the creature takes {@HomebrewSpellzage 5d8} radiant HomebrewSpellzage and must make a Constitution saving throw. If the saving throw fails, the creature is {@condition blinded}. A {@condition blinded} creature can repeat the saving throw at the end of each of its turns; a successful save ends the blindness."
+				"A bolt of light streaks from your hand to a creature you can see. Make a ranged spell attack against that creature. If you hit, the creature takes {@damage 5d8} radiant damage and must make a Constitution saving throw. If the saving throw fails, the creature is {@condition blinded}. A {@condition blinded} creature can repeat the saving throw at the end of each of its turns; a successful save ends the blindness."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 4th level, the spell does an additional {@scaleHomebrewSpellzage 5d8|4-9|1d8} HomebrewSpellzage."
+						"For each spell slot used higher than 4th level, the spell does an additional {@scaledamage 5d8|4-9|1d8} damage."
 					]
 				}
 			],
@@ -14861,7 +14861,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a pinch of powdered aHomebrewSpellzantine worth 10 gp",
+					"text": "a pinch of powdered adamantine worth 10 gp",
 					"cost": 1000
 				}
 			},
@@ -14985,7 +14985,7 @@
 				]
 			},
 			"entries": [
-				"You evoke a spinning disk of force that streaks toward one creature you can see. Make a ranged spell attack. If it hits, the creature takes {@HomebrewSpellzage 10d10} force HomebrewSpellzage. If you roll a natural 20 to hit, roll the {@dice d20} again. If the result of the second roll is another 20, the creature loses a limb, the same as if it had been struck by a sword of sharpness.",
+				"You evoke a spinning disk of force that streaks toward one creature you can see. Make a ranged spell attack. If it hits, the creature takes {@damage 10d10} force damage. If you roll a natural 20 to hit, roll the {@dice d20} again. If the result of the second roll is another 20, the creature loses a limb, the same as if it had been struck by a sword of sharpness.",
 				"Once launched, the spirit disk remains hovering near its target. As an action, you can attack again with it on each of your turns. The target, however, can't be changed."
 			],
 			"damageInflict": [
@@ -15044,7 +15044,7 @@
 				]
 			},
 			"entries": [
-				"You call up a billowing cloud of superheated water in a 20-foot-radius sphere within range. The area of the cloud is lightly obscured. Each creature that starts its turn in the cloud or enters the cloud takes {@HomebrewSpellzage 4d6} fire HomebrewSpellzage, or half HomebrewSpellzage with a successful Constitution saving throw. The area of the cloud is also quite slippery; any creature moving through it on the ground must make a successful Dexterity saving throw when it begins its move or fall {@condition prone}.",
+				"You call up a billowing cloud of superheated water in a 20-foot-radius sphere within range. The area of the cloud is lightly obscured. Each creature that starts its turn in the cloud or enters the cloud takes {@damage 4d6} fire damage, or half damage with a successful Constitution saving throw. The area of the cloud is also quite slippery; any creature moving through it on the ground must make a successful Dexterity saving throw when it begins its move or fall {@condition prone}.",
 				"At the beginning of each of your turns, the cloud moves 10 feet directly away from you. The cloud lasts for the duration of the spell or until a strong wind disperses it."
 			],
 			"damageInflict": [
@@ -15099,14 +15099,14 @@
 				]
 			},
 			"entries": [
-				"You conjure numerous steel butterflies, which you release in a 30-foot cone. Each creature in the cone takes {@HomebrewSpellzage 10d4} slashing HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. Fey creatures have tactical disadvantage on the saving throw, and they are also {@condition stunned} until the end of your next turn if the saving throw fails."
+				"You conjure numerous steel butterflies, which you release in a 30-foot cone. Each creature in the cone takes {@damage 10d4} slashing damage, or half damage with a successful Dexterity saving throw. Fey creatures have tactical disadvantage on the saving throw, and they are also {@condition stunned} until the end of your next turn if the saving throw fails."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 4th level, the HomebrewSpellzage increases by 5 points."
+						"For each spell slot used higher than 4th level, the damage increases by 5 points."
 					]
 				}
 			],
@@ -15216,7 +15216,7 @@
 				]
 			},
 			"entries": [
-				"You create a compressed globule of vitriol at a point you can see within range, which then bursts into a 200-foot-sphere of caustic acid, corroding and dissolving anything in the area. Each creature in the affected area takes {@HomebrewSpellzage 6d10 + 20} acid HomebrewSpellzage, or half HomebrewSpellzage with a successful Dexterity saving throw. Each creature must also make a Constitution saving throw; if it fails, they are {@condition incapacitated} for {@dice 1d4} rounds by the burning fumes. Creatures who don't breathe or that are immune to acid HomebrewSpellzage are unaffected by the second effect."
+				"You create a compressed globule of vitriol at a point you can see within range, which then bursts into a 200-foot-sphere of caustic acid, corroding and dissolving anything in the area. Each creature in the affected area takes {@damage 6d10 + 20} acid damage, or half damage with a successful Dexterity saving throw. Each creature must also make a Constitution saving throw; if it fails, they are {@condition incapacitated} for {@dice 1d4} rounds by the burning fumes. Creatures who don't breathe or that are immune to acid damage are unaffected by the second effect."
 			],
 			"damageInflict": [
 				"acid"
@@ -15326,7 +15326,7 @@
 				]
 			},
 			"entries": [
-				"You conjure a 60-foot cone of water from your hands. Each creature in the area must make a Dexterity saving throw. If the saving throw fails, the creature takes {@HomebrewSpellzage 7d6 + 15} bludgeoning HomebrewSpellzage and is pushed 30 feet away from you. On a successful save, the creature takes half HomebrewSpellzage and is not pushed."
+				"You conjure a 60-foot cone of water from your hands. Each creature in the area must make a Dexterity saving throw. If the saving throw fails, the creature takes {@damage 7d6 + 15} bludgeoning damage and is pushed 30 feet away from you. On a successful save, the creature takes half damage and is not pushed."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -15373,7 +15373,7 @@
 				]
 			},
 			"entries": [
-				"The judgment of a creature you can see is overwhelmed with contradictory images and impulses. The creature takes {@HomebrewSpellzage 4d6} psychic HomebrewSpellzage and must make a Wisdom saving throw. If the saving throw fails, the creature's Wisdom score becomes 1, it can't cast divine spells, and it becomes incredibly trusting, always following the last order given to it by anyone unless doing so would cause self-harm.",
+				"The judgment of a creature you can see is overwhelmed with contradictory images and impulses. The creature takes {@damage 4d6} psychic damage and must make a Wisdom saving throw. If the saving throw fails, the creature's Wisdom score becomes 1, it can't cast divine spells, and it becomes incredibly trusting, always following the last order given to it by anyone unless doing so would cause self-harm.",
 				"At the end of every 30 days, the creature can repeat the saving throw to end the effect. The spell can also be ended by a greater restoration, heal, or wish spell."
 			],
 			"damageInflict": [
@@ -15572,14 +15572,14 @@
 				]
 			},
 			"entries": [
-				"You scream and emit a 30-foot cone of HomebrewSpellzaging sound. Each creature in the cone takes {@HomebrewSpellzage 8d8} thunder HomebrewSpellzage and is {@condition deafened} for one minute, or takes half HomebrewSpellzage and is not {@condition deafened} with a successful Constitution saving throw."
+				"You scream and emit a 30-foot cone of damaging sound. Each creature in the cone takes {@damage 8d8} thunder damage and is {@condition deafened} for one minute, or takes half damage and is not {@condition deafened} with a successful Constitution saving throw."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each spell slot used higher than 5th level, violent scream does an additional {@scaleHomebrewSpellzage 8d8|5-9|1d8} HomebrewSpellzage."
+						"For each spell slot used higher than 5th level, violent scream does an additional {@scaledamage 8d8|5-9|1d8} damage."
 					]
 				}
 			],
@@ -16163,7 +16163,7 @@
 				]
 			},
 			"entries": [
-				"You create a zone of purple-hued air in a 20-foot-radius sphere around a point you can see. Within this zone, all HomebrewSpellzage caused directly by spells is minimized; each HomebrewSpellzage die is treated as having rolled a 1. The spell doesn't reduce HomebrewSpellzage from effects that inflict HomebrewSpellzage indirectly, such as HomebrewSpellzage from conjured weapons and creatures, or HomebrewSpellzage from bonuses; for example, a spell that causes {@HomebrewSpellzage 4d6 + 20} HomebrewSpellzage is reduced to 4+20 HomebrewSpellzage by a zone of metamagic minimization."
+				"You create a zone of purple-hued air in a 20-foot-radius sphere around a point you can see. Within this zone, all damage caused directly by spells is minimized; each damage die is treated as having rolled a 1. The spell doesn't reduce damage from effects that inflict damage indirectly, such as damage from conjured weapons and creatures, or damage from bonuses; for example, a spell that causes {@damage 4d6 + 20} damage is reduced to 4+20 damage by a zone of metamagic minimization."
 			],
 			"miscTags": [
 				"SGT"
@@ -16208,8 +16208,8 @@
 				]
 			},
 			"entries": [
-				"As part of the action used to cast this spell, you must make a ranged attack with a weapon against one creature within range of both the weapon and the spell, otherwise the spell fails. On a hit, the target suffers the attack's normal effects and the ammunition summons grasping, poisonous brambles, which wrap around the target until the start of your next turn. If the target willingly moves or is moved out of its original space before then, it immediately takes {@HomebrewSpellzage 1d6} poison HomebrewSpellzage, and the spell ends.",
-				"This spell's HomebrewSpellzage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"As part of the action used to cast this spell, you must make a ranged attack with a weapon against one creature within range of both the weapon and the spell, otherwise the spell fails. On a hit, the target suffers the attack's normal effects and the ammunition summons grasping, poisonous brambles, which wrap around the target until the start of your next turn. If the target willingly moves or is moved out of its original space before then, it immediately takes {@damage 1d6} poison damage, and the spell ends.",
+				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
 			],
 			"source": "HomebrewSpellz",
 			"page": "1",
@@ -16266,8 +16266,8 @@
 				]
 			},
 			"entries": [
-				"Choose one creature you have seen in the past minute. You send a piece of ammunition toward that creature, which moves around corners if necessary and ignore three-quarters cover and half cover. If the target is within range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes {@HomebrewSpellzage 1d6} force HomebrewSpellzage, and you learn the target's current location until the end of the turn.",
-				"This spell's HomebrewSpellzage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"Choose one creature you have seen in the past minute. You send a piece of ammunition toward that creature, which moves around corners if necessary and ignore three-quarters cover and half cover. If the target is within range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes {@damage 1d6} force damage, and you learn the target's current location until the end of the turn.",
+				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
 			],
 			"source": "HomebrewSpellz",
 			"page": "2",
