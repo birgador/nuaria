@@ -12,6 +12,17 @@
 				"convertedBy": []
 			},
 			{
+				"json": "BeastsofNuaria",
+				"abbreviation": "BoN",
+				"full": "Beasts of Nuaria",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": [],
+				"color": "#2ea8b8"
+			},
+			{
 				"json": "NuariaBelanorsBestiary",
 				"abbreviation": "BB",
 				"full": "Belanor",
@@ -30,6 +41,16 @@
 				"convertedBy": []
 			},
 			{
+				"json": "CreaturesofNuaria",
+				"abbreviation": "CoN",
+				"full": "Creatures of Nuaria",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": []
+			},
+			{
 				"json": "Daasisspells",
 				"abbreviation": "DS",
 				"full": "Daasis'",
@@ -38,6 +59,17 @@
 					"birgador"
 				],
 				"convertedBy": []
+			},
+			{
+				"json": "DisciplinariesofAgathyst",
+				"abbreviation": "DoA",
+				"full": "Disciplinaries of Agathyst",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": [],
+				"color": "#863aa1"
 			},
 			{
 				"json": "Discord",
@@ -72,16 +104,6 @@
 				"convertedBy": [
 					"birgador"
 				]
-			},
-			{
-				"json": "LocationStatBlock",
-				"abbreviation": "LocationStatBlock",
-				"full": "LocationStatBlock",
-				"url": "",
-				"authors": [
-					"birgador"
-				],
-				"convertedBy": []
 			},
 			{
 				"json": "ManeaOneShot",
@@ -125,19 +147,6 @@
 					"birgador"
 				],
 				"convertedBy": []
-			},
-			{
-				"json": "Template",
-				"abbreviation": "Template",
-				"full": "Template",
-				"authors": [
-					"birgador"
-				],
-				"convertedBy": [
-					"birgador"
-				],
-				"version": "1.0",
-				"url": ""
 			},
 			{
 				"json": "Tudros",
@@ -1253,7 +1262,7 @@
 					"type": "timed",
 					"duration": {
 						"type": "hour",
-						"amount": 4
+						"amount": 1
 					}
 				}
 			],
@@ -1276,164 +1285,10 @@
 					}
 				]
 			},
-			"races": [
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
-				}
-			]
+			"components": {
+				"v": true,
+				"s": true
+			}
 		},
 		{
 			"name": "Ice Blade",
@@ -5295,7 +5150,7 @@
 			"source": "Daasisspells"
 		},
 		{
-			"name": "Pain Split (WIP)",
+			"name": "Pain Split",
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -5321,12 +5176,16 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
 					}
 				]
 			},
 			"entries": [
-				"You redirect part of the pain an enemy deals to you.",
-				"Make a melee spell attack against a creature within 5 feet of you. If the target is the creature that has attacked you, you make the attack with advantage. On a hit, you deal {@damage 2d6} damage, of the same type, to the target and reduce the incoming damage by this amount."
+				"You channel the anguish and pain inflicted upon you by an adversary, redirecting a portion of it back at them.",
+				"Make a melee spell attack against a creature within 5 feet of you. If the target is the creature that has attacked you, you make the attack with advantage. On a hit, you deal {@damage 2d6} damage, of the same type, to the target and reduce the incoming damage by this amount. If the result of this roll is higher than the original damage, you deal back all the damage received and take no damage."
 			],
 			"source": "Sinmos",
 			"entriesHigherLevel": [
@@ -7604,6 +7463,10 @@
 				"fromClassList": [
 					{
 						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
 						"source": "PHB"
 					}
 				]
@@ -10266,6 +10129,77 @@
 				"Unes dianes on tu les intentes hitejar amb dards màgics i si hitejes l'enemic rep damage. Aposta a que un dau sigui major o menor, o que se't bufi el dau a dau caotic de {@dice 1d20}"
 			],
 			"source": "Daasisspells"
+		},
+		{
+			"name": "Self explosion",
+			"source": "Sinmos",
+			"page": 158,
+			"otherSources": [
+				{
+					"source": "Sinmos",
+					"page": 19
+				}
+			],
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				},
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you are at 10 hit points or less"
+				}
+			],
+			"range": {
+				"type": "sphere",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Harnessing the tumultuous energy within, the spellcaster unleashes a devastating burst of power. Creatures within a 100-foot radius sphere centered in the user must make a Dexterity saving throw. They take {@damage 4d12} thunder damage on a failed save, or half as much damage on a successful one. The caster, having sacrificially unleashed this explosive force, shatters into myriad small pieces and meets their demise."
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"thunder"
+			],
+			"spellAttack": [
+				"O"
+			],
+			"areaTags": [
+				"MT"
+			]
 		}
 	],
 	"monster": [
@@ -17398,238 +17332,6 @@
 			}
 		},
 		{
-			"name": "Exploration",
-			"size": "M",
-			"type": "aberration",
-			"source": "LocationStatBlock",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"average": 4,
-				"formula": "1d8"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "0",
-			"action": [
-				{
-					"name": "Deplete Rations or Water",
-					"entries": [
-						"Deplete rations"
-					]
-				},
-				{
-					"name": "NOt action pero idea",
-					"entries": [
-						"Els statblocks potser haurien de contemplar sidetracking? (Per fer-ho truly exploration) (Exploration!=survival, Exploration != travel)"
-					]
-				},
-				{
-					"name": "Hazard 1: Icy Waters",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) cold damage."
-					]
-				},
-				{
-					"name": "Poisoned Berries",
-					"entries": [
-						"Survival saving throw or take X damage. On success, find {@dice 1d6} edible berries"
-					]
-				},
-				{
-					"name": "Actions",
-					"entries": [
-						"Les accions podríen tindre una acció base i una acció rollo boss o de potència més elevada o una certa variabilitat per no ser boring."
-					]
-				},
-				{
-					"name": "Diseases",
-					"entries": [
-						"Why not?"
-					]
-				},
-				{
-					"name": "CHECK REDDIT SAVED",
-					"entries": [
-						"REddit saved"
-					]
-				}
-			],
-			"damageTags": [
-				"C"
-			],
-			"miscTags": [
-				"MW"
-			]
-		},
-		{
-			"name": "Exploration 2 for gmbinder",
-			"size": "M",
-			"type": "aberration",
-			"source": "LocationStatBlock",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				10,
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 4,
-				"formula": "1d8"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "0",
-			"action": [
-				{
-					"name": "Deplete Rations or Water",
-					"entries": [
-						"Deplete rations"
-					]
-				},
-				{
-					"name": "NOt action pero idea",
-					"entries": [
-						"Els statblocks potser haurien de contemplar sidetracking? (Per fer-ho truly exploration) (Exploration!=survival, Exploration != travel)"
-					]
-				},
-				{
-					"name": "Hazard 1: Icy Waters",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) cold damage."
-					]
-				},
-				{
-					"name": "Poisoned Berries",
-					"entries": [
-						"Survival saving throw or take X damage. On success, find {@dice 1d6} edible berries"
-					]
-				},
-				{
-					"name": "Actions",
-					"entries": [
-						"Les accions podríen tindre una acció base i una acció rollo boss o de potència més elevada o una certa variabilitat per no ser boring."
-					]
-				},
-				{
-					"name": "Diseases",
-					"entries": [
-						"Why not?"
-					]
-				},
-				{
-					"name": "CHECK REDDIT SAVED",
-					"entries": [
-						"REddit saved"
-					]
-				}
-			],
-			"damageTags": [
-				"C"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"senses": [
-				"darkvision 30 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Common"
-			],
-			"languageTags": [
-				"C"
-			],
-			"save": {
-				"str": "+2"
-			},
-			"skill": {
-				"medicine": "+2"
-			},
-			"vulnerable": [
-				"acid"
-			],
-			"resist": [
-				"bludgeoning"
-			],
-			"immune": [
-				"cold"
-			],
-			"conditionImmune": [
-				"blinded"
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell chill touch}"
-							]
-						}
-					},
-					"daily": {
-						"1e": [
-							"{@spell animal shapes}"
-						]
-					},
-					"type": "spellcasting"
-				}
-			],
-			"legendaryGroup": {
-				"name": "Face Collector",
-				"source": "Nuaria"
-			},
-			"legendary": [
-				{
-					"name": "Legend action",
-					"entries": [
-						"Uff"
-					]
-				}
-			],
-			"mythic": [
-				{
-					"name": "Mythic Action",
-					"entries": [
-						"Uff2"
-					]
-				}
-			],
-			"environment": [
-				"underwater",
-				"urban"
-			]
-		},
-		{
 			"name": "Spider Queen",
 			"source": "Nuaria",
 			"page": 328,
@@ -20573,6 +20275,2125 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0"
+		},
+		{
+			"name": "Goazard",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"source": "BeastsofNuaria",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 18",
+				"average": 45
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 10
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 16,
+			"int": 2,
+			"wis": 12,
+			"cha": 5,
+			"passive": 11,
+			"cr": "2",
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"save": {
+				"str": "+5"
+			},
+			"skill": {
+				"survival": "+3",
+				"athletics": "+5"
+			},
+			"resist": [
+				"slashing"
+			],
+			"trait": [
+				{
+					"name": "Sure Footed",
+					"entries": [
+						"The goazard has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The goazard makes two attacks against the same target: one with its gore and one with its bite."
+					]
+				}
+			],
+			"actionTags": [
+				"Swallow"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"bonus": [
+				{
+					"name": "Headbutt Charge",
+					"entries": [
+						"Headbutt Charge: Melee Weapon Attack: {@hit 5} to hit, reach 5ft., one target. {@h}8 ({@dice 1d8 + 3}) bludgeoning  damage, and the target must make a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"bonusHeader": [
+				"If the goazard moves at least 10 feet straight towards a target before making a gore attack, it can make a Headbutt Charge as a bonus action."
+			],
+			"fluff": {
+				"entries": [
+					"Goazards are robust, goat-lizard hybrids that inhabit the rugged landscapes of mountains, hills, and caves. Their bodies are covered in a mixture of fur and scales, providing them with both insulation and protection against the harsh elements of their habitat. Goazards are herbivorous and primarily graze on tough mountain vegetation and smaller animals, but they can be fiercely territorial and will defend their grazing grounds aggressively.",
+					"They can often be found perched on rocky outcroppings, basking in the sun or feeding on local vegetation. When faced with danger, goazards will use their horns and scaly skin to defend their territory. Despite their aggressive tendencies, they are not inherently evil creatures and may be persuaded to coexist peacefully with other species in their environment."
+				]
+			},
+			"environment": [
+				"hill",
+				"mountain"
+			],
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForced": [
+				"strength"
+			]
+		},
+		{
+			"name": "Alpinshell Snail",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"source": "BeastsofNuaria",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d10 + 16",
+				"average": 38
+			},
+			"speed": {
+				"walk": 15,
+				"climb": 15
+			},
+			"str": 20,
+			"dex": 6,
+			"con": 18,
+			"int": 2,
+			"wis": 10,
+			"cha": 2,
+			"passive": 10,
+			"cr": "3",
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"trait": [
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The alpinshell snail has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				},
+				{
+					"name": "Flammable Mucus.",
+					"entries": [
+						"The Alpinshell Snail's mucus is highly flammable. If the snail takes fire damage or is exposed to open flames, its mucus can ignite. Any creature that starts its turn within 10 feet of the snail while its mucus is burning takes 4 ({@damage 1d6}) fire damage. The mucus burns for 1 minute or until extinguished."
+					]
+				},
+				{
+					"name": "Flammable Mucus Trail.",
+					"entries": [
+						"The Alpinshell Snail leaves a trail of highly flammable mucus on the surface it moves across. Any open flame or spark in contact with this mucus ignites it, causing 7 ({@damage 2d6}) fire damage per round to any creature that starts its turn in the mucus or passes through it. The mucus trail burns for 1 minute or until extinguished."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pound",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Slime Spray {@recharge 5}",
+					"entries": [
+						"The Alpinshell Snail releases a burst of combustible slime in a 15-foot cone that covers the ground and turns it into difficult terrain. Each creature in that area must make a {@dc 13} Dexterity saving throw, or fall {@condition prone}. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall {@condition prone}."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"reaction": [
+				{
+					"name": "Retract Shell.",
+					"entries": [
+						"When hit by a melee attack, the Alpinshell Snail can retract into its shell as a reaction, gaining resistance to all damage until the start of its next turn."
+					]
+				}
+			],
+			"actionHeader": [
+				"When the Alpinshell Snail hits a creature with its pound attack, the creature becomes coated with its highly flammable mucus. If the coated creature takes fire damage while covered with the mucus, it suffers an additional 4 (1d6) fire damage at the start of its turn for 1 minute or until it takes an action to clean itself, extinguishing the mucus."
+			],
+			"fluff": {
+				"entries": [
+					"The Alpinshell Snail is a remarkable beast found in the rugged mountainous regions of the world. Its unique features and abilities make it a highly sought-after creature for both transportation and resource harvesting. This large, white-shelled snail is known for its raw strength, slow yet sure-footed movement, and the valuable combustible slime it produces. Adventurers and locals alike often seek these creatures for their practical uses in the challenging terrain of the mountains."
+				]
+			},
+			"environment": [
+				"mountain"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Goazard",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"source": "CreaturesofNuaria",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 18",
+				"average": 45
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 10
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 16,
+			"int": 2,
+			"wis": 12,
+			"cha": 5,
+			"passive": 11,
+			"cr": "4",
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"save": {
+				"str": "+5"
+			},
+			"skill": {
+				"survival": "+3",
+				"athletics": "+5"
+			},
+			"resist": [
+				"slashing"
+			],
+			"trait": [
+				{
+					"name": "Sure Footed",
+					"entries": [
+						"The goazard has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The goazard makes two attacks against the same target: one with its gore and one with its bite."
+					]
+				}
+			],
+			"actionTags": [
+				"Swallow"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"bonus": [
+				{
+					"name": "Headbutt Charge",
+					"entries": [
+						"Headbutt Charge: Melee Weapon Attack: {@hit 5} to hit, reach 5ft., one target. {@h}8 ({@dice 1d8 + 3}) bludgeoning  damage, and the target must make a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"bonusHeader": [
+				"If the goazard moves at least 10 feet straight towards a target before making a gore attack, it can make a Headbutt Charge as a bonus action."
+			],
+			"fluff": {
+				"entries": [
+					"Goazards are robust, goat-lizard hybrids that inhabit the rugged landscapes of mountains, hills, and caves. Their bodies are covered in a mixture of fur and scales, providing them with both insulation and protection against the harsh elements of their habitat. Goazards are herbivorous and primarily graze on tough mountain vegetation and smaller animals, but they can be fiercely territorial and will defend their grazing grounds aggressively.",
+					"They can often be found perched on rocky outcroppings, basking in the sun or feeding on local vegetation. When faced with danger, goazards will use their horns and scaly skin to defend their territory. Despite their aggressive tendencies, they are not inherently evil creatures and may be persuaded to coexist peacefully with other species in their environment."
+				]
+			},
+			"environment": [
+				"hill",
+				"mountain"
+			],
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForced": [
+				"strength"
+			]
+		},
+		{
+			"name": "Alpinshell Snail",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"source": "CreaturesofNuaria",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d10 + 16",
+				"average": 38
+			},
+			"speed": {
+				"walk": 15,
+				"climb": 15
+			},
+			"str": 20,
+			"dex": 6,
+			"con": 18,
+			"int": 2,
+			"wis": 10,
+			"cha": 2,
+			"passive": 10,
+			"cr": "3",
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"trait": [
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The alpinshell snail has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				},
+				{
+					"name": "Flammable Mucus.",
+					"entries": [
+						"The Alpinshell Snail's mucus is highly flammable. If the snail takes fire damage or is exposed to open flames, its mucus can ignite. Any creature that starts its turn within 10 feet of the snail while its mucus is burning takes 4 ({@damage 1d6}) fire damage. The mucus burns for 1 minute or until extinguished."
+					]
+				},
+				{
+					"name": "Flammable Mucus Trail.",
+					"entries": [
+						"The Alpinshell Snail leaves a trail of highly flammable mucus on the surface it moves across. Any open flame or spark in contact with this mucus ignites it, causing 7 ({@damage 2d6}) fire damage per round to any creature that starts its turn in the mucus or passes through it. The mucus trail burns for 1 minute or until extinguished."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pound",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Slime Spray {@recharge 5}",
+					"entries": [
+						"The Alpinshell Snail releases a burst of combustible slime in a 15-foot cone that covers the ground and turns it into difficult terrain. Each creature in that area must make a {@dc 13} Dexterity saving throw, or fall {@condition prone}. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall {@condition prone}."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"reaction": [
+				{
+					"name": "Retract Shell.",
+					"entries": [
+						"When hit by a melee attack, the Alpinshell Snail can retract into its shell as a reaction, gaining resistance to all damage until the start of its next turn."
+					]
+				}
+			],
+			"actionHeader": [
+				"When the Alpinshell Snail hits a creature with its pound attack, the creature becomes coated with its highly flammable mucus. If the coated creature takes fire damage while covered with the mucus, it suffers an additional 4 (1d6) fire damage at the start of its turn for 1 minute or until it takes an action to clean itself, extinguishing the mucus."
+			],
+			"fluff": {
+				"entries": [
+					"The Alpinshell Snail is a remarkable beast found in the rugged mountainous regions of the world. Its unique features and abilities make it a highly sought-after creature for both transportation and resource harvesting. This large, white-shelled snail is known for its raw strength, slow yet sure-footed movement, and the valuable combustible slime it produces. Adventurers and locals alike often seek these creatures for their practical uses in the challenging terrain of the mountains."
+				]
+			},
+			"environment": [
+				"mountain"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Little Whisper",
+			"size": [
+				"S"
+			],
+			"type": "monstrosity",
+			"source": "Levok",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d6 + 40",
+				"average": 110
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 20
+			},
+			"str": 4,
+			"dex": 19,
+			"con": 14,
+			"int": 16,
+			"wis": 11,
+			"cha": 15,
+			"passive": 10,
+			"cr": "7",
+			"skill": {
+				"acrobatics": "+7",
+				"athletics": "+0",
+				"stealth": "+7"
+			},
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the little whisper has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the little whisper scores against a {@quickref Surprise|PHB|3|0|surprised} creature is a critical hit."
+					]
+				},
+				{
+					"name": "Shadow blend",
+					"entries": [
+						"While in dim light or darkness, the Little Whisper has advantage on Stealth checks and can take the {@action Hide} action as a bonus action."
+					]
+				},
+				{
+					"name": "Ethereal Gaze",
+					"entries": [
+						"When the Little Whisper moves, its eyes can faintly gleam with an unnatural, ethereal light, disorienting those who see it move. Any creature that sees the Little Whisper move must make a {@dc 14} Wisdom saving throw or be {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If the creature's saving throw is successful or the effect ends for it, the creature is immune to this ability for the next 24 hours."
+					]
+				}
+			],
+			"traitTags": [
+				"Devil's Sight",
+				"Keen Senses"
+			],
+			"senses": [
+				"darkvision 60 ft.",
+				"blindsight 30 ft."
+			],
+			"senseTags": [
+				"D",
+				"B"
+			],
+			"conditionInflict": [
+				"frightened",
+				"grappled",
+				"restrained"
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Dexterity saving throw or be {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the Little Whisper can't use the same claw against another target."
+					]
+				},
+				{
+					"name": "Terrorize (Recharge 5-6).",
+					"entries": [
+						"The Little Whisper releases a wave of dread and terror in a 30-foot radius centered on itself. All creatures in that area must make a {@dc 15} Wisdom saving throw or be {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If the creature's saving throw is successful or the effect ends for it, the creature is immune to this ability for the next 24 hours."
+					]
+				},
+				{
+					"name": "Whispering Shriek",
+					"entries": [
+						"The Little Whisper can use its action to let out an unsettling, high-pitched shriek. Each creature within 30 feet of the Little Whisper that can hear it must make a {@dc 14} Wisdom saving throw or be {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If the creature's saving throw is successful or the effect ends for it, the creature is immune to this ability for the next 24 hours. The Little Whisper can use this ability once and must finish a short or long rest to use it again."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"bonus": [
+				{
+					"name": "Shadow Step",
+					"entries": [
+						"The Little Whisper can teleport up to 60 feet to an unoccupied space it can see in dim light or darkness as a bonus action."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell fear}",
+						"{@spell invisibility}",
+						"{@spell misty step}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"actionHeader": [
+				"Multiattack. The Little Whisper makes two claw attacks."
+			],
+			"reaction": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"When subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the Little Whisper instead takes no damage on a successful save, and only half damage on a failed save."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The Little Whisper is a grotesque and sinister creature born from the twisted ambitions of malevolent necromancers. This nightmarish creation stands at approximately 4 feet (1.2 m) in height, bearing a childlike presence that conceals its malevolent nature. Its pale, translucent skin and unnerving, empty black eyes give it an eerie, otherworldly appearance. With a mouth filled with needle-like teeth, elongated bony fingers ending in razor-sharp claws, and wispy hair cascading down its back, the Little Whisper wears tattered remnants of children's clothing, presenting a hauntingly innocent facade.",
+					"This undead monstrosity possesses a perpetual shadowy aura that allows it to move stealthily and blend seamlessly into the darkness. It employs an unsettling high-pitched shriek to disorient and terrify its victims. The Little Whisper excels in stealthy assassinations and kidnappings, making it a formidable tool for necromancers seeking to strike swiftly and silently, leaving behind only a trail of terror and death. Its ability to inspire fear and its penchant for vanishing into shadows make it a chilling and deadly adversary."
+				]
+			},
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"save": {
+				"dex": "+7",
+				"wis": "+3"
+			},
+			"savingThrowForced": [
+				"dexterity",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Boaramar",
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"source": "Bestus",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d12 + 112",
+				"average": 203
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 26,
+			"dex": 12,
+			"con": 26,
+			"int": 10,
+			"wis": 8,
+			"cha": 16,
+			"passive": 9,
+			"cr": "8",
+			"resist": [
+				"bludgeoning",
+				"psychic"
+			],
+			"immune": [
+				"fire",
+				"necrotic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"prone",
+				"stunned"
+			],
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the boaramar moves at least 20 feet straight toward a target and then hits it with its tusk attack on the same turn, the target takes an extra 14 ({@dice 3d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Mordisquitos",
+					"entries": [
+						"The boaramar can make a bit attack as a bonus action on creatures that are {@condition prone}."
+					]
+				},
+				{
+					"name": "Inestable gut",
+					"entries": [
+						"If the boar has swallowed a creature and takes 25 or more damage in a single turn, it must succeed on a {@dc 16} Constitution saving throw or vomit the swallowed creature. The vomit spreads through a 15-foot cone and all creatures inside the cone must make a {@dc 14} Constitution saving throw and take 11 ({@dice 3d6}) acid damage and become {@condition poisoned} on a failed roll, or half as much on a succesful roll."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The boaramar makes a bite and a tusk attack."
+					]
+				},
+				{
+					"name": "Warming goodbye",
+					"entries": [
+						"When the boaramar reaches 0 hit points, its rockets explode. Every creature inside a 20-foot sphere centered on the boaramar must succeed on a {@dc 15} Dexterity saving throw or take 22 ({@damage 3d8}) fire damage, or half as much on a successful roll. A swallowed target automatically fails this saving throw."
+					]
+				}
+			],
+			"conditionInflict": [
+				"blinded",
+				"prone",
+				"restrained"
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage. On a hit, the creature must succeed a {@dc 16} Dexterity saving throw or become {@condition restrained}. At the beginning of each of its turns, the creature can repeat the saving throw to free themselves on a succesful save."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"If the boaramar has a creature {@condition restrained} by the bite attack it can spend its action to swallow it. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the boaramar, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the boaramar's turns. The boaramar can have only one target swallowed at a time.",
+						"If the boaramar dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 8}) piercing damage and 5 ({@damage 2d4}) fire damage."
+					]
+				},
+				{
+					"name": "Fire rocket flare",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 60/90 ft., one target. {@h}22 ({@damage 6d6}) fire damage. Whenever the rocket hits a target or misses and explodes somewhere else, fire engulfes a 10-foot square on the impact location. A creature that ends its turn inside this area takes 7 ({@damage 2d6}) fire damage. The burning area increases by 1x1 at the beginning of each round."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW",
+				"AOE"
+			],
+			"actionTags": [
+				"Swallow"
+			],
+			"legendary": [
+				{
+					"name": "Move (Costs 1 Action)",
+					"entries": [
+						"The boaramar moves up to 25 feet without triggering opportunity attacks."
+					]
+				},
+				{
+					"name": "Fire rocket flare Costs (2 Actions)",
+					"entries": [
+						"The boaramar launches an explosive ball of fire towards "
+					]
+				}
+			],
+			"damageTags": [
+				"A",
+				"F",
+				"P"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "Nuarian Barghest (WIP)",
+			"source": "CreaturesofNuaria",
+			"page": 60,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"alignmentPrefix": "Typically ",
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d10 + 16"
+			},
+			"speed": {
+				"walk": {
+					"number": 60,
+					"condition": "(30 ft. in goblin form)"
+				}
+			},
+			"str": 19,
+			"dex": 15,
+			"con": 14,
+			"int": 13,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"deception": "+4",
+				"intimidation": "+4",
+				"perception": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"cold",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Goblin",
+				"Infernal",
+				"telepathy 60 ft."
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The barghest casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+					],
+					"will": [
+						"{@spell levitate}",
+						"{@spell minor illusion}",
+						"{@spell pass without trace}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell charm person}",
+							"{@spell dimension door}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fire Banishment",
+					"entries": [
+						"When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a {@dc 15} Charisma saving throw or be instantly banished to Gehenna"
+					]
+				},
+				{
+					"name": "Soul Feeding",
+					"entries": [
+						"The barghest can feed on the corpse of a Fey or Humanoid it killed within the past 10 minutes. This feeding takes at least 1 minute, and it destroys the corpse. If the Barghest is fed, it buffs itself."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The barghest makes one Bite attack and one Claw attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The barghest transforms into a Small goblin or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. The barghest reverts to its true form if it dies."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"underdark"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/barghest.mp3"
+			},
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"GO",
+				"I",
+				"TP"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Barghest.png",
+			"fluff": {
+				"name": "Barghest",
+				"source": "MPMM",
+				"entries": [
+					"Long ago, the god Maglubiyet—conqueror and then lord of early goblinoids—bargained with the General of Gehenna for aid. The General provided yugoloths, which then died in service to Maglubiyet. Yet when the time came to honor his part of the compact, Maglubiyet reneged on the deal. In vengeance, the General of Gehenna created the soul-devouring barghests to devour goblinoid souls.",
+					"The mission of every barghest, implanted in it by the General of Gehenna, is to consume souls. It eats these souls by devouring the bodies of those it kills, preferring goblinoids.",
+					"A barghest hungers for the day when it can complete its mission, return to Gehenna, and serve the General directly in his yugoloth legions, but it doesn't kill goblinoids indiscriminately. By devouring the souls of goblinoid leaders and other powerful individuals, a barghest earns elevated status in the afterlife. Barghests typically keep their true nature secret, preying on the occasional lone goblin when the opportunity arises, until they reach adulthood and are capable of seeking out stronger prey. A barghest avoids contact with large, open fires.",
+					"Any conflagration larger than its body acts as a gateway to Gehenna and banishes it to that plane, where it is likely to be slain or enslaved by a yugoloth for its failure."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Barghest.webp"
+						},
+						"credit": "Cory Trego-Erdner"
+					}
+				]
+			},
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
+			"savingThrowForced": [
+				"charisma"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Ring of Sinmos Cultist",
+			"source": "Sinmos",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"skill": {
+				"deception": "+4",
+				"persuasion": "+4",
+				"religion": "+2"
+			},
+			"passive": 11,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The fanatic has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acidic glob (by izzy)|Discord}",
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell inflict wounds}",
+								"{@spell pain split|Sinmos}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell self explosion|Sinmos}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dark Devotion",
+					"entries": [
+						"The fanatic has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fanatic makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}6 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/cult-fanatic.mp3"
+			},
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"spellcastingTags": [
+				"CC",
+				"O"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"MLW"
+			],
+			"conditionInflictSpell": [
+				"paralyzed",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Cult Fanatic.png",
+			"fluff": {
+				"name": "Cult Fanatic",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Fanatics are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else"
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Cult Fanatic.webp"
+						}
+					}
+				]
+			},
+			"reaction": [
+				{
+					"name": "Self explosion",
+					"entries": [
+						"When the cultist drops to 10 hit points or less, they cast the self explosion spell."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Echo of Demogorgon",
+			"source": "Sinmos",
+			"page": 132,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 97,
+				"formula": "13d10 + 26"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 24,
+			"dex": 12,
+			"con": 15,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"str": "+10",
+				"cha": "+5"
+			},
+			"skill": {
+				"perception": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Abyssal",
+				"Giant",
+				"Orc"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The echo has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The echo makes two Tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d6 + 7}) bludgeoning damage plus 9 ({@damage 2d8}) necrotic damage. Additionally, the target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled}. The echo can only have at most 2 creatures {@condition grappled} at the same time."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Discordant Screams",
+					"entries": [
+						"The echo directs its frenzied howls at one creature it can see within 60 feet of itself. The target must succeed on a {@dc 14} Wisdom saving throw or suffer one of the following effects of the echo's choice:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Confused Reaction",
+									"entries": [
+										"The target must use its reaction to make a melee attack against another creature of the echo's choice that the echo can see."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Psychic Torment",
+									"entries": [
+										"The target takes 19 ({@damage 3d12}) psychic damage."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"AB",
+				"GI",
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/BGG/Echo of Demogorgon.png",
+			"fluff": {
+				"name": "Echo of Demogorgon",
+				"source": "BGG",
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"No transformation wrought by the hand (or tentacle, whatever) of a demon lord is rightly understood as a \"blessing.\""
+						],
+						"by": "Bigby"
+					},
+					{
+						"type": "entries",
+						"entries": [
+							"Some legends claim the first ettins were orcs transformed by Demogorgon, the Prince of Demons, while others tie their origin to Grolantor or another god of the Ordning. Whatever the truth of their origin, ettins sometimes recognize a kindred soul in the two-headed Demogorgon and devote themselves to his service. Those who prove exceptionally valuable to Demogorgon's purposes in the Material Plane are rewarded with a \"blessing\" that transforms them into monstrous echoes of their demon patron.",
+							"The arms of an echo of Demogorgon transform into powerful tentacles, and the heads take on a more bestial appearance. The transformation leaves the echo frenzied with rage; the two heads shout and howl at each other with a fury that resounds with demonic magic, sowing discord and confusion around them. As the echo's monstrous heads roar and bite at each other, nearby creatures are racked with psychic pain or join in the ruckus, attacking their allies."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/BGG/Echo of Demogorgon.webp"
+						}
+					}
+				]
+			},
+			"conditionInflict": [
+				"grappled"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"Y"
+			],
+			"savingThrowForced": [
+				"strength",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Acid Wolf",
+			"source": "BeastsofNuaria",
+			"basicRules": true,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d10 + 18"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 16,
+			"dex": 13,
+			"con": 14,
+			"int": 7,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"perception": "+5",
+				"stealth": "+3"
+			},
+			"passive": 15,
+			"immune": [
+				"acid"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the acid wolf can move up to its speed toward a hostile creature that it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage and 4 ({@damage 1d6}) acid damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Acid Breath {@recharge 5}",
+					"entries": [
+						"The wolf exhales a blast of corrosive acidin a 15-foot cone. Each creature in that area must make a {@dc 12} Dexterity saving throw, taking 13 ({@damage 3d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/winter-wolf.mp3"
+			},
+			"traitTags": [
+				"Aggressive",
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The acidic swamp-dwelling wolf is as massive as a dire wolf but boasts a hide covered in corrosive hues and eyes gleaming with a malevolent acidic glow. Inhabitants of the acidic wastelands employ these sinister creatures as sentinels and partners in hunting, harnessing the wolves' lethal breath weapon against their adversaries. Acid wolves convey messages among themselves through a series of growls and barks."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/BxPJClg.png"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "Doubletail Covix",
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"source": "BeastsofNuaria",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "13d10 + 117",
+				"average": 188
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 22,
+			"dex": 14,
+			"con": 28,
+			"int": 9,
+			"wis": 15,
+			"cha": 12,
+			"passive": 12,
+			"cr": "12",
+			"immune": [
+				"fire"
+			],
+			"resist": [
+				"acid"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Covix makes 5 attacks: one with its bite, two with its claws and 2 with its tails. It can't make more than 2 attacks against the same target."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the covix can make a lava spread attack against the target."
+					]
+				},
+				{
+					"name": "Lava spread",
+					"entries": [
+						"Lava erupts from the covix's appendix on their paws in a 20-foot cone. Creatures inside the cone must make a Dexterity saving throw or take {@damage 7d8} fire damage or half as much on a failed save. "
+					]
+				},
+				{
+					"name": "Tail thrust",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d12 + 5}) piercing damage. On a hit, the target must succeed on a {@dc 19} Strength saving throw or be {@condition grappled} on a failed save."
+					]
+				},
+				{
+					"name": "Throw creature",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 15/60 ft., one target. {@h}14 ({@damage 4d6}) bludgeoning damage. The covix throws a creature {@condition grappled} with his Tail thrust attack. On a hit, the target creature takes {@damage 4d6} bludgeoning damage and is knocked {@condition prone}. The thrown creature also takes ({@damage 4d6}) bludgeoning damage and is knocked {@condition prone}, landing in an adjacent square next to the target. The covix can choose to make the attack against structures."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"AOE",
+				"RCH",
+				"RW"
+			],
+			"save": {
+				"dex": "+6",
+				"str": "+10",
+				"con": "+13"
+			},
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"legendary": [
+				{
+					"name": "Lava overflow (Costs 2 Actions)",
+					"entries": [
+						"The covix throws lava from both his hands in a 30-foot cone. Creatures inside the cone must make a Dexterity saving throw or take 45 ({@damage 10d8}) fire damage"
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The covix  moves up to half its speed."
+					]
+				},
+				{
+					"name": "Tail thrust",
+					"entries": [
+						"The covix makes one tail thrust attack"
+					]
+				},
+				{
+					"name": "Throw creature",
+					"entries": [
+						"If the Covix has {@condition grappled} a creature with his Tail thrust attack, it can make a throw creature attack."
+					]
+				}
+			],
+			"shortName": "Covix",
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"strength"
+			]
+		},
+		{
+			"name": "Kaborreth",
+			"group": [
+				"Dinosaurs"
+			],
+			"source": "BeastsofNuaria",
+			"basicRules": true,
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d12 + 30"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 21,
+			"dex": 6,
+			"con": 17,
+			"int": 2,
+			"wis": 12,
+			"cha": 9,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "4",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Kaborreth makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d12 + 5}) piercing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the tyrannosaurus can't bite another target."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/tyrannosaurus-rex.mp3"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Tyrannosaurus Rex.png",
+			"fluff": {
+				"name": "Tyrannosaurus Rex",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"This enormous predator terrorizes all other creatures in its territory. Despite its size and weight, a tyrannosaurus is a swift runner. It chases anything it thinks it can eat, and there are few creatures it won't try to devour whole. While prowling for substantial prey, a tyrannosaurus subsists on carrion, and on any smaller creatures that try to dart in to steal its meal.",
+									{
+										"type": "entries",
+										"name": "Dinosaurs",
+										"entries": [
+											"Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.",
+											"Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Tyrannosaurus Rex.webp"
+						}
+					}
+				]
+			},
+			"legendary": [
+				{
+					"name": "Bite",
+					"entries": [
+						"The Kaborreth makes a Bite attack"
+					]
+				},
+				{
+					"name": "Frenzy attack (Costs 2 Actions)",
+					"entries": [
+						"The Kaborreth moves up to half its speed and makes a Bite attack"
+					]
+				}
+			],
+			"save": {
+				"str": "+7",
+				"con": "+5"
+			},
+			"damageTags": [
+				"B",
+				"P"
+			]
+		},
+		{
+			"name": "Kaborreth (Boosted)",
+			"group": [
+				"Dinosaurs"
+			],
+			"source": "BeastsofNuaria",
+			"basicRules": true,
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 104,
+				"formula": "11d12 + 33"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 21,
+			"dex": 8,
+			"con": 17,
+			"int": 2,
+			"wis": 12,
+			"cha": 9,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "5",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Kaborreth makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite (Darkened)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}24 ({@damage 3d12 + 5}) piercing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the tyrannosaurus can't bite another target."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Weakening Gaze",
+					"entries": [
+						"The kaborreth targets one creature that it can see within 20 feet of it. The target must make a {@dc 14} Constitution saving throw. On a failed save, the target deals only half damage with weapon attacks that use Strength for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"environment": [
+				"grassland"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/tyrannosaurus-rex.mp3"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened",
+				"grappled",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Tyrannosaurus Rex.png",
+			"fluff": {
+				"name": "Tyrannosaurus Rex",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"This enormous predator terrorizes all other creatures in its territory. Despite its size and weight, a tyrannosaurus is a swift runner. It chases anything it thinks it can eat, and there are few creatures it won't try to devour whole. While prowling for substantial prey, a tyrannosaurus subsists on carrion, and on any smaller creatures that try to dart in to steal its meal.",
+									{
+										"type": "entries",
+										"name": "Dinosaurs",
+										"entries": [
+											"Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.",
+											"Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Tyrannosaurus Rex.webp"
+						}
+					}
+				]
+			},
+			"legendary": [
+				{
+					"name": "Bite",
+					"entries": [
+						"The Kaborreth makes a Bite attack"
+					]
+				},
+				{
+					"name": "Frenzy attack (Costs 2 Actions)",
+					"entries": [
+						"The Kaborreth moves up to half its speed and makes a Bite attack"
+					]
+				},
+				{
+					"name": "Terrifying Roar (Costs 3 Actions)",
+					"entries": [
+						"The Kaborreth releases a bone-chilling roar in a 30-foot cone. Creatures in that area must succeed on a {@dc 14} Wisdom saving throw or become {@condition frightened} until the end of their next turn."
+					]
+				}
+			],
+			"save": {
+				"str": "+8",
+				"con": "+6"
+			},
+			"trait": [
+				{
+					"name": "Darkened Maw",
+					"entries": [
+						"The Kaborreth's Bite attack becomes infused with dark energy. On a successful hit, the target must make a {@dc 16} Constitution saving throw or take an additional {@damage 2d8} necrotic damage and be cursed. The cursed creature has disadvantage on attack rolls and saving throws for the next 24 hours or until the curse is lifted with a remove curse spell or similar magic."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Kaborreth casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 14}):"
+					],
+					"rest": {
+						"1": [
+							"{@spell darkness}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Leader of Ring of Sinmos Cultist",
+			"source": "Sinmos",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"skill": {
+				"deception": "+4",
+				"persuasion": "+4",
+				"religion": "+2"
+			},
+			"passive": 11,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The fanatic is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 4} to hit with spell attacks). The fanatic has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acidic glob (by izzy)|Discord}",
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell inflict wounds}",
+								"{@spell pain split|Sinmos}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}",
+								"{@spell spiritual weapon}",
+								"{@spell suggestion}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell spirit guardians}"
+							],
+							"slots": 2
+						},
+						"4": {
+							"spells": [
+								"{@spell consumptive field (libris mortis)|Sinmos}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell self explosion|Sinmos}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dark Devotion",
+					"entries": [
+						"The fanatic has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fanatic makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/cult-fanatic.mp3"
+			},
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"spellcastingTags": [
+				"CC",
+				"O"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"MLW"
+			],
+			"conditionInflictSpell": [
+				"paralyzed",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Fanatics are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else"
+								]
+							}
+						]
+					}
+				]
+			},
+			"reaction": [
+				{
+					"name": "Self explosion",
+					"entries": [
+						"When the cultist drops to 10 hit points or less, they cast the self explosion spell."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Misty step scroll",
+					"entries": [
+						"The Leader can consume a Misty step scroll to cast Misty step"
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			]
 		}
 	],
 	"legendaryGroup": [
