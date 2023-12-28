@@ -106,6 +106,16 @@
 				]
 			},
 			{
+				"json": "LocationStatBlock",
+				"abbreviation": "LocationStatBlock",
+				"full": "LocationStatBlock",
+				"url": "",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": []
+			},
+			{
 				"json": "ManeaOneShot",
 				"abbreviation": "ManeaOS",
 				"full": "ManeaOneShot",
@@ -147,6 +157,19 @@
 					"birgador"
 				],
 				"convertedBy": []
+			},
+			{
+				"json": "Template",
+				"abbreviation": "Template",
+				"full": "Template",
+				"authors": [
+					"birgador"
+				],
+				"convertedBy": [
+					"birgador"
+				],
+				"version": "1.0",
+				"url": ""
 			},
 			{
 				"json": "Tudros",
@@ -10200,6 +10223,74 @@
 			"areaTags": [
 				"MT"
 			]
+		},
+		{
+			"name": "Sinmos' Delight",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"The target must make a DC 16 Constitution saving throw or 22 ({@damage 4d10}) necrotic damage and suffer disadvantage on attack rolls and saving throws until the end of its next turn. Additionally, if the target is reduced to 0 hit points by Sinmos' Delightt, the Skull Taker gains advantage on its next attack roll."
+			],
+			"source": "Sinmos",
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"ADV"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 4d10|3-9|1d10} for each slot level above 3rd."
+					]
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true
+			}
 		}
 	],
 	"monster": [
@@ -17332,6 +17423,238 @@
 			}
 		},
 		{
+			"name": "Exploration",
+			"size": "M",
+			"type": "aberration",
+			"source": "LocationStatBlock",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0",
+			"action": [
+				{
+					"name": "Deplete Rations or Water",
+					"entries": [
+						"Deplete rations"
+					]
+				},
+				{
+					"name": "NOt action pero idea",
+					"entries": [
+						"Els statblocks potser haurien de contemplar sidetracking? (Per fer-ho truly exploration) (Exploration!=survival, Exploration != travel)"
+					]
+				},
+				{
+					"name": "Hazard 1: Icy Waters",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) cold damage."
+					]
+				},
+				{
+					"name": "Poisoned Berries",
+					"entries": [
+						"Survival saving throw or take X damage. On success, find {@dice 1d6} edible berries"
+					]
+				},
+				{
+					"name": "Actions",
+					"entries": [
+						"Les accions podríen tindre una acció base i una acció rollo boss o de potència més elevada o una certa variabilitat per no ser boring."
+					]
+				},
+				{
+					"name": "Diseases",
+					"entries": [
+						"Why not?"
+					]
+				},
+				{
+					"name": "CHECK REDDIT SAVED",
+					"entries": [
+						"REddit saved"
+					]
+				}
+			],
+			"damageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Exploration 2 for gmbinder",
+			"size": "M",
+			"type": "aberration",
+			"source": "LocationStatBlock",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10,
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0",
+			"action": [
+				{
+					"name": "Deplete Rations or Water",
+					"entries": [
+						"Deplete rations"
+					]
+				},
+				{
+					"name": "NOt action pero idea",
+					"entries": [
+						"Els statblocks potser haurien de contemplar sidetracking? (Per fer-ho truly exploration) (Exploration!=survival, Exploration != travel)"
+					]
+				},
+				{
+					"name": "Hazard 1: Icy Waters",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) cold damage."
+					]
+				},
+				{
+					"name": "Poisoned Berries",
+					"entries": [
+						"Survival saving throw or take X damage. On success, find {@dice 1d6} edible berries"
+					]
+				},
+				{
+					"name": "Actions",
+					"entries": [
+						"Les accions podríen tindre una acció base i una acció rollo boss o de potència més elevada o una certa variabilitat per no ser boring."
+					]
+				},
+				{
+					"name": "Diseases",
+					"entries": [
+						"Why not?"
+					]
+				},
+				{
+					"name": "CHECK REDDIT SAVED",
+					"entries": [
+						"REddit saved"
+					]
+				}
+			],
+			"damageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"str": "+2"
+			},
+			"skill": {
+				"medicine": "+2"
+			},
+			"vulnerable": [
+				"acid"
+			],
+			"resist": [
+				"bludgeoning"
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}"
+							]
+						}
+					},
+					"daily": {
+						"1e": [
+							"{@spell animal shapes}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"legendaryGroup": {
+				"name": "Face Collector",
+				"source": "Nuaria"
+			},
+			"legendary": [
+				{
+					"name": "Legend action",
+					"entries": [
+						"Uff"
+					]
+				}
+			],
+			"mythic": [
+				{
+					"name": "Mythic Action",
+					"entries": [
+						"Uff2"
+					]
+				}
+			],
+			"environment": [
+				"underwater",
+				"urban"
+			]
+		},
+		{
 			"name": "Spider Queen",
 			"source": "Nuaria",
 			"page": 328,
@@ -22392,6 +22715,222 @@
 			],
 			"savingThrowForcedSpell": [
 				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Skull taker rider",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"source": "Sinmos",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "25d8 + 100",
+				"average": 212
+			},
+			"speed": {
+				"walk": {
+					"number": 60,
+					"condition": "riding a horse"
+				}
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 18,
+			"int": 12,
+			"wis": 12,
+			"cha": 18,
+			"passive": 11,
+			"cr": "12",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"save": {
+				"str": "+9",
+				"dex": "+7",
+				"con": "+8",
+				"wis": "+5"
+			},
+			"skill": {
+				"athletics": "+9",
+				"intimidation": "+8",
+				"religion": "+5",
+				"animal handling": "+5"
+			},
+			"immune": [
+				"necrotic"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Skull Taker makes three Battleaxe attacks or takes the and makes a dark bolt attack."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with both hands, plus 10 ({@damage 3d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Death's Grasp {@recharge 5}",
+					"entries": [
+						"The Skull Taker targets one creature it can see within 60 feet, as a wave of dark energy erupts towards the target. The target must succeed on a {@dc 16} Constitution saving throw or take 35 ({@damage 10d6}) necrotic damage, and its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target is targeted by a {@spell remove curse} spell or similar magic. If a creature's hit point maximum is reduced to 0 by this ability, it dies."
+					]
+				},
+				{
+					"name": "Dark bolt",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 100/400 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage, plus 9 ({@damage 1d10 + 4}) necrotic damage."
+					]
+				},
+				{
+					"name": "Sinmos' Delight (NOW A SPELL)",
+					"entries": [
+						"The target must make a {@dc 16} Constitution saving throw or 22 ({@damage 4d10}) necrotic damage and suffer disadvantage on attack rolls and saving throws until the end of its next turn. Additionally, if the target is reduced to 0 hit points by Sinmos' Delightt, the Skull Taker gains advantage on its next attack roll."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"HPR",
+				"RW"
+			],
+			"attachedItems": [
+				"battleaxe|phb"
+			],
+			"trait": [
+				{
+					"name": "Skull mask",
+					"entries": [
+						"The skull masks worn by the Skull Takers enhance their connection to Sinmos. They have advantage on saving throws against being {@condition charmed} and are immune to the {@condition frightened} condition."
+					]
+				},
+				{
+					"name": "Aura of Doom",
+					"entries": [
+						"Any creature that starts its turn within 10 feet of the Skull Taker must make a {@dc 16} Constitution saving throw, taking 18 ({@damage 4d8}) necrotic damage on a failed save, or half as much damage on a successful one. If the doom lord doesn't have the {@condition incapacitated} condition, it can suppress or resume this aura at the start of its turn (no action required)."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Death's Harvest",
+					"entries": [
+						"When the Skull Taker reduces a creature to 0 hit points with a melee attack, it can use a bonus action to attempt to harvest the creature's skull. The target must make a {@dc 16} Constitution saving throw. On a failure, the Skull Taker adds the creature's skull to its collection, gaining temporary hit points equal to the damage dealt."
+					]
+				},
+				{
+					"name": "Shadowstep",
+					"entries": [
+						"As a bonus action, the Skull Taker can magically teleport up to 60 feet to an unoccupied space it can see in dim light or darkness."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The Skull Taker adds 3 to its AC against one melee attack roll that would hit it. To do so, the Skull Taker must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"mythic": [
+				{
+					"name": "Carnage",
+					"entries": [
+						"The Skull Taker makes two Battleaxe attacks"
+					]
+				},
+				{
+					"name": "Shadow Reaper Strike (Costs 2 Actions)",
+					"entries": [
+						"The Skull Taker swiftly melds into the shadows, disappearing from sight, and reappears in a menacing silhouette behind a target within 30 feet. The Skull Taker then makes a Battleaxe attack against the chosen target. The sudden, unexpected nature of this strike grants advantage on the attack role for this attack. After the attack, the Skull Taker returns to its original position, leaving a chilling sensation in the air."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If the Skull Taker's mythic trait is active, they can use the options below as legendary actions."
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The Skull Taker makes a Battleaxe attack"
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The Skull Taker moves up to half their speed"
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"daily": {
+						"3": [
+							"{@spell darkness}",
+							"{@spell fear}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
 				"wisdom"
 			]
 		}
